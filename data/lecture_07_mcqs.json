@@ -1,0 +1,4547 @@
+{
+  "schema_version": "1.0.0",
+  "lecture": {
+    "id": "LING-L07",
+    "number": 7,
+    "title": "Semantics: The Study of Meaning",
+    "language": "en",
+    "source_filename": "Lec 7  Semantics-1(1).ppt",
+    "source_slide_count": 19,
+    "question_count": 110,
+    "scope": "Lecture 7. Original examples apply the supplied concepts. Reversed definitions and misleading illustrations are corrected; contextual assumptions are stated where they affect classification.",
+    "exam_alignment": "Concept-based practice. No past paper or official examination blueprint was supplied.",
+    "answer_model": "Single best answer. answer_id refers to an option id, not its displayed position. Preserve option ids when shuffling.",
+    "display_guidance": "In learning mode, display explanation followed by example after the learner answers. Source slides and clarification notes can appear in a reference panel.",
+    "terminology": "Extension/intension use an introductory category-based account. Opposition types are tested in specified uses; semantic-role labels are an introductory inventory rather than a claim that all theories use identical divisions."
+  },
+  "references": [
+    {
+      "id": "lecture_07",
+      "type": "user_supplied_slides",
+      "title": "Lecture 7: Semantics",
+      "filename": "Lec 7  Semantics-1(1).ppt",
+      "library_file_id": "libfile_8c76607ec7f081918963ab2299f02675"
+    },
+    {
+      "id": "intension_extension",
+      "type": "scholarly_clarification",
+      "organization": "Utrecht University",
+      "title": "Intension",
+      "publication": "Lexicon of Linguistics",
+      "url": "https://lexicon.hum.uu.nl/zoek.pl?lemma=intension",
+      "supports": "Intension concerns descriptive content determining applicability; extension concerns the class of applicable objects rather than a personal image."
+    },
+    {
+      "id": "category_inclusion",
+      "type": "scholarly_clarification",
+      "title": "The Lexical Perspective",
+      "publication": "The Discipline of Organizing: 4th Professional Edition",
+      "url": "https://berkeley.pressbooks.pub/tdo4p/chapter/the-lexical-perspective/",
+      "supports": "The more specific class is named by a hyponym, and the more general class by a hypernym; the slide’s reversed wording is corrected."
+    },
+    {
+      "id": "metonymy_definition",
+      "type": "authoritative_clarification",
+      "organization": "Cambridge University Press & Assessment",
+      "title": "Metonymy",
+      "url": "https://dictionary.cambridge.org/dictionary/english/metonymy?topic=figurative-use-of-language",
+      "supports": "Metonymy refers through an associated expression, such as an institution for its officials."
+    },
+    {
+      "id": "metonymy_distinction",
+      "type": "scholarly_clarification",
+      "title": "Metonymy",
+      "publication": "Oxford Bibliographies in Linguistics",
+      "url": "https://academic.oup.com/reference/62381/reference-article-abstract/555022257",
+      "supports": "The introductory contrast foregrounds association within a frame for metonymy and mapping across frames for metaphor."
+    },
+    {
+      "id": "cop_definition",
+      "type": "authoritative_clarification",
+      "organization": "Cambridge University Press & Assessment",
+      "title": "Cop",
+      "url": "https://dictionary.cambridge.org/dictionary/english/cop",
+      "supports": "Cop is an informal term for a police officer; that lexical equivalence is not by itself an example of metonymy."
+    },
+    {
+      "id": "thematic_roles",
+      "type": "scholarly_clarification",
+      "title": "7.6 Events and thematic roles",
+      "publication": "Essentials of Linguistics, 2nd edition",
+      "url": "https://ecampusontario.pressbooks.pub/essentialsoflinguistics2/chapter/7-6-events-and-thematic-roles/",
+      "supports": "Role inventories can distinguish agents, themes, experiencers, and non-intentional causers; grammatical subject does not mean agent in every sentence."
+    }
+  ],
+  "clarifications": [
+    {
+      "id": "CL01",
+      "source_slides": [
+        2
+      ],
+      "question_ids": [
+        "LING-L07-Q001",
+        "LING-L07-Q002",
+        "LING-L07-Q003",
+        "LING-L07-Q004",
+        "LING-L07-Q005",
+        "LING-L07-Q006",
+        "LING-L07-Q007",
+        "LING-L07-Q008"
+      ],
+      "note": "Lexical semantics concerns word and morpheme meanings. The slide’s larger-than-word definition is corrected rather than used as an answer key."
+    },
+    {
+      "id": "CL02",
+      "source_slides": [
+        3,
+        4,
+        5,
+        7
+      ],
+      "question_ids": [
+        "LING-L07-Q009",
+        "LING-L07-Q010",
+        "LING-L07-Q011",
+        "LING-L07-Q012",
+        "LING-L07-Q013",
+        "LING-L07-Q014",
+        "LING-L07-Q015",
+        "LING-L07-Q016",
+        "LING-L07-Q017",
+        "LING-L07-Q018",
+        "LING-L07-Q019",
+        "LING-L07-Q020"
+      ],
+      "note": "Intension is not merely personal imagery or association. Extension is the applicable set in a domain. Fictional reference challenges a simple account, not every semantic theory. Deserts need not be hot or sandy, and material steel is not imposed as a necessary feature of all needle senses.",
+      "reference_ids": [
+        "intension_extension"
+      ]
+    },
+    {
+      "id": "CL03",
+      "source_slides": [
+        5,
+        6,
+        7
+      ],
+      "question_ids": [
+        "LING-L07-Q020",
+        "LING-L07-Q023",
+        "LING-L07-Q024",
+        "LING-L07-Q025",
+        "LING-L07-Q026",
+        "LING-L07-Q027",
+        "LING-L07-Q028"
+      ],
+      "note": "Shared properties do not establish synonymy. Occupational words are not assigned gender restrictions from stereotypes. Associations and feature analysis remain valid research interests with appropriate limits."
+    },
+    {
+      "id": "CL04",
+      "source_slides": [
+        8,
+        9
+      ],
+      "question_ids": [
+        "LING-L07-Q032",
+        "LING-L07-Q034",
+        "LING-L07-Q035",
+        "LING-L07-Q036",
+        "LING-L07-Q037",
+        "LING-L07-Q038"
+      ],
+      "note": "A synonym-like gloss list does not itself enumerate distinct senses. Selectional oddness is assessed under an ordinary literal reading and can change with fiction or personification."
+    },
+    {
+      "id": "CL05",
+      "source_slides": [
+        10,
+        11
+      ],
+      "question_ids": [
+        "LING-L07-Q042",
+        "LING-L07-Q043",
+        "LING-L07-Q046",
+        "LING-L07-Q049",
+        "LING-L07-Q050",
+        "LING-L07-Q051",
+        "LING-L07-Q052",
+        "LING-L07-Q053",
+        "LING-L07-Q054",
+        "LING-L07-Q055",
+        "LING-L07-Q056"
+      ],
+      "note": "Near-synonyms are not assumed substitutable in all contexts. Complementarity is illustrated in a stipulated binary domain. Buy/sell and teacher/pupil are relational rather than gradable temperature-style opposites."
+    },
+    {
+      "id": "CL06",
+      "source_slides": [
+        12,
+        14
+      ],
+      "question_ids": [
+        "LING-L07-Q057",
+        "LING-L07-Q059",
+        "LING-L07-Q062",
+        "LING-L07-Q064",
+        "LING-L07-Q065",
+        "LING-L07-Q066"
+      ],
+      "note": "Homonymy/polysemy are distinguished by meaning relationships under the stated convention. Matching word class is not universally required for homonymy; a sentence alone does not prove lexical history."
+    },
+    {
+      "id": "CL07",
+      "source_slides": [
+        13
+      ],
+      "question_ids": [
+        "LING-L07-Q067",
+        "LING-L07-Q068",
+        "LING-L07-Q069",
+        "LING-L07-Q070",
+        "LING-L07-Q071",
+        "LING-L07-Q072",
+        "LING-L07-Q073",
+        "LING-L07-Q074",
+        "LING-L07-Q075",
+        "LING-L07-Q076"
+      ],
+      "note": "Bus is a hyponym of vehicle, not the reverse. Set inclusion is used to make the direction explicit. A type-of relation is separated from a part-of relation.",
+      "reference_ids": [
+        "category_inclusion"
+      ]
+    },
+    {
+      "id": "CL08",
+      "source_slides": [
+        15
+      ],
+      "question_ids": [
+        "LING-L07-Q077",
+        "LING-L07-Q078",
+        "LING-L07-Q079",
+        "LING-L07-Q080",
+        "LING-L07-Q081",
+        "LING-L07-Q082"
+      ],
+      "note": "Metonymy is not simply defined as metaphorical replacement. Cops/police officers is treated as an informal/neutral lexical comparison, not a clear stand-for relation.",
+      "reference_ids": [
+        "metonymy_definition",
+        "metonymy_distinction",
+        "cop_definition"
+      ]
+    },
+    {
+      "id": "CL09",
+      "source_slides": [
+        16
+      ],
+      "question_ids": [
+        "LING-L07-Q083",
+        "LING-L07-Q084",
+        "LING-L07-Q085",
+        "LING-L07-Q086",
+        "LING-L07-Q087",
+        "LING-L07-Q088"
+      ],
+      "note": "Prototype judgments concern typicality rather than automatic exclusion of less typical members. Rankings are not imposed as identical across communities."
+    },
+    {
+      "id": "CL10",
+      "source_slides": [
+        17
+      ],
+      "question_ids": [
+        "LING-L07-Q089",
+        "LING-L07-Q090",
+        "LING-L07-Q091",
+        "LING-L07-Q092",
+        "LING-L07-Q093",
+        "LING-L07-Q094"
+      ],
+      "note": "Ambiguity questions use explicit competing senses and sufficient context. The isolated Alice quotation is not assigned an invented ambiguity unsupported by the slide."
+    },
+    {
+      "id": "CL11",
+      "source_slides": [
+        18
+      ],
+      "question_ids": [
+        "LING-L07-Q095",
+        "LING-L07-Q096",
+        "LING-L07-Q097",
+        "LING-L07-Q098",
+        "LING-L07-Q099",
+        "LING-L07-Q100",
+        "LING-L07-Q101",
+        "LING-L07-Q102",
+        "LING-L07-Q103",
+        "LING-L07-Q104",
+        "LING-L07-Q105",
+        "LING-L07-Q106",
+        "LING-L07-Q107",
+        "LING-L07-Q108",
+        "LING-L07-Q109",
+        "LING-L07-Q110"
+      ],
+      "note": "Causative is replaced with cause/causer as a participant-role label. Theme is tested with clear moved-entity examples rather than assuming every object is physically altered. Semantic roles are distinguished from subject/object; role inventories can vary.",
+      "reference_ids": [
+        "thematic_roles"
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "topic_id": "foundations",
+      "focus": "Semantics, lexical meaning, composition, and pragmatics",
+      "source_slides": [
+        2
+      ],
+      "question_ids": [
+        "LING-L07-Q001",
+        "LING-L07-Q002",
+        "LING-L07-Q003",
+        "LING-L07-Q004",
+        "LING-L07-Q005",
+        "LING-L07-Q006",
+        "LING-L07-Q007",
+        "LING-L07-Q008"
+      ]
+    },
+    {
+      "topic_id": "meaning_types",
+      "focus": "Denotation, connotation, extension, intension, and associations",
+      "source_slides": [
+        3,
+        4,
+        5,
+        7
+      ],
+      "question_ids": [
+        "LING-L07-Q009",
+        "LING-L07-Q010",
+        "LING-L07-Q011",
+        "LING-L07-Q012",
+        "LING-L07-Q013",
+        "LING-L07-Q014",
+        "LING-L07-Q015",
+        "LING-L07-Q016",
+        "LING-L07-Q017",
+        "LING-L07-Q018",
+        "LING-L07-Q019",
+        "LING-L07-Q020"
+      ]
+    },
+    {
+      "topic_id": "lexicon_features",
+      "focus": "Mental lexicon, semantic properties, and componential analysis",
+      "source_slides": [
+        6,
+        7
+      ],
+      "question_ids": [
+        "LING-L07-Q021",
+        "LING-L07-Q022",
+        "LING-L07-Q023",
+        "LING-L07-Q024",
+        "LING-L07-Q025",
+        "LING-L07-Q026",
+        "LING-L07-Q027",
+        "LING-L07-Q028"
+      ]
+    },
+    {
+      "topic_id": "range_selection",
+      "focus": "Semantic range, contextual senses, and selectional expectations",
+      "source_slides": [
+        8,
+        9
+      ],
+      "question_ids": [
+        "LING-L07-Q029",
+        "LING-L07-Q030",
+        "LING-L07-Q031",
+        "LING-L07-Q032",
+        "LING-L07-Q033",
+        "LING-L07-Q034",
+        "LING-L07-Q035",
+        "LING-L07-Q036",
+        "LING-L07-Q037",
+        "LING-L07-Q038"
+      ]
+    },
+    {
+      "topic_id": "synonymy",
+      "focus": "Near-synonymy, context, register, and substitution",
+      "source_slides": [
+        10
+      ],
+      "question_ids": [
+        "LING-L07-Q039",
+        "LING-L07-Q040",
+        "LING-L07-Q041",
+        "LING-L07-Q042",
+        "LING-L07-Q043",
+        "LING-L07-Q044",
+        "LING-L07-Q045",
+        "LING-L07-Q046"
+      ]
+    },
+    {
+      "topic_id": "antonymy",
+      "focus": "Gradable, complementary, and converse relations",
+      "source_slides": [
+        11
+      ],
+      "question_ids": [
+        "LING-L07-Q047",
+        "LING-L07-Q048",
+        "LING-L07-Q049",
+        "LING-L07-Q050",
+        "LING-L07-Q051",
+        "LING-L07-Q052",
+        "LING-L07-Q053",
+        "LING-L07-Q054",
+        "LING-L07-Q055",
+        "LING-L07-Q056"
+      ]
+    },
+    {
+      "topic_id": "homonymy_polysemy",
+      "focus": "Shared forms, unrelated meanings, and related senses",
+      "source_slides": [
+        12,
+        14
+      ],
+      "question_ids": [
+        "LING-L07-Q057",
+        "LING-L07-Q058",
+        "LING-L07-Q059",
+        "LING-L07-Q060",
+        "LING-L07-Q061",
+        "LING-L07-Q062",
+        "LING-L07-Q063",
+        "LING-L07-Q064",
+        "LING-L07-Q065",
+        "LING-L07-Q066"
+      ]
+    },
+    {
+      "topic_id": "hyponymy",
+      "focus": "Hyponyms, hypernyms, co-hyponyms, and inclusion direction",
+      "source_slides": [
+        13
+      ],
+      "question_ids": [
+        "LING-L07-Q067",
+        "LING-L07-Q068",
+        "LING-L07-Q069",
+        "LING-L07-Q070",
+        "LING-L07-Q071",
+        "LING-L07-Q072",
+        "LING-L07-Q073",
+        "LING-L07-Q074",
+        "LING-L07-Q075",
+        "LING-L07-Q076"
+      ]
+    },
+    {
+      "topic_id": "metonymy",
+      "focus": "Associative reference and its distinction from metaphor",
+      "source_slides": [
+        15
+      ],
+      "question_ids": [
+        "LING-L07-Q077",
+        "LING-L07-Q078",
+        "LING-L07-Q079",
+        "LING-L07-Q080",
+        "LING-L07-Q081",
+        "LING-L07-Q082"
+      ]
+    },
+    {
+      "topic_id": "prototypes",
+      "focus": "Representative exemplars, typicality, and category membership",
+      "source_slides": [
+        16
+      ],
+      "question_ids": [
+        "LING-L07-Q083",
+        "LING-L07-Q084",
+        "LING-L07-Q085",
+        "LING-L07-Q086",
+        "LING-L07-Q087",
+        "LING-L07-Q088"
+      ]
+    },
+    {
+      "topic_id": "ambiguity",
+      "focus": "Lexical ambiguity and contextual disambiguation",
+      "source_slides": [
+        17
+      ],
+      "question_ids": [
+        "LING-L07-Q089",
+        "LING-L07-Q090",
+        "LING-L07-Q091",
+        "LING-L07-Q092",
+        "LING-L07-Q093",
+        "LING-L07-Q094"
+      ]
+    },
+    {
+      "topic_id": "semantic_roles",
+      "focus": "All nine introductory roles and grammatical-function contrasts",
+      "source_slides": [
+        18
+      ],
+      "question_ids": [
+        "LING-L07-Q095",
+        "LING-L07-Q096",
+        "LING-L07-Q097",
+        "LING-L07-Q098",
+        "LING-L07-Q099",
+        "LING-L07-Q100",
+        "LING-L07-Q101",
+        "LING-L07-Q102",
+        "LING-L07-Q103",
+        "LING-L07-Q104",
+        "LING-L07-Q105",
+        "LING-L07-Q106",
+        "LING-L07-Q107",
+        "LING-L07-Q108",
+        "LING-L07-Q109",
+        "LING-L07-Q110"
+      ]
+    }
+  ],
+  "excluded_slides": [
+    {
+      "slide": 1,
+      "reason": "Title only: Semantics, Study of Meaning."
+    },
+    {
+      "slide": 19,
+      "reason": "Closing thank-you slide."
+    }
+  ],
+  "topics": [
+    {
+      "id": "foundations",
+      "title": "Semantics, lexical meaning, composition, and pragmatics",
+      "question_count": 8
+    },
+    {
+      "id": "meaning_types",
+      "title": "Denotation, connotation, extension, intension, and associations",
+      "question_count": 12
+    },
+    {
+      "id": "lexicon_features",
+      "title": "Mental lexicon, semantic properties, and componential analysis",
+      "question_count": 8
+    },
+    {
+      "id": "range_selection",
+      "title": "Semantic range, contextual senses, and selectional expectations",
+      "question_count": 10
+    },
+    {
+      "id": "synonymy",
+      "title": "Near-synonymy, context, register, and substitution",
+      "question_count": 8
+    },
+    {
+      "id": "antonymy",
+      "title": "Gradable, complementary, and converse relations",
+      "question_count": 10
+    },
+    {
+      "id": "homonymy_polysemy",
+      "title": "Shared forms, unrelated meanings, and related senses",
+      "question_count": 10
+    },
+    {
+      "id": "hyponymy",
+      "title": "Hyponyms, hypernyms, co-hyponyms, and inclusion direction",
+      "question_count": 10
+    },
+    {
+      "id": "metonymy",
+      "title": "Associative reference and its distinction from metaphor",
+      "question_count": 6
+    },
+    {
+      "id": "prototypes",
+      "title": "Representative exemplars, typicality, and category membership",
+      "question_count": 6
+    },
+    {
+      "id": "ambiguity",
+      "title": "Lexical ambiguity and contextual disambiguation",
+      "question_count": 6
+    },
+    {
+      "id": "semantic_roles",
+      "title": "All nine introductory roles and grammatical-function contrasts",
+      "question_count": 16
+    }
+  ],
+  "statistics": {
+    "difficulty": {
+      "easy": 23,
+      "medium": 57,
+      "hard": 30
+    },
+    "cognitive_level": {
+      "remember": 9,
+      "understand": 21,
+      "apply": 46,
+      "analyze": 34
+    },
+    "answer_distribution": {
+      "A": 28,
+      "B": 28,
+      "C": 27,
+      "D": 27
+    }
+  },
+  "questions": [
+    {
+      "id": "LING-L07-Q001",
+      "lecture_id": "LING-L07",
+      "topic_id": "foundations",
+      "source_slides": [
+        2
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "What is the main concern of semantics?",
+      "explanation": "Semantics investigates meaning, not just whole-sentence interpretation. Smaller meaningful units and their combinations are also relevant.",
+      "example": "The meaning of plural -s and the meaning of a whole sentence can both be studied semantically.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The geographical distribution of accents alone"
+        },
+        {
+          "id": "B",
+          "text": "The physical production of consonants alone"
+        },
+        {
+          "id": "C",
+          "text": "Linguistic meaning at levels including morphemes, words, phrases, and sentences"
+        },
+        {
+          "id": "D",
+          "text": "The alphabetical ordering of a dictionary"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L07-Q002",
+      "lecture_id": "LING-L07",
+      "topic_id": "foundations",
+      "source_slides": [
+        2
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "understand",
+      "question": "Which description correctly identifies lexical semantics?",
+      "explanation": "The slide incorrectly assigns larger-than-word units to lexical semantics. The lexical level concerns words and associated meaning relations.",
+      "example": "Comparing large and big is a lexical semantic task.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The study only of syntactic units larger than a word"
+        },
+        {
+          "id": "B",
+          "text": "The study only of punctuation between clauses"
+        },
+        {
+          "id": "C",
+          "text": "The study of tongue movements during articulation"
+        },
+        {
+          "id": "D",
+          "text": "The study of word and morpheme meanings and their relationships"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L07-Q003",
+      "lecture_id": "LING-L07",
+      "topic_id": "foundations",
+      "source_slides": [
+        2
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "understand",
+      "question": "Which question most directly concerns the meaning of a phrase or sentence rather than a single lexical item?",
+      "explanation": "Meaning can be investigated compositionally, by examining how parts contribute to a larger expression. The alternatives focus on lexical meaning.",
+      "example": "The combination red bag conveys more specific content than bag alone.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "What senses does the word bank have?"
+        },
+        {
+          "id": "B",
+          "text": "What does the word bag mean?"
+        },
+        {
+          "id": "C",
+          "text": "How do the meanings of words combine in “the small red bag”?"
+        },
+        {
+          "id": "D",
+          "text": "How are bag and sack related in meaning?"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L07-Q004",
+      "lecture_id": "LING-L07",
+      "topic_id": "foundations",
+      "source_slides": [
+        2
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "Which question belongs primarily to semantics rather than acoustic phonetics?",
+      "explanation": "The correct question concerns linguistic interpretation. The alternatives ask about physical properties of a speech signal.",
+      "example": "The door is closed describes a different state from the door being open.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "How long does the vowel last in the recording?"
+        },
+        {
+          "id": "B",
+          "text": "How large is the waveform amplitude?"
+        },
+        {
+          "id": "C",
+          "text": "What situation does “The door is open” describe?"
+        },
+        {
+          "id": "D",
+          "text": "Which frequency band contains the most energy?"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L07-Q005",
+      "lecture_id": "LING-L07",
+      "topic_id": "foundations",
+      "source_slides": [
+        2
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "analyze",
+      "question": "What distinction separates conventional sentence meaning from a speaker’s indirect request in context?",
+      "explanation": "The same utterance can have a conventional meaning and a contextual purpose. Semantics and pragmatics contribute different questions to its interpretation.",
+      "example": "It is cold here can describe temperature and be used to request closing a window.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The former is morphology; the latter is phonetic intensity."
+        },
+        {
+          "id": "B",
+          "text": "Both exclude any role for language interpretation."
+        },
+        {
+          "id": "C",
+          "text": "The former foregrounds semantics; the latter foregrounds pragmatics."
+        },
+        {
+          "id": "D",
+          "text": "Both are decided only by the number of letters."
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L07-Q006",
+      "lecture_id": "LING-L07",
+      "topic_id": "foundations",
+      "source_slides": [
+        2
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "Beside an open window, a speaker says “It is cold here” to get someone to close it. Which part of the analysis is specifically pragmatic?",
+      "explanation": "The request is not a direct command in the wording. It is inferred from the utterance and its circumstances.",
+      "example": "There is no room on this seat can indirectly ask someone to move a bag.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Inferring the intended request from the situation"
+        },
+        {
+          "id": "B",
+          "text": "Identifying cold as a word with a temperature-related meaning"
+        },
+        {
+          "id": "C",
+          "text": "Identifying the sentence as containing words"
+        },
+        {
+          "id": "D",
+          "text": "Recognizing that here is a linguistic expression"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L07-Q007",
+      "lecture_id": "LING-L07",
+      "topic_id": "foundations",
+      "source_slides": [
+        2
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "understand",
+      "question": "Why can a morpheme be relevant to semantics even when it is not a complete word?",
+      "explanation": "A meaningful contribution can be smaller than a word. Bound endings can affect how the whole form is interpreted.",
+      "example": "The plural ending in books contributes a number distinction.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "It can contribute lexical or grammatical meaning."
+        },
+        {
+          "id": "B",
+          "text": "Bound morphemes have no linguistic contribution."
+        },
+        {
+          "id": "C",
+          "text": "Meaning exists only in independent clauses."
+        },
+        {
+          "id": "D",
+          "text": "Every morpheme must name a physical object."
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L07-Q008",
+      "lecture_id": "LING-L07",
+      "topic_id": "foundations",
+      "source_slides": [
+        2
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Why is semantics not adequately defined as a list of dictionary definitions?",
+      "explanation": "A dictionary is a useful resource, but semantic analysis asks systematic questions beyond listing entries. Combination and relations are important too.",
+      "example": "The meanings of dog and chased do not alone list every relation in The dog chased the cat.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Words lose all meaning when they form a sentence."
+        },
+        {
+          "id": "B",
+          "text": "Only rare words have meanings that can be analysed."
+        },
+        {
+          "id": "C",
+          "text": "It also investigates meaning relations and the interpretation of larger expressions."
+        },
+        {
+          "id": "D",
+          "text": "Dictionary entries completely determine every speaker’s contextual intention."
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L07-Q009",
+      "lecture_id": "LING-L07",
+      "topic_id": "meaning_types",
+      "source_slides": [
+        3,
+        4,
+        5,
+        7
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "understand",
+      "question": "What does denotation concern in the introductory contrast used here?",
+      "explanation": "Denotation connects a linguistic expression with its referential interpretation. It differs from emotional or personal associations linked to the expression.",
+      "example": "Rose can denote a kind of flower while also evoking romance.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "What an expression refers to or applies to"
+        },
+        {
+          "id": "B",
+          "text": "Only the politeness of a speaker’s request"
+        },
+        {
+          "id": "C",
+          "text": "Only the private memories a word evokes"
+        },
+        {
+          "id": "D",
+          "text": "Only the rhythm of a spoken phrase"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L07-Q010",
+      "lecture_id": "LING-L07",
+      "topic_id": "meaning_types",
+      "source_slides": [
+        3,
+        4,
+        5,
+        7
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "understand",
+      "question": "What is connotation in the lecture’s introductory discussion?",
+      "explanation": "Connotation concerns associations beyond basic referential content. These can be personal, cultural, or context-dependent.",
+      "example": "Home may evoke comfort for some users.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The exact duration of the spoken word"
+        },
+        {
+          "id": "B",
+          "text": "The number of written letters in a noun"
+        },
+        {
+          "id": "C",
+          "text": "Associations or evaluative overtones linked with an expression"
+        },
+        {
+          "id": "D",
+          "text": "The grammatical subject of every sentence"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L07-Q011",
+      "lecture_id": "LING-L07",
+      "topic_id": "meaning_types",
+      "source_slides": [
+        3,
+        4,
+        5,
+        7
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A learner says that rose names a flower but also suggests romance. Which pairing is correct?",
+      "explanation": "The example separates what the expression applies to from an associated idea. An association need not be part of every use.",
+      "example": "A rose in a botanical description need not communicate romantic feelings.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Flower-related reference concerns denotation; romance is an association."
+        },
+        {
+          "id": "B",
+          "text": "The two observations establish that rose has no conventional meaning."
+        },
+        {
+          "id": "C",
+          "text": "Romance is the only possible denotation of rose."
+        },
+        {
+          "id": "D",
+          "text": "The flower reference is a phonetic measurement."
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L07-Q012",
+      "lecture_id": "LING-L07",
+      "topic_id": "meaning_types",
+      "source_slides": [
+        3,
+        4,
+        5,
+        7
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "understand",
+      "question": "What is the extension of a category expression in a specified situation or domain?",
+      "explanation": "Extension identifies applicable instances in a domain. For a category term, it should not be reduced to one chosen example.",
+      "example": "In a supplied toy collection, the extension of red toy includes all the red toys there.",
+      "reference_ids": [
+        "lecture_07",
+        "intension_extension"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The private picture one learner happens to imagine"
+        },
+        {
+          "id": "B",
+          "text": "The set of things to which it applies"
+        },
+        {
+          "id": "C",
+          "text": "The number of syllables in its spelling"
+        },
+        {
+          "id": "D",
+          "text": "The list of emotions the sound evokes"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L07-Q013",
+      "lecture_id": "LING-L07",
+      "topic_id": "meaning_types",
+      "source_slides": [
+        3,
+        4,
+        5,
+        7
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "understand",
+      "question": "What is an intension in the elementary category-based account used here?",
+      "explanation": "Intension concerns how applicability is determined. It is distinct from extension and from a speaker’s communicative intention.",
+      "example": "The criteria for triangle differ from the set of triangles in a particular diagram.",
+      "reference_ids": [
+        "lecture_07",
+        "intension_extension"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The descriptive content or criteria determining what an expression applies to"
+        },
+        {
+          "id": "B",
+          "text": "Any personal association with the sound of the word"
+        },
+        {
+          "id": "C",
+          "text": "The complete set of actual examples in a chosen domain"
+        },
+        {
+          "id": "D",
+          "text": "The speaker’s communicative intention in every conversation"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L07-Q014",
+      "lecture_id": "LING-L07",
+      "topic_id": "meaning_types",
+      "source_slides": [
+        3,
+        4,
+        5,
+        7
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Why should intension not simply be equated with a personal mental picture?",
+      "explanation": "An imagined example is not the same as a definition or descriptive criterion. The slide’s mental-image shorthand needs that qualification.",
+      "example": "Picturing a hot sandy desert does not establish that every desert must be hot and sandy.",
+      "reference_ids": [
+        "lecture_07",
+        "intension_extension"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only words with photographs have intensions."
+        },
+        {
+          "id": "B",
+          "text": "Every category must contain exactly the object pictured by the speaker."
+        },
+        {
+          "id": "C",
+          "text": "A vivid image can contain incidental details that are not criteria for the category."
+        },
+        {
+          "id": "D",
+          "text": "The most familiar example necessarily exhausts a category’s meaning."
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L07-Q015",
+      "lecture_id": "LING-L07",
+      "topic_id": "meaning_types",
+      "source_slides": [
+        3,
+        4,
+        5,
+        7
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "For a sewing needle, which information is most directly conceptual rather than a personal association?",
+      "explanation": "Conceptual content concerns what kind of thing the expression identifies in the specified sense. Emotional memories are associative rather than the defining use.",
+      "example": "A sewing needle can be described without requiring every user to fear it.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "It makes one person feel anxious."
+        },
+        {
+          "id": "B",
+          "text": "It is a slender pointed tool used in sewing."
+        },
+        {
+          "id": "C",
+          "text": "It evokes a childhood memory."
+        },
+        {
+          "id": "D",
+          "text": "It reminds the speaker of a frightening visit."
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L07-Q016",
+      "lecture_id": "LING-L07",
+      "topic_id": "meaning_types",
+      "source_slides": [
+        3,
+        4,
+        5,
+        7
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A person associates needle with fear because of an earlier experience. What type of meaning is foregrounded?",
+      "explanation": "The feeling is linked to the person’s experience. It need not be shared by everyone who understands the word.",
+      "example": "Another user may associate a sewing needle with craftwork instead.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Word order"
+        },
+        {
+          "id": "B",
+          "text": "Associative meaning"
+        },
+        {
+          "id": "C",
+          "text": "Acoustic duration"
+        },
+        {
+          "id": "D",
+          "text": "Grammatical agreement"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L07-Q017",
+      "lecture_id": "LING-L07",
+      "topic_id": "meaning_types",
+      "source_slides": [
+        3,
+        4,
+        5,
+        7
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Why is connotation alone insufficient as a complete account of conventional word meaning?",
+      "explanation": "Shared understanding is not identical to a set of personal reactions. The slide notes variation in associations as a limitation of an association-only account.",
+      "example": "Two users may understand home while responding to it differently.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "All speakers necessarily have the same experiences."
+        },
+        {
+          "id": "B",
+          "text": "Users can understand a word while having different personal associations."
+        },
+        {
+          "id": "C",
+          "text": "A word cannot evoke an emotion if it has a referent."
+        },
+        {
+          "id": "D",
+          "text": "Every association must be a separate phoneme."
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L07-Q018",
+      "lecture_id": "LING-L07",
+      "topic_id": "meaning_types",
+      "source_slides": [
+        3,
+        4,
+        5,
+        7
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "What challenge do fictional expressions pose for a simple account equating all meaning with an existing real-world referent?",
+      "explanation": "The problem concerns the completeness of a simple referential account, not a claim that every theory of denotation fails. Models can make additional provisions for fictional discourse.",
+      "example": "A sentence about a unicorn can be understood without locating an actual unicorn.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "A meaningful expression may lack an ordinary actual-world referent and needs further explanation."
+        },
+        {
+          "id": "B",
+          "text": "Every fictional entity must be an actual physical object."
+        },
+        {
+          "id": "C",
+          "text": "The presence of fiction removes all conventional word meanings."
+        },
+        {
+          "id": "D",
+          "text": "Fictional words cannot occur in grammatical sentences."
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L07-Q019",
+      "lecture_id": "LING-L07",
+      "topic_id": "meaning_types",
+      "source_slides": [
+        3,
+        4,
+        5,
+        7
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "analyze",
+      "question": "Which comparison keeps conceptual and associative meaning distinct?",
+      "explanation": "These aspects can coexist in one word’s use. The distinction helps separate conventional content from additional reactions and associations.",
+      "example": "Hospital can identify an institution while evoking reassurance or anxiety.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Conceptual meaning is always a sound measurement; associative meaning is always word order."
+        },
+        {
+          "id": "B",
+          "text": "Conceptual meaning belongs only to nouns; associative meaning belongs only to verbs."
+        },
+        {
+          "id": "C",
+          "text": "The two labels refer to identical information in every context."
+        },
+        {
+          "id": "D",
+          "text": "A basic description identifies the kind of thing; an association reflects linked feelings or ideas."
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L07-Q020",
+      "lecture_id": "LING-L07",
+      "topic_id": "meaning_types",
+      "source_slides": [
+        3,
+        4,
+        5,
+        7
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "How should the slide’s claim that linguists are uninterested in associative meaning be qualified?",
+      "explanation": "A focus of one introductory analysis is not a restriction on all research. The study of meaning can address several dimensions for different purposes.",
+      "example": "A study may investigate the evaluative overtones of words used in public debate.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Associations are excluded from every branch of linguistics."
+        },
+        {
+          "id": "B",
+          "text": "Only associations count as linguistic meaning."
+        },
+        {
+          "id": "C",
+          "text": "Some analyses focus on conceptual content, but associations can also be legitimate research topics."
+        },
+        {
+          "id": "D",
+          "text": "Conceptual content makes social and emotional responses impossible."
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L07-Q021",
+      "lecture_id": "LING-L07",
+      "topic_id": "lexicon_features",
+      "source_slides": [
+        6,
+        7
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "What is the lexicon in the lecture’s mental account?",
+      "explanation": "The lexicon concerns word-related linguistic knowledge. It is not identical to a paper dictionary or one acoustic recording.",
+      "example": "Knowing a word includes information relevant to its form and use.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "A recording of every sound wave ever heard"
+        },
+        {
+          "id": "B",
+          "text": "A store of information about words and morphemes"
+        },
+        {
+          "id": "C",
+          "text": "A map of the world’s physical deserts"
+        },
+        {
+          "id": "D",
+          "text": "A list containing only printed punctuation rules"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L07-Q022",
+      "lecture_id": "LING-L07",
+      "topic_id": "lexicon_features",
+      "source_slides": [
+        6,
+        7
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "understand",
+      "question": "What are semantic features or properties used for in introductory componential analysis?",
+      "explanation": "Feature analysis tries to make meaning relationships explicit through component properties. It is an analytical tool rather than a complete solution for every word.",
+      "example": "A human-related feature can distinguish some person terms from animal terms.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Measuring the sound intensity of a spoken noun"
+        },
+        {
+          "id": "B",
+          "text": "Identifying where a sentence appears on a printed page"
+        },
+        {
+          "id": "C",
+          "text": "Sorting words only by their letter count"
+        },
+        {
+          "id": "D",
+          "text": "Representing aspects of meaning that items share or contrast in"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L07-Q023",
+      "lecture_id": "LING-L07",
+      "topic_id": "lexicon_features",
+      "source_slides": [
+        6,
+        7
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "Which set most clearly shares a human-related semantic property in its ordinary occupational senses?",
+      "explanation": "The occupational senses refer to people, unlike the animal, furniture, and geographical sets. Context still matters when a word has multiple uses.",
+      "example": "Teacher and student also have ordinary human-reference senses.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "mare, hen, and tigress"
+        },
+        {
+          "id": "B",
+          "text": "table, chair, and shelf"
+        },
+        {
+          "id": "C",
+          "text": "river, desert, and valley"
+        },
+        {
+          "id": "D",
+          "text": "doctor, dean, and professor"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L07-Q024",
+      "lecture_id": "LING-L07",
+      "topic_id": "lexicon_features",
+      "source_slides": [
+        6,
+        7
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "In their ordinary animal-reference senses, what property do mare, hen, and tigress share?",
+      "explanation": "A shared semantic property need not make items synonymous. The words identify different animal kinds while sharing the stated sex-related property.",
+      "example": "A mare and a hen are different kinds of animal despite the shared property.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "They refer to female animals."
+        },
+        {
+          "id": "B",
+          "text": "They all refer to the same species."
+        },
+        {
+          "id": "C",
+          "text": "They are all names for human occupations."
+        },
+        {
+          "id": "D",
+          "text": "They all mean young male animals."
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L07-Q025",
+      "lecture_id": "LING-L07",
+      "topic_id": "lexicon_features",
+      "source_slides": [
+        6,
+        7
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Why should doctor or professor not be assigned a male-only feature merely because of a social stereotype?",
+      "explanation": "Analysis should distinguish linguistic content from assumptions about typical users. A stereotype is not proof of a necessary semantic feature.",
+      "example": "A woman or a man can be a doctor.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "A person’s occupation must determine their grammatical gender in English."
+        },
+        {
+          "id": "B",
+          "text": "Social stereotypes determine every dictionary category."
+        },
+        {
+          "id": "C",
+          "text": "The word’s ordinary meaning does not restrict the occupation to men."
+        },
+        {
+          "id": "D",
+          "text": "Every occupational noun has exactly the same meaning."
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L07-Q026",
+      "lecture_id": "LING-L07",
+      "topic_id": "lexicon_features",
+      "source_slides": [
+        6,
+        7
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "analyze",
+      "question": "Why does sharing one semantic feature not make two words synonyms?",
+      "explanation": "A feature captures one dimension, not necessarily the complete meaning. Category membership and relationships can still differ.",
+      "example": "Mare and hen share a property but refer to different animal kinds.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Feature analysis permits only one feature per word."
+        },
+        {
+          "id": "B",
+          "text": "Every shared property guarantees identical reference in all contexts."
+        },
+        {
+          "id": "C",
+          "text": "Synonymy depends only on matching spelling."
+        },
+        {
+          "id": "D",
+          "text": "Other aspects of their meanings can differ."
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L07-Q027",
+      "lecture_id": "LING-L07",
+      "topic_id": "lexicon_features",
+      "source_slides": [
+        6,
+        7
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "What limitation of componential analysis is explicitly noted in the lecture?",
+      "explanation": "The method can clarify some relationships without providing a complete decomposition of all meanings. Choice and granularity of features can be difficult.",
+      "example": "Distinguishing color terms through a short list of discrete components may be challenging.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Feature analysis automatically predicts every contextual interpretation."
+        },
+        {
+          "id": "B",
+          "text": "It can be difficult to specify all the features needed for a word’s meaning."
+        },
+        {
+          "id": "C",
+          "text": "Only the spelling of a word can identify its semantic features."
+        },
+        {
+          "id": "D",
+          "text": "Every word has exactly two uncontested meaning components."
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L07-Q028",
+      "lecture_id": "LING-L07",
+      "topic_id": "lexicon_features",
+      "source_slides": [
+        6,
+        7
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Why are blue and yellow useful examples when discussing limits of simple feature lists?",
+      "explanation": "The slide raises difficulty in identifying smaller meaning components for certain terms. This does not imply that color meaning cannot be studied.",
+      "example": "Researchers may need more detailed models than a short binary checklist.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Some meanings resist an obvious decomposition into a few discrete semantic parts."
+        },
+        {
+          "id": "B",
+          "text": "Every color term must have the same extension."
+        },
+        {
+          "id": "C",
+          "text": "A word with a color sense cannot be used in a sentence."
+        },
+        {
+          "id": "D",
+          "text": "Color words cannot be meaningful unless users agree on spelling."
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L07-Q029",
+      "lecture_id": "LING-L07",
+      "topic_id": "range_selection",
+      "source_slides": [
+        8,
+        9
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "understand",
+      "question": "What does semantic range refer to in the lecture’s practical discussion?",
+      "explanation": "A word may have different applications across contexts. The relevant interpretation must be identified rather than assuming one gloss fits every occurrence.",
+      "example": "Run can refer to physical movement or operating a business.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The number of letters in its longest spelling"
+        },
+        {
+          "id": "B",
+          "text": "The physical distance a sound travels"
+        },
+        {
+          "id": "C",
+          "text": "The complete list of a language’s phonemes"
+        },
+        {
+          "id": "D",
+          "text": "The range of senses or applications a word can have"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L07-Q030",
+      "lecture_id": "LING-L07",
+      "topic_id": "range_selection",
+      "source_slides": [
+        8,
+        9
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "In “She runs a clinic,” which interpretation of runs fits the context?",
+      "explanation": "The surrounding words constrain which sense is intended. Running a clinic is not ordinarily a claim about moving it on foot.",
+      "example": "He runs a shop uses the same management-related sense.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Flows as a liquid"
+        },
+        {
+          "id": "B",
+          "text": "Forms a line of stitches"
+        },
+        {
+          "id": "C",
+          "text": "Moves rapidly on foot"
+        },
+        {
+          "id": "D",
+          "text": "Manages or operates"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L07-Q031",
+      "lecture_id": "LING-L07",
+      "topic_id": "range_selection",
+      "source_slides": [
+        8,
+        9
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "How does point differ in “a sharp point” and “the main point of the lecture”?",
+      "explanation": "Context helps identify the relevant interpretation. A word’s range is not exhausted by one concrete use.",
+      "example": "The point of an argument differs from the point of a pencil.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The contexts select different related or conventional senses."
+        },
+        {
+          "id": "B",
+          "text": "The second occurrence cannot have meaning because it is abstract."
+        },
+        {
+          "id": "C",
+          "text": "The difference is only the number of letters in the word."
+        },
+        {
+          "id": "D",
+          "text": "The word must have the same physical referent in both."
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L07-Q032",
+      "lecture_id": "LING-L07",
+      "topic_id": "range_selection",
+      "source_slides": [
+        8,
+        9
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Why is a list such as anxiety, distress, and concern not by itself an analysis of several distinct senses of worry?",
+      "explanation": "A list of alternatives can clarify meaning, but separate senses require evidence from use and interpretation. The slide’s example needs that caution.",
+      "example": "Several descriptions of unease may elaborate one sense rather than count several.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Different glosses can never help explain a word."
+        },
+        {
+          "id": "B",
+          "text": "Every near-synonym automatically establishes a different meaning of the target word."
+        },
+        {
+          "id": "C",
+          "text": "Related glosses can describe overlapping content without demonstrating separate senses."
+        },
+        {
+          "id": "D",
+          "text": "A word can have a sense only if it names a physical object."
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L07-Q033",
+      "lecture_id": "LING-L07",
+      "topic_id": "range_selection",
+      "source_slides": [
+        8,
+        9
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "understand",
+      "question": "What are selectional restrictions in this introductory discussion?",
+      "explanation": "Some predicates typically combine with participants of particular semantic kinds. A mismatch can make an otherwise structured sentence seem odd.",
+      "example": "A literal act of listening normally requires an appropriate perceiver.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "A ban on every sentence containing an unfamiliar word"
+        },
+        {
+          "id": "B",
+          "text": "Semantic expectations about the kinds of participants compatible with an expression"
+        },
+        {
+          "id": "C",
+          "text": "Preferences for how a dictionary page is printed"
+        },
+        {
+          "id": "D",
+          "text": "Rules requiring every sentence to begin with a proper noun"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L07-Q034",
+      "lecture_id": "LING-L07",
+      "topic_id": "range_selection",
+      "source_slides": [
+        8,
+        9
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "Why does “The table listened to music” sound odd on an ordinary literal reading?",
+      "explanation": "The sentence can follow a familiar syntactic pattern while conflicting with expectations about participants. Its oddness is not simply missing word order.",
+      "example": "A person listening to music fits the ordinary participant expectations.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "A table does not ordinarily have the capacities required for listening."
+        },
+        {
+          "id": "B",
+          "text": "The sentence has no grammatical subject."
+        },
+        {
+          "id": "C",
+          "text": "Music cannot occur as a noun."
+        },
+        {
+          "id": "D",
+          "text": "The verb listened lacks a past-tense form."
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L07-Q035",
+      "lecture_id": "LING-L07",
+      "topic_id": "range_selection",
+      "source_slides": [
+        8,
+        9
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "analyze",
+      "question": "Which contrast best separates syntactic well-formedness from a selectional mismatch?",
+      "explanation": "Grammar and semantic compatibility are different dimensions. The lecture uses odd examples to demonstrate that distinction.",
+      "example": "The hamburger ate the man has an ordinary arrangement but an unusual literal agent.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "A well-formed sentence must describe a true event."
+        },
+        {
+          "id": "B",
+          "text": "A selectional mismatch proves that every word is misspelled."
+        },
+        {
+          "id": "C",
+          "text": "Any unusual event requires the absence of a verb."
+        },
+        {
+          "id": "D",
+          "text": "A sentence can have a familiar structure while assigning an implausible participant to an action."
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L07-Q036",
+      "lecture_id": "LING-L07",
+      "topic_id": "range_selection",
+      "source_slides": [
+        8,
+        9
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "apply",
+      "question": "A story gives a table ears and the ability to listen. How should “The table listened” be assessed in that story?",
+      "explanation": "Selectional judgments depend on the intended interpretation. Personification or fictional assumptions can supply capacities missing in an everyday context.",
+      "example": "A talking cat can study linguistics within a fictional story.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Tables must therefore be literal human agents in everyday usage."
+        },
+        {
+          "id": "B",
+          "text": "The fictional context can support an interpretation that is odd in an ordinary literal setting."
+        },
+        {
+          "id": "C",
+          "text": "The context removes every meaning from listened."
+        },
+        {
+          "id": "D",
+          "text": "The sentence becomes grammatically impossible in all contexts."
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L07-Q037",
+      "lecture_id": "LING-L07",
+      "topic_id": "range_selection",
+      "source_slides": [
+        8,
+        9
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "understand",
+      "question": "What distinction is important when a sentence is called semantically odd?",
+      "explanation": "A surprising literal combination may still be interpretable through a special context, metaphor, or personification. The analytical task should specify its assumptions.",
+      "example": "An animated film can make a sentence about a listening table understandable.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "An odd sentence must be a random list of letters."
+        },
+        {
+          "id": "B",
+          "text": "Oddness is not the same as having no possible interpretation."
+        },
+        {
+          "id": "C",
+          "text": "Oddness proves that every speaker has an identical reaction."
+        },
+        {
+          "id": "D",
+          "text": "A sentence about fiction is always syntactically ungrammatical."
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L07-Q038",
+      "lecture_id": "LING-L07",
+      "topic_id": "range_selection",
+      "source_slides": [
+        8,
+        9
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Why is “My cat studied linguistics” unsuitable as proof of absolute meaningless language?",
+      "explanation": "The slide’s point is a mismatch with ordinary participant expectations. That should not become a universal claim that no interpretation is available.",
+      "example": "A story about an educated animal supplies a different background.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Its spelling alone prevents any subject–verb relation."
+        },
+        {
+          "id": "B",
+          "text": "Its ordinary-world implausibility can be overcome in a specified fictional interpretation."
+        },
+        {
+          "id": "C",
+          "text": "The sentence contains no word with a conventional meaning."
+        },
+        {
+          "id": "D",
+          "text": "Every cat literally studies linguistics in everyday life."
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L07-Q039",
+      "lecture_id": "LING-L07",
+      "topic_id": "synonymy",
+      "source_slides": [
+        10
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "What is synonymy in the lecture’s basic account?",
+      "explanation": "Synonymy concerns similarity of meaning. It need not imply that substitution works equally well in every context.",
+      "example": "Big and large can be close in meaning in suitable descriptions of size.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "A relationship of the same or closely similar meaning between expressions"
+        },
+        {
+          "id": "B",
+          "text": "A relationship of identical form with unrelated senses"
+        },
+        {
+          "id": "C",
+          "text": "A relationship of class inclusion"
+        },
+        {
+          "id": "D",
+          "text": "A relationship of opposite meanings"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L07-Q040",
+      "lecture_id": "LING-L07",
+      "topic_id": "synonymy",
+      "source_slides": [
+        10
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "apply",
+      "question": "Which pair is a clear near-synonym pair in an ordinary size description?",
+      "explanation": "Big and large can both describe substantial size. The alternatives illustrate opposition, inclusion, and shared form with unrelated senses.",
+      "example": "A big house and a large house often describe similar size.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "hot and cold"
+        },
+        {
+          "id": "B",
+          "text": "big and large"
+        },
+        {
+          "id": "C",
+          "text": "bus and vehicle"
+        },
+        {
+          "id": "D",
+          "text": "bank meaning money institution and bank meaning river edge"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L07-Q041",
+      "lecture_id": "LING-L07",
+      "topic_id": "synonymy",
+      "source_slides": [
+        10
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "Which pair contains verbs with closely related meanings in the intended sense?",
+      "explanation": "Hide and conceal can describe preventing something from being seen or discovered. The other pairs have different semantic or grammatical relationships.",
+      "example": "He hid the letter and he concealed the letter convey similar core content.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "buy and sell"
+        },
+        {
+          "id": "B",
+          "text": "hide and conceal"
+        },
+        {
+          "id": "C",
+          "text": "car and vehicle"
+        },
+        {
+          "id": "D",
+          "text": "walk and walked"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L07-Q042",
+      "lecture_id": "LING-L07",
+      "topic_id": "synonymy",
+      "source_slides": [
+        10
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "analyze",
+      "question": "Why should near-synonyms not be assumed interchangeable in every expression?",
+      "explanation": "Similarity can coexist with conventional usage differences. Context must be checked before replacing one word with another.",
+      "example": "Big mistake is natural, while large mistake is less usual in many ordinary contexts.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Words with similar meanings must have identical sounds."
+        },
+        {
+          "id": "B",
+          "text": "They can differ in register, collocation, or finer shades of meaning."
+        },
+        {
+          "id": "C",
+          "text": "Any difference in usage eliminates all meaning similarity."
+        },
+        {
+          "id": "D",
+          "text": "A near-synonym can never occur in the same word class."
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L07-Q043",
+      "lecture_id": "LING-L07",
+      "topic_id": "synonymy",
+      "source_slides": [
+        10
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "Which example best illustrates context-sensitive synonymy?",
+      "explanation": "The size context supports similarity without making a universal substitution rule. Semantic comparison must specify the relevant sense.",
+      "example": "A big decision does not necessarily have the same normal phrasing as a large decision.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Big and large are antonyms whenever they describe buildings."
+        },
+        {
+          "id": "B",
+          "text": "Big and large must replace each other naturally in every phrase."
+        },
+        {
+          "id": "C",
+          "text": "Big house and large house can correspond, while fixed combinations may differ."
+        },
+        {
+          "id": "D",
+          "text": "Two words become synonyms solely because both are short."
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L07-Q044",
+      "lecture_id": "LING-L07",
+      "topic_id": "synonymy",
+      "source_slides": [
+        10
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "understand",
+      "question": "Why does the lecture compare words of the same part of speech when illustrating synonymy?",
+      "explanation": "The examples compare like uses rather than mixing a noun sense with an unrelated verb sense. This is a practical control, not the only possible approach to semantic similarity.",
+      "example": "Hide and conceal are compared as verbs.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Words of different classes cannot have any semantic relationship."
+        },
+        {
+          "id": "B",
+          "text": "Spelling alone determines every synonym relation."
+        },
+        {
+          "id": "C",
+          "text": "Comparable grammatical uses make the intended meaning comparison clearer."
+        },
+        {
+          "id": "D",
+          "text": "Only nouns can have closely similar meanings."
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L07-Q045",
+      "lecture_id": "LING-L07",
+      "topic_id": "synonymy",
+      "source_slides": [
+        10
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "In a context where couch and sofa name the same kind of furniture, which relation is illustrated?",
+      "explanation": "The two expressions have closely corresponding furniture meanings in the stated context. Dialect or stylistic preferences can still differ.",
+      "example": "A speaker may use either word for a familiar seating item.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Synonymy"
+        },
+        {
+          "id": "B",
+          "text": "Hyponymy between sofa and couch"
+        },
+        {
+          "id": "C",
+          "text": "Homonymy of one word"
+        },
+        {
+          "id": "D",
+          "text": "Gradable antonymy"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L07-Q046",
+      "lecture_id": "LING-L07",
+      "topic_id": "synonymy",
+      "source_slides": [
+        10
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Which conclusion best follows from identifying two expressions as near-synonyms?",
+      "explanation": "Near-synonymy is a claim about meaning similarity, not total identity of every linguistic property. Context limits what the label establishes.",
+      "example": "Hide and conceal can be close in meaning while differing in frequency or style.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "They must share the same spelling and pronunciation."
+        },
+        {
+          "id": "B",
+          "text": "They must belong to one hierarchy as a type and its supertype."
+        },
+        {
+          "id": "C",
+          "text": "They must have opposite truth conditions in every sentence."
+        },
+        {
+          "id": "D",
+          "text": "Their meanings overlap substantially in the specified use, while relevant differences may remain."
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L07-Q047",
+      "lecture_id": "LING-L07",
+      "topic_id": "antonymy",
+      "source_slides": [
+        11
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "What is antonymy in the lecture’s broad introductory use?",
+      "explanation": "Antonymy concerns semantic contrast. Different types of oppositeness have different logical and contextual properties.",
+      "example": "Hot and cold are opposites along a temperature scale.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "A relationship of oppositeness in meaning"
+        },
+        {
+          "id": "B",
+          "text": "A relationship of identical spelling alone"
+        },
+        {
+          "id": "C",
+          "text": "A relationship between a word and its plural form"
+        },
+        {
+          "id": "D",
+          "text": "A relationship based only on equal word length"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L07-Q048",
+      "lecture_id": "LING-L07",
+      "topic_id": "antonymy",
+      "source_slides": [
+        11
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "apply",
+      "question": "Which pair most clearly illustrates gradable antonymy?",
+      "explanation": "Hot and cold allow intermediate descriptions and degree modification. The alternatives represent other kinds of semantic relations.",
+      "example": "Warm and cool can occupy intermediate parts of a temperature scale.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "car and bus"
+        },
+        {
+          "id": "B",
+          "text": "couch and sofa"
+        },
+        {
+          "id": "C",
+          "text": "bus and vehicle"
+        },
+        {
+          "id": "D",
+          "text": "hot and cold"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L07-Q049",
+      "lecture_id": "LING-L07",
+      "topic_id": "antonymy",
+      "source_slides": [
+        11
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "understand",
+      "question": "What is characteristic of gradable opposites?",
+      "explanation": "A scale allows more than two possible positions. Something need not count as either extreme.",
+      "example": "A drink can be neither hot nor cold but lukewarm.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "They can describe only binary attendance decisions."
+        },
+        {
+          "id": "B",
+          "text": "Denying one always logically guarantees the other."
+        },
+        {
+          "id": "C",
+          "text": "They must be different names for exactly the same category."
+        },
+        {
+          "id": "D",
+          "text": "Intermediate values and degree comparisons are possible."
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L07-Q050",
+      "lecture_id": "LING-L07",
+      "topic_id": "antonymy",
+      "source_slides": [
+        11
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "Why does “The water is not hot” not necessarily mean “The water is cold”?",
+      "explanation": "Negating one end of a scale does not identify the opposite end. Intermediate cases remain possible.",
+      "example": "Not fast can describe a moderate speed rather than a very slow one.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Not changes every adjective into its exact antonym."
+        },
+        {
+          "id": "B",
+          "text": "Hot and cold are synonyms in negative sentences."
+        },
+        {
+          "id": "C",
+          "text": "Water cannot be described with gradable terms."
+        },
+        {
+          "id": "D",
+          "text": "There may be intermediate temperatures."
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L07-Q051",
+      "lecture_id": "LING-L07",
+      "topic_id": "antonymy",
+      "source_slides": [
+        11
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "understand",
+      "question": "In a stipulated two-state attendance system, what makes present and absent complementary labels?",
+      "explanation": "Complementarity depends on the specified binary classification. The example explicitly fixes the domain to avoid treating every real-world boundary as simple.",
+      "example": "For that coding scheme, not present is classified as absent.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Both labels are ordinary synonyms for attendance."
+        },
+        {
+          "id": "B",
+          "text": "Every case in that system receives exactly one of the two labels."
+        },
+        {
+          "id": "C",
+          "text": "One label names a subtype of the other."
+        },
+        {
+          "id": "D",
+          "text": "The labels describe many intermediate degrees of attendance within that system."
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L07-Q052",
+      "lecture_id": "LING-L07",
+      "topic_id": "antonymy",
+      "source_slides": [
+        11
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Why should complementary opposites be explained with a specified domain?",
+      "explanation": "A binary relation is clearest when assumptions about classification are explicit. The point should not depend on ignoring relevant contextual distinctions.",
+      "example": "An attendance policy must say how a late arrival is coded.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The spelling of the two words determines their logical relationship."
+        },
+        {
+          "id": "B",
+          "text": "Complementary labels can never be useful in analysis."
+        },
+        {
+          "id": "C",
+          "text": "Real uses may have borderline or specially defined cases that affect the contrast."
+        },
+        {
+          "id": "D",
+          "text": "A domain automatically makes every pair gradable."
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L07-Q053",
+      "lecture_id": "LING-L07",
+      "topic_id": "antonymy",
+      "source_slides": [
+        11
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "Which relation is most directly illustrated by buy and sell when describing the same transaction from different participants’ perspectives?",
+      "explanation": "Buying and selling describe connected sides of one transaction. This differs from a temperature scale or a simple binary property.",
+      "example": "If Sara bought a book from Ali, Ali sold the book to Sara.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Converse or relational opposition"
+        },
+        {
+          "id": "B",
+          "text": "A word and its plural inflection"
+        },
+        {
+          "id": "C",
+          "text": "Unrelated homonymy"
+        },
+        {
+          "id": "D",
+          "text": "Ordinary synonymy with no perspective change"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L07-Q054",
+      "lecture_id": "LING-L07",
+      "topic_id": "antonymy",
+      "source_slides": [
+        11
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "Which statement preserves the converse relationship in “Ayesha bought the bicycle from Bilal”?",
+      "explanation": "The participants switch roles while the transaction remains the same. Direction of transfer is essential to the paraphrase.",
+      "example": "The buyer’s from relation corresponds to the seller’s to relation.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Bilal bought the bicycle from Ayesha."
+        },
+        {
+          "id": "B",
+          "text": "Ayesha and Bilal must both have sold the bicycle to a third person."
+        },
+        {
+          "id": "C",
+          "text": "Bilal sold the bicycle to Ayesha."
+        },
+        {
+          "id": "D",
+          "text": "Ayesha sold the bicycle to Bilal."
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L07-Q055",
+      "lecture_id": "LING-L07",
+      "topic_id": "antonymy",
+      "source_slides": [
+        11
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "analyze",
+      "question": "Why is teacher–pupil better treated as a role relationship than as a hot–cold type scale?",
+      "explanation": "The pair is relational. It does not normally support intermediate degrees between the roles in the same way as gradable adjectives.",
+      "example": "A person can teach one group while studying under someone else.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Both terms necessarily refer to the same role in every classroom."
+        },
+        {
+          "id": "B",
+          "text": "The terms can identify related participants rather than opposite degrees of one property."
+        },
+        {
+          "id": "C",
+          "text": "Every teacher must have the opposite body temperature from every pupil."
+        },
+        {
+          "id": "D",
+          "text": "One term is always the plural of the other."
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L07-Q056",
+      "lecture_id": "LING-L07",
+      "topic_id": "antonymy",
+      "source_slides": [
+        11
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Which comparison correctly distinguishes three kinds of opposition?",
+      "explanation": "The pairs differ in scale, binary classification, and participant perspective. Calling them opposites does not erase those distinctions.",
+      "example": "Not hot can leave an intermediate value, while buying corresponds to someone else’s selling.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Hot/cold is synonymous; present/absent is hyponymic; buy/sell is plural marking."
+        },
+        {
+          "id": "B",
+          "text": "All three pairs are homonyms because they can occur in one sentence."
+        },
+        {
+          "id": "C",
+          "text": "Hot/cold is gradable; binary present/absent is complementary; buy/sell is converse."
+        },
+        {
+          "id": "D",
+          "text": "All three pairs require exactly the same scale and inference pattern."
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L07-Q057",
+      "lecture_id": "LING-L07",
+      "topic_id": "homonymy_polysemy",
+      "source_slides": [
+        12,
+        14
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "understand",
+      "question": "What contrast is central to the lecture’s examples of homonymy and polysemy?",
+      "explanation": "The distinction concerns the relationship among meanings, not simply the fact that several interpretations exist. Boundaries can require careful analysis.",
+      "example": "Bank in finance and at a river is contrasted with related senses of foot.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "A singular noun versus its regular plural"
+        },
+        {
+          "id": "B",
+          "text": "A loud sound versus a quiet sound"
+        },
+        {
+          "id": "C",
+          "text": "A short spelling versus a long spelling"
+        },
+        {
+          "id": "D",
+          "text": "Unrelated meanings sharing a form versus related senses of a word"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L07-Q058",
+      "lecture_id": "LING-L07",
+      "topic_id": "homonymy_polysemy",
+      "source_slides": [
+        12,
+        14
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "apply",
+      "question": "In the lecture’s conventional example, what relation connects bank as a financial institution with bank as the side of a river?",
+      "explanation": "The form is shared, but the senses are treated as unrelated lexical meanings in this introductory example.",
+      "example": "I deposited money at the bank differs from I sat on the river bank.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Synonymy"
+        },
+        {
+          "id": "B",
+          "text": "Gradable antonymy"
+        },
+        {
+          "id": "C",
+          "text": "Homonymy"
+        },
+        {
+          "id": "D",
+          "text": "Hyponymy"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L07-Q059",
+      "lecture_id": "LING-L07",
+      "topic_id": "homonymy_polysemy",
+      "source_slides": [
+        12,
+        14
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "analyze",
+      "question": "Why is same spelling alone insufficient to decide whether a case is homonymy or polysemy?",
+      "explanation": "Shared form is compatible with both categories. The analysis must consider the senses rather than stopping at orthography.",
+      "example": "Foot can refer to a body part and a related lower part of a mountain.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The relatedness of the meanings must also be examined."
+        },
+        {
+          "id": "B",
+          "text": "Every repeated spelling is necessarily one meaning."
+        },
+        {
+          "id": "C",
+          "text": "The number of letters alone decides semantic relatedness."
+        },
+        {
+          "id": "D",
+          "text": "Every different context creates an unrelated word."
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L07-Q060",
+      "lecture_id": "LING-L07",
+      "topic_id": "homonymy_polysemy",
+      "source_slides": [
+        12,
+        14
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "What is polysemy in the lecture’s account?",
+      "explanation": "Polysemy concerns related interpretations of a lexical item. It should not be confused with any arbitrary set of unrelated meanings sharing a form.",
+      "example": "Foot can refer to a body part or a lower supporting part of something.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Two words having opposite meanings"
+        },
+        {
+          "id": "B",
+          "text": "One word’s grammatical past-tense form"
+        },
+        {
+          "id": "C",
+          "text": "A word having multiple related senses"
+        },
+        {
+          "id": "D",
+          "text": "A general category containing specific subcategories"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L07-Q061",
+      "lecture_id": "LING-L07",
+      "topic_id": "homonymy_polysemy",
+      "source_slides": [
+        12,
+        14
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "Which pair of uses most clearly illustrates the lecture’s polysemy example?",
+      "explanation": "The lower-part meaning is related to the body-part meaning. The alternatives show similarity, inclusion, or converse relations between different expressions.",
+      "example": "The foot of a bed is another related lower-end use.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "the foot of a person and the foot of a mountain"
+        },
+        {
+          "id": "B",
+          "text": "a large house and a big house"
+        },
+        {
+          "id": "C",
+          "text": "buying a book and selling it"
+        },
+        {
+          "id": "D",
+          "text": "a bus and a vehicle"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L07-Q062",
+      "lecture_id": "LING-L07",
+      "topic_id": "homonymy_polysemy",
+      "source_slides": [
+        12,
+        14
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "understand",
+      "question": "Why do related senses of a polysemous word not have to be interchangeable in the same sentence?",
+      "explanation": "Relatedness does not mean identity. The interpretation of a given occurrence depends on the surrounding words and situation.",
+      "example": "The foot of the mountain does not ordinarily mean a human body part located there.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "A polysemous word has no stable uses at all."
+        },
+        {
+          "id": "B",
+          "text": "Context selects the relevant sense and its appropriate use."
+        },
+        {
+          "id": "C",
+          "text": "Related senses must refer to the same object on every occasion."
+        },
+        {
+          "id": "D",
+          "text": "Each sense must belong to a separate sound system."
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L07-Q063",
+      "lecture_id": "LING-L07",
+      "topic_id": "homonymy_polysemy",
+      "source_slides": [
+        12,
+        14
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "In “a plain explanation” and “a plain shirt,” what makes a polysemy analysis plausible in the intended senses?",
+      "explanation": "The lecture treats these as connected uses. A particular interpretation must still fit its phrase.",
+      "example": "Plain instructions can emphasize clarity, while plain clothing can emphasize lack of decoration.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Plain becomes a plural marker in the second phrase."
+        },
+        {
+          "id": "B",
+          "text": "The contexts prove that plain has no meaning."
+        },
+        {
+          "id": "C",
+          "text": "The two occurrences must have exactly the same physical referent."
+        },
+        {
+          "id": "D",
+          "text": "The meanings clear and unadorned can be related rather than entirely unrelated."
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L07-Q064",
+      "lecture_id": "LING-L07",
+      "topic_id": "homonymy_polysemy",
+      "source_slides": [
+        12,
+        14
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "How should the slide’s same-word-class restriction on homonymy be qualified?",
+      "explanation": "The bank example compares noun uses, but that does not make matching word class an essential condition in all terminology. Introductory classification should state its convention.",
+      "example": "An analysis must consider form and meaning rather than rely only on category labels.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Homonymy is defined only by the number of syllables."
+        },
+        {
+          "id": "B",
+          "text": "Different word classes can never share a written form."
+        },
+        {
+          "id": "C",
+          "text": "A shared grammatical category is not necessary for every case of unrelated meanings sharing a form."
+        },
+        {
+          "id": "D",
+          "text": "Every class difference automatically proves that meanings are related."
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L07-Q065",
+      "lecture_id": "LING-L07",
+      "topic_id": "homonymy_polysemy",
+      "source_slides": [
+        12,
+        14
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Why should a learner not infer the entire historical relationship of two senses from one sentence alone?",
+      "explanation": "A sentence can demonstrate a contextual reading, but it does not supply a complete etymology. The lecture’s categories are useful without pretending that every case is immediately obvious.",
+      "example": "Dictionary history may help investigate a disputed relation between senses.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Lexical history and present-day sense relations may require additional evidence."
+        },
+        {
+          "id": "B",
+          "text": "Every different meaning necessarily has an unrelated origin."
+        },
+        {
+          "id": "C",
+          "text": "All shared forms must have the same origin."
+        },
+        {
+          "id": "D",
+          "text": "A word’s origin can always be read directly from its final letter."
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L07-Q066",
+      "lecture_id": "LING-L07",
+      "topic_id": "homonymy_polysemy",
+      "source_slides": [
+        12,
+        14
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "apply",
+      "question": "Two meanings share a form, and an analysis explicitly states that their senses are closely connected. Which classification is most consistent with that premise?",
+      "explanation": "Given the supplied connection, polysemy is the appropriate label among the choices. The question does not ask the learner to invent an unsupported etymology.",
+      "example": "A stated lower-part extension of foot fits this pattern.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Hyponymy between two category names"
+        },
+        {
+          "id": "B",
+          "text": "Converse opposition"
+        },
+        {
+          "id": "C",
+          "text": "Polysemy"
+        },
+        {
+          "id": "D",
+          "text": "Complementary antonymy"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L07-Q067",
+      "lecture_id": "LING-L07",
+      "topic_id": "hyponymy",
+      "source_slides": [
+        13
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "What is a hyponym?",
+      "explanation": "Hyponymy is a type-of relationship. The specific term belongs below the more general category in a semantic hierarchy.",
+      "example": "Bus is a hyponym of vehicle.",
+      "reference_ids": [
+        "lecture_07",
+        "category_inclusion"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "A term that must include every category in the language"
+        },
+        {
+          "id": "B",
+          "text": "A word that means the exact opposite of another"
+        },
+        {
+          "id": "C",
+          "text": "A word with the same sound but an unrelated meaning"
+        },
+        {
+          "id": "D",
+          "text": "A term for a more specific category within a broader one"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L07-Q068",
+      "lecture_id": "LING-L07",
+      "topic_id": "hyponymy",
+      "source_slides": [
+        13
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "What is a hypernym or superordinate term?",
+      "explanation": "The superordinate covers a broader class. It should not be confused with the narrower term it includes.",
+      "example": "Vehicle is superordinate to bus, car, and van.",
+      "reference_ids": [
+        "lecture_07",
+        "category_inclusion"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "A word with an opposite meaning on a scale"
+        },
+        {
+          "id": "B",
+          "text": "A word that names only one individual person"
+        },
+        {
+          "id": "C",
+          "text": "A second pronunciation of a plural morpheme"
+        },
+        {
+          "id": "D",
+          "text": "A more general category term that includes the specific category"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L07-Q069",
+      "lecture_id": "LING-L07",
+      "topic_id": "hyponymy",
+      "source_slides": [
+        13
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "Which statement correctly identifies the relation between bus and vehicle?",
+      "explanation": "A bus is a type of vehicle. The direction of inclusion is important and is partly reversed in the slide’s wording.",
+      "example": "A car is also a type of vehicle.",
+      "reference_ids": [
+        "lecture_07",
+        "category_inclusion"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Vehicle is a hyponym of bus."
+        },
+        {
+          "id": "B",
+          "text": "Bus and vehicle are complementary antonyms."
+        },
+        {
+          "id": "C",
+          "text": "Bus is a hyponym of vehicle."
+        },
+        {
+          "id": "D",
+          "text": "Bus and vehicle are unrelated homonyms."
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L07-Q070",
+      "lecture_id": "LING-L07",
+      "topic_id": "hyponymy",
+      "source_slides": [
+        13
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "What are co-hyponyms in the lecture’s hierarchy?",
+      "explanation": "Co-hyponyms share a broader category while remaining distinct categories. Sharing a parent category does not make them synonyms.",
+      "example": "Bus and car are co-hyponyms under vehicle.",
+      "reference_ids": [
+        "lecture_07",
+        "category_inclusion"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Two spellings of one grammatical ending"
+        },
+        {
+          "id": "B",
+          "text": "A word and its direct opposite"
+        },
+        {
+          "id": "C",
+          "text": "Words that necessarily have identical meanings"
+        },
+        {
+          "id": "D",
+          "text": "Specific categories sharing a relevant superordinate"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L07-Q071",
+      "lecture_id": "LING-L07",
+      "topic_id": "hyponymy",
+      "source_slides": [
+        13
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "Which pair is most clearly co-hyponymic under the supplied category vehicle?",
+      "explanation": "The two specific terms share vehicle as a superordinate. Vehicle and bus instead illustrate a general–specific relation.",
+      "example": "Car and lorry fit the same shared-category pattern.",
+      "reference_ids": [
+        "lecture_07",
+        "category_inclusion"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "vehicle and bus"
+        },
+        {
+          "id": "B",
+          "text": "bus and van"
+        },
+        {
+          "id": "C",
+          "text": "hot and cold"
+        },
+        {
+          "id": "D",
+          "text": "large and big"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L07-Q072",
+      "lecture_id": "LING-L07",
+      "topic_id": "hyponymy",
+      "source_slides": [
+        13
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Which inference follows from the ordinary category relation between bus and vehicle?",
+      "explanation": "Hyponymy supports inference from the specific category to the general one. The reverse is not guaranteed because the general category includes other types.",
+      "example": "A van is a vehicle without being a bus.",
+      "reference_ids": [
+        "lecture_07",
+        "category_inclusion"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "A bus and a vehicle must have opposite meanings."
+        },
+        {
+          "id": "B",
+          "text": "If something is not a bus, it cannot be a vehicle."
+        },
+        {
+          "id": "C",
+          "text": "If something is a bus, it is a vehicle."
+        },
+        {
+          "id": "D",
+          "text": "If something is a vehicle, it must be a bus."
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L07-Q073",
+      "lecture_id": "LING-L07",
+      "topic_id": "hyponymy",
+      "source_slides": [
+        13
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "Which statement best corrects the slide’s reversed inclusion wording?",
+      "explanation": "An extension-based statement makes the direction clear. The narrower category contributes instances to the broader class, not the reverse.",
+      "example": "The set of cats is included within the set of animals.",
+      "reference_ids": [
+        "lecture_07",
+        "category_inclusion"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The set of buses is included within the set of vehicles."
+        },
+        {
+          "id": "B",
+          "text": "Bus includes every possible vehicle type."
+        },
+        {
+          "id": "C",
+          "text": "The set of vehicles is included within the set of buses."
+        },
+        {
+          "id": "D",
+          "text": "Vehicle names a specific subcategory of van."
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L07-Q074",
+      "lecture_id": "LING-L07",
+      "topic_id": "hyponymy",
+      "source_slides": [
+        13
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "How can a term be a hypernym in one relation and a hyponym in another?",
+      "explanation": "These labels describe relationships rather than permanent labels attached to a word alone. A middle category can connect broader and narrower ones.",
+      "example": "Bird is below animal but above sparrow.",
+      "reference_ids": [
+        "lecture_07",
+        "category_inclusion"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Every word must have exactly one fixed rank in all hierarchies."
+        },
+        {
+          "id": "B",
+          "text": "A word changes its spelling whenever its rank changes."
+        },
+        {
+          "id": "C",
+          "text": "Only antonyms can appear at more than one level."
+        },
+        {
+          "id": "D",
+          "text": "Its position is relative to the categories being compared."
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L07-Q075",
+      "lecture_id": "LING-L07",
+      "topic_id": "hyponymy",
+      "source_slides": [
+        13
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "Which relation is expressed by “A sparrow is a kind of bird”?",
+      "explanation": "The statement identifies a specific type within a broader category. It is not a claim that all birds are sparrows.",
+      "example": "A rose is a kind of flower expresses the same relation.",
+      "reference_ids": [
+        "lecture_07",
+        "category_inclusion"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Hyponymy"
+        },
+        {
+          "id": "B",
+          "text": "Homonymy"
+        },
+        {
+          "id": "C",
+          "text": "Synonymy"
+        },
+        {
+          "id": "D",
+          "text": "Converse opposition"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L07-Q076",
+      "lecture_id": "LING-L07",
+      "topic_id": "hyponymy",
+      "source_slides": [
+        13
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Why should hyponymy not be confused with a whole–part relationship?",
+      "explanation": "Class inclusion and physical composition are different relations. The lecture’s vehicle hierarchy concerns kinds of vehicle rather than their components.",
+      "example": "A bus is a type of vehicle, but a wheel is a part of a vehicle.",
+      "reference_ids": [
+        "lecture_07",
+        "category_inclusion"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Every general category is a physical object with smaller pieces."
+        },
+        {
+          "id": "B",
+          "text": "Every part of a vehicle is automatically a type of vehicle."
+        },
+        {
+          "id": "C",
+          "text": "A wheel and a vehicle must be synonyms."
+        },
+        {
+          "id": "D",
+          "text": "A type of something is different from a component of something."
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L07-Q077",
+      "lecture_id": "LING-L07",
+      "topic_id": "metonymy",
+      "source_slides": [
+        15
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "understand",
+      "question": "What is metonymy in the corrected introductory account?",
+      "explanation": "Metonymy relies on an association, such as place and institution or author and work. It is not defined simply as any metaphorical substitution.",
+      "example": "The school announced a closure can use school for the responsible institution or officials.",
+      "reference_ids": [
+        "lecture_07",
+        "metonymy_definition"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Treating every similar-sounding word as a synonym"
+        },
+        {
+          "id": "B",
+          "text": "Referring to something through an associated entity or expression"
+        },
+        {
+          "id": "C",
+          "text": "Using a category’s opposite meaning on a scale"
+        },
+        {
+          "id": "D",
+          "text": "Adding a plural suffix to a noun"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L07-Q078",
+      "lecture_id": "LING-L07",
+      "topic_id": "metonymy",
+      "source_slides": [
+        15
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "In “The university issued a statement,” university refers to the institution acting through its officials rather than the buildings. What relation is foregrounded?",
+      "explanation": "An institution-related expression identifies people acting on its behalf. The interpretation uses an association within that setting rather than literal speech by buildings.",
+      "example": "The office called can refer to staff calling from that office.",
+      "reference_ids": [
+        "lecture_07",
+        "metonymy_definition"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Inflectional number"
+        },
+        {
+          "id": "B",
+          "text": "Metonymy"
+        },
+        {
+          "id": "C",
+          "text": "Homonymy based only on spelling"
+        },
+        {
+          "id": "D",
+          "text": "Gradable antonymy"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L07-Q079",
+      "lecture_id": "LING-L07",
+      "topic_id": "metonymy",
+      "source_slides": [
+        15
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "In a context where “the top brass” means senior military officers, what makes the expression relevant to metonymy?",
+      "explanation": "The intended referent is recovered through a conventional association. The context prevents confusion with a literal reference to the material.",
+      "example": "Uniform-related expressions can be used to identify the people associated with them.",
+      "reference_ids": [
+        "lecture_07",
+        "metonymy_distinction"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "An associated expression is used to refer to the officers."
+        },
+        {
+          "id": "B",
+          "text": "Brass and officer must be antonyms."
+        },
+        {
+          "id": "C",
+          "text": "The officers are literally made of metal."
+        },
+        {
+          "id": "D",
+          "text": "Every meaning of brass must be identical to every meaning of officer."
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L07-Q080",
+      "lecture_id": "LING-L07",
+      "topic_id": "metonymy",
+      "source_slides": [
+        15
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Why is cops versus police officers not, by itself, a clear example of metonymy?",
+      "explanation": "The pair does not by itself show a place, object, or other associated entity standing for the referent. A register-related near-synonym comparison is more appropriate.",
+      "example": "A writer may choose police officers over cops in a formal report.",
+      "reference_ids": [
+        "lecture_07",
+        "cop_definition"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "It can simply compare an informal term with a more neutral expression for the same people."
+        },
+        {
+          "id": "B",
+          "text": "Police officers is a subtype of speech sound."
+        },
+        {
+          "id": "C",
+          "text": "The two expressions must be complementary opposites."
+        },
+        {
+          "id": "D",
+          "text": "Cops must refer only to metal objects."
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L07-Q081",
+      "lecture_id": "LING-L07",
+      "topic_id": "metonymy",
+      "source_slides": [
+        15
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Which distinction most usefully separates metonymy from metaphor in this introductory comparison?",
+      "explanation": "The lecture’s definition conflates the devices. Their boundaries can be studied in more detail, but the basic distinction helps identify clear examples.",
+      "example": "An institution standing for its officials differs from calling a person a lion to suggest courage.",
+      "reference_ids": [
+        "lecture_07",
+        "metonymy_distinction"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Metonymy foregrounds association; metaphor foregrounds a cross-domain comparison or mapping."
+        },
+        {
+          "id": "B",
+          "text": "The two labels are identical in every analysis."
+        },
+        {
+          "id": "C",
+          "text": "Metonymy always changes tense; metaphor always changes number."
+        },
+        {
+          "id": "D",
+          "text": "Metonymy requires identical spelling; metaphor requires a plural noun."
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L07-Q082",
+      "lecture_id": "LING-L07",
+      "topic_id": "metonymy",
+      "source_slides": [
+        15
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A reviewer says “I am reading Shakespeare,” meaning a work by Shakespeare. What relation supports the interpretation?",
+      "explanation": "The author’s name stands for associated works in this context. The sentence is not normally a claim about reading the physical person.",
+      "example": "A reader can similarly use an author’s name when discussing a book selection.",
+      "reference_ids": [
+        "lecture_07",
+        "metonymy_distinction"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Hyponymy of Shakespeare under reading"
+        },
+        {
+          "id": "B",
+          "text": "Author-for-work metonymy"
+        },
+        {
+          "id": "C",
+          "text": "Complementary antonymy"
+        },
+        {
+          "id": "D",
+          "text": "Plural inflection"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L07-Q083",
+      "lecture_id": "LING-L07",
+      "topic_id": "prototypes",
+      "source_slides": [
+        16
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "understand",
+      "question": "What is a prototype in the lecture’s account of categorization?",
+      "explanation": "Prototype theory draws attention to differences in perceived typicality. It should not imply that less typical members are automatically excluded.",
+      "example": "Some learners may judge a sparrow a more typical bird than an ostrich.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "A grammatical suffix marking number"
+        },
+        {
+          "id": "B",
+          "text": "A highly representative or typical exemplar of a category"
+        },
+        {
+          "id": "C",
+          "text": "The only possible member of a category"
+        },
+        {
+          "id": "D",
+          "text": "A word with the opposite meaning from the category"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L07-Q084",
+      "lecture_id": "LING-L07",
+      "topic_id": "prototypes",
+      "source_slides": [
+        16
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A participant rates a sparrow as a more typical bird than a penguin while recognizing both as birds. What does this illustrate?",
+      "explanation": "The judgments distinguish representativeness from membership. A low typicality score is not itself evidence that an item lies outside the category.",
+      "example": "A participant can regard a penguin as an unusual bird and still classify it as a bird.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Typicality can vary without changing basic category membership."
+        },
+        {
+          "id": "B",
+          "text": "Only the most typical example can belong to the category."
+        },
+        {
+          "id": "C",
+          "text": "Penguin must be a synonym of sparrow."
+        },
+        {
+          "id": "D",
+          "text": "Bird must be a hyponym of penguin."
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L07-Q085",
+      "lecture_id": "LING-L07",
+      "topic_id": "prototypes",
+      "source_slides": [
+        16
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Why should the slide’s bird ranking not be treated as an identical judgment for every community?",
+      "explanation": "Prototype judgments are empirical rather than fixed by a lecturer’s personal ranking. A question should state a supplied judgment or investigate one.",
+      "example": "People familiar with different birds may choose different representative examples.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Every speaker must encounter exactly the same animals."
+        },
+        {
+          "id": "B",
+          "text": "A prototype is determined solely by the alphabetical order of names."
+        },
+        {
+          "id": "C",
+          "text": "Experience and context can affect which examples seem most representative."
+        },
+        {
+          "id": "D",
+          "text": "Cultural experience can never affect categorization judgments."
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L07-Q086",
+      "lecture_id": "LING-L07",
+      "topic_id": "prototypes",
+      "source_slides": [
+        16
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "Which research task most directly investigates prototype effects?",
+      "explanation": "The task elicits judgments about representativeness. The alternatives examine spelling or sound rather than the relevant semantic-categorization issue.",
+      "example": "A questionnaire could compare typicality ratings for sparrow, pigeon, and penguin.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Measure the duration of the vowel in bird only."
+        },
+        {
+          "id": "B",
+          "text": "Ask participants to count the letters in bird."
+        },
+        {
+          "id": "C",
+          "text": "Sort bird names alphabetically and assume the first is most typical."
+        },
+        {
+          "id": "D",
+          "text": "Ask participants how representative different birds seem of the category bird."
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L07-Q087",
+      "lecture_id": "LING-L07",
+      "topic_id": "prototypes",
+      "source_slides": [
+        16
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "How does a prototype account differ from a strict checklist account in the lecture’s contrast?",
+      "explanation": "The contrast concerns how categorization is explained. It does not mean that all lexical meaning must be described through only one approach.",
+      "example": "A representative bird can guide judgments without excluding a less typical bird.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "It makes every category equivalent to one printed picture."
+        },
+        {
+          "id": "B",
+          "text": "It denies that words can have any shared meaning."
+        },
+        {
+          "id": "C",
+          "text": "It requires all members to have identical typicality."
+        },
+        {
+          "id": "D",
+          "text": "It foregrounds resemblance to representative examples rather than only satisfaction of listed features."
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L07-Q088",
+      "lecture_id": "LING-L07",
+      "topic_id": "prototypes",
+      "source_slides": [
+        16
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Which conclusion does a low prototype rating for ostrich not establish by itself?",
+      "explanation": "Typicality and membership are different questions. A rating of representativeness alone does not decide the full category boundary.",
+      "example": "An atypical member can remain a recognized member.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "That further context might help interpret the rating"
+        },
+        {
+          "id": "B",
+          "text": "That an ostrich is not a bird"
+        },
+        {
+          "id": "C",
+          "text": "That the participant finds it less representative than another example"
+        },
+        {
+          "id": "D",
+          "text": "That typicality varies among the examples for that participant"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L07-Q089",
+      "lecture_id": "LING-L07",
+      "topic_id": "ambiguity",
+      "source_slides": [
+        17
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "What is lexical ambiguity?",
+      "explanation": "Ambiguity concerns multiple possible readings. Lexical ambiguity involves word-level meaning possibilities rather than only alternative syntactic groupings.",
+      "example": "Bank can support different readings when context is insufficient.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "An error whenever a word has several letters"
+        },
+        {
+          "id": "B",
+          "text": "A physical difference in the duration of one vowel"
+        },
+        {
+          "id": "C",
+          "text": "A requirement that every sentence contain an antonym"
+        },
+        {
+          "id": "D",
+          "text": "More than one interpretation associated with a lexical expression in context"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L07-Q090",
+      "lecture_id": "LING-L07",
+      "topic_id": "ambiguity",
+      "source_slides": [
+        17
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "Without further context, why can “I will meet you at the bank” be ambiguous?",
+      "explanation": "The sentence leaves more than one relevant word sense available. Additional information can select the intended location.",
+      "example": "Near the river would favor the river-edge interpretation.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Bank can refer to a financial institution or a river edge."
+        },
+        {
+          "id": "B",
+          "text": "Meet must have two opposite tenses at once."
+        },
+        {
+          "id": "C",
+          "text": "The future construction makes every noun meaningless."
+        },
+        {
+          "id": "D",
+          "text": "Every place expression is a grammatical error."
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L07-Q091",
+      "lecture_id": "LING-L07",
+      "topic_id": "ambiguity",
+      "source_slides": [
+        17
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "Which addition most clearly selects the financial-institution reading of “I went to the bank”?",
+      "explanation": "Depositing savings supplies a context compatible with the financial sense. The other additions favor a geographical sense.",
+      "example": "To withdraw cash would also guide the interpretation.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "along the grassy river margin"
+        },
+        {
+          "id": "B",
+          "text": "beside the flowing river"
+        },
+        {
+          "id": "C",
+          "text": "to deposit my savings"
+        },
+        {
+          "id": "D",
+          "text": "where the muddy water reached the edge"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L07-Q092",
+      "lecture_id": "LING-L07",
+      "topic_id": "ambiguity",
+      "source_slides": [
+        17
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "understand",
+      "question": "How can polysemy contribute to lexical ambiguity?",
+      "explanation": "Even related meanings can produce more than one plausible reading. Context can resolve or reduce that uncertainty.",
+      "example": "An isolated reference to a foot may need context to identify a body part or a lower section of something.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Related senses must always be equally clear in every situation."
+        },
+        {
+          "id": "B",
+          "text": "More than one related sense may fit an insufficiently specified occurrence."
+        },
+        {
+          "id": "C",
+          "text": "Polysemy requires every use to have one unrelated meaning only."
+        },
+        {
+          "id": "D",
+          "text": "A word cannot be ambiguous unless its spelling changes."
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L07-Q093",
+      "lecture_id": "LING-L07",
+      "topic_id": "ambiguity",
+      "source_slides": [
+        17
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "What distinguishes lexical ambiguity from the structural ambiguity discussed in Lecture 6?",
+      "explanation": "Both can support several interpretations, but their immediate source differs. An analysis should identify what changes between the readings.",
+      "example": "Bank senses are lexical; two attachments of with a telescope are structural.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Lexical ambiguity occurs only in writing; structural ambiguity occurs only in speech."
+        },
+        {
+          "id": "B",
+          "text": "Lexical ambiguity is always a tense error."
+        },
+        {
+          "id": "C",
+          "text": "Lexical ambiguity concerns word senses; structural ambiguity concerns alternative grammatical groupings."
+        },
+        {
+          "id": "D",
+          "text": "Structural ambiguity means that no word has a meaning."
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L07-Q094",
+      "lecture_id": "LING-L07",
+      "topic_id": "ambiguity",
+      "source_slides": [
+        17
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Does a word’s potential ambiguity guarantee that every sentence containing it is unclear?",
+      "explanation": "Potential readings and actual uncertainty are different. A clear context can guide interpretation without removing the word’s wider semantic range.",
+      "example": "I deposited cash at the bank normally leaves little doubt about the intended sense.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Yes; a word with several senses can never be used clearly."
+        },
+        {
+          "id": "B",
+          "text": "No; sufficient context can make one reading clearly appropriate."
+        },
+        {
+          "id": "C",
+          "text": "No; because ambiguous words lose all conventional meanings in sentences."
+        },
+        {
+          "id": "D",
+          "text": "Yes; dictionaries must remove every word with multiple senses."
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L07-Q095",
+      "lecture_id": "LING-L07",
+      "topic_id": "semantic_roles",
+      "source_slides": [
+        18
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "understand",
+      "question": "What does a semantic role describe?",
+      "explanation": "Semantic roles characterize participation in the situation described. They should be distinguished from grammatical relations such as subject and object.",
+      "example": "A noun phrase can be an agent in meaning and a subject in grammar.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The number of phonemes in a noun"
+        },
+        {
+          "id": "B",
+          "text": "A participant’s relation to an event or state"
+        },
+        {
+          "id": "C",
+          "text": "The size of a printed sentence"
+        },
+        {
+          "id": "D",
+          "text": "The alphabetical position of a word"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L07-Q096",
+      "lecture_id": "LING-L07",
+      "topic_id": "semantic_roles",
+      "source_slides": [
+        18
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "Which role typically identifies an intentional performer of an action?",
+      "explanation": "Agent concerns the participant carrying out the action. The label is clearest in an explicit intentional-action example.",
+      "example": "Sara is agent in Sara deliberately opened the gate.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Agent"
+        },
+        {
+          "id": "B",
+          "text": "Location"
+        },
+        {
+          "id": "C",
+          "text": "Goal"
+        },
+        {
+          "id": "D",
+          "text": "Instrument"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L07-Q097",
+      "lecture_id": "LING-L07",
+      "topic_id": "semantic_roles",
+      "source_slides": [
+        18
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "In “Ali deliberately carried the parcel,” which expression is the agent?",
+      "explanation": "Ali performs the carrying. The parcel is the entity being moved, so it has a different role.",
+      "example": "In Sara lifted the bag, Sara is the agent.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Ali"
+        },
+        {
+          "id": "B",
+          "text": "the parcel"
+        },
+        {
+          "id": "C",
+          "text": "the unstated destination"
+        },
+        {
+          "id": "D",
+          "text": "carried"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L07-Q098",
+      "lecture_id": "LING-L07",
+      "topic_id": "semantic_roles",
+      "source_slides": [
+        18
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "In the introductory role scheme, what is the role of the parcel in “Ali carried the parcel”?",
+      "explanation": "The parcel is the entity moved in the event. Theme is useful here without requiring that the entity be damaged or transformed.",
+      "example": "The suitcase is theme in She moved the suitcase.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Instrument"
+        },
+        {
+          "id": "B",
+          "text": "Source"
+        },
+        {
+          "id": "C",
+          "text": "Agent"
+        },
+        {
+          "id": "D",
+          "text": "Theme"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L07-Q099",
+      "lecture_id": "LING-L07",
+      "topic_id": "semantic_roles",
+      "source_slides": [
+        18
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Why should theme not be defined as an entity that must always be physically changed?",
+      "explanation": "The slide’s undergoes-an-action shorthand is broad. Different role inventories distinguish theme and patient in different ways, so the exercise uses clear moved-entity examples.",
+      "example": "Carrying a book can move it without altering the book itself.",
+      "reference_ids": [
+        "lecture_07",
+        "thematic_roles"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "A theme must always be a deliberate human actor."
+        },
+        {
+          "id": "B",
+          "text": "Only words naming emotions can be themes."
+        },
+        {
+          "id": "C",
+          "text": "A theme can be moved or otherwise involved without necessarily changing its internal properties."
+        },
+        {
+          "id": "D",
+          "text": "Theme is another term for the sentence’s final letter."
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L07-Q100",
+      "lecture_id": "LING-L07",
+      "topic_id": "semantic_roles",
+      "source_slides": [
+        18
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "In “The students met in the library,” what role does “the library” express within the locative phrase?",
+      "explanation": "The expression identifies where the meeting occurs. It does not identify a destination reached or a tool used.",
+      "example": "The garden is location in They played in the garden.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Agent"
+        },
+        {
+          "id": "B",
+          "text": "Possessor"
+        },
+        {
+          "id": "C",
+          "text": "Instrument"
+        },
+        {
+          "id": "D",
+          "text": "Location"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L07-Q101",
+      "lecture_id": "LING-L07",
+      "topic_id": "semantic_roles",
+      "source_slides": [
+        18
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "In “Sara walked to the station,” what role does “the station” express within the directional phrase?",
+      "explanation": "The station is the destination of movement. Its role differs from the place of origin.",
+      "example": "The classroom is goal in She went to the classroom.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Goal"
+        },
+        {
+          "id": "B",
+          "text": "Agent"
+        },
+        {
+          "id": "C",
+          "text": "Source"
+        },
+        {
+          "id": "D",
+          "text": "Instrument"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L07-Q102",
+      "lecture_id": "LING-L07",
+      "topic_id": "semantic_roles",
+      "source_slides": [
+        18
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "In “Sara travelled from Lahore to Multan,” what role does Lahore have?",
+      "explanation": "From Lahore identifies the point of origin in the journey. Multan is the destination in the supplied sentence.",
+      "example": "In She came from the village, the village is source.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Goal"
+        },
+        {
+          "id": "B",
+          "text": "Experiencer"
+        },
+        {
+          "id": "C",
+          "text": "Instrument"
+        },
+        {
+          "id": "D",
+          "text": "Source"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L07-Q103",
+      "lecture_id": "LING-L07",
+      "topic_id": "semantic_roles",
+      "source_slides": [
+        18
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "Which mapping is correct for “Sara travelled from Lahore to Multan”?",
+      "explanation": "The prepositional phrases specify origin and destination in this movement event. The role mapping follows the expressed relationship.",
+      "example": "From the house to the market similarly contrasts source with goal.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Lahore is goal and Multan is source."
+        },
+        {
+          "id": "B",
+          "text": "Both places are intentional agents."
+        },
+        {
+          "id": "C",
+          "text": "Lahore is source and Multan is goal."
+        },
+        {
+          "id": "D",
+          "text": "Both places are instruments."
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L07-Q104",
+      "lecture_id": "LING-L07",
+      "topic_id": "semantic_roles",
+      "source_slides": [
+        18
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "In “The worker opened the box with a key,” what role does the key have?",
+      "explanation": "The key is the means used to perform the action. The worker is the agent, while the box has a different relation to the event.",
+      "example": "A knife can be instrument in She cut the bread with a knife.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Goal"
+        },
+        {
+          "id": "B",
+          "text": "Agent"
+        },
+        {
+          "id": "C",
+          "text": "Experiencer"
+        },
+        {
+          "id": "D",
+          "text": "Instrument"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L07-Q105",
+      "lecture_id": "LING-L07",
+      "topic_id": "semantic_roles",
+      "source_slides": [
+        18
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "understand",
+      "question": "Which role identifies a participant who perceives or feels something?",
+      "explanation": "An experiencer is the participant undergoing perception or an emotional state. It is not necessarily an intentional performer of an action.",
+      "example": "Sara is experiencer in Sara heard the thunder.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Source"
+        },
+        {
+          "id": "B",
+          "text": "Instrument"
+        },
+        {
+          "id": "C",
+          "text": "Location"
+        },
+        {
+          "id": "D",
+          "text": "Experiencer"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L07-Q106",
+      "lecture_id": "LING-L07",
+      "topic_id": "semantic_roles",
+      "source_slides": [
+        18
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "In “The loud noise frightened Ali,” which participant is the experiencer?",
+      "explanation": "Ali undergoes the emotional response. The cause appears as subject, showing that an experiencer need not be the grammatical subject.",
+      "example": "The news worried Sara places the experiencer Sara in object position.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "the loud noise"
+        },
+        {
+          "id": "B",
+          "text": "Ali"
+        },
+        {
+          "id": "C",
+          "text": "the unstated room"
+        },
+        {
+          "id": "D",
+          "text": "frightened as a word"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L07-Q107",
+      "lecture_id": "LING-L07",
+      "topic_id": "semantic_roles",
+      "source_slides": [
+        18
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "What role does Ali have in “Ali owns a bicycle”?",
+      "explanation": "The sentence describes an ownership relation. Ali is the holder of the possession rather than a destination or a tool.",
+      "example": "Sara is possessor in Sara has a notebook in an ownership reading.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Goal"
+        },
+        {
+          "id": "B",
+          "text": "Possessor"
+        },
+        {
+          "id": "C",
+          "text": "Source"
+        },
+        {
+          "id": "D",
+          "text": "Instrument"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L07-Q108",
+      "lecture_id": "LING-L07",
+      "topic_id": "semantic_roles",
+      "source_slides": [
+        18
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "Which role label best replaces causative for the wind in “The wind broke the branch”?",
+      "explanation": "The wind brings about a change without an intentional action. Causative more commonly names a construction or operation, while cause/causer labels a participant role.",
+      "example": "A storm can be described as the cause of damage.",
+      "reference_ids": [
+        "lecture_07",
+        "thematic_roles"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Cause or causer"
+        },
+        {
+          "id": "B",
+          "text": "Goal"
+        },
+        {
+          "id": "C",
+          "text": "Experiencer"
+        },
+        {
+          "id": "D",
+          "text": "Possessor"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L07-Q109",
+      "lecture_id": "LING-L07",
+      "topic_id": "semantic_roles",
+      "source_slides": [
+        18
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Why must semantic roles be distinguished from subject and object?",
+      "explanation": "Grammatical function and semantic participation are different dimensions. Voice and predicate choice can change their alignment.",
+      "example": "Ali is subject and experiencer in Ali heard thunder, but subject and agent in Ali opened the gate.",
+      "reference_ids": [
+        "lecture_07",
+        "thematic_roles"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Roles are determined solely by a noun phrase’s position in writing."
+        },
+        {
+          "id": "B",
+          "text": "Every subject must always be an intentional agent."
+        },
+        {
+          "id": "C",
+          "text": "A grammatical subject can be an agent, experiencer, theme, or cause depending on the sentence."
+        },
+        {
+          "id": "D",
+          "text": "Every direct object must be an instrument."
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L07-Q110",
+      "lecture_id": "LING-L07",
+      "topic_id": "semantic_roles",
+      "source_slides": [
+        18
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "apply",
+      "question": "Which mapping fits “Sara deliberately moved the parcel from the storeroom to the courtyard with a trolley”?",
+      "explanation": "The roles follow the supplied event relationships, not merely the order of words. The trolley is stipulated as the means used in this example.",
+      "example": "The same role scheme can describe a transfer with a different agent, object, origin, destination, and means.",
+      "reference_ids": [
+        "lecture_07"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Sara is goal, parcel is possessor, storeroom is instrument, courtyard is theme, and trolley is source."
+        },
+        {
+          "id": "B",
+          "text": "Sara is agent, parcel is theme, storeroom is source, courtyard is goal, and trolley is instrument."
+        },
+        {
+          "id": "C",
+          "text": "Sara is instrument, parcel is agent, storeroom is goal, courtyard is source, and trolley is experiencer."
+        },
+        {
+          "id": "D",
+          "text": "Sara is source, parcel is location, storeroom is possessor, courtyard is agent, and trolley is goal."
+        }
+      ],
+      "answer_id": "B"
+    }
+  ]
+}

@@ -22,3 +22,18 @@ for lecture in bank:
 text = (root / 'data.js').read_text(encoding='utf-8')
 assert json.loads(text.removeprefix('window.LECTURES = ').strip().removesuffix(';')) == bank
 print(f'PASS: {len(bank)} lectures; {len(ids)} unique questions; valid option keys, topics, references, counts, and exact bundle parity.')
+revision = json.loads((root / 'data' / 'linguistics_200_one_liners.json').read_text(encoding='utf-8'))
+items = revision['items']
+assert len(items) == revision['total_items'] == 200
+assert len({i['id'] for i in items}) == len(items)
+lecture_ids = {l['lecture']['id'] for l in bank}
+for item in items:
+    assert item['lecture_id'] in lecture_ids
+    assert item['concept'] and item['statement'] and item['source_slides']
+for section in revision['sections']:
+    matching = [i for i in items if i['lecture_id'] == section['lecture_id']]
+    assert len(matching) == section['count']
+    assert {i['id'] for i in matching} == set(section['item_ids'])
+text = (root / 'revision-data.js').read_text(encoding='utf-8')
+assert json.loads(text.removeprefix('window.REVISION = ').strip().removesuffix(';')) == revision
+print('PASS: 200 unique revision items; eight valid sections; exact revision-bundle parity.')

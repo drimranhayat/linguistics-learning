@@ -1,6 +1,6 @@
 # Linguistics Lab
 
-A responsive, dependency-free learning website using all 610 supplied MCQs:
+A responsive, dependency-free learning website using all 800 supplied MCQs:
 
 - Lecture 1: Language and Linguistics — 80 questions
 - Lecture 2: Branches of Linguistics — 90 questions
@@ -8,6 +8,9 @@ A responsive, dependency-free learning website using all 610 supplied MCQs:
 - Lecture 4: Morphology and Grammatical Units — 140 questions
 - Lecture 5: Grammar and Linguistic Analysis — 80 questions
 - Lecture 6: Introduction to Syntax — 120 questions
+- Lecture 7: Semantics: The Study of Meaning — 110 questions
+- Lecture 8: Pragmatics: Meaning in Context — 80 questions
+- Separate revision collection — 200 one-liners (not MCQs)
 
 ## Features
 
@@ -29,7 +32,7 @@ Alternative: choose **Deploy from a branch**, `main`, `/ (root)` in Pages settin
 
 ## Content maintenance
 
-The six original JSON files are preserved in `data/`. `data.js` is a generated browser bundle. After modifying a JSON file, run `python scripts/bundle.py` and commit the JSON and bundle together. Run `python scripts/validate.py` to validate the bank and bundle. `node --check app.js` checks JavaScript syntax.
+The eight original MCQ JSON files are preserved in `data/`. `data.js` is a generated browser bundle. After modifying a JSON file, run `python scripts/bundle.py` and commit the JSON and bundle together. Run `python scripts/validate.py` to validate the bank and bundle. `node --check app.js` checks JavaScript syntax.
 
 The content follows the uploaded question banks, including their source references and lecture-specific clarifications. It has not been independently revalidated against the original slides or external references. Practice is concept-based; no official exam blueprint is claimed. Original slide decks are not included. The question bank contains answer keys and is intended for self-study, not secure examination delivery.
 
@@ -43,6 +46,15 @@ Fluid sizing and dedicated breakpoints cover compact phones (including 320px), l
 
 ## Updated study experience
 
-Six distinct lecture palettes, a purple/teal/amber homepage, clear green and rose answer states, and coordinated dark-mode colors. Quick 10 opens mixed learning practice, Review mistakes revisits the latest incorrect answers, and Challenge 20 starts a mixed exam. Learning sessions show live correct and attempted counts. Existing bookmark and practice-progress storage keys are preserved.
+Eight distinct lecture palettes, a purple/teal/amber homepage, clear green and rose answer states, and coordinated dark-mode colors. Quick 10 opens mixed learning practice, Review mistakes revisits the latest incorrect answers, and Challenge 20 starts a mixed exam. Learning sessions show live correct and attempted counts. Existing bookmark and practice-progress storage keys are preserved.
 
-Update verification: All six source JSON files match the supplied uploads byte-for-byte. The 610-question bundle passes schema, count, unique-ID, option-key, topic, reference, and bundle-parity checks. Updated JavaScript passes syntax validation. Browser preview verification of this revision was unavailable in this session.
+Update verification: All six source JSON files match the supplied uploads byte-for-byte. The 800-question bundle passes schema, count, unique-ID, option-key, topic, reference, and bundle-parity checks. Updated JavaScript passes syntax validation. Browser preview verification of this revision was unavailable in this session.
+
+
+## Learning routes and revision
+
+The homepage guides students through revision, topic practice, mixed exam practice, and mistake review. The Progress page reports topic coverage and latest-answer accuracy, with links to preselected topic sessions. Each MCQ topic has a distinct hue shared by its quiz panel, question-bank entry, and progress card. Key concepts use bold and varied dark colors in light mode; all content text is white in dark mode.
+
+The Revision page includes all 200 one-liners, lecture/search/status filters, recall-before-reveal cards, separate bookmarks, learned status, and a local review schedule. Successful recalls schedule the next review after 1, 3, 7, then 14 days; Review again resets a card to due. This is a simple self-rated review aid, not a validated adaptive algorithm. No notifications or account sync are included. Revision status uses separate local-storage keys so it does not alter MCQ results.
+
+Run `node scripts/smoke.cjs` for dependency-free renderer checks covering the homepage, revision, progress, question bank, setup, quiz feedback, results, safe term highlighting, and distinct topic hues. These checks do not replace visual browser or physical-device testing. The current revision has not been visually verified in this session.

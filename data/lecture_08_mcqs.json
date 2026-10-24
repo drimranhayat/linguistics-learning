@@ -1,0 +1,3380 @@
+{
+  "schema_version": "1.0.0",
+  "lecture": {
+    "id": "LING-L08",
+    "number": 8,
+    "title": "Pragmatics: Meaning in Context",
+    "language": "en",
+    "source_filename": "Lec 8 Pragmatics-1(1).pptx",
+    "source_slide_count": 16,
+    "question_count": 80,
+    "scope": "Lecture 8. Original scenarios specify circumstances needed for a single best interpretation. Missing contexts are not invented as facts, and background assumptions are not treated as guaranteed truths.",
+    "exam_alignment": "Concept-based practice. No past paper or official examination blueprint was supplied.",
+    "answer_model": "Single best answer. answer_id refers to an option id, not its displayed position. Preserve option ids when shuffling.",
+    "display_guidance": "In learning mode, display explanation followed by example after the learner answers. Source slides and clarification notes can appear in a reference panel.",
+    "terminology": "Maxims are applied to explicitly stated dimensions of an exchange. Illocutionary force is distinguished from form, volume, and actual effects. Deictic reference uses a supplied participant, place, and time anchor."
+  },
+  "references": [
+    {
+      "id": "lecture_08",
+      "type": "user_supplied_slides",
+      "title": "Lecture 8: Pragmatics",
+      "filename": "Lec 8 Pragmatics-1(1).pptx",
+      "library_file_id": "libfile_5b288f40fa108191b5e13ef327174852"
+    },
+    {
+      "id": "implicature",
+      "type": "scholarly_clarification",
+      "title": "7.3 What does this sentence mean? Entailments vs. implicatures",
+      "publication": "Essentials of Linguistics, 2nd edition",
+      "url": "https://ecampusontario.pressbooks.pub/essentialsoflinguistics2/chapter/7-3-what-does-this-sentence-mean-entailments-vs-implicatures/",
+      "supports": "An implicature is suggested in context rather than guaranteed by the sentence alone."
+    },
+    {
+      "id": "gricean_framework",
+      "type": "scholarly_clarification",
+      "title": "Communication Across Cultures",
+      "publisher": "Cambridge University Press",
+      "url": "https://assets.cambridge.org/97805216/95572/excerpt/9780521695572_excerpt.htm",
+      "supports": "Conversational maxims are expectations for interpreting communication and implied meaning rather than guarantees of literal observance."
+    },
+    {
+      "id": "presupposition_background",
+      "type": "scholarly_clarification",
+      "title": "8.15 Summary (and further questions to consider)",
+      "publication": "Essentials of Linguistics, 2nd edition",
+      "url": "https://ecampusontario.pressbooks.pub/essentialsoflinguistics2/chapter/chapter-8-summary/",
+      "supports": "Presupposed content is presented as background or common ground, distinct from independent confirmation of actual truth."
+    }
+  ],
+  "clarifications": [
+    {
+      "id": "CL01",
+      "source_slides": [
+        2,
+        3,
+        5,
+        6,
+        8,
+        16
+      ],
+      "question_ids": [
+        "LING-L08-Q001",
+        "LING-L08-Q002",
+        "LING-L08-Q003",
+        "LING-L08-Q006",
+        "LING-L08-Q007",
+        "LING-L08-Q008",
+        "LING-L08-Q009",
+        "LING-L08-Q010",
+        "LING-L08-Q027",
+        "LING-L08-Q028"
+      ],
+      "note": "Pragmatics is broader than implicature. The semantics/pragmatics contrast is analytical rather than a settled history or a rule excluding every contextual question from semantics.",
+      "reference_ids": [
+        "implicature"
+      ]
+    },
+    {
+      "id": "CL02",
+      "source_slides": [
+        2,
+        4,
+        9
+      ],
+      "question_ids": [
+        "LING-L08-Q014",
+        "LING-L08-Q015",
+        "LING-L08-Q016",
+        "LING-L08-Q017",
+        "LING-L08-Q018",
+        "LING-L08-Q019"
+      ],
+      "note": "Car-related inferences require specified circumstances. The rental interpretation of the son-and-dog exchange is an explicitly hypothetical practice scenario, not recovered original information."
+    },
+    {
+      "id": "CL03",
+      "source_slides": [
+        7
+      ],
+      "question_ids": [
+        "LING-L08-Q021",
+        "LING-L08-Q022",
+        "LING-L08-Q023",
+        "LING-L08-Q024",
+        "LING-L08-Q025",
+        "LING-L08-Q026",
+        "LING-L08-Q027",
+        "LING-L08-Q028"
+      ],
+      "note": "Mean can express intention, indication, value, significance, or lexical interpretation. Explaining ghost does not require an actual ghost referent."
+    },
+    {
+      "id": "CL04",
+      "source_slides": [
+        10
+      ],
+      "question_ids": [
+        "LING-L08-Q029",
+        "LING-L08-Q030",
+        "LING-L08-Q031",
+        "LING-L08-Q032",
+        "LING-L08-Q033",
+        "LING-L08-Q034",
+        "LING-L08-Q035",
+        "LING-L08-Q036",
+        "LING-L08-Q037",
+        "LING-L08-Q038",
+        "LING-L08-Q039",
+        "LING-L08-Q040",
+        "LING-L08-Q041",
+        "LING-L08-Q042",
+        "LING-L08-Q043",
+        "LING-L08-Q044"
+      ],
+      "note": "Quantity is neither maximal detail nor minimal words. Scenario facts distinguish it from manner. Quality concerns belief and support, not infallibility. Recognizable irony is not automatically covert deception.",
+      "reference_ids": [
+        "gricean_framework"
+      ]
+    },
+    {
+      "id": "CL05",
+      "source_slides": [
+        4,
+        11
+      ],
+      "question_ids": [
+        "LING-L08-Q045",
+        "LING-L08-Q046",
+        "LING-L08-Q047",
+        "LING-L08-Q048",
+        "LING-L08-Q049",
+        "LING-L08-Q050",
+        "LING-L08-Q051",
+        "LING-L08-Q052",
+        "LING-L08-Q053",
+        "LING-L08-Q054"
+      ],
+      "note": "Force is not loudness. Quoting or reporting a performative verb need not perform its act. Institutional examples specify appropriate conditions; a communicative act is distinguished from its behavioral effects."
+    },
+    {
+      "id": "CL06",
+      "source_slides": [
+        12
+      ],
+      "question_ids": [
+        "LING-L08-Q055",
+        "LING-L08-Q056",
+        "LING-L08-Q057",
+        "LING-L08-Q058",
+        "LING-L08-Q059",
+        "LING-L08-Q060",
+        "LING-L08-Q061",
+        "LING-L08-Q062",
+        "LING-L08-Q063",
+        "LING-L08-Q064"
+      ],
+      "note": "Presuppositions are not automatically true facts. The France sentence is analysed without asserting real-world satisfaction. Another has an explicitly relevant prior-cup context.",
+      "reference_ids": [
+        "presupposition_background"
+      ]
+    },
+    {
+      "id": "CL07",
+      "source_slides": [
+        13
+      ],
+      "question_ids": [
+        "LING-L08-Q065",
+        "LING-L08-Q066",
+        "LING-L08-Q067",
+        "LING-L08-Q068",
+        "LING-L08-Q069",
+        "LING-L08-Q070"
+      ],
+      "note": "Metaphor is not meaningless semantic failure. Relevant comparisons are specified. The surgeon example is fictional language analysis, not an allegation about a real person."
+    },
+    {
+      "id": "CL08",
+      "source_slides": [
+        14,
+        15
+      ],
+      "question_ids": [
+        "LING-L08-Q071",
+        "LING-L08-Q072",
+        "LING-L08-Q073",
+        "LING-L08-Q074",
+        "LING-L08-Q075",
+        "LING-L08-Q076",
+        "LING-L08-Q077",
+        "LING-L08-Q078",
+        "LING-L08-Q079",
+        "LING-L08-Q080"
+      ],
+      "note": "The pronoun/ typo is read as I. Deictic expressions retain conventional use conditions while reference needs context. Calendar exercises supply their own anchors."
+    }
+  ],
+  "coverage": [
+    {
+      "topic_id": "foundations",
+      "focus": "Pragmatics, speaker meaning, implicature, and semantics",
+      "source_slides": [
+        2,
+        3,
+        5,
+        6,
+        8,
+        16
+      ],
+      "question_ids": [
+        "LING-L08-Q001",
+        "LING-L08-Q002",
+        "LING-L08-Q003",
+        "LING-L08-Q004",
+        "LING-L08-Q005",
+        "LING-L08-Q006",
+        "LING-L08-Q007",
+        "LING-L08-Q008",
+        "LING-L08-Q009",
+        "LING-L08-Q010"
+      ]
+    },
+    {
+      "topic_id": "context",
+      "focus": "Linguistic and situational context, shared knowledge, and distance",
+      "source_slides": [
+        2,
+        3,
+        4,
+        9
+      ],
+      "question_ids": [
+        "LING-L08-Q011",
+        "LING-L08-Q012",
+        "LING-L08-Q013",
+        "LING-L08-Q014",
+        "LING-L08-Q015",
+        "LING-L08-Q016",
+        "LING-L08-Q017",
+        "LING-L08-Q018",
+        "LING-L08-Q019",
+        "LING-L08-Q020"
+      ]
+    },
+    {
+      "topic_id": "meaning_contrasts",
+      "focus": "Different uses of mean and the lecture summary",
+      "source_slides": [
+        7,
+        8,
+        16
+      ],
+      "question_ids": [
+        "LING-L08-Q021",
+        "LING-L08-Q022",
+        "LING-L08-Q023",
+        "LING-L08-Q024",
+        "LING-L08-Q025",
+        "LING-L08-Q026",
+        "LING-L08-Q027",
+        "LING-L08-Q028"
+      ]
+    },
+    {
+      "topic_id": "maxims",
+      "focus": "Quantity, quality, relevance, and manner",
+      "source_slides": [
+        10
+      ],
+      "question_ids": [
+        "LING-L08-Q029",
+        "LING-L08-Q030",
+        "LING-L08-Q031",
+        "LING-L08-Q032",
+        "LING-L08-Q033",
+        "LING-L08-Q034",
+        "LING-L08-Q035",
+        "LING-L08-Q036",
+        "LING-L08-Q037",
+        "LING-L08-Q038",
+        "LING-L08-Q039",
+        "LING-L08-Q040",
+        "LING-L08-Q041",
+        "LING-L08-Q042",
+        "LING-L08-Q043",
+        "LING-L08-Q044"
+      ]
+    },
+    {
+      "topic_id": "speech_acts",
+      "focus": "Acts, performative uses, institutional conditions, and force",
+      "source_slides": [
+        4,
+        11
+      ],
+      "question_ids": [
+        "LING-L08-Q045",
+        "LING-L08-Q046",
+        "LING-L08-Q047",
+        "LING-L08-Q048",
+        "LING-L08-Q049",
+        "LING-L08-Q050",
+        "LING-L08-Q051",
+        "LING-L08-Q052",
+        "LING-L08-Q053",
+        "LING-L08-Q054"
+      ]
+    },
+    {
+      "topic_id": "presupposition",
+      "focus": "Background assumptions, triggers, and challenges",
+      "source_slides": [
+        12
+      ],
+      "question_ids": [
+        "LING-L08-Q055",
+        "LING-L08-Q056",
+        "LING-L08-Q057",
+        "LING-L08-Q058",
+        "LING-L08-Q059",
+        "LING-L08-Q060",
+        "LING-L08-Q061",
+        "LING-L08-Q062",
+        "LING-L08-Q063",
+        "LING-L08-Q064"
+      ]
+    },
+    {
+      "topic_id": "metaphor",
+      "focus": "Literal and figurative interpretations in supplied contexts",
+      "source_slides": [
+        13
+      ],
+      "question_ids": [
+        "LING-L08-Q065",
+        "LING-L08-Q066",
+        "LING-L08-Q067",
+        "LING-L08-Q068",
+        "LING-L08-Q069",
+        "LING-L08-Q070"
+      ]
+    },
+    {
+      "topic_id": "deixis",
+      "focus": "Person, place, time, and meaning versus reference",
+      "source_slides": [
+        14,
+        15
+      ],
+      "question_ids": [
+        "LING-L08-Q071",
+        "LING-L08-Q072",
+        "LING-L08-Q073",
+        "LING-L08-Q074",
+        "LING-L08-Q075",
+        "LING-L08-Q076",
+        "LING-L08-Q077",
+        "LING-L08-Q078",
+        "LING-L08-Q079",
+        "LING-L08-Q080"
+      ]
+    }
+  ],
+  "excluded_slides": [
+    {
+      "slide": 1,
+      "reason": "Title only: Pragmatics."
+    }
+  ],
+  "topics": [
+    {
+      "id": "foundations",
+      "title": "Pragmatics, speaker meaning, implicature, and semantics",
+      "question_count": 10
+    },
+    {
+      "id": "context",
+      "title": "Linguistic and situational context, shared knowledge, and distance",
+      "question_count": 10
+    },
+    {
+      "id": "meaning_contrasts",
+      "title": "Different uses of mean and the lecture summary",
+      "question_count": 8
+    },
+    {
+      "id": "maxims",
+      "title": "Quantity, quality, relevance, and manner",
+      "question_count": 16
+    },
+    {
+      "id": "speech_acts",
+      "title": "Acts, performative uses, institutional conditions, and force",
+      "question_count": 10
+    },
+    {
+      "id": "presupposition",
+      "title": "Background assumptions, triggers, and challenges",
+      "question_count": 10
+    },
+    {
+      "id": "metaphor",
+      "title": "Literal and figurative interpretations in supplied contexts",
+      "question_count": 6
+    },
+    {
+      "id": "deixis",
+      "title": "Person, place, time, and meaning versus reference",
+      "question_count": 10
+    }
+  ],
+  "statistics": {
+    "difficulty": {
+      "easy": 18,
+      "medium": 39,
+      "hard": 23
+    },
+    "cognitive_level": {
+      "remember": 10,
+      "understand": 10,
+      "analyze": 22,
+      "apply": 38
+    },
+    "answer_distribution": {
+      "A": 20,
+      "B": 20,
+      "C": 20,
+      "D": 20
+    }
+  },
+  "questions": [
+    {
+      "id": "LING-L08-Q001",
+      "lecture_id": "LING-L08",
+      "topic_id": "foundations",
+      "source_slides": [
+        2,
+        3,
+        5,
+        6,
+        8,
+        16
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "What does pragmatics primarily study in this lecture?",
+      "explanation": "Pragmatics investigates utterances as part of communication. Its questions include speaker meaning, inference, participant relationships, and the situation of use.",
+      "example": "A statement about a cold room can function as a request to close a window.",
+      "reference_ids": [
+        "lecture_08"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only the physical duration of speech sounds"
+        },
+        {
+          "id": "B",
+          "text": "Only the alphabetical ordering of vocabulary"
+        },
+        {
+          "id": "C",
+          "text": "How language is interpreted and used in context"
+        },
+        {
+          "id": "D",
+          "text": "Only the internal structure of written words"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L08-Q002",
+      "lecture_id": "LING-L08",
+      "topic_id": "foundations",
+      "source_slides": [
+        2,
+        3,
+        5,
+        6,
+        8,
+        16
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "understand",
+      "question": "What does meaning-in-use emphasize?",
+      "explanation": "A linguistic form contributes meaning, but its use can communicate additional information or perform an action. The situation helps identify that contribution.",
+      "example": "There is a car coming can warn someone approaching a road.",
+      "reference_ids": [
+        "lecture_08"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The number of times a word appears in a dictionary"
+        },
+        {
+          "id": "B",
+          "text": "A guarantee that the same sentence always performs the same act"
+        },
+        {
+          "id": "C",
+          "text": "What an expression communicates when used in a particular situation"
+        },
+        {
+          "id": "D",
+          "text": "The idea that context removes every conventional word meaning"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L08-Q003",
+      "lecture_id": "LING-L08",
+      "topic_id": "foundations",
+      "source_slides": [
+        2,
+        3,
+        5,
+        6,
+        8,
+        16
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "analyze",
+      "question": "Which comparison most clearly distinguishes a semantic focus from a pragmatic focus?",
+      "explanation": "The distinction concerns analytical emphasis, not two unrelated systems. Communication can require both linguistic content and contextual inference.",
+      "example": "Knowing cold differs from recognizing why someone mentioned the room’s temperature.",
+      "reference_ids": [
+        "lecture_08"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Conventional expression meaning versus interpretation of a speaker’s use in context"
+        },
+        {
+          "id": "B",
+          "text": "Loudness versus vocal-fold vibration"
+        },
+        {
+          "id": "C",
+          "text": "Word length versus sentence length"
+        },
+        {
+          "id": "D",
+          "text": "Past tense versus plural number"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L08-Q004",
+      "lecture_id": "LING-L08",
+      "topic_id": "foundations",
+      "source_slides": [
+        2,
+        3,
+        5,
+        6,
+        8,
+        16
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A student says “It is cold here” beside an open window, intending a request to close it. What is the pragmatic interpretation?",
+      "explanation": "The literal content concerns temperature, while the stated context supports a request. The intended action is inferred rather than directly commanded.",
+      "example": "There is no space here may similarly request moving an object.",
+      "reference_ids": [
+        "lecture_08"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The sentence must be an explicit imperative in form."
+        },
+        {
+          "id": "B",
+          "text": "The student wants someone to close the window."
+        },
+        {
+          "id": "C",
+          "text": "The utterance is necessarily about a future journey."
+        },
+        {
+          "id": "D",
+          "text": "Cold has lost every temperature-related meaning."
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L08-Q005",
+      "lecture_id": "LING-L08",
+      "topic_id": "foundations",
+      "source_slides": [
+        2,
+        3,
+        5,
+        6,
+        8,
+        16
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "understand",
+      "question": "What does speaker meaning refer to in the lecture?",
+      "explanation": "Speaker meaning concerns the communicative act and intended interpretation. It may extend beyond what the words explicitly state.",
+      "example": "A speaker can mention an approaching car to warn rather than merely report traffic.",
+      "reference_ids": [
+        "lecture_08"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The physical position of the speaker’s tongue"
+        },
+        {
+          "id": "B",
+          "text": "Only whether every factual claim is true"
+        },
+        {
+          "id": "C",
+          "text": "Only the dictionary entry for the speaker’s name"
+        },
+        {
+          "id": "D",
+          "text": "What a speaker intends to communicate through an utterance"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L08-Q006",
+      "lecture_id": "LING-L08",
+      "topic_id": "foundations",
+      "source_slides": [
+        2,
+        3,
+        5,
+        6,
+        8,
+        16
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "understand",
+      "question": "Which description best introduces a conversational implicature?",
+      "explanation": "An implicature is suggested through communication rather than simply stated as the literal message. The inference must be supported by the situation.",
+      "example": "I have an early class tomorrow can imply declining a late invitation in a suitable exchange.",
+      "reference_ids": [
+        "lecture_08",
+        "implicature"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "A meaning guaranteed solely by the number of words"
+        },
+        {
+          "id": "B",
+          "text": "The exact sound sequence recorded by a microphone"
+        },
+        {
+          "id": "C",
+          "text": "A plural ending written inside a noun"
+        },
+        {
+          "id": "D",
+          "text": "An additional message inferred from an utterance and its context"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L08-Q007",
+      "lecture_id": "LING-L08",
+      "topic_id": "foundations",
+      "source_slides": [
+        2,
+        3,
+        5,
+        6,
+        8,
+        16
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A friend asks “Will you join us late tonight?” You reply “I have an early class tomorrow,” intending to decline. What is implied in this supplied context?",
+      "explanation": "The reply gives a reason from which the refusal is inferred. The question states the intended use rather than treating the inference as unavoidable in all contexts.",
+      "example": "I must leave early tomorrow can similarly support declining a late event.",
+      "reference_ids": [
+        "lecture_08",
+        "implicature"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "You are not planning to join them late tonight."
+        },
+        {
+          "id": "B",
+          "text": "Tomorrow means you have already attended the class."
+        },
+        {
+          "id": "C",
+          "text": "You have explicitly stated the address of the class."
+        },
+        {
+          "id": "D",
+          "text": "Every early class prevents every evening activity."
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L08-Q008",
+      "lecture_id": "LING-L08",
+      "topic_id": "foundations",
+      "source_slides": [
+        2,
+        3,
+        5,
+        6,
+        8,
+        16
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Why should pragmatics not be defined as only the study of implicatures?",
+      "explanation": "Implicature is one topic in the lecture, not its entire scope. Deixis and actions performed by utterances raise additional questions.",
+      "example": "Identifying who I refers to is contextual even when no indirect message is intended.",
+      "reference_ids": [
+        "lecture_08"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "It also investigates contextual reference, speech acts, presuppositions, and other aspects of use."
+        },
+        {
+          "id": "B",
+          "text": "Context is unrelated to speech acts."
+        },
+        {
+          "id": "C",
+          "text": "Implicatures can occur only in written dictionaries."
+        },
+        {
+          "id": "D",
+          "text": "All pragmatic interpretation must be metaphorical."
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L08-Q009",
+      "lecture_id": "LING-L08",
+      "topic_id": "foundations",
+      "source_slides": [
+        2,
+        3,
+        5,
+        6,
+        8,
+        16
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Why is a context-derived implication not automatically a guaranteed consequence of the sentence alone?",
+      "explanation": "The same sentence can support different additional messages in different situations. An inference needs evidence rather than a fixed sentence-to-intention rule.",
+      "example": "An approaching-car report can warn a pedestrian or announce an expected guest.",
+      "reference_ids": [
+        "lecture_08",
+        "implicature"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "A contextual inference is always a spelling error."
+        },
+        {
+          "id": "B",
+          "text": "Every implication must be unrelated to the words spoken."
+        },
+        {
+          "id": "C",
+          "text": "It can depend on background assumptions and be revised when context changes."
+        },
+        {
+          "id": "D",
+          "text": "Listeners can infer only what is explicitly stated word for word."
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L08-Q010",
+      "lecture_id": "LING-L08",
+      "topic_id": "foundations",
+      "source_slides": [
+        2,
+        3,
+        5,
+        6,
+        8,
+        16
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "analyze",
+      "question": "How should the slides’ semantics-versus-pragmatics contrast be understood most carefully?",
+      "explanation": "The diagrams simplify an analytical distinction. They are not a complete history or a rule excluding every contextual question from semantic theory.",
+      "example": "A deictic expression has a conventional use and a context-dependent reference.",
+      "reference_ids": [
+        "lecture_08"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "It separates conventional meaning and contextual use without denying that they interact."
+        },
+        {
+          "id": "B",
+          "text": "Pragmatics makes all word meanings entirely private and random."
+        },
+        {
+          "id": "C",
+          "text": "Semantics cannot contribute anything to interpreting an utterance."
+        },
+        {
+          "id": "D",
+          "text": "A teaching diagram alone proves the complete history of both fields."
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L08-Q011",
+      "lecture_id": "LING-L08",
+      "topic_id": "context",
+      "source_slides": [
+        2,
+        3,
+        4,
+        9
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "What is linguistic context in the lecture’s introductory account?",
+      "explanation": "Earlier or surrounding language can provide referents and expectations. This differs from relying only on the physical situation or world knowledge.",
+      "example": "Introducing Ali can help identify a later use of he.",
+      "reference_ids": [
+        "lecture_08"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only the temperature of the room"
+        },
+        {
+          "id": "B",
+          "text": "Only the speaker’s physical height"
+        },
+        {
+          "id": "C",
+          "text": "The dictionary order of nearby headwords"
+        },
+        {
+          "id": "D",
+          "text": "The surrounding discourse that helps interpret an expression"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L08-Q012",
+      "lecture_id": "LING-L08",
+      "topic_id": "context",
+      "source_slides": [
+        2,
+        3,
+        4,
+        9
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "understand",
+      "question": "What does situational context include in the lecture?",
+      "explanation": "The situation includes who communicates, where and when, and what participants take others to know. Not every available fact is relevant.",
+      "example": "A road-crossing situation can support a warning interpretation.",
+      "reference_ids": [
+        "lecture_08"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only the printed words before a sentence"
+        },
+        {
+          "id": "B",
+          "text": "Only the number of consonants in an utterance"
+        },
+        {
+          "id": "C",
+          "text": "Only the grammatical suffixes inside a noun"
+        },
+        {
+          "id": "D",
+          "text": "Participants, circumstances, and relevant knowledge or beliefs"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L08-Q013",
+      "lecture_id": "LING-L08",
+      "topic_id": "context",
+      "source_slides": [
+        2,
+        3,
+        4,
+        9
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "After “Sara met Ali,” a speaker continues “He looked tired.” Which information most directly helps interpret he?",
+      "explanation": "The preceding discourse introduces a likely referent. Resolution may still need wider context when several candidates are possible.",
+      "example": "Introducing a person by name can support a later pronoun reference.",
+      "reference_ids": [
+        "lecture_08"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The number of letters in tired"
+        },
+        {
+          "id": "B",
+          "text": "The alphabetical position of Ali"
+        },
+        {
+          "id": "C",
+          "text": "The preceding linguistic context"
+        },
+        {
+          "id": "D",
+          "text": "The loudness of met"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L08-Q014",
+      "lecture_id": "LING-L08",
+      "topic_id": "context",
+      "source_slides": [
+        2,
+        3,
+        4,
+        9
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A parent says “There is a car coming” while a child is about to step into the road. What interpretation is best supported?",
+      "explanation": "The crossing situation makes a warning relevant. The interpretation depends on what participants are doing, not on a new dictionary meaning of car.",
+      "example": "The same words may serve a different purpose when a visitor arrives.",
+      "reference_ids": [
+        "lecture_08"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "A warning to avoid stepping into the road"
+        },
+        {
+          "id": "B",
+          "text": "A request to repair a parked car"
+        },
+        {
+          "id": "C",
+          "text": "A guaranteed instruction to put food on a table"
+        },
+        {
+          "id": "D",
+          "text": "A declaration naming a ship"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L08-Q015",
+      "lecture_id": "LING-L08",
+      "topic_id": "context",
+      "source_slides": [
+        2,
+        3,
+        4,
+        9
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A family has agreed to serve food when its guests’ car arrives. Someone reports the expected car approaching. What additional message can the shared plan support?",
+      "explanation": "The inference depends on the supplied agreement and expectation. Without that background, a food-related instruction would not be established.",
+      "example": "A shared plan can let a short announcement trigger an understood action.",
+      "reference_ids": [
+        "lecture_08"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Every approaching car always signals that food must be served."
+        },
+        {
+          "id": "B",
+          "text": "Car now literally means dinner."
+        },
+        {
+          "id": "C",
+          "text": "It may be time to prepare to serve the food."
+        },
+        {
+          "id": "D",
+          "text": "A child must be standing in the road."
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L08-Q016",
+      "lecture_id": "LING-L08",
+      "topic_id": "context",
+      "source_slides": [
+        2,
+        3,
+        4,
+        9
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Why does “There is a car coming” not always mean “put the food on the table”?",
+      "explanation": "The literal report can remain the same while its contextual function changes. The slide illustrates possibilities, not fixed equivalences.",
+      "example": "At a crossing, the purpose may be warning rather than announcing guests.",
+      "reference_ids": [
+        "lecture_08"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Food is an obligatory grammatical object of car."
+        },
+        {
+          "id": "B",
+          "text": "That instruction depends on a particular shared situation or plan."
+        },
+        {
+          "id": "C",
+          "text": "Every sentence has only one communicative purpose."
+        },
+        {
+          "id": "D",
+          "text": "The instruction is directly expressed by coming."
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L08-Q017",
+      "lecture_id": "LING-L08",
+      "topic_id": "context",
+      "source_slides": [
+        2,
+        3,
+        4,
+        9
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "Suppose a landlord discussing a room does not allow pets. An applicant says “I also have a dog,” and the landlord replies “I’m sorry.” What makes a refusal interpretation plausible?",
+      "explanation": "The scenario explicitly supplies a context. It does not claim that the slide’s isolated dialogue proves this situation by itself.",
+      "example": "A shared restriction can explain an otherwise puzzling response.",
+      "reference_ids": [
+        "lecture_08"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The supplied rental situation and no-pets rule"
+        },
+        {
+          "id": "B",
+          "text": "The number of words in the reply"
+        },
+        {
+          "id": "C",
+          "text": "The presence of a first-person pronoun alone"
+        },
+        {
+          "id": "D",
+          "text": "A dictionary definition of sorry as dog"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L08-Q018",
+      "lecture_id": "LING-L08",
+      "topic_id": "context",
+      "source_slides": [
+        2,
+        3,
+        4,
+        9
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Why should the isolated son-and-dog dialogue not be assigned one certain interpretation without more context?",
+      "explanation": "A plausible practice scenario must be identified as a hypothesis, not recovered as a fact from missing information.",
+      "example": "A rental setting can be supplied without claiming it was the original setting.",
+      "reference_ids": [
+        "lecture_08"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Every mention of a dog automatically refuses a rental application."
+        },
+        {
+          "id": "B",
+          "text": "The dialogue contains no linguistic meanings."
+        },
+        {
+          "id": "C",
+          "text": "Fourteen necessarily identifies the speaker’s profession."
+        },
+        {
+          "id": "D",
+          "text": "Several situations could explain the responses, so a reading requires assumptions."
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L08-Q019",
+      "lecture_id": "LING-L08",
+      "topic_id": "context",
+      "source_slides": [
+        2,
+        3,
+        4,
+        9
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A speaker says “The usual place?” because both friends regularly meet at one café. What supports the reference?",
+      "explanation": "The speaker expects identifying information to be recoverable from common experience. Full naming is unnecessary in this context.",
+      "example": "Our classroom may be identifiable to classmates without a room number.",
+      "reference_ids": [
+        "lecture_08"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The exact duration of the vowel in usual"
+        },
+        {
+          "id": "B",
+          "text": "An assumption of shared knowledge about their routine"
+        },
+        {
+          "id": "C",
+          "text": "A requirement that every listener know every café"
+        },
+        {
+          "id": "D",
+          "text": "The word place having no conventional meaning"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L08-Q020",
+      "lecture_id": "LING-L08",
+      "topic_id": "context",
+      "source_slides": [
+        2,
+        3,
+        4,
+        9
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "understand",
+      "question": "What does relative distance concern in the lecture’s introductory description of pragmatics?",
+      "explanation": "The expression can concern familiarity, respect, or formality. It need not be a physical distance measurement.",
+      "example": "A formal request may acknowledge a distant or respectful relationship.",
+      "reference_ids": [
+        "lecture_08"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only the distance a sound wave travels"
+        },
+        {
+          "id": "B",
+          "text": "How speakers manage closeness or social distance in interaction"
+        },
+        {
+          "id": "C",
+          "text": "Only the number of meters between chairs"
+        },
+        {
+          "id": "D",
+          "text": "Only the position of a suffix within a word"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L08-Q021",
+      "lecture_id": "LING-L08",
+      "topic_id": "meaning_contrasts",
+      "source_slides": [
+        7,
+        8,
+        16
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "In “He meant to write,” what does meant express?",
+      "explanation": "Mean has different uses. Here it describes an intention to act rather than defining a word.",
+      "example": "She meant to call means she intended to call.",
+      "reference_ids": [
+        "lecture_08"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Intended"
+        },
+        {
+          "id": "B",
+          "text": "Had a plural ending"
+        },
+        {
+          "id": "C",
+          "text": "Denoted a particular object"
+        },
+        {
+          "id": "D",
+          "text": "Was physically loud"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L08-Q022",
+      "lecture_id": "LING-L08",
+      "topic_id": "meaning_contrasts",
+      "source_slides": [
+        7,
+        8,
+        16
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "In the traffic-signal illustration “A green light means go,” what does means express?",
+      "explanation": "The example concerns a conventional signal. It is a language illustration, not complete guidance for every traffic situation.",
+      "example": "A signal can indicate an expected response through a shared convention.",
+      "reference_ids": [
+        "lecture_08"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Has personal emotional importance only"
+        },
+        {
+          "id": "B",
+          "text": "Defines the dictionary meaning of life"
+        },
+        {
+          "id": "C",
+          "text": "Signals or indicates an instruction under a convention"
+        },
+        {
+          "id": "D",
+          "text": "Guarantees safe movement regardless of circumstances"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L08-Q023",
+      "lecture_id": "LING-L08",
+      "topic_id": "meaning_contrasts",
+      "source_slides": [
+        7,
+        8,
+        16
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "In “Health means everything to her,” what sense of means is prominent?",
+      "explanation": "The phrase expresses value. It does not define health as literally identical to every object in the world.",
+      "example": "Family means a lot to him has a similar use.",
+      "reference_ids": [
+        "lecture_08"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Has great importance"
+        },
+        {
+          "id": "B",
+          "text": "Has the spelling of everything"
+        },
+        {
+          "id": "C",
+          "text": "Identifies a grammatical subject"
+        },
+        {
+          "id": "D",
+          "text": "Creates a legal declaration"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L08-Q024",
+      "lecture_id": "LING-L08",
+      "topic_id": "meaning_contrasts",
+      "source_slides": [
+        7,
+        8,
+        16
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "In “What is the meaning of life?” which sense is most relevant?",
+      "explanation": "The question asks about significance rather than simply requesting a dictionary entry. Its exact purpose still depends on context.",
+      "example": "What is the point of this project? also asks about purpose.",
+      "reference_ids": [
+        "lecture_08"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The pronunciation of the letter l"
+        },
+        {
+          "id": "B",
+          "text": "The plural inflection of life"
+        },
+        {
+          "id": "C",
+          "text": "The physical location of the speaker"
+        },
+        {
+          "id": "D",
+          "text": "Purpose or significance"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L08-Q025",
+      "lecture_id": "LING-L08",
+      "topic_id": "meaning_contrasts",
+      "source_slides": [
+        7,
+        8,
+        16
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "After a friend receives an award, “What does it mean to you?” most naturally asks about what?",
+      "explanation": "The situation makes the question about the person’s response. Context must also supply what it refers to.",
+      "example": "The friend might explain that the award recognizes years of effort.",
+      "reference_ids": [
+        "lecture_08"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Its personal significance or interpretation"
+        },
+        {
+          "id": "B",
+          "text": "The number of phonemes in award"
+        },
+        {
+          "id": "C",
+          "text": "The identity of every award recipient in history"
+        },
+        {
+          "id": "D",
+          "text": "The grammatical tense of receive"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L08-Q026",
+      "lecture_id": "LING-L08",
+      "topic_id": "meaning_contrasts",
+      "source_slides": [
+        7,
+        8,
+        16
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "Which task is most directly requested by “What does the word ghost mean?”",
+      "explanation": "A word can be explained without proving that an actual referent exists. Real-world reference alone is too restrictive as an explanation of all lexical meaning.",
+      "example": "A dictionary can explain unicorn without locating a living unicorn.",
+      "reference_ids": [
+        "lecture_08"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Identify the speaker’s emotional state with certainty"
+        },
+        {
+          "id": "B",
+          "text": "Measure the loudness of the question"
+        },
+        {
+          "id": "C",
+          "text": "Explain the word’s conventional meaning"
+        },
+        {
+          "id": "D",
+          "text": "Locate an actual ghost before offering an explanation"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L08-Q027",
+      "lecture_id": "LING-L08",
+      "topic_id": "meaning_contrasts",
+      "source_slides": [
+        7,
+        8,
+        16
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "understand",
+      "question": "Which mapping matches the lecture’s summary?",
+      "explanation": "The summary distinguishes levels and analytical focus. These areas interact rather than replace one another.",
+      "example": "A word meaning, phrase interpretation, and indirect request invite different questions.",
+      "reference_ids": [
+        "lecture_08"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Lexical semantics concerns words and morphemes; phrasal semantics concerns larger combinations; pragmatics concerns use in context."
+        },
+        {
+          "id": "B",
+          "text": "Phrasal semantics is dictionary alphabetization, while pragmatics is word counting."
+        },
+        {
+          "id": "C",
+          "text": "Lexical semantics concerns whole conversations; phrasal semantics concerns spelling."
+        },
+        {
+          "id": "D",
+          "text": "Pragmatics measures sound intensity, while semantics measures duration."
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L08-Q028",
+      "lecture_id": "LING-L08",
+      "topic_id": "meaning_contrasts",
+      "source_slides": [
+        7,
+        8,
+        16
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "What does the set of examples with mean and meaning demonstrate?",
+      "explanation": "A word’s construction and situation matter. A single gloss does not automatically fit every example.",
+      "example": "Meant to leave differs from means a great deal to me.",
+      "reference_ids": [
+        "lecture_08"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Meaning always requires a visible physical referent."
+        },
+        {
+          "id": "B",
+          "text": "Every use must have exactly the same interpretation."
+        },
+        {
+          "id": "C",
+          "text": "Context never helps distinguish a word’s uses."
+        },
+        {
+          "id": "D",
+          "text": "Their uses can concern intention, indication, value, significance, or lexical interpretation."
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L08-Q029",
+      "lecture_id": "LING-L08",
+      "topic_id": "maxims",
+      "source_slides": [
+        10
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "Which maxim concerns providing as much information as the exchange requires?",
+      "explanation": "Quantity concerns the appropriate amount of information. The shortest response is not always sufficient.",
+      "example": "A location question may require both a building name and room number.",
+      "reference_ids": [
+        "lecture_08"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Relevance"
+        },
+        {
+          "id": "B",
+          "text": "Manner"
+        },
+        {
+          "id": "C",
+          "text": "Quantity"
+        },
+        {
+          "id": "D",
+          "text": "Quality"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L08-Q030",
+      "lecture_id": "LING-L08",
+      "topic_id": "maxims",
+      "source_slides": [
+        10
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "Which maxim concerns truthfulness and adequate support for claims?",
+      "explanation": "Quality asks speakers not to present what they believe false or unsupported. It does not guarantee that every supported belief will prove correct.",
+      "example": "A speaker should not invent an answer while pretending to know.",
+      "reference_ids": [
+        "lecture_08"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Quality"
+        },
+        {
+          "id": "B",
+          "text": "Manner"
+        },
+        {
+          "id": "C",
+          "text": "Relevance"
+        },
+        {
+          "id": "D",
+          "text": "Quantity"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L08-Q031",
+      "lecture_id": "LING-L08",
+      "topic_id": "maxims",
+      "source_slides": [
+        10
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "Which maxim concerns keeping a contribution connected to the exchange?",
+      "explanation": "Relevance concerns the connection between a response and the discussion. An indirect response can be relevant when the connection is inferable.",
+      "example": "An early class can be relevant to declining a late invitation.",
+      "reference_ids": [
+        "lecture_08"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Quantity"
+        },
+        {
+          "id": "B",
+          "text": "Relevance"
+        },
+        {
+          "id": "C",
+          "text": "Quality"
+        },
+        {
+          "id": "D",
+          "text": "Manner"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L08-Q032",
+      "lecture_id": "LING-L08",
+      "topic_id": "maxims",
+      "source_slides": [
+        10
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "Which maxim concerns clarity, orderliness, and avoiding obscurity?",
+      "explanation": "Manner concerns expression and presentation. Clear organization matters even when facts are true and relevant.",
+      "example": "Directions are easier to follow when their steps are given in order.",
+      "reference_ids": [
+        "lecture_08"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Relevance"
+        },
+        {
+          "id": "B",
+          "text": "Quality"
+        },
+        {
+          "id": "C",
+          "text": "Quantity"
+        },
+        {
+          "id": "D",
+          "text": "Manner"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L08-Q033",
+      "lecture_id": "LING-L08",
+      "topic_id": "maxims",
+      "source_slides": [
+        10
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A student asks for an exam’s room and time. The respondent truthfully gives only the room, intentionally omitting the known time. Which maxim is most directly at issue?",
+      "explanation": "The answer is relevant and can be clear and true, but required information is missing. The scenario isolates sufficiency.",
+      "example": "Room 12, at nine supplies both requested details.",
+      "reference_ids": [
+        "lecture_08"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Quality"
+        },
+        {
+          "id": "B",
+          "text": "Relevance"
+        },
+        {
+          "id": "C",
+          "text": "Manner"
+        },
+        {
+          "id": "D",
+          "text": "Quantity"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L08-Q034",
+      "lecture_id": "LING-L08",
+      "topic_id": "maxims",
+      "source_slides": [
+        10
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "An exchange needs only a room number. The speaker gives it with a long set of unnecessary but related details. Which maxim is most directly at issue?",
+      "explanation": "The issue is excess information relative to the specified need. Length alone would not establish the problem.",
+      "example": "Room 12 may suffice when the building is already known.",
+      "reference_ids": [
+        "lecture_08"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Relevance"
+        },
+        {
+          "id": "B",
+          "text": "Quantity"
+        },
+        {
+          "id": "C",
+          "text": "Manner"
+        },
+        {
+          "id": "D",
+          "text": "Quality"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L08-Q035",
+      "lecture_id": "LING-L08",
+      "topic_id": "maxims",
+      "source_slides": [
+        10
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A speaker knowingly gives a false exam date while presenting it as verified. Which maxim is most directly breached?",
+      "explanation": "The speaker presents a claim believed false. A response can be brief and on topic while failing this expectation.",
+      "example": "Inventing a result and reporting it as checked raises the same issue.",
+      "reference_ids": [
+        "lecture_08"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Relevance"
+        },
+        {
+          "id": "B",
+          "text": "Manner"
+        },
+        {
+          "id": "C",
+          "text": "Quantity"
+        },
+        {
+          "id": "D",
+          "text": "Quality"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L08-Q036",
+      "lecture_id": "LING-L08",
+      "topic_id": "maxims",
+      "source_slides": [
+        10
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "Asked where the library is, a respondent discusses yesterday’s football score with no relevant shared connection. Which maxim is most directly at issue?",
+      "explanation": "The response does not address the topic or an inferable purpose. The scenario excludes a special connection that could make it relevant.",
+      "example": "A useful answer could identify the library or admit not knowing.",
+      "reference_ids": [
+        "lecture_08"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Quality"
+        },
+        {
+          "id": "B",
+          "text": "Manner"
+        },
+        {
+          "id": "C",
+          "text": "Quantity"
+        },
+        {
+          "id": "D",
+          "text": "Relevance"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L08-Q037",
+      "lecture_id": "LING-L08",
+      "topic_id": "maxims",
+      "source_slides": [
+        10
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A speaker gives all required correct directions but uses undefined jargon and a confusing order. Which maxim is most directly at issue?",
+      "explanation": "The content is specified as sufficient, accurate, and relevant. The problem lies in obscure presentation.",
+      "example": "Numbered directions in a clear sequence can improve the answer.",
+      "reference_ids": [
+        "lecture_08"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Quality"
+        },
+        {
+          "id": "B",
+          "text": "Quantity"
+        },
+        {
+          "id": "C",
+          "text": "Manner"
+        },
+        {
+          "id": "D",
+          "text": "Relevance"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L08-Q038",
+      "lecture_id": "LING-L08",
+      "topic_id": "maxims",
+      "source_slides": [
+        10
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "analyze",
+      "question": "Which contrast separates quantity from manner?",
+      "explanation": "A response can provide enough facts unclearly or present insufficient information clearly. These are distinguishable problems.",
+      "example": "A clear room number is insufficient if the time was also requested.",
+      "reference_ids": [
+        "lecture_08"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Quantity concerns truth; manner concerns topic relevance."
+        },
+        {
+          "id": "B",
+          "text": "Quantity concerns needed information; manner concerns clarity and organization."
+        },
+        {
+          "id": "C",
+          "text": "Quantity and manner are identical whenever a reply is short."
+        },
+        {
+          "id": "D",
+          "text": "Quantity concerns word meanings; manner concerns sound duration."
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L08-Q039",
+      "lecture_id": "LING-L08",
+      "topic_id": "maxims",
+      "source_slides": [
+        10
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "analyze",
+      "question": "Which contrast separates quality from relevance?",
+      "explanation": "Accuracy and topical connection are separate concerns. The scenario must identify which creates the problem.",
+      "example": "A false exam time is on topic; a true football score may be off topic.",
+      "reference_ids": [
+        "lecture_08"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "A true reply is always relevant to every exchange."
+        },
+        {
+          "id": "B",
+          "text": "A reply can be on topic but false, or true but unrelated."
+        },
+        {
+          "id": "C",
+          "text": "A relevant reply is guaranteed true."
+        },
+        {
+          "id": "D",
+          "text": "Both maxims depend only on sentence length."
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L08-Q040",
+      "lecture_id": "LING-L08",
+      "topic_id": "maxims",
+      "source_slides": [
+        10
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Why is “always say as little as possible” not an accurate statement of quantity?",
+      "explanation": "Too little can be as unhelpful as too much. Shared knowledge and the request affect the required detail.",
+      "example": "A new visitor may need more than a room number.",
+      "reference_ids": [
+        "lecture_08"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The required detail is identical in every situation."
+        },
+        {
+          "id": "B",
+          "text": "Quantity requires avoiding every factual detail."
+        },
+        {
+          "id": "C",
+          "text": "Only one-word answers can be cooperative."
+        },
+        {
+          "id": "D",
+          "text": "A response must provide enough information for its current purpose."
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L08-Q041",
+      "lecture_id": "LING-L08",
+      "topic_id": "maxims",
+      "source_slides": [
+        10
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "apply",
+      "question": "During an obvious downpour, someone says “What perfect weather!” intending recognizable irony. Why is this not automatically a covert attempt to deceive?",
+      "explanation": "An apparent departure from literal truth can be made obvious to communicate indirectly. The scenario distinguishes this from a hidden lie.",
+      "example": "Great timing! can express criticism when lateness is mutually obvious.",
+      "reference_ids": [
+        "lecture_08",
+        "gricean_framework"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Every ironic remark is a literal weather forecast."
+        },
+        {
+          "id": "B",
+          "text": "The obvious mismatch can invite an ironic interpretation."
+        },
+        {
+          "id": "C",
+          "text": "Irony removes all relevance to the situation."
+        },
+        {
+          "id": "D",
+          "text": "The words have no conventional meanings."
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L08-Q042",
+      "lecture_id": "LING-L08",
+      "topic_id": "maxims",
+      "source_slides": [
+        10
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "A speaker answers on reasonable evidence with a belief that later proves wrong. What is the most careful assessment of quality?",
+      "explanation": "The expectation concerns the speaker’s basis and presentation, not infallibility. The circumstances need investigation.",
+      "example": "A timetable may change after the speaker checks it accurately.",
+      "reference_ids": [
+        "lecture_08"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The error alone does not establish deliberate deception or inadequate evidence."
+        },
+        {
+          "id": "B",
+          "text": "Quality guarantees perfect knowledge of future events."
+        },
+        {
+          "id": "C",
+          "text": "Every error proves that the speaker knowingly lied."
+        },
+        {
+          "id": "D",
+          "text": "A short answer cannot raise any question about evidence."
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L08-Q043",
+      "lecture_id": "LING-L08",
+      "topic_id": "maxims",
+      "source_slides": [
+        10
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "apply",
+      "question": "A reply is knowingly false and unrelated to the question, but clear and of the requested length. Which pair of maxims is most directly at issue?",
+      "explanation": "The false claim raises quality, and the lack of a topic connection raises relevance. The supplied clarity and adequate length distinguish the other dimensions.",
+      "example": "One reply can raise more than one conversational issue without making the maxims identical.",
+      "reference_ids": [
+        "lecture_08"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Quantity and relevance"
+        },
+        {
+          "id": "B",
+          "text": "Quality and relevance"
+        },
+        {
+          "id": "C",
+          "text": "Quantity and manner"
+        },
+        {
+          "id": "D",
+          "text": "Quality and manner"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L08-Q044",
+      "lecture_id": "LING-L08",
+      "topic_id": "maxims",
+      "source_slides": [
+        10
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "How are conversational maxims best treated in this lecture?",
+      "explanation": "The framework supports reasoning about exchanges. Actual communication can involve indirectness, obvious departures, or competing demands.",
+      "example": "A listener can recover an unstated message through shared context.",
+      "reference_ids": [
+        "lecture_08",
+        "gricean_framework"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "A list of grammatical suffixes"
+        },
+        {
+          "id": "B",
+          "text": "Rules proving every figurative expression meaningless"
+        },
+        {
+          "id": "C",
+          "text": "Interpretive expectations that help explain communication rather than guarantees of literal observance"
+        },
+        {
+          "id": "D",
+          "text": "Statutes imposing legal penalties for long replies"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L08-Q045",
+      "lecture_id": "LING-L08",
+      "topic_id": "speech_acts",
+      "source_slides": [
+        4,
+        11
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "understand",
+      "question": "What is the central idea of speech-act theory in the lecture?",
+      "explanation": "Promising, warning, betting, congratulating, and resigning can be acts in communication rather than merely descriptions.",
+      "example": "I promise to return the book can undertake a commitment.",
+      "reference_ids": [
+        "lecture_08"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Every utterance describes physical movement."
+        },
+        {
+          "id": "B",
+          "text": "Only written sentences have communicative purposes."
+        },
+        {
+          "id": "C",
+          "text": "Words cannot affect commitments or relationships."
+        },
+        {
+          "id": "D",
+          "text": "People can perform actions through language."
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L08-Q046",
+      "lecture_id": "LING-L08",
+      "topic_id": "speech_acts",
+      "source_slides": [
+        4,
+        11
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "Said sincerely in an appropriate conversation, “I promise to return your book tomorrow” most directly performs which act?",
+      "explanation": "The speaker undertakes a future commitment. The scenario specifies a genuine use rather than a theatrical quotation.",
+      "example": "I promise to call can similarly make a promise.",
+      "reference_ids": [
+        "lecture_08"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Describing the book’s physical appearance"
+        },
+        {
+          "id": "B",
+          "text": "Asking how promise is spelled"
+        },
+        {
+          "id": "C",
+          "text": "Reporting a promise made last year"
+        },
+        {
+          "id": "D",
+          "text": "Promising"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L08-Q047",
+      "lecture_id": "LING-L08",
+      "topic_id": "speech_acts",
+      "source_slides": [
+        4,
+        11
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A person indicates a dangerous step and says “I warn you: it is loose.” Which act is foregrounded?",
+      "explanation": "The utterance alerts a listener to a risk. Its purpose extends beyond a neutral report.",
+      "example": "Watch out, the floor is slippery can warn without using warn.",
+      "reference_ids": [
+        "lecture_08"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Resigning from office"
+        },
+        {
+          "id": "B",
+          "text": "Naming a ship"
+        },
+        {
+          "id": "C",
+          "text": "Warning"
+        },
+        {
+          "id": "D",
+          "text": "Defining loose in a dictionary"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L08-Q048",
+      "lecture_id": "LING-L08",
+      "topic_id": "speech_acts",
+      "source_slides": [
+        4,
+        11
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "What is illocutionary force in the lecture’s terminology?",
+      "explanation": "Force identifies an act such as warning or requesting, not a physical sound measurement.",
+      "example": "A quiet request can still have the force of a request.",
+      "reference_ids": [
+        "lecture_08"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The strength of vocal-fold vibration"
+        },
+        {
+          "id": "B",
+          "text": "The number of clauses in a sentence"
+        },
+        {
+          "id": "C",
+          "text": "The communicative act performed by an utterance"
+        },
+        {
+          "id": "D",
+          "text": "The utterance’s acoustic loudness"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L08-Q049",
+      "lecture_id": "LING-L08",
+      "topic_id": "speech_acts",
+      "source_slides": [
+        4,
+        11
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "Someone says “I resign” in a genuine, appropriate workplace procedure. Why is this performative?",
+      "explanation": "The act is undertaken through language in the specified setting. Quotation or rehearsal need not have that effect.",
+      "example": "An actor saying I resign in a play is a different use.",
+      "reference_ids": [
+        "lecture_08"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The sentence only defines a spelling."
+        },
+        {
+          "id": "B",
+          "text": "The utterance is used to carry out the resignation act."
+        },
+        {
+          "id": "C",
+          "text": "The speaker must be reporting another person’s past decision."
+        },
+        {
+          "id": "D",
+          "text": "Resign is a question marker."
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L08-Q050",
+      "lecture_id": "LING-L08",
+      "topic_id": "speech_acts",
+      "source_slides": [
+        4,
+        11
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "In an agreed wager, a friend says “I bet you that our team will win.” Which speech act is foregrounded?",
+      "explanation": "The supplied context makes the utterance part of undertaking a bet, rather than merely reporting a belief about the team. Different verbs can identify different acts.",
+      "example": "I nominate Sara for the position would perform a nomination in an appropriate procedure.",
+      "reference_ids": [
+        "lecture_08"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Betting"
+        },
+        {
+          "id": "B",
+          "text": "Swearing testimony"
+        },
+        {
+          "id": "C",
+          "text": "Nominating a candidate"
+        },
+        {
+          "id": "D",
+          "text": "Offering congratulations"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L08-Q051",
+      "lecture_id": "LING-L08",
+      "topic_id": "speech_acts",
+      "source_slides": [
+        4,
+        11
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Why does performing a warning not require the listener actually to obey?",
+      "explanation": "A warning can be issued even when ignored. Whether it changes behavior requires separate evidence.",
+      "example": "A person can warn about rain even if the listener takes no umbrella.",
+      "reference_ids": [
+        "lecture_08"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "A warning exists only if it changes behavior."
+        },
+        {
+          "id": "B",
+          "text": "The communicative act and its intended effect are distinct questions."
+        },
+        {
+          "id": "C",
+          "text": "An ignored warning becomes an adjective phrase."
+        },
+        {
+          "id": "D",
+          "text": "A warning must always be shouted."
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L08-Q052",
+      "lecture_id": "LING-L08",
+      "topic_id": "speech_acts",
+      "source_slides": [
+        4,
+        11
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "An authorized celebrant uses the required declaration in a valid marriage ceremony. What makes this relevant to speech acts?",
+      "explanation": "Authority and setting help determine the act’s status. The same wording in rehearsal need not produce the institutional result.",
+      "example": "An appropriate judicial declaration similarly depends on its setting.",
+      "reference_ids": [
+        "lecture_08"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Any mention of marriage automatically creates one."
+        },
+        {
+          "id": "B",
+          "text": "The words participate in an institutional act under appropriate conditions."
+        },
+        {
+          "id": "C",
+          "text": "The declaration is only a dictionary definition."
+        },
+        {
+          "id": "D",
+          "text": "Institutional circumstances cannot affect an utterance."
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L08-Q053",
+      "lecture_id": "LING-L08",
+      "topic_id": "speech_acts",
+      "source_slides": [
+        4,
+        11
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Why is a performative verb’s presence insufficient to prove that its act is performed now?",
+      "explanation": "Mentioning an act and doing it are different. Grammatical construction and communicative use matter.",
+      "example": "She promised yesterday describes a past act without itself making that promise.",
+      "reference_ids": [
+        "lecture_08"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "All acts require an identical formula."
+        },
+        {
+          "id": "B",
+          "text": "Every occurrence of promise commits the current speaker."
+        },
+        {
+          "id": "C",
+          "text": "It may occur in a report, quotation, denial, or hypothetical example."
+        },
+        {
+          "id": "D",
+          "text": "Warn cannot describe an earlier event."
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L08-Q054",
+      "lecture_id": "LING-L08",
+      "topic_id": "speech_acts",
+      "source_slides": [
+        4,
+        11
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "apply",
+      "question": "A friend quietly asks “Could you stay until I feel better?” intending a request. Which analysis keeps form, force, and volume separate?",
+      "explanation": "Structure, communicative act, and physical delivery are different dimensions. The supplied situation supports a request in question form.",
+      "example": "Can you help me? can also be a softly spoken request.",
+      "reference_ids": [
+        "lecture_08"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Imperative form solely because a request is intended"
+        },
+        {
+          "id": "B",
+          "text": "Interrogative form, request force, and quiet delivery"
+        },
+        {
+          "id": "C",
+          "text": "A force consisting of acoustic intensity alone"
+        },
+        {
+          "id": "D",
+          "text": "No speech act because the voice is quiet"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L08-Q055",
+      "lecture_id": "LING-L08",
+      "topic_id": "presupposition",
+      "source_slides": [
+        12
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "understand",
+      "question": "What is a presupposition in the introductory account used here?",
+      "explanation": "Presupposed content is backgrounded rather than introduced as the main point. Being assumed does not guarantee truth.",
+      "example": "Sara stopped writing poems normally backgrounds earlier writing.",
+      "reference_ids": [
+        "lecture_08",
+        "presupposition_background"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Background information an utterance presents as already assumed"
+        },
+        {
+          "id": "B",
+          "text": "Only the action explicitly commanded"
+        },
+        {
+          "id": "C",
+          "text": "The physical duration of an utterance"
+        },
+        {
+          "id": "D",
+          "text": "Any claim independently proven true"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L08-Q056",
+      "lecture_id": "LING-L08",
+      "topic_id": "presupposition",
+      "source_slides": [
+        12
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "In “Have you stopped hugging your sheepdog?” what earlier activity is normally presupposed by stopped?",
+      "explanation": "The question backgrounds an earlier activity while asking whether it ceased. It does not independently verify that background.",
+      "example": "Have you stopped smoking? similarly assumes earlier smoking in its ordinary use.",
+      "reference_ids": [
+        "lecture_08"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The question proves you stopped yesterday."
+        },
+        {
+          "id": "B",
+          "text": "You have never hugged an animal."
+        },
+        {
+          "id": "C",
+          "text": "The dog promised to hug you."
+        },
+        {
+          "id": "D",
+          "text": "You previously hugged the sheepdog."
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L08-Q057",
+      "lecture_id": "LING-L08",
+      "topic_id": "presupposition",
+      "source_slides": [
+        12
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "What is normally presupposed by “John does not write poems anymore”?",
+      "explanation": "Anymore relates a present negative claim to an earlier activity or state. The earlier activity is distinguished from the current assertion.",
+      "example": "She does not work there anymore normally suggests earlier employment.",
+      "reference_ids": [
+        "lecture_08"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "John used to write poems."
+        },
+        {
+          "id": "B",
+          "text": "John now writes poems every day."
+        },
+        {
+          "id": "C",
+          "text": "John has never written anything."
+        },
+        {
+          "id": "D",
+          "text": "John must be writing a novel now."
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L08-Q058",
+      "lecture_id": "LING-L08",
+      "topic_id": "presupposition",
+      "source_slides": [
+        12
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A guest has finished a cup of tea. The host asks “Would you like another cup?” What background is continued by another here?",
+      "explanation": "Another presents the offered cup as additional to a relevant earlier one. The explicit scenario fixes the interpretation.",
+      "example": "Another slice can similarly refer to an additional portion.",
+      "reference_ids": [
+        "lecture_08"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "A previous cup has been part of the relevant situation."
+        },
+        {
+          "id": "B",
+          "text": "The guest is obliged to accept."
+        },
+        {
+          "id": "C",
+          "text": "The guest has never encountered tea."
+        },
+        {
+          "id": "D",
+          "text": "The host has guaranteed the guest wants more."
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L08-Q059",
+      "lecture_id": "LING-L08",
+      "topic_id": "presupposition",
+      "source_slides": [
+        12
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "Consider “The present king of France is bald” as a classic example without assuming it true. Which existential assumption is traditionally discussed?",
+      "explanation": "The question analyses an assumed referent without asserting that the actual world satisfies it. A listener can challenge such background.",
+      "example": "A definite description can invite an existence assumption.",
+      "reference_ids": [
+        "lecture_08"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The speaker is the king."
+        },
+        {
+          "id": "B",
+          "text": "There is a contextually identifiable present king of France."
+        },
+        {
+          "id": "C",
+          "text": "Every king is bald."
+        },
+        {
+          "id": "D",
+          "text": "Bald must mean a type of crown."
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L08-Q060",
+      "lecture_id": "LING-L08",
+      "topic_id": "presupposition",
+      "source_slides": [
+        12
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Why is it misleading to define presuppositions simply as facts?",
+      "explanation": "Presupposition concerns how content is presented. Its truth and acceptance are separate issues.",
+      "example": "A listener can reject the assumption that they own a dog.",
+      "reference_ids": [
+        "lecture_08",
+        "presupposition_background"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "A speaker can presuppose something false, disputed, or unshared."
+        },
+        {
+          "id": "B",
+          "text": "Every background assumption is guaranteed correct."
+        },
+        {
+          "id": "C",
+          "text": "A false assumption prevents analysis of the wording."
+        },
+        {
+          "id": "D",
+          "text": "Presuppositions cannot occur in questions."
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L08-Q061",
+      "lecture_id": "LING-L08",
+      "topic_id": "presupposition",
+      "source_slides": [
+        12
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "apply",
+      "question": "Asked “Have you stopped hugging your sheepdog?”, someone replies “I have never had a sheepdog.” What is the response doing?",
+      "explanation": "The reply rejects assumed background and avoids accepting it through an inappropriate yes-or-no answer.",
+      "example": "I never smoked can challenge Have you stopped smoking?",
+      "reference_ids": [
+        "lecture_08",
+        "presupposition_background"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Defining the word hug"
+        },
+        {
+          "id": "B",
+          "text": "Accepting every assumption of the question"
+        },
+        {
+          "id": "C",
+          "text": "Challenging a background assumption rather than merely answering yes or no"
+        },
+        {
+          "id": "D",
+          "text": "Promising to acquire a dog"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L08-Q062",
+      "lecture_id": "LING-L08",
+      "topic_id": "presupposition",
+      "source_slides": [
+        12
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Which analysis separates background from the main assertion in “Sara stopped writing poems”?",
+      "explanation": "The ordinary analysis distinguishes what is taken for granted from the update. Special contexts can still require attention.",
+      "example": "No longer works there similarly updates a state against earlier employment.",
+      "reference_ids": [
+        "lecture_08",
+        "presupposition_background"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The sentence necessarily says Sara will restart tomorrow."
+        },
+        {
+          "id": "B",
+          "text": "Both are claims about sound intensity."
+        },
+        {
+          "id": "C",
+          "text": "Earlier writing is backgrounded; cessation is the main asserted change."
+        },
+        {
+          "id": "D",
+          "text": "Cessation is backgrounded; earlier writing is the only current assertion."
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L08-Q063",
+      "lecture_id": "LING-L08",
+      "topic_id": "presupposition",
+      "source_slides": [
+        12
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "How can a loaded question mislead even without supplying its answer?",
+      "explanation": "The question format can conceal a commitment in the background. A respondent may need to challenge it before answering.",
+      "example": "When did you stop cheating? backgrounds alleged earlier cheating without proving it.",
+      "reference_ids": [
+        "lecture_08",
+        "presupposition_background"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only declaratives contain meaningful words."
+        },
+        {
+          "id": "B",
+          "text": "Questions cannot communicate background information."
+        },
+        {
+          "id": "C",
+          "text": "Every question literally asserts that its answer is yes."
+        },
+        {
+          "id": "D",
+          "text": "It can invite acceptance of a disputed background assumption."
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L08-Q064",
+      "lecture_id": "LING-L08",
+      "topic_id": "presupposition",
+      "source_slides": [
+        12
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Which distinction separates declining through “I have an early class” from the stopped-writing example?",
+      "explanation": "The examples foreground different kinds of meaning. Implication and presupposed background should not be collapsed into one label.",
+      "example": "A speaker can imply refusal without using a cessation expression.",
+      "reference_ids": [
+        "lecture_08",
+        "presupposition_background"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Both are direct commands."
+        },
+        {
+          "id": "B",
+          "text": "Both are guaranteed true because they are spoken."
+        },
+        {
+          "id": "C",
+          "text": "The first has no conventional meaning and the second has no context."
+        },
+        {
+          "id": "D",
+          "text": "The refusal is a contextual inference; earlier writing is backgrounded by cessation."
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L08-Q065",
+      "lecture_id": "LING-L08",
+      "topic_id": "metaphor",
+      "source_slides": [
+        13
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "understand",
+      "question": "What is the central contrast in the lecture’s metaphor discussion?",
+      "explanation": "An expression can be used beyond its literal category application to convey a selected resemblance. This need not be random nonsense.",
+      "example": "Calling a determined person a tiger can highlight a relevant quality.",
+      "reference_ids": [
+        "lecture_08"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "A plural form versus a singular form"
+        },
+        {
+          "id": "B",
+          "text": "Literal category application versus a figurative interpretation through comparison"
+        },
+        {
+          "id": "C",
+          "text": "A high-frequency sound versus a low-frequency sound"
+        },
+        {
+          "id": "D",
+          "text": "A preposition versus its printed font"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L08-Q066",
+      "lecture_id": "LING-L08",
+      "topic_id": "metaphor",
+      "source_slides": [
+        13
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A speaker calls Jack “a tiger” specifically to praise courage in a difficult contest. Which interpretation fits?",
+      "explanation": "The supplied context identifies the comparison. It does not require literal species membership.",
+      "example": "Calling someone a lion can similarly highlight courage in a stated context.",
+      "reference_ids": [
+        "lecture_08"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Jack literally became a different species."
+        },
+        {
+          "id": "B",
+          "text": "Jack names every tiger in the world."
+        },
+        {
+          "id": "C",
+          "text": "Tiger has lost every conventional association."
+        },
+        {
+          "id": "D",
+          "text": "Jack acted courageously or fiercely."
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L08-Q067",
+      "lecture_id": "LING-L08",
+      "topic_id": "metaphor",
+      "source_slides": [
+        13
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "Someone says “Walls have ears” to warn a companion about being overheard. What is intended?",
+      "explanation": "The conventional figurative expression supports a warning in the situation. It does not require a literal anatomical claim.",
+      "example": "Be careful what you say makes the warning explicit.",
+      "reference_ids": [
+        "lecture_08"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Every mention of walls is a biological report."
+        },
+        {
+          "id": "B",
+          "text": "The wall has been appointed an official witness."
+        },
+        {
+          "id": "C",
+          "text": "Others may be listening, so the speakers should be cautious."
+        },
+        {
+          "id": "D",
+          "text": "Literal ears have been verified growing on the building."
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L08-Q068",
+      "lecture_id": "LING-L08",
+      "topic_id": "metaphor",
+      "source_slides": [
+        13
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "In a fictional example, a critic calls a surgeon “a butcher” to condemn rough work. What makes this use metaphorical?",
+      "explanation": "The context specifies a critical comparison. This is language analysis, not a factual allegation about a real clinician.",
+      "example": "Calling someone a machine can highlight a quality without literal identity.",
+      "reference_ids": [
+        "lecture_08"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "An occupation term figuratively characterizes the surgeon’s work."
+        },
+        {
+          "id": "B",
+          "text": "The critic necessarily identifies a second literal occupation."
+        },
+        {
+          "id": "C",
+          "text": "Butcher has become a plural suffix."
+        },
+        {
+          "id": "D",
+          "text": "The statement can only offer meat for sale."
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L08-Q069",
+      "lecture_id": "LING-L08",
+      "topic_id": "metaphor",
+      "source_slides": [
+        13
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Why must a metaphor question supply enough context?",
+      "explanation": "A metaphor does not transfer every property of its source. The situation guides which qualities are relevant.",
+      "example": "Tiger can highlight courage in one context and aggression in another.",
+      "reference_ids": [
+        "lecture_08"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Word count alone determines figurative meaning."
+        },
+        {
+          "id": "B",
+          "text": "Context deletes all literal meanings from the language."
+        },
+        {
+          "id": "C",
+          "text": "The relevant comparison can differ across uses of the expression."
+        },
+        {
+          "id": "D",
+          "text": "Every metaphor has one interpretation in every situation."
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L08-Q070",
+      "lecture_id": "LING-L08",
+      "topic_id": "metaphor",
+      "source_slides": [
+        13
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Why is metaphor not adequately described as meaningless breaking of semantic rules?",
+      "explanation": "The lecture’s stretching description should not imply meaningless failure. Shared associations and context can support interpretation.",
+      "example": "Our doubts are traitors presents doubt as working against us.",
+      "reference_ids": [
+        "lecture_08"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Figurative interpretation can be systematic and intelligible."
+        },
+        {
+          "id": "B",
+          "text": "Every literal mismatch has no possible interpretation."
+        },
+        {
+          "id": "C",
+          "text": "Metaphor always creates a tense ending."
+        },
+        {
+          "id": "D",
+          "text": "A comparison is understandable only if literally true."
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L08-Q071",
+      "lecture_id": "LING-L08",
+      "topic_id": "deixis",
+      "source_slides": [
+        14,
+        15
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "understand",
+      "question": "What is deixis?",
+      "explanation": "Deictic interpretation needs an anchor such as speaker, place, or time. The expressions retain conventional uses.",
+      "example": "I, here, and tomorrow require contextual anchoring.",
+      "reference_ids": [
+        "lecture_08"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The measurement of speech intensity"
+        },
+        {
+          "id": "B",
+          "text": "Context-dependent reference anchored to an utterance situation"
+        },
+        {
+          "id": "C",
+          "text": "A rule requiring a plural suffix on every noun"
+        },
+        {
+          "id": "D",
+          "text": "A dictionary alphabetization method"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L08-Q072",
+      "lecture_id": "LING-L08",
+      "topic_id": "deixis",
+      "source_slides": [
+        14,
+        15
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "Which group consists of person-deictic expressions in the lecture?",
+      "explanation": "Person deixis concerns participant-related reference. Identifying the speaker and addressee helps recover it.",
+      "example": "My ordinarily relates a possession or association to the speaker.",
+      "reference_ids": [
+        "lecture_08"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "now, tomorrow, and yesterday"
+        },
+        {
+          "id": "B",
+          "text": "table, river, and window"
+        },
+        {
+          "id": "C",
+          "text": "I, you, and my"
+        },
+        {
+          "id": "D",
+          "text": "here, there, and nearby"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L08-Q073",
+      "lecture_id": "LING-L08",
+      "topic_id": "deixis",
+      "source_slides": [
+        14,
+        15
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "Sara says to Ali, “I will help you.” Who do I and you refer to?",
+      "explanation": "The supplied participants anchor the pronouns. The same wording can identify different people when speaker roles change.",
+      "example": "If Ali replies I will help you, their mapping changes.",
+      "reference_ids": [
+        "lecture_08"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Both refer to any person listed in a dictionary."
+        },
+        {
+          "id": "B",
+          "text": "The pronouns have no possible reference in a future sentence."
+        },
+        {
+          "id": "C",
+          "text": "I is Sara, and you is Ali."
+        },
+        {
+          "id": "D",
+          "text": "I is Ali, and you is Sara."
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L08-Q074",
+      "lecture_id": "LING-L08",
+      "topic_id": "deixis",
+      "source_slides": [
+        14,
+        15
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "Which expression most clearly illustrates place deixis?",
+      "explanation": "Over there directs attention to a location in the situation. Person and time expressions require different anchors.",
+      "example": "This place can require a shared location or gesture.",
+      "reference_ids": [
+        "lecture_08"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "now"
+        },
+        {
+          "id": "B",
+          "text": "over there"
+        },
+        {
+          "id": "C",
+          "text": "mine"
+        },
+        {
+          "id": "D",
+          "text": "tomorrow"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L08-Q075",
+      "lecture_id": "LING-L08",
+      "topic_id": "deixis",
+      "source_slides": [
+        14,
+        15
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A teacher points to one of several towers and says “That tower is old.” What helps identify the tower?",
+      "explanation": "The noun supplies a category, while the demonstrative use needs identification. A gesture can help establish the referent.",
+      "example": "That book can be identified by pointing to a particular book.",
+      "reference_ids": [
+        "lecture_08"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The age of every teacher in the school"
+        },
+        {
+          "id": "B",
+          "text": "The shared situation and pointing gesture"
+        },
+        {
+          "id": "C",
+          "text": "The alphabetical position of tower"
+        },
+        {
+          "id": "D",
+          "text": "The past tense of an absent verb"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L08-Q076",
+      "lecture_id": "LING-L08",
+      "topic_id": "deixis",
+      "source_slides": [
+        14,
+        15
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "Which set most clearly illustrates time deixis?",
+      "explanation": "These expressions locate time relative to the utterance or another supplied reference point. Exact dates need an appropriate anchor.",
+      "example": "Tomorrow ordinarily identifies the day after the utterance day.",
+      "reference_ids": [
+        "lecture_08"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "teacher, student, and classroom"
+        },
+        {
+          "id": "B",
+          "text": "now, tomorrow, and two weeks from now"
+        },
+        {
+          "id": "C",
+          "text": "those towers, this city, and over there"
+        },
+        {
+          "id": "D",
+          "text": "mine, yours, and ours"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L08-Q077",
+      "lecture_id": "LING-L08",
+      "topic_id": "deixis",
+      "source_slides": [
+        14,
+        15
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "Under an ordinary utterance-day interpretation, someone says on 10 March “I will return tomorrow.” Which date is indicated?",
+      "explanation": "The stated day anchors tomorrow. The answer does not depend on the reader’s current date.",
+      "example": "Spoken on 12 March, the same sentence ordinarily points to 13 March.",
+      "reference_ids": [
+        "lecture_08"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "24 March"
+        },
+        {
+          "id": "B",
+          "text": "10 March"
+        },
+        {
+          "id": "C",
+          "text": "9 March"
+        },
+        {
+          "id": "D",
+          "text": "11 March"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L08-Q078",
+      "lecture_id": "LING-L08",
+      "topic_id": "deixis",
+      "source_slides": [
+        14,
+        15
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Why does I not lack semantic meaning just because it refers to different speakers?",
+      "explanation": "A stable use rule can yield different referents across utterances. Context identifies the participant satisfying that rule.",
+      "example": "Sara’s I and Ali’s I follow the same rule but identify different people.",
+      "reference_ids": [
+        "lecture_08"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Context-dependent expressions cannot be interpreted."
+        },
+        {
+          "id": "B",
+          "text": "Each occurrence has a wholly unrelated dictionary definition."
+        },
+        {
+          "id": "C",
+          "text": "Only names have conventional meanings."
+        },
+        {
+          "id": "D",
+          "text": "Its conventional use identifies the speaker, while context determines who that is."
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L08-Q079",
+      "lecture_id": "LING-L08",
+      "topic_id": "deixis",
+      "source_slides": [
+        14,
+        15
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Why is an account of deixis incomplete if it says context matters but ignores conventional meaning?",
+      "explanation": "Context works with linguistic information rather than replacing it. Person, place, and time expressions guide different interpretations.",
+      "example": "Tomorrow guides a time interpretation rather than naming a physical object.",
+      "reference_ids": [
+        "lecture_08"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Linguistic conventions constrain the kind of reference context supplies."
+        },
+        {
+          "id": "B",
+          "text": "Here must refer to a person whenever one is mentioned."
+        },
+        {
+          "id": "C",
+          "text": "Deictic expressions have no conventional use patterns."
+        },
+        {
+          "id": "D",
+          "text": "Tomorrow can mean any object without a special reinterpretation."
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L08-Q080",
+      "lecture_id": "LING-L08",
+      "topic_id": "deixis",
+      "source_slides": [
+        14,
+        15
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "apply",
+      "question": "Sara tells Ali on Monday in their classroom, “I will meet you here tomorrow.” Which mapping follows the supplied context?",
+      "explanation": "Speaker, addressee, location, and day anchor the expressions together. The classroom is supplied for this example, not a universal referent of here.",
+      "example": "Repeating the sentence elsewhere on another day can change its references.",
+      "reference_ids": [
+        "lecture_08"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "I is Ali, you is Sara, here must be a station, and tomorrow is Sunday."
+        },
+        {
+          "id": "B",
+          "text": "I is an absent teacher, and tomorrow is Monday."
+        },
+        {
+          "id": "C",
+          "text": "I is Sara, you is Ali, here is the relevant classroom location, and tomorrow is Tuesday."
+        },
+        {
+          "id": "D",
+          "text": "Here names every classroom, and you always refers to Sara."
+        }
+      ],
+      "answer_id": "C"
+    }
+  ]
+}
