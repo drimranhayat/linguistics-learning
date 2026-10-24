@@ -1,0 +1,3225 @@
+{
+  "schema_version": "1.0.0",
+  "lecture": {
+    "id": "LING-L01",
+    "number": 1,
+    "title": "Language and Linguistics",
+    "language": "en",
+    "source_filename": "Lec 1(1).ppt",
+    "source_slide_count": 17,
+    "question_count": 80,
+    "scope": "Lecture 1 only; original practice examples apply the concepts taught in the supplied slides.",
+    "exam_alignment": "Concept-based practice. No past paper or official examination blueprint was supplied.",
+    "answer_model": "Single best answer. answer_id refers to an option id, not its displayed position. Preserve option ids when shuffling.",
+    "display_guidance": "In learning mode, display explanation followed by example after the learner answers. Source slides and clarification notes can appear in a reference panel."
+  },
+  "references": [
+    {
+      "id": "lecture_01",
+      "type": "user_supplied_slides",
+      "title": "Lecture 1",
+      "filename": "Lec 1(1).ppt",
+      "library_file_id": "libfile_da8b945ae8008191a02cd386c637f611",
+      "note": "Author definitions are paraphrased as attributed in the slides, not presented as independently verified verbatim quotations."
+    },
+    {
+      "id": "nidcd_asl",
+      "type": "authoritative_clarification",
+      "organization": "National Institute on Deafness and Other Communication Disorders, NIH",
+      "title": "American Sign Language",
+      "url": "https://www.nidcd.nih.gov/health/american-sign-language",
+      "supports": "Natural sign languages are full languages. ASL is a natural language with grammar distinct from English."
+    },
+    {
+      "id": "duality_chapter",
+      "type": "scholarly_clarification",
+      "title": "On duality of patterning",
+      "publication": "Simultaneous Structure in Phonology",
+      "publisher": "Oxford University Press",
+      "url": "https://academic.oup.com/book/8665/chapter-abstract/154660911",
+      "supports": "Duality distinguishes a level of meaningful units from the units without meaning that compose them."
+    }
+  ],
+  "clarifications": [
+    {
+      "id": "CL01",
+      "source_slides": [
+        4,
+        9
+      ],
+      "question_ids": [
+        "LING-L01-Q020",
+        "LING-L01-Q021"
+      ],
+      "note": "Treat the slides’ vocal-language emphasis as an account of spoken language. Do not exclude natural sign languages or imply that writing is necessary for language.",
+      "reference_ids": [
+        "nidcd_asl"
+      ]
+    },
+    {
+      "id": "CL02",
+      "source_slides": [
+        6
+      ],
+      "question_ids": [
+        "LING-L01-Q036",
+        "LING-L01-Q037",
+        "LING-L01-Q038",
+        "LING-L01-Q039"
+      ],
+      "note": "Slide 6 places discreteness beside duality. The questions distinguish discrete units from the two levels of patterning rather than treating the terms as synonyms.",
+      "reference_ids": [
+        "duality_chapter"
+      ]
+    },
+    {
+      "id": "CL03",
+      "source_slides": [
+        2,
+        5
+      ],
+      "question_ids": [
+        "LING-L01-Q009",
+        "LING-L01-Q025",
+        "LING-L01-Q026",
+        "LING-L01-Q027"
+      ],
+      "note": "Non-instinctive and cultural transmission concern learning a particular community language. They do not imply absence of biological language capacity."
+    },
+    {
+      "id": "CL04",
+      "source_slides": [
+        5,
+        6
+      ],
+      "question_ids": [
+        "LING-L01-Q028",
+        "LING-L01-Q029",
+        "LING-L01-Q030",
+        "LING-L01-Q031"
+      ],
+      "note": "Creativity and productivity overlap in the slides. Questions do not impose a rigid distinction unsupported by the lecture."
+    },
+    {
+      "id": "CL05",
+      "source_slides": [
+        10,
+        11,
+        12,
+        13
+      ],
+      "note": "Functions may overlap. Scenario questions identify a dominant purpose through explicit context rather than assuming that wording alone fixes function."
+    },
+    {
+      "id": "CL06",
+      "source_slides": [
+        4,
+        5,
+        6
+      ],
+      "question_ids": [
+        "LING-L01-Q040"
+      ],
+      "note": "The introductory contrast with animal communication is not converted into an absolute claim that every individual feature is exclusive to humans."
+    }
+  ],
+  "coverage": [
+    {
+      "source_slides": [
+        1,
+        2,
+        3
+      ],
+      "focus": "Language as symbol, code, and behavior; Sapir, Bloch and Trager, Hall, and Chomsky.",
+      "question_ids": [
+        "LING-L01-Q001",
+        "LING-L01-Q002",
+        "LING-L01-Q003",
+        "LING-L01-Q004",
+        "LING-L01-Q005",
+        "LING-L01-Q006",
+        "LING-L01-Q007",
+        "LING-L01-Q008",
+        "LING-L01-Q009",
+        "LING-L01-Q010",
+        "LING-L01-Q011",
+        "LING-L01-Q012"
+      ]
+    },
+    {
+      "source_slides": [
+        4,
+        7,
+        8,
+        9
+      ],
+      "focus": "Communication, systematicity, arbitrariness, symbolic convention, social behavior, and speech/writing.",
+      "question_ids": [
+        "LING-L01-Q011",
+        "LING-L01-Q012",
+        "LING-L01-Q013",
+        "LING-L01-Q014",
+        "LING-L01-Q015",
+        "LING-L01-Q016",
+        "LING-L01-Q017",
+        "LING-L01-Q018",
+        "LING-L01-Q019",
+        "LING-L01-Q020",
+        "LING-L01-Q021",
+        "LING-L01-Q022"
+      ]
+    },
+    {
+      "source_slides": [
+        5,
+        6
+      ],
+      "focus": "Interchangeability, cultural transmission, creativity, productivity, displacement, discreteness, duality, and the human-language comparison.",
+      "question_ids": [
+        "LING-L01-Q023",
+        "LING-L01-Q024",
+        "LING-L01-Q025",
+        "LING-L01-Q026",
+        "LING-L01-Q027",
+        "LING-L01-Q028",
+        "LING-L01-Q029",
+        "LING-L01-Q030",
+        "LING-L01-Q031",
+        "LING-L01-Q032",
+        "LING-L01-Q033",
+        "LING-L01-Q034",
+        "LING-L01-Q035",
+        "LING-L01-Q036",
+        "LING-L01-Q037",
+        "LING-L01-Q038",
+        "LING-L01-Q039",
+        "LING-L01-Q040"
+      ]
+    },
+    {
+      "source_slides": [
+        10,
+        11,
+        12,
+        13
+      ],
+      "focus": "All seven named language functions, with identification and contextual contrasts.",
+      "question_ids": [
+        "LING-L01-Q041",
+        "LING-L01-Q042",
+        "LING-L01-Q043",
+        "LING-L01-Q044",
+        "LING-L01-Q045",
+        "LING-L01-Q046",
+        "LING-L01-Q047",
+        "LING-L01-Q048",
+        "LING-L01-Q049",
+        "LING-L01-Q050",
+        "LING-L01-Q051",
+        "LING-L01-Q052",
+        "LING-L01-Q053",
+        "LING-L01-Q054",
+        "LING-L01-Q055",
+        "LING-L01-Q056",
+        "LING-L01-Q057",
+        "LING-L01-Q058",
+        "LING-L01-Q059",
+        "LING-L01-Q060",
+        "LING-L01-Q061",
+        "LING-L01-Q062",
+        "LING-L01-Q063",
+        "LING-L01-Q064",
+        "LING-L01-Q065",
+        "LING-L01-Q066",
+        "LING-L01-Q067",
+        "LING-L01-Q068"
+      ]
+    },
+    {
+      "source_slides": [
+        14
+      ],
+      "focus": "Linguistics; history, acquisition, structure, and use.",
+      "question_ids": [
+        "LING-L01-Q069",
+        "LING-L01-Q070",
+        "LING-L01-Q071",
+        "LING-L01-Q072"
+      ]
+    },
+    {
+      "source_slides": [
+        15,
+        16
+      ],
+      "focus": "Learning and teaching, dictionaries, translation, language technology, writing systems, communication across groups, linguistic difficulties, multilingual settings, and endangered languages.",
+      "question_ids": [
+        "LING-L01-Q073",
+        "LING-L01-Q074",
+        "LING-L01-Q075",
+        "LING-L01-Q076",
+        "LING-L01-Q077",
+        "LING-L01-Q078",
+        "LING-L01-Q079",
+        "LING-L01-Q080"
+      ]
+    }
+  ],
+  "excluded_slides": [
+    {
+      "slide": 17,
+      "reason": "Closing thank-you slide; no examinable content."
+    }
+  ],
+  "topics": [
+    {
+      "id": "definitions",
+      "title": "Language: definitions and perspectives",
+      "question_count": 12
+    },
+    {
+      "id": "characteristics",
+      "title": "Characteristics and symbolic organization",
+      "question_count": 10
+    },
+    {
+      "id": "design_features",
+      "title": "Features of communication systems",
+      "question_count": 18
+    },
+    {
+      "id": "functions_informative",
+      "title": "Informative function",
+      "question_count": 4
+    },
+    {
+      "id": "functions_interpersonal",
+      "title": "Interpersonal function",
+      "question_count": 4
+    },
+    {
+      "id": "functions_performative",
+      "title": "Performative function",
+      "question_count": 4
+    },
+    {
+      "id": "functions_emotive",
+      "title": "Emotive function",
+      "question_count": 4
+    },
+    {
+      "id": "functions_phatic",
+      "title": "Phatic communion",
+      "question_count": 4
+    },
+    {
+      "id": "functions_recreational",
+      "title": "Recreational function",
+      "question_count": 4
+    },
+    {
+      "id": "functions_metalingual",
+      "title": "Metalingual function",
+      "question_count": 4
+    },
+    {
+      "id": "linguistics",
+      "title": "Nature and scope of linguistics",
+      "question_count": 4
+    },
+    {
+      "id": "applications",
+      "title": "Applications of linguistic analysis",
+      "question_count": 8
+    }
+  ],
+  "statistics": {
+    "difficulty": {
+      "easy": 21,
+      "medium": 46,
+      "hard": 13
+    },
+    "cognitive_level": {
+      "understand": 18,
+      "remember": 12,
+      "analyze": 19,
+      "apply": 31
+    },
+    "answer_distribution": {
+      "A": 20,
+      "B": 20,
+      "C": 20,
+      "D": 20
+    }
+  },
+  "questions": [
+    {
+      "id": "LING-L01-Q001",
+      "lecture_id": "LING-L01",
+      "topic_id": "definitions",
+      "source_slides": [
+        1,
+        4
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "understand",
+      "question": "Which description best brings together the views of language introduced in this lecture?",
+      "explanation": "Language connects forms with meanings through shared conventions. Its units combine according to rules, allowing people to communicate and interact. It includes much more than writing or emotional reactions.",
+      "example": "Friends use familiar words and sentence patterns to arrange a meeting.",
+      "reference_ids": [
+        "lecture_01"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "A rule-governed system of symbols used in human communication and social interaction"
+        },
+        {
+          "id": "B",
+          "text": "A set of emotional reactions that requires no shared conventions"
+        },
+        {
+          "id": "C",
+          "text": "A collection of written signs used only to record information"
+        },
+        {
+          "id": "D",
+          "text": "A fixed list of sounds repeated without combining them"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L01-Q002",
+      "lecture_id": "LING-L01",
+      "topic_id": "definitions",
+      "source_slides": [
+        2
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "In the definition attributed to Sapir in the slides, what does language communicate through voluntarily produced symbols?",
+      "explanation": "Sapir’s definition in the lecture gives language a broad communicative role. People use symbols to express thoughts, feelings, and wants, rather than to transmit facts alone.",
+      "example": "“I miss home” expresses a feeling, while “I want to visit home” expresses a desire.",
+      "reference_ids": [
+        "lecture_01"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only facts that can be checked scientifically"
+        },
+        {
+          "id": "B",
+          "text": "Ideas, emotions, and desires"
+        },
+        {
+          "id": "C",
+          "text": "Only relationships between written letters"
+        },
+        {
+          "id": "D",
+          "text": "Only instructions about immediate physical dangers"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L01-Q003",
+      "lecture_id": "LING-L01",
+      "topic_id": "definitions",
+      "source_slides": [
+        2
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "Which scholars are associated in the lecture with a definition emphasizing arbitrary vocal symbols and cooperation within a social group?",
+      "explanation": "The lecture attributes this combination of arbitrariness, vocal symbols, and social cooperation to Bloch and Trager. The focus is on language as a shared resource for group activity.",
+      "example": "A group uses agreed words to divide tasks and organize an event.",
+      "reference_ids": [
+        "lecture_01"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Hall"
+        },
+        {
+          "id": "B",
+          "text": "Bloch and Trager"
+        },
+        {
+          "id": "C",
+          "text": "Sapir"
+        },
+        {
+          "id": "D",
+          "text": "Chomsky"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L01-Q004",
+      "lecture_id": "LING-L01",
+      "topic_id": "definitions",
+      "source_slides": [
+        3
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "Which account in the lecture emphasizes language as an institution involving habitual oral–auditory symbols?",
+      "explanation": "The slides associate Hall with language as a social institution and with habitual communication through oral–auditory symbols. This describes the spoken-language emphasis of that account.",
+      "example": "People repeatedly use familiar spoken expressions to interact in their community.",
+      "reference_ids": [
+        "lecture_01"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Hall’s account"
+        },
+        {
+          "id": "B",
+          "text": "Sapir’s account"
+        },
+        {
+          "id": "C",
+          "text": "Bloch and Trager’s account"
+        },
+        {
+          "id": "D",
+          "text": "Chomsky’s account"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L01-Q005",
+      "lecture_id": "LING-L01",
+      "topic_id": "definitions",
+      "source_slides": [
+        3
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "In Chomsky’s definition as presented in the lecture, sentences are constructed from what?",
+      "explanation": "The definition highlights how a limited inventory of elements can support sentence formation. It does not describe language as a memorized list of complete messages.",
+      "example": "Familiar words can combine in a new sentence such as “The little robot borrowed my umbrella.”",
+      "reference_ids": [
+        "lecture_01"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "A fixed set of complete sentences that speakers memorize"
+        },
+        {
+          "id": "B",
+          "text": "A set of written letters with no structural rules"
+        },
+        {
+          "id": "C",
+          "text": "A finite set of elements"
+        },
+        {
+          "id": "D",
+          "text": "A separate unlimited vocabulary for every sentence"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L01-Q006",
+      "lecture_id": "LING-L01",
+      "topic_id": "definitions",
+      "source_slides": [
+        3
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "understand",
+      "question": "Which statement accurately represents the relationship between sentence length and the set of sentences in Chomsky’s definition on the slide?",
+      "explanation": "The length of one sentence and the size of the set of possible sentences are different matters. A sentence can contain a finite number of elements even when speakers can keep producing further sentences.",
+      "example": "“Ali smiled” is short, and adding “Mary said that” creates another finite sentence.",
+      "reference_ids": [
+        "lecture_01"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Every sentence must have the same length because the elements are finite."
+        },
+        {
+          "id": "B",
+          "text": "Each sentence is finite in length, while the set of sentences may be finite or infinite."
+        },
+        {
+          "id": "C",
+          "text": "Each sentence must be infinite in length, while the set of sentences is finite."
+        },
+        {
+          "id": "D",
+          "text": "The number of elements must be infinite for any sentence to be possible."
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L01-Q007",
+      "lecture_id": "LING-L01",
+      "topic_id": "definitions",
+      "source_slides": [
+        2,
+        3
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "analyze",
+      "question": "Which comparison best captures the different emphases of Bloch and Trager’s and Chomsky’s definitions in the lecture?",
+      "explanation": "These definitions view language from different angles. One foregrounds a social group using symbols together. The other foregrounds sentences and the elements from which they are constructed.",
+      "example": "Organizing a group discussion illustrates social cooperation; examining possible sentence forms illustrates formal structure.",
+      "reference_ids": [
+        "lecture_01"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Bloch and Trager emphasize writing, while Chomsky emphasizes emotional expression."
+        },
+        {
+          "id": "B",
+          "text": "Bloch and Trager describe animal calls, while Chomsky describes only dictionary meanings."
+        },
+        {
+          "id": "C",
+          "text": "Bloch and Trager exclude symbols, while Chomsky excludes sentences."
+        },
+        {
+          "id": "D",
+          "text": "Bloch and Trager emphasize social cooperation, while Chomsky emphasizes the formal construction of sentences."
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L01-Q008",
+      "lecture_id": "LING-L01",
+      "topic_id": "definitions",
+      "source_slides": [
+        2,
+        3
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A teacher discusses how language helps people express affection and wishes through intentional symbols. Which definition in the lecture most directly matches this emphasis?",
+      "explanation": "The emphasis on communicating emotions and desires through voluntarily produced symbols most directly follows Sapir’s formulation in the slides. Other definitions overlap but foreground different features.",
+      "example": "“I hope you succeed” conveys a wish through an intentional linguistic message.",
+      "reference_ids": [
+        "lecture_01"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Hall’s definition"
+        },
+        {
+          "id": "B",
+          "text": "Sapir’s definition"
+        },
+        {
+          "id": "C",
+          "text": "Chomsky’s definition"
+        },
+        {
+          "id": "D",
+          "text": "Bloch and Trager’s definition"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L01-Q009",
+      "lecture_id": "LING-L01",
+      "topic_id": "definitions",
+      "source_slides": [
+        2,
+        4,
+        5
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "understand",
+      "question": "How should the term “non-instinctive” in Sapir’s slide definition be understood alongside cultural transmission?",
+      "explanation": "The point concerns learning a community’s particular language. It should not be turned into a claim that biology has no role in human language or that formal teaching is necessary for acquisition.",
+      "example": "A child growing up with Urdu-speaking caregivers learns Urdu through interaction.",
+      "reference_ids": [
+        "lecture_01"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "A particular language is learned through social experience rather than inherited as a ready-made code."
+        },
+        {
+          "id": "B",
+          "text": "Children must receive formal grammar lessons before they can communicate."
+        },
+        {
+          "id": "C",
+          "text": "Humans have no biological capacity that supports language learning."
+        },
+        {
+          "id": "D",
+          "text": "Every person invents a private language without contact with others."
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L01-Q010",
+      "lecture_id": "LING-L01",
+      "topic_id": "definitions",
+      "source_slides": [
+        1,
+        4,
+        8
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "understand",
+      "question": "What does it mean to describe language as a code in the context of this lecture?",
+      "explanation": "A code here is a shared system for representing and interpreting meanings. It need not be secret. Understanding depends on knowing the conventions of the language.",
+      "example": "English speakers recognize “book” as a familiar word because they have learned its use.",
+      "reference_ids": [
+        "lecture_01"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Listeners can interpret all languages without learning their conventions."
+        },
+        {
+          "id": "B",
+          "text": "People share conventions that connect linguistic forms with meanings."
+        },
+        {
+          "id": "C",
+          "text": "Every word naturally resembles the thing it names."
+        },
+        {
+          "id": "D",
+          "text": "Every utterance is a secret message that must be encrypted."
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L01-Q011",
+      "lecture_id": "LING-L01",
+      "topic_id": "definitions",
+      "source_slides": [
+        4,
+        10,
+        11
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A student greets a lecturer formally but uses a familiar nickname with a close friend. Which characteristic of language does this most directly illustrate?",
+      "explanation": "Language choices respond to relationships and social situations. Forms of address can signal respect, closeness, or distance even when people are speaking the same language.",
+      "example": "The student says “Good morning, Professor” in class and “Hi, Sami” to a friend.",
+      "reference_ids": [
+        "lecture_01"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Language requires a written form for every interaction."
+        },
+        {
+          "id": "B",
+          "text": "Language is a form of social behavior."
+        },
+        {
+          "id": "C",
+          "text": "Language refers only to visible objects."
+        },
+        {
+          "id": "D",
+          "text": "Language consists of unchanging sounds without social meaning."
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L01-Q012",
+      "lecture_id": "LING-L01",
+      "topic_id": "definitions",
+      "source_slides": [
+        1,
+        4
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "analyze",
+      "question": "Why is “language is simply a list of words” an incomplete account of language?",
+      "explanation": "Vocabulary is part of language, but knowing words alone does not explain sentence structure or appropriate use. Speakers also know how forms combine and how messages work in interaction.",
+      "example": "Knowing “has,” “he,” and “arrived” is different from knowing how to form “He has arrived.”",
+      "reference_ids": [
+        "lecture_01"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "It assumes that language can express feelings as well as facts."
+        },
+        {
+          "id": "B",
+          "text": "It allows speakers to use words in social interaction."
+        },
+        {
+          "id": "C",
+          "text": "It recognizes that communities share linguistic symbols."
+        },
+        {
+          "id": "D",
+          "text": "It leaves out the rules and conventions through which words combine and function in communication."
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L01-Q013",
+      "lecture_id": "LING-L01",
+      "topic_id": "characteristics",
+      "source_slides": [
+        4,
+        7
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "understand",
+      "question": "What does the lecture mean when it calls language a system?",
+      "explanation": "A system has organized relationships among its parts. In language, rules constrain how units combine, although the exact rules differ across languages.",
+      "example": "In an ordinary English statement, “She has arrived” follows a familiar pattern.",
+      "reference_ids": [
+        "lecture_01"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Its meanings exist independently of any community conventions."
+        },
+        {
+          "id": "B",
+          "text": "Its words can appear in any order without affecting interpretation."
+        },
+        {
+          "id": "C",
+          "text": "Its elements combine according to shared rules."
+        },
+        {
+          "id": "D",
+          "text": "Its speakers must use identical sentences in every situation."
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L01-Q014",
+      "lecture_id": "LING-L01",
+      "topic_id": "characteristics",
+      "source_slides": [
+        7
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "Which sentence best repairs the lecture’s example “Been he wounded has” as an ordinary English declarative sentence?",
+      "explanation": "Ordinary English declaratives place the subject before the auxiliary sequence. Here, “has” comes before “been,” followed by the past participle “wounded.” Rearranging words affects grammatical structure.",
+      "example": "The same pattern appears in “She has been invited.”",
+      "reference_ids": [
+        "lecture_01"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Has been he wounded."
+        },
+        {
+          "id": "B",
+          "text": "He been has wounded."
+        },
+        {
+          "id": "C",
+          "text": "He has been wounded."
+        },
+        {
+          "id": "D",
+          "text": "Wounded he been has."
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L01-Q015",
+      "lecture_id": "LING-L01",
+      "topic_id": "characteristics",
+      "source_slides": [
+        4,
+        7
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "understand",
+      "question": "Which interpretation best explains the description of language as a “system of systems”?",
+      "explanation": "Language has several organized levels that work together. Sounds help form words, words combine into larger structures, and those structures contribute to meaning.",
+      "example": "In “The cats slept,” sound patterns, the plural ending, word order, and meaning all contribute.",
+      "reference_ids": [
+        "lecture_01"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Each speaker uses several unrelated private languages at once."
+        },
+        {
+          "id": "B",
+          "text": "Every language uses the same sounds and word order."
+        },
+        {
+          "id": "C",
+          "text": "Writing completely replaces all other linguistic organization."
+        },
+        {
+          "id": "D",
+          "text": "Language contains interacting patterns of sounds, word formation, sentence structure, and meaning."
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L01-Q016",
+      "lecture_id": "LING-L01",
+      "topic_id": "characteristics",
+      "source_slides": [
+        7,
+        8
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "understand",
+      "question": "What is meant by the arbitrariness of a word such as “pen”?",
+      "explanation": "Arbitrariness concerns the relationship between a linguistic form and its meaning. A community learns and maintains that relationship, so arbitrary does not mean meaningless or constantly changing.",
+      "example": "English “pen” and Urdu “qalam” can name the same kind of writing instrument.",
+      "reference_ids": [
+        "lecture_01"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Its sound physically resembles the object in every language."
+        },
+        {
+          "id": "B",
+          "text": "It cannot be understood by more than one person."
+        },
+        {
+          "id": "C",
+          "text": "Its form has no necessary natural connection with the object it names."
+        },
+        {
+          "id": "D",
+          "text": "Its meaning changes randomly every time it is spoken."
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L01-Q017",
+      "lecture_id": "LING-L01",
+      "topic_id": "characteristics",
+      "source_slides": [
+        5,
+        8
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "English uses “water” and Urdu uses “pani” for the same everyday substance. Which property is most directly illustrated?",
+      "explanation": "Different languages can attach different forms to the same referent. This supports the view that the form–meaning link is conventional rather than naturally required.",
+      "example": "The same familiar object may be called “book” in English and “kitab” in Urdu.",
+      "reference_ids": [
+        "lecture_01"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Displacement"
+        },
+        {
+          "id": "B",
+          "text": "Productivity"
+        },
+        {
+          "id": "C",
+          "text": "Arbitrariness"
+        },
+        {
+          "id": "D",
+          "text": "Interchangeability"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L01-Q018",
+      "lecture_id": "LING-L01",
+      "topic_id": "characteristics",
+      "source_slides": [
+        8
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "understand",
+      "question": "What does the rose illustration in the lecture suggest about names and the things they name?",
+      "explanation": "The illustration separates a linguistic label from its referent. A name represents something by convention, while the object’s physical properties do not depend on that label.",
+      "example": "Calling a rose by an Urdu or English name does not alter its fragrance.",
+      "reference_ids": [
+        "lecture_01"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "All languages must use the same name for the same flower."
+        },
+        {
+          "id": "B",
+          "text": "A name determines the physical smell of a flower."
+        },
+        {
+          "id": "C",
+          "text": "Names are unnecessary for linguistic communication."
+        },
+        {
+          "id": "D",
+          "text": "Changing a name does not by itself change the properties of the thing named."
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L01-Q019",
+      "lecture_id": "LING-L01",
+      "topic_id": "characteristics",
+      "source_slides": [
+        4,
+        8
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "understand",
+      "question": "Why can a linguistic symbol refer to an idea as well as a physical object?",
+      "explanation": "A symbol does not need to resemble a physical thing. Shared linguistic conventions allow words to represent actions, qualities, emotions, and abstract concepts as well as objects.",
+      "example": "“Justice” refers to an abstract concept, while “chair” can refer to a physical object.",
+      "reference_ids": [
+        "lecture_01"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Every linguistic symbol must be a drawing of a visible object."
+        },
+        {
+          "id": "B",
+          "text": "Abstract ideas have identical spoken forms in every language."
+        },
+        {
+          "id": "C",
+          "text": "Only objects that are present can receive names."
+        },
+        {
+          "id": "D",
+          "text": "Symbols can represent meanings established through shared use, including abstract meanings."
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L01-Q020",
+      "lecture_id": "LING-L01",
+      "topic_id": "characteristics",
+      "source_slides": [
+        9
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "understand",
+      "question": "Which observation supports the lecture’s point that speech is primary in the development of spoken-language literacy?",
+      "explanation": "For children acquiring a spoken language, everyday interaction generally supports speech before literacy instruction. This is a point about spoken languages, not a reason to exclude natural sign languages.",
+      "example": "A child may tell a story orally before being able to write the same story.",
+      "reference_ids": [
+        "lecture_01"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Children commonly learn to speak a community language before learning to read and write it."
+        },
+        {
+          "id": "B",
+          "text": "Children must master spelling before understanding spoken words."
+        },
+        {
+          "id": "C",
+          "text": "A spoken language cannot exist without a standardized alphabet."
+        },
+        {
+          "id": "D",
+          "text": "Writing and speech always develop at exactly the same time in each child."
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L01-Q021",
+      "lecture_id": "LING-L01",
+      "topic_id": "characteristics",
+      "source_slides": [
+        4,
+        9
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "analyze",
+      "question": "How should the lecture’s broad claim that language is vocal be qualified?",
+      "explanation": "Vocal communication describes spoken languages. It is too restrictive as a definition of all language because natural sign languages have their own grammar and can express complex meanings.",
+      "example": "American Sign Language has its own grammatical system and is not simply English represented by gestures.",
+      "reference_ids": [
+        "lecture_01",
+        "nidcd_asl"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Hand movements cannot express grammatical relationships."
+        },
+        {
+          "id": "B",
+          "text": "Natural sign languages are incomplete versions of written languages."
+        },
+        {
+          "id": "C",
+          "text": "A language becomes a full language only after it receives an alphabet."
+        },
+        {
+          "id": "D",
+          "text": "Speech uses a vocal–auditory channel, but natural sign languages are full languages using a visual–gestural channel."
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L01-Q022",
+      "lecture_id": "LING-L01",
+      "topic_id": "characteristics",
+      "source_slides": [
+        7,
+        8
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Which statement correctly relates arbitrariness to the rule-governed nature of language?",
+      "explanation": "Arbitrariness and systematicity describe different relationships. The first concerns how a form is linked to meaning. The second concerns how linguistic elements are organized and combined.",
+      "example": "The label “cat” is conventional, but “The cat is sleeping” still follows English sentence patterns.",
+      "reference_ids": [
+        "lecture_01"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Rule-governed combinations require every word to resemble its referent."
+        },
+        {
+          "id": "B",
+          "text": "Arbitrary words prevent speakers from sharing any grammatical patterns."
+        },
+        {
+          "id": "C",
+          "text": "Form–meaning links can be conventional while combinations of forms still follow rules."
+        },
+        {
+          "id": "D",
+          "text": "Arbitrariness means that listeners decide a completely new meaning for each word on every occasion."
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L01-Q023",
+      "lecture_id": "LING-L01",
+      "topic_id": "design_features",
+      "source_slides": [
+        5
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "Which property allows participants in ordinary conversation to function as both senders and receivers of messages?",
+      "explanation": "Interchangeability refers to the capacity to produce as well as receive linguistic messages. It concerns participant roles, rather than whether a message is about the present or the past.",
+      "example": "One friend asks a question, listens to the reply, and then answers a question in return.",
+      "reference_ids": [
+        "lecture_01"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Arbitrariness"
+        },
+        {
+          "id": "B",
+          "text": "Displacement"
+        },
+        {
+          "id": "C",
+          "text": "Interchangeability"
+        },
+        {
+          "id": "D",
+          "text": "Cultural transmission"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L01-Q024",
+      "lecture_id": "LING-L01",
+      "topic_id": "design_features",
+      "source_slides": [
+        5
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "During a discussion, Ayesha explains an idea, listens to Bilal, and then responds. Which feature is most directly shown by these changing roles?",
+      "explanation": "Ayesha is capable of both producing and understanding messages. The focus of this example is the exchange of speaker and listener roles, rather than the novelty or internal structure of the messages.",
+      "example": "A classroom discussion lets the same student ask, answer, and listen.",
+      "reference_ids": [
+        "lecture_01"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Productivity"
+        },
+        {
+          "id": "B",
+          "text": "Duality of patterning"
+        },
+        {
+          "id": "C",
+          "text": "Displacement"
+        },
+        {
+          "id": "D",
+          "text": "Interchangeability"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L01-Q025",
+      "lecture_id": "LING-L01",
+      "topic_id": "design_features",
+      "source_slides": [
+        5
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "understand",
+      "question": "What is cultural transmission in language?",
+      "explanation": "Cultural transmission means that the language a person learns depends on linguistic experience in a community. It does not mean that each child genetically inherits the vocabulary of their ancestors.",
+      "example": "A child regularly interacting with Punjabi-speaking family members can learn Punjabi.",
+      "reference_ids": [
+        "lecture_01"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Learning a particular language through interaction with other users"
+        },
+        {
+          "id": "B",
+          "text": "Learning language only by studying printed grammar rules"
+        },
+        {
+          "id": "C",
+          "text": "Producing every sentence through a fixed reflex"
+        },
+        {
+          "id": "D",
+          "text": "Inheriting a complete vocabulary through biological ancestry"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L01-Q026",
+      "lecture_id": "LING-L01",
+      "topic_id": "design_features",
+      "source_slides": [
+        5
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A child whose parents speak Urdu grows up using English with caregivers and classmates and becomes an English speaker. Which feature does this most directly illustrate?",
+      "explanation": "A particular language develops through exposure and interaction. Family ancestry alone does not determine which language or languages a child will acquire.",
+      "example": "Children can acquire a language used in their daily environment even when their parents have a different first language.",
+      "reference_ids": [
+        "lecture_01"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Cultural transmission"
+        },
+        {
+          "id": "B",
+          "text": "Interchangeability"
+        },
+        {
+          "id": "C",
+          "text": "Discreteness"
+        },
+        {
+          "id": "D",
+          "text": "Displacement"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L01-Q027",
+      "lecture_id": "LING-L01",
+      "topic_id": "design_features",
+      "source_slides": [
+        5
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Which conclusion is justified by the idea of cultural transmission?",
+      "explanation": "Cultural transmission concerns the learning of particular linguistic conventions through experience. It does not settle all questions about the biological capacity for language and does not require formal lessons.",
+      "example": "A child can learn everyday sentence patterns through conversation before studying grammar at school.",
+      "reference_ids": [
+        "lecture_01"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "A child can learn a community’s language without encountering any of its use."
+        },
+        {
+          "id": "B",
+          "text": "All children need classroom instruction to learn a first language."
+        },
+        {
+          "id": "C",
+          "text": "Human biology has no role in the ability to acquire language."
+        },
+        {
+          "id": "D",
+          "text": "Experience helps determine which particular language a person acquires."
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L01-Q028",
+      "lecture_id": "LING-L01",
+      "topic_id": "design_features",
+      "source_slides": [
+        5
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "understand",
+      "question": "Which example best illustrates linguistic creativity as described in the lecture?",
+      "explanation": "Creativity involves making meaningful new uses of language. New expressions remain interpretable because speakers and listeners share words, patterns, and relevant context.",
+      "example": "Listeners can understand “My timetable is a hungry monster” as a new way of describing a demanding schedule.",
+      "reference_ids": [
+        "lecture_01"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "A speaker replaces all shared conventions with private sounds."
+        },
+        {
+          "id": "B",
+          "text": "A listener needs to memorize every complete sentence before understanding it."
+        },
+        {
+          "id": "C",
+          "text": "A speaker produces a new expression that listeners understand from familiar linguistic resources."
+        },
+        {
+          "id": "D",
+          "text": "A speaker can only repeat messages heard earlier."
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L01-Q029",
+      "lecture_id": "LING-L01",
+      "topic_id": "design_features",
+      "source_slides": [
+        5,
+        6
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A student understands “The sleepy robot borrowed my bicycle,” although she has never encountered that sentence before. Which feature is most directly illustrated?",
+      "explanation": "Productivity allows users to create and understand new messages from familiar elements. Understanding is not limited to a stored list of sentences encountered previously.",
+      "example": "Knowing common words and sentence patterns helps a listener understand a newly invented story.",
+      "reference_ids": [
+        "lecture_01"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Productivity"
+        },
+        {
+          "id": "B",
+          "text": "Interchangeability"
+        },
+        {
+          "id": "C",
+          "text": "Arbitrariness"
+        },
+        {
+          "id": "D",
+          "text": "Cultural transmission"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L01-Q030",
+      "lecture_id": "LING-L01",
+      "topic_id": "design_features",
+      "source_slides": [
+        6
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "understand",
+      "question": "What does it mean to describe human language as open-ended?",
+      "explanation": "Open-endedness concerns the range of messages that can be produced. Individual sentences remain finite, and their construction still depends on linguistic patterns.",
+      "example": "A speaker can describe a new invention without needing a separate pre-existing signal for the entire description.",
+      "reference_ids": [
+        "lecture_01"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Every sentence must contain an unlimited number of words."
+        },
+        {
+          "id": "B",
+          "text": "Every speaker must know every possible word."
+        },
+        {
+          "id": "C",
+          "text": "Users can keep forming new messages rather than relying on a closed list of complete signals."
+        },
+        {
+          "id": "D",
+          "text": "No rules constrain the formation of messages."
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L01-Q031",
+      "lecture_id": "LING-L01",
+      "topic_id": "design_features",
+      "source_slides": [
+        5,
+        6
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "analyze",
+      "question": "How are creativity and productivity related in this lecture?",
+      "explanation": "The lecture uses these terms with overlapping emphasis on novelty. They should not be forced into a strict opposition when the examples show the same broad capacity to extend language.",
+      "example": "Inventing a new but understandable description shows the creative and productive potential of language.",
+      "reference_ids": [
+        "lecture_01"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Creativity concerns past events, while productivity concerns switching speaker roles."
+        },
+        {
+          "id": "B",
+          "text": "Both concern the ability to form or interpret novel linguistic expressions."
+        },
+        {
+          "id": "C",
+          "text": "Creativity requires meaningless sounds, while productivity requires fixed messages."
+        },
+        {
+          "id": "D",
+          "text": "Creativity concerns only spelling, while productivity concerns only handwriting."
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L01-Q032",
+      "lecture_id": "LING-L01",
+      "topic_id": "design_features",
+      "source_slides": [
+        6
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "Which feature allows speakers to discuss people, places, and events beyond the immediate situation?",
+      "explanation": "Displacement frees communication from the immediate here and now. Speakers can refer to the past, the future, distant locations, and imagined situations.",
+      "example": "“We will visit Karachi next month” refers to a future event away from the current location.",
+      "reference_ids": [
+        "lecture_01"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Displacement"
+        },
+        {
+          "id": "B",
+          "text": "Arbitrariness"
+        },
+        {
+          "id": "C",
+          "text": "Interchangeability"
+        },
+        {
+          "id": "D",
+          "text": "Discreteness"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L01-Q033",
+      "lecture_id": "LING-L01",
+      "topic_id": "design_features",
+      "source_slides": [
+        6
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "Which utterance most clearly demonstrates displacement?",
+      "explanation": "The correct utterance refers to a time before the speaker’s birth and people’s earlier lives. The other statements describe objects or events in the immediate situation.",
+      "example": "Recounting a childhood memory also uses language beyond the present moment.",
+      "reference_ids": [
+        "lecture_01"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "“My grandparents lived in Multan before I was born.”"
+        },
+        {
+          "id": "B",
+          "text": "“I can hear you speaking beside me.”"
+        },
+        {
+          "id": "C",
+          "text": "“The light above us is on now.”"
+        },
+        {
+          "id": "D",
+          "text": "“This cup in my hand is hot.”"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L01-Q034",
+      "lecture_id": "LING-L01",
+      "topic_id": "design_features",
+      "source_slides": [
+        6
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "Students discuss what life would be like in a city floating above the clouds. Which feature lets language refer to this imagined situation?",
+      "explanation": "Displacement includes reference to hypothetical and imaginary situations. The referent does not have to exist in front of the speakers, or even exist in the real world.",
+      "example": "A story about a talking mountain can refer to an imagined world.",
+      "reference_ids": [
+        "lecture_01"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Interchangeability"
+        },
+        {
+          "id": "B",
+          "text": "Displacement"
+        },
+        {
+          "id": "C",
+          "text": "Cultural transmission"
+        },
+        {
+          "id": "D",
+          "text": "Discreteness"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L01-Q035",
+      "lecture_id": "LING-L01",
+      "topic_id": "design_features",
+      "source_slides": [
+        5,
+        6
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "A student describes tomorrow’s trip using a sentence no one in the class has heard before. Which two features are most directly involved?",
+      "explanation": "Reference to tomorrow illustrates displacement. Forming a new sentence illustrates productivity. A single utterance can demonstrate more than one property of language.",
+      "example": "“Tomorrow our class will interview a baker beside the old railway station” combines future reference with a new message.",
+      "reference_ids": [
+        "lecture_01"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Interchangeability and cultural transmission"
+        },
+        {
+          "id": "B",
+          "text": "Displacement and productivity"
+        },
+        {
+          "id": "C",
+          "text": "Cultural transmission and discreteness"
+        },
+        {
+          "id": "D",
+          "text": "Arbitrariness and interchangeability"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L01-Q036",
+      "lecture_id": "LING-L01",
+      "topic_id": "design_features",
+      "source_slides": [
+        6
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "understand",
+      "question": "In the description of language features, what does discreteness refer to?",
+      "explanation": "Discreteness concerns units that count as distinct within a linguistic system. It helps explain how combinations can differ when one unit is replaced. It is related to, but not identical with, duality.",
+      "example": "In English, changing the initial sound of “pin” to the initial sound of “bin” changes the word.",
+      "reference_ids": [
+        "lecture_01",
+        "duality_chapter"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The requirement that every utterance express a complete emotion"
+        },
+        {
+          "id": "B",
+          "text": "The absence of boundaries between any linguistic units"
+        },
+        {
+          "id": "C",
+          "text": "The ability to talk only about objects that are present"
+        },
+        {
+          "id": "D",
+          "text": "The organization of language into distinguishable units that can combine"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L01-Q037",
+      "lecture_id": "LING-L01",
+      "topic_id": "design_features",
+      "source_slides": [
+        6
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "The words “pat” and “bat” differ in one identifiable sound unit. Which feature does this most directly illustrate?",
+      "explanation": "A language treats certain units as distinct, and changing a unit can change the linguistic form. This example draws attention to separable sound units rather than reference beyond the present.",
+      "example": "Replacing the final sound in “cap” with the final sound in “cat” produces a different word.",
+      "reference_ids": [
+        "lecture_01"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Interchangeability"
+        },
+        {
+          "id": "B",
+          "text": "Discreteness"
+        },
+        {
+          "id": "C",
+          "text": "Cultural transmission"
+        },
+        {
+          "id": "D",
+          "text": "Displacement"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L01-Q038",
+      "lecture_id": "LING-L01",
+      "topic_id": "design_features",
+      "source_slides": [
+        6
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "understand",
+      "question": "Which example best illustrates duality of patterning?",
+      "explanation": "Duality involves two levels of organization: units without meaning at one level combine into meaningful units at another. The slide mentions duality beside discreteness, but the two terms should be distinguished.",
+      "example": "The sounds /k/, /æ/, and /t/ do not individually mean the animal, but together form “cat.”",
+      "reference_ids": [
+        "lecture_01",
+        "duality_chapter"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "A greeting makes a relationship more comfortable."
+        },
+        {
+          "id": "B",
+          "text": "A speaker refers to an event that happened yesterday."
+        },
+        {
+          "id": "C",
+          "text": "Individually meaningless sound units combine to form meaningful words."
+        },
+        {
+          "id": "D",
+          "text": "A student alternates between listening and speaking."
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L01-Q039",
+      "lecture_id": "LING-L01",
+      "topic_id": "design_features",
+      "source_slides": [
+        6
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Which statement best distinguishes discreteness from duality of patterning?",
+      "explanation": "These properties describe related but different aspects of organization. Distinctness alone is the focus of discreteness. Duality adds a relationship between a level without meaning and a level with meaning.",
+      "example": "Separate sounds illustrate discreteness; combining those sounds to make meaningful words illustrates duality.",
+      "reference_ids": [
+        "lecture_01",
+        "duality_chapter"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Discreteness concerns distant events, while duality concerns present events."
+        },
+        {
+          "id": "B",
+          "text": "Discreteness concerns written language only, while duality concerns spoken language only."
+        },
+        {
+          "id": "C",
+          "text": "Discreteness concerns distinct units, while duality concerns meaningless units combining into meaningful units."
+        },
+        {
+          "id": "D",
+          "text": "Discreteness concerns emotional expression, while duality concerns social greetings."
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L01-Q040",
+      "lecture_id": "LING-L01",
+      "topic_id": "design_features",
+      "source_slides": [
+        4,
+        5,
+        6
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Which claim about human language and animal communication is most defensible when interpreting this introductory lecture?",
+      "explanation": "The lecture’s comparison should not become an absolute denial of animal communication. The important contrast is the extensive combination of properties in human language, including highly flexible expression.",
+      "example": "People can explain a complex hypothetical plan rather than communicate only an immediate warning.",
+      "reference_ids": [
+        "lecture_01"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Every feature listed in the lecture is entirely absent from every other species."
+        },
+        {
+          "id": "B",
+          "text": "Human language combines flexible structure and open-ended expression, although some individual communication features may also occur in other species."
+        },
+        {
+          "id": "C",
+          "text": "Human language is limited to a fixed set of signals about immediate needs."
+        },
+        {
+          "id": "D",
+          "text": "Other species cannot exchange any information at all."
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L01-Q041",
+      "lecture_id": "LING-L01",
+      "topic_id": "functions_informative",
+      "source_slides": [
+        10,
+        13
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "What is the main purpose of the informative function of language?",
+      "explanation": "The informative function concerns giving or exchanging information. A statement may have other effects, but its central task in this use is to tell the listener something.",
+      "example": "“The library closes at six” gives information about opening hours.",
+      "reference_ids": [
+        "lecture_01"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "To convey information"
+        },
+        {
+          "id": "B",
+          "text": "To perform an authorized institutional act"
+        },
+        {
+          "id": "C",
+          "text": "To analyse the form of a linguistic expression"
+        },
+        {
+          "id": "D",
+          "text": "To enjoy the sound of words for its own sake"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L01-Q042",
+      "lecture_id": "LING-L01",
+      "topic_id": "functions_informative",
+      "source_slides": [
+        10,
+        13
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A class representative says, “The examination will begin at 9 a.m. in Room 12,” to tell students the arrangements. Which function is dominant?",
+      "explanation": "The speaker provides practical facts about an event. The stated context makes information delivery the main purpose, rather than entertainment, emotional expression, or discussion of language itself.",
+      "example": "An announcement of a revised timetable serves the same informative purpose.",
+      "reference_ids": [
+        "lecture_01"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Recreational"
+        },
+        {
+          "id": "B",
+          "text": "Emotive"
+        },
+        {
+          "id": "C",
+          "text": "Metalingual"
+        },
+        {
+          "id": "D",
+          "text": "Informative"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L01-Q043",
+      "lecture_id": "LING-L01",
+      "topic_id": "functions_informative",
+      "source_slides": [
+        10,
+        11,
+        13
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "analyze",
+      "question": "Which utterance most clearly serves an informative purpose rather than merely opening a social exchange?",
+      "explanation": "The pharmacy statement supplies specific information about the world. The other utterances primarily establish or maintain social contact in the contexts suggested by their wording.",
+      "example": "“The bus leaves from Gate 3” gives information that a listener can use.",
+      "reference_ids": [
+        "lecture_01"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "“Hello, it is lovely to see you.”"
+        },
+        {
+          "id": "B",
+          "text": "“Nice to meet you at last.”"
+        },
+        {
+          "id": "C",
+          "text": "“The pharmacy on this street closes at eight tonight.”"
+        },
+        {
+          "id": "D",
+          "text": "“Good morning, how are things?”"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L01-Q044",
+      "lecture_id": "LING-L01",
+      "topic_id": "functions_informative",
+      "source_slides": [
+        10,
+        13
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "A radio presenter reads a weather forecast to help listeners plan their journeys. Why is the informative function dominant?",
+      "explanation": "Function depends on communicative purpose, not the topic alone. Weather talk can maintain social contact, but this forecast mainly supplies information for listeners’ decisions.",
+      "example": "“Heavy rain is expected this evening” informs listeners when used in a forecast.",
+      "reference_ids": [
+        "lecture_01"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "A forecast changes the weather by being spoken."
+        },
+        {
+          "id": "B",
+          "text": "Mentioning the weather always makes an utterance phatic."
+        },
+        {
+          "id": "C",
+          "text": "The central purpose is to provide information about expected weather conditions."
+        },
+        {
+          "id": "D",
+          "text": "Every public announcement is primarily recreational."
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L01-Q045",
+      "lecture_id": "LING-L01",
+      "topic_id": "functions_interpersonal",
+      "source_slides": [
+        10,
+        13
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "understand",
+      "question": "What does the interpersonal function of language primarily concern in this lecture?",
+      "explanation": "The interpersonal function concerns how participants relate to one another. Language can indicate respect, familiarity, authority, distance, or a speaker’s stance during interaction.",
+      "example": "A respectful form of address can signal the relationship between a student and a lecturer.",
+      "reference_ids": [
+        "lecture_01"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Listing the meanings of words in a dictionary"
+        },
+        {
+          "id": "B",
+          "text": "Expressing and negotiating relationships, social roles, and attitudes in interaction"
+        },
+        {
+          "id": "C",
+          "text": "Inventing rhymes only for enjoyment"
+        },
+        {
+          "id": "D",
+          "text": "Describing only the physical properties of sounds"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L01-Q046",
+      "lecture_id": "LING-L01",
+      "topic_id": "functions_interpersonal",
+      "source_slides": [
+        10,
+        13
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "In a formal request, a student addresses the recipient as “Dear Professor Ahmed” to acknowledge the academic relationship. Which function is most directly illustrated?",
+      "explanation": "The form of address marks the relationship between writer and recipient. It communicates respect and social positioning, rather than reporting a fact or analysing the words themselves.",
+      "example": "“Yours sincerely” can help maintain an appropriately formal relationship in a letter.",
+      "reference_ids": [
+        "lecture_01"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Recreational"
+        },
+        {
+          "id": "B",
+          "text": "Informative"
+        },
+        {
+          "id": "C",
+          "text": "Metalingual"
+        },
+        {
+          "id": "D",
+          "text": "Interpersonal"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L01-Q047",
+      "lecture_id": "LING-L01",
+      "topic_id": "functions_interpersonal",
+      "source_slides": [
+        10,
+        13
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A lecturer changes “Submit this immediately” to “Could you please submit this today?” to soften the request. Which function is most relevant to this change?",
+      "explanation": "The two requests concern a similar action, but their wording presents a different relationship to the listener. The softer version manages politeness and social distance.",
+      "example": "“Would you mind helping?” can make a request sound less abrupt than “Help me.”",
+      "reference_ids": [
+        "lecture_01"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Interpersonal"
+        },
+        {
+          "id": "B",
+          "text": "Recreational"
+        },
+        {
+          "id": "C",
+          "text": "Metalingual"
+        },
+        {
+          "id": "D",
+          "text": "Informative"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L01-Q048",
+      "lecture_id": "LING-L01",
+      "topic_id": "functions_interpersonal",
+      "source_slides": [
+        10,
+        11,
+        13
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Within the lecture’s classification, which distinction between interpersonal and phatic uses is most useful?",
+      "explanation": "These functions overlap. Phatic greetings are one way to manage social relations, while interpersonal meaning also includes choices that show respect, authority, or attitude beyond greetings.",
+      "example": "“Hello” opens contact; choosing “Professor” rather than a nickname also marks the social relationship.",
+      "reference_ids": [
+        "lecture_01"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Interpersonal use contains information, while phatic use cannot contain any factual words."
+        },
+        {
+          "id": "B",
+          "text": "Interpersonal use is always written, while phatic use is always spoken."
+        },
+        {
+          "id": "C",
+          "text": "Interpersonal use broadly concerns relationships and stance, while phatic use specifically establishes or maintains social contact."
+        },
+        {
+          "id": "D",
+          "text": "Interpersonal use describes past events, while phatic use describes future events."
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L01-Q049",
+      "lecture_id": "LING-L01",
+      "topic_id": "functions_performative",
+      "source_slides": [
+        10,
+        13
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "understand",
+      "question": "What distinguishes the performative function in the lecture’s institutional examples?",
+      "explanation": "In these examples, saying the words is part of doing something within an accepted procedure. Appropriate authority and circumstances matter, as in formal sentencing or a marriage ceremony.",
+      "example": "An authorized official’s declaration during a valid ceremony can establish a new social status.",
+      "reference_ids": [
+        "lecture_01"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "An appropriately authorized utterance helps carry out an act or establish a social status."
+        },
+        {
+          "id": "B",
+          "text": "The speaker describes any action performed in the distant past."
+        },
+        {
+          "id": "C",
+          "text": "The utterance defines a word without affecting any social situation."
+        },
+        {
+          "id": "D",
+          "text": "The speaker uses unusual vocabulary to entertain an audience."
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L01-Q050",
+      "lecture_id": "LING-L01",
+      "topic_id": "functions_performative",
+      "source_slides": [
+        10,
+        13
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "During a valid court proceeding, a judge says, “I sentence you to six months’ imprisonment.” Which language function is dominant?",
+      "explanation": "The judge is carrying out a judicial act through an authorized declaration. The utterance does more than report a sentence that someone else has already imposed.",
+      "example": "The contrast is “The judge sentenced him yesterday,” which ordinarily reports an earlier act.",
+      "reference_ids": [
+        "lecture_01"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Performative"
+        },
+        {
+          "id": "B",
+          "text": "Phatic"
+        },
+        {
+          "id": "C",
+          "text": "Metalingual"
+        },
+        {
+          "id": "D",
+          "text": "Recreational"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L01-Q051",
+      "lecture_id": "LING-L01",
+      "topic_id": "functions_performative",
+      "source_slides": [
+        10,
+        13
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "An actor says “I pronounce you married” in a rehearsal. Why does this normally fail to create a real marriage?",
+      "explanation": "The institutional effect of a declaration depends on more than its wording. Repeating ceremonial words in a play does not by itself satisfy the conditions of an actual marriage procedure.",
+      "example": "A student acting as a judge in a classroom does not impose a real prison sentence.",
+      "reference_ids": [
+        "lecture_01"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The rehearsal lacks the relevant institutional circumstances and authority for the act."
+        },
+        {
+          "id": "B",
+          "text": "The words are too short to perform any social act."
+        },
+        {
+          "id": "C",
+          "text": "A performative utterance must contain a technical linguistic term."
+        },
+        {
+          "id": "D",
+          "text": "Only written language can establish a social status."
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L01-Q052",
+      "lecture_id": "LING-L01",
+      "topic_id": "functions_performative",
+      "source_slides": [
+        10,
+        13
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "analyze",
+      "question": "Which utterance reports an institutional act rather than carrying it out?",
+      "explanation": "The journalist describes an earlier event, so the dominant use is informative. The other utterances occur as part of the relevant official acts themselves.",
+      "example": "“They named the ship yesterday” reports a naming rather than naming the ship at that moment.",
+      "reference_ids": [
+        "lecture_01"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "An authorized official says during a ceremony, “I name this ship Horizon.”"
+        },
+        {
+          "id": "B",
+          "text": "A judge says in court, “I sentence you to six months.”"
+        },
+        {
+          "id": "C",
+          "text": "An authorized celebrant makes the required marriage declaration during the ceremony."
+        },
+        {
+          "id": "D",
+          "text": "A journalist says, “The judge sentenced the defendant yesterday.”"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L01-Q053",
+      "lecture_id": "LING-L01",
+      "topic_id": "functions_emotive",
+      "source_slides": [
+        11,
+        13
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "Which function is most directly associated with expressing strong feelings or affecting an audience emotionally?",
+      "explanation": "The emotive function gives prominence to feelings and emotional response. It can express a speaker’s excitement, pain, frustration, admiration, or similar reaction.",
+      "example": "“Wow, what a wonderful surprise!” expresses excitement.",
+      "reference_ids": [
+        "lecture_01"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Performative"
+        },
+        {
+          "id": "B",
+          "text": "Informative"
+        },
+        {
+          "id": "C",
+          "text": "Metalingual"
+        },
+        {
+          "id": "D",
+          "text": "Emotive"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L01-Q054",
+      "lecture_id": "LING-L01",
+      "topic_id": "functions_emotive",
+      "source_slides": [
+        11,
+        13
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "After seeing a beautiful mountain view, a visitor exclaims, “Wow! What a sight!” Which function is dominant?",
+      "explanation": "The visitor is reacting with admiration rather than mainly providing information about the mountain. The context makes emotional expression the central purpose of the utterance.",
+      "example": "“Oh no!” after disappointing news can similarly express an emotional reaction.",
+      "reference_ids": [
+        "lecture_01"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Emotive"
+        },
+        {
+          "id": "B",
+          "text": "Performative"
+        },
+        {
+          "id": "C",
+          "text": "Phatic"
+        },
+        {
+          "id": "D",
+          "text": "Metalingual"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L01-Q055",
+      "lecture_id": "LING-L01",
+      "topic_id": "functions_emotive",
+      "source_slides": [
+        11,
+        13
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A speaker describes families’ suffering in moving language to make an audience feel compassion. Which function is being foregrounded?",
+      "explanation": "The language aims to affect the audience’s feelings. It may also supply facts, but the scenario specifically emphasizes creating an emotional response.",
+      "example": "A moving appeal can encourage listeners to feel concern for people affected by a flood.",
+      "reference_ids": [
+        "lecture_01"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Emotive"
+        },
+        {
+          "id": "B",
+          "text": "Metalingual"
+        },
+        {
+          "id": "C",
+          "text": "Recreational"
+        },
+        {
+          "id": "D",
+          "text": "Phatic"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L01-Q056",
+      "lecture_id": "LING-L01",
+      "topic_id": "functions_emotive",
+      "source_slides": [
+        10,
+        11,
+        13
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Which change shifts a message most clearly from neutral information toward emotional expression?",
+      "explanation": "The added exclamation foregrounds joy. The alternatives mainly add or change factual information, although any of them could carry emotion in a particular context.",
+      "example": "“Sadly, we lost” explicitly signals a feeling that “We lost” may leave unstated.",
+      "reference_ids": [
+        "lecture_01"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Changing “The team won” to “Hurray! Our team finally won!”"
+        },
+        {
+          "id": "B",
+          "text": "Changing “The team won” to “The team won by two goals.”"
+        },
+        {
+          "id": "C",
+          "text": "Changing “The team won” to “The result appears on the noticeboard.”"
+        },
+        {
+          "id": "D",
+          "text": "Changing “The team won” to “The match ended at five.”"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L01-Q057",
+      "lecture_id": "LING-L01",
+      "topic_id": "functions_phatic",
+      "source_slides": [
+        11,
+        13
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "What is the main purpose of phatic communion?",
+      "explanation": "Phatic language keeps interaction socially comfortable and signals willingness to communicate. The relationship often matters more than exchanging new information.",
+      "example": "A brief “Good morning” can acknowledge another person and open an exchange.",
+      "reference_ids": [
+        "lecture_01"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "To identify the grammatical category of a word"
+        },
+        {
+          "id": "B",
+          "text": "To establish or maintain social contact"
+        },
+        {
+          "id": "C",
+          "text": "To carry out an official judicial decision"
+        },
+        {
+          "id": "D",
+          "text": "To construct an entirely new writing system"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L01-Q058",
+      "lecture_id": "LING-L01",
+      "topic_id": "functions_phatic",
+      "source_slides": [
+        11,
+        13
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "Two neighbors exchange “Good morning” while passing each other, without seeking new information. Which function is dominant?",
+      "explanation": "The greeting acknowledges the relationship and maintains friendly contact. The scenario rules out a main purpose of asking for or providing factual information.",
+      "example": "A casual “Hello, nice to see you” can serve the same social purpose.",
+      "reference_ids": [
+        "lecture_01"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Informative"
+        },
+        {
+          "id": "B",
+          "text": "Performative"
+        },
+        {
+          "id": "C",
+          "text": "Metalingual"
+        },
+        {
+          "id": "D",
+          "text": "Phatic"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L01-Q059",
+      "lecture_id": "LING-L01",
+      "topic_id": "functions_phatic",
+      "source_slides": [
+        11,
+        13
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "At a reception, a guest says “Lovely weather, isn’t it?” mainly to begin a friendly conversation. Which function is dominant?",
+      "explanation": "Although the words mention weather, their main purpose here is to open contact. Classifying a function requires attention to why the speaker is using the utterance.",
+      "example": "A brief comment about the journey can also break the ice between strangers.",
+      "reference_ids": [
+        "lecture_01"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Performative"
+        },
+        {
+          "id": "B",
+          "text": "Metalingual"
+        },
+        {
+          "id": "C",
+          "text": "Phatic"
+        },
+        {
+          "id": "D",
+          "text": "Recreational"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L01-Q060",
+      "lecture_id": "LING-L01",
+      "topic_id": "functions_phatic",
+      "source_slides": [
+        10,
+        11,
+        13
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "In which context does “How are you?” function primarily as a genuine request for information?",
+      "explanation": "The same wording can have different purposes. The clinician’s question requests relevant information, while the other contexts emphasize routine social acknowledgment.",
+      "example": "A friend who notices distress and asks carefully about it may also be seeking a real account.",
+      "reference_ids": [
+        "lecture_01"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "A passerby says it as a routine greeting and continues walking."
+        },
+        {
+          "id": "B",
+          "text": "Two colleagues exchange it automatically before moving to another topic."
+        },
+        {
+          "id": "C",
+          "text": "A host says it quickly to acknowledge each arriving guest."
+        },
+        {
+          "id": "D",
+          "text": "A clinician asks a patient to describe changes in symptoms and waits for a detailed response."
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L01-Q061",
+      "lecture_id": "LING-L01",
+      "topic_id": "functions_recreational",
+      "source_slides": [
+        12,
+        13
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "Which function involves using language for the pleasure of using it?",
+      "explanation": "Recreational language foregrounds enjoyment of words, sounds, rhythm, or verbal play. Its main purpose in such a context is entertainment rather than practical information.",
+      "example": "Friends may repeat a tongue twister simply because it is fun to say.",
+      "reference_ids": [
+        "lecture_01"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Performative"
+        },
+        {
+          "id": "B",
+          "text": "Recreational"
+        },
+        {
+          "id": "C",
+          "text": "Informative"
+        },
+        {
+          "id": "D",
+          "text": "Metalingual"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L01-Q062",
+      "lecture_id": "LING-L01",
+      "topic_id": "functions_recreational",
+      "source_slides": [
+        12,
+        13
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "Children repeat a silly rhyme, laughing at its rhythm and sound. Which function is dominant?",
+      "explanation": "The children enjoy the linguistic performance itself. The scenario does not make the rhyme a lesson about language or an exchange of factual information.",
+      "example": "Playing with rhyming names can be recreational even when it communicates little new information.",
+      "reference_ids": [
+        "lecture_01"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Informative"
+        },
+        {
+          "id": "B",
+          "text": "Recreational"
+        },
+        {
+          "id": "C",
+          "text": "Performative"
+        },
+        {
+          "id": "D",
+          "text": "Metalingual"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L01-Q063",
+      "lecture_id": "LING-L01",
+      "topic_id": "functions_recreational",
+      "source_slides": [
+        12,
+        13
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A student writes a playful poem mainly because she enjoys shaping its rhyme and rhythm. Which function is foregrounded?",
+      "explanation": "The stated purpose is enjoyment of language. Poems can serve many functions, including emotional expression, but this question identifies pleasure in verbal creation as the main one.",
+      "example": "Making up humorous verses with friends can serve the same recreational purpose.",
+      "reference_ids": [
+        "lecture_01"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Performative"
+        },
+        {
+          "id": "B",
+          "text": "Recreational"
+        },
+        {
+          "id": "C",
+          "text": "Phatic"
+        },
+        {
+          "id": "D",
+          "text": "Metalingual"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L01-Q064",
+      "lecture_id": "LING-L01",
+      "topic_id": "functions_recreational",
+      "source_slides": [
+        12,
+        13
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "The same tongue twister is used in two activities. Which activity most clearly makes the use metalingual rather than recreational?",
+      "explanation": "When the tongue twister becomes evidence for explaining language, the use is metalingual. Enjoying or performing it for amusement foregrounds recreation instead.",
+      "example": "Discussing which sounds recur in “red lorry, yellow lorry” turns attention to language itself.",
+      "reference_ids": [
+        "lecture_01"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "A performer includes it in a light-hearted wordplay game."
+        },
+        {
+          "id": "B",
+          "text": "A teacher uses it to explain the difference between two speech sounds."
+        },
+        {
+          "id": "C",
+          "text": "Friends compete to say it quickly for fun."
+        },
+        {
+          "id": "D",
+          "text": "A child repeats it because its rhythm is amusing."
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L01-Q065",
+      "lecture_id": "LING-L01",
+      "topic_id": "functions_metalingual",
+      "source_slides": [
+        12,
+        13
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "What is the metalingual function of language?",
+      "explanation": "Metalingual use makes language the subject of the message. Definitions, explanations of grammar, and comments about word meanings are common examples.",
+      "example": "“A verb can express an action or a state” is a statement about language.",
+      "reference_ids": [
+        "lecture_01"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Using an exclamation to show sudden excitement"
+        },
+        {
+          "id": "B",
+          "text": "Using a greeting to maintain social contact"
+        },
+        {
+          "id": "C",
+          "text": "Using a declaration to impose a legal sentence"
+        },
+        {
+          "id": "D",
+          "text": "Using language to explain or discuss language itself"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L01-Q066",
+      "lecture_id": "LING-L01",
+      "topic_id": "functions_metalingual",
+      "source_slides": [
+        12,
+        13
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A teacher says, “In this sentence, ‘quickly’ tells us how the action happens.” Which function is dominant?",
+      "explanation": "The teacher is using language to explain the role of a linguistic expression. The message is about how the sentence works rather than about a real-world event involving speed.",
+      "example": "Explaining that “books” contains a plural ending is another metalingual use.",
+      "reference_ids": [
+        "lecture_01"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Performative"
+        },
+        {
+          "id": "B",
+          "text": "Phatic"
+        },
+        {
+          "id": "C",
+          "text": "Metalingual"
+        },
+        {
+          "id": "D",
+          "text": "Recreational"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L01-Q067",
+      "lecture_id": "LING-L01",
+      "topic_id": "functions_metalingual",
+      "source_slides": [
+        12,
+        13
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A learner asks, “What does ‘generous’ mean?” Which function is most directly involved?",
+      "explanation": "The learner asks about the meaning of a word, so language itself is the topic. A question can be metalingual just as a definition or explanation can.",
+      "example": "“Does ‘bank’ refer to a riverbank here?” also asks about linguistic meaning.",
+      "reference_ids": [
+        "lecture_01"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Performative"
+        },
+        {
+          "id": "B",
+          "text": "Phatic"
+        },
+        {
+          "id": "C",
+          "text": "Metalingual"
+        },
+        {
+          "id": "D",
+          "text": "Recreational"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L01-Q068",
+      "lecture_id": "LING-L01",
+      "topic_id": "functions_metalingual",
+      "source_slides": [
+        10,
+        12,
+        13
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Which pair correctly distinguishes talking about an object from talking about the word that names it?",
+      "explanation": "The first utterance gives information about something in the world. The second classifies a linguistic expression. The difference lies in what the utterance makes its subject.",
+      "example": "“Water is cold” concerns a substance; “‘Water’ has five letters” concerns the written word.",
+      "reference_ids": [
+        "lecture_01"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "“The book is on the desk” is informative about an object; “‘Book’ is a noun” is metalingual."
+        },
+        {
+          "id": "B",
+          "text": "“The book is on the desk” is metalingual; “‘Book’ is a noun” is performative."
+        },
+        {
+          "id": "C",
+          "text": "“The book is on the desk” is phatic; “‘Book’ is a noun” is recreational."
+        },
+        {
+          "id": "D",
+          "text": "“The book is on the desk” is performative; “‘Book’ is a noun” is emotive."
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L01-Q069",
+      "lecture_id": "LING-L01",
+      "topic_id": "linguistics",
+      "source_slides": [
+        14
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "How does the lecture define linguistics?",
+      "explanation": "Linguistics investigates language systematically, including its structure, history, acquisition, and use. Being a linguist does not mean knowing every language or only correcting errors.",
+      "example": "A linguist may investigate how speakers form questions in a particular language.",
+      "reference_ids": [
+        "lecture_01"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The study of written literature without attention to language"
+        },
+        {
+          "id": "B",
+          "text": "The ability to speak every language fluently"
+        },
+        {
+          "id": "C",
+          "text": "The correction of spelling mistakes alone"
+        },
+        {
+          "id": "D",
+          "text": "The scientific study of language"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L01-Q070",
+      "lecture_id": "LING-L01",
+      "topic_id": "linguistics",
+      "source_slides": [
+        14
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "understand",
+      "question": "Which set best reflects the areas of investigation explicitly identified in the lecture’s account of linguistics?",
+      "explanation": "The lecture presents linguistics as a broad investigation of how language develops, is learned, is organized, and is used. Its scope extends beyond a single practical language skill.",
+      "example": "Studying how children learn sentence patterns concerns acquisition; studying those patterns concerns structure.",
+      "reference_ids": [
+        "lecture_01"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "History, acquisition, structure, and use of languages"
+        },
+        {
+          "id": "B",
+          "text": "Poetry, drama, fiction, and literary prizes only"
+        },
+        {
+          "id": "C",
+          "text": "Translation speed, accent imitation, memorization, and proofreading only"
+        },
+        {
+          "id": "D",
+          "text": "Spelling, handwriting, printing, and page layout only"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L01-Q071",
+      "lecture_id": "LING-L01",
+      "topic_id": "linguistics",
+      "source_slides": [
+        14
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A researcher records how children begin combining words over several months. Which area named in the lecture is being investigated most directly?",
+      "explanation": "The researcher is investigating how language develops in learners. The focus is the process of acquiring linguistic abilities, rather than historical change across generations.",
+      "example": "Tracking a child’s move from single words to short combinations is an acquisition study.",
+      "reference_ids": [
+        "lecture_01"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Language history"
+        },
+        {
+          "id": "B",
+          "text": "Writing-system design"
+        },
+        {
+          "id": "C",
+          "text": "Dictionary compilation"
+        },
+        {
+          "id": "D",
+          "text": "Language acquisition"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L01-Q072",
+      "lecture_id": "LING-L01",
+      "topic_id": "linguistics",
+      "source_slides": [
+        14
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A researcher compares older and newer forms of a language to explain changes across generations. Which area named in the lecture is most directly involved?",
+      "explanation": "The comparison examines language over time. This differs from observing one learner’s development or analysing the purpose of a particular conversation.",
+      "example": "Comparing older and present-day word forms can reveal patterns of linguistic change.",
+      "reference_ids": [
+        "lecture_01"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Everyday greeting routines"
+        },
+        {
+          "id": "B",
+          "text": "Language history"
+        },
+        {
+          "id": "C",
+          "text": "First-language acquisition"
+        },
+        {
+          "id": "D",
+          "text": "Computer-interface design"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L01-Q073",
+      "lecture_id": "LING-L01",
+      "topic_id": "applications",
+      "source_slides": [
+        15,
+        16
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A teacher analyses recurring difficulties in learners’ English sentences and uses the results to improve lessons. Which application from the lecture is most directly illustrated?",
+      "explanation": "Linguistic analysis can help teachers identify patterns in learners’ language and plan instruction. The analysis serves the practical goal of improving language learning.",
+      "example": "A teacher may design practice after noticing that students regularly omit a required auxiliary.",
+      "reference_ids": [
+        "lecture_01"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Writing-system development"
+        },
+        {
+          "id": "B",
+          "text": "Dictionary compilation"
+        },
+        {
+          "id": "C",
+          "text": "Endangered-language documentation"
+        },
+        {
+          "id": "D",
+          "text": "Language learning and teaching"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L01-Q074",
+      "lecture_id": "LING-L01",
+      "topic_id": "applications",
+      "source_slides": [
+        15,
+        16
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A team collects words, records their meanings, and adds examples to a reference resource. Which application listed in the lecture best matches this work?",
+      "explanation": "Dictionaries organize information about words and their uses. Linguistic analysis helps distinguish meanings, record forms, and select examples that show how words occur.",
+      "example": "A dictionary entry can separate the financial and riverside meanings of “bank.”",
+      "reference_ids": [
+        "lecture_01"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Dictionary development"
+        },
+        {
+          "id": "B",
+          "text": "Translation between two existing texts"
+        },
+        {
+          "id": "C",
+          "text": "Improvement of a spoken-command interface"
+        },
+        {
+          "id": "D",
+          "text": "Development of a community writing system"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L01-Q075",
+      "lecture_id": "LING-L01",
+      "topic_id": "applications",
+      "source_slides": [
+        15,
+        16
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A translator examines a message’s meaning and context before expressing it in another language. Which lecture application is most directly involved?",
+      "explanation": "Translation uses understanding of linguistic forms, meanings, and contexts to express a message in another language. It often requires more than replacing each word separately.",
+      "example": "An English greeting may need a natural Urdu equivalent rather than a word-by-word rendering.",
+      "reference_ids": [
+        "lecture_01"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Writing-system development"
+        },
+        {
+          "id": "B",
+          "text": "Language-acquisition research"
+        },
+        {
+          "id": "C",
+          "text": "Translation"
+        },
+        {
+          "id": "D",
+          "text": "Dictionary compilation"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L01-Q076",
+      "lecture_id": "LING-L01",
+      "topic_id": "applications",
+      "source_slides": [
+        15,
+        16
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "Researchers help design a computer system that recognizes spoken requests. Which application mentioned in the lecture best fits this project?",
+      "explanation": "Language technology can use linguistic knowledge to process human input. Recognizing a spoken request requires a system to connect sound patterns with linguistic information.",
+      "example": "A voice interface may interpret “Set an alarm for seven” as a request to create an alarm.",
+      "reference_ids": [
+        "lecture_01"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Compilation of a printed dictionary"
+        },
+        {
+          "id": "B",
+          "text": "Documentation of an endangered language"
+        },
+        {
+          "id": "C",
+          "text": "Development of a community writing system"
+        },
+        {
+          "id": "D",
+          "text": "Linguistic input to computer systems"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L01-Q077",
+      "lecture_id": "LING-L01",
+      "topic_id": "applications",
+      "source_slides": [
+        15,
+        16
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A community works with researchers to choose consistent symbols for writing its language. Which application listed in the lecture is most directly involved?",
+      "explanation": "Developing a writing system involves decisions about how to represent linguistic forms visually. Linguistic analysis can inform those decisions alongside community preferences and practical needs.",
+      "example": "The community may discuss which symbol should represent a frequently used speech sound.",
+      "reference_ids": [
+        "lecture_01"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Analysis of multilingual classroom interaction"
+        },
+        {
+          "id": "B",
+          "text": "Compilation of word definitions"
+        },
+        {
+          "id": "C",
+          "text": "Writing-system development"
+        },
+        {
+          "id": "D",
+          "text": "Translation of a completed novel"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L01-Q078",
+      "lecture_id": "LING-L01",
+      "topic_id": "applications",
+      "source_slides": [
+        15,
+        16
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A hospital investigates misunderstandings between staff and patients from different language communities. Which application from the lecture best matches the problem?",
+      "explanation": "Linguistic analysis can identify differences in language use that affect understanding across groups. This can inform clearer communication suited to the participants and setting.",
+      "example": "Staff may learn to explain unfamiliar terms clearly and check what patients have understood.",
+      "reference_ids": [
+        "lecture_01"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Analysis of how children first combine words"
+        },
+        {
+          "id": "B",
+          "text": "Communication across social, cultural, and ethnic groups"
+        },
+        {
+          "id": "C",
+          "text": "Development of a system for representing sounds in writing"
+        },
+        {
+          "id": "D",
+          "text": "Reconstruction of older word forms across related languages"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L01-Q079",
+      "lecture_id": "LING-L01",
+      "topic_id": "applications",
+      "source_slides": [
+        15,
+        16
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "Only a few older speakers still use a community language, so researchers and community members record stories and everyday speech. Which application is most directly illustrated?",
+      "explanation": "The project concerns a language whose continued use is at risk. Recording speech can preserve evidence of its forms and uses and support community efforts, although recording alone does not ensure continued use.",
+      "example": "Community recordings can provide material for locally developed learning resources.",
+      "reference_ids": [
+        "lecture_01"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Design of an automatic translation interface"
+        },
+        {
+          "id": "B",
+          "text": "Work on endangered languages"
+        },
+        {
+          "id": "C",
+          "text": "Analysis of first-language development in infants"
+        },
+        {
+          "id": "D",
+          "text": "Development of a writing system for a widely used language"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L01-Q080",
+      "lecture_id": "LING-L01",
+      "topic_id": "applications",
+      "source_slides": [
+        14,
+        15,
+        16
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "A university serving speakers of several languages wants its notices to reach all students. Which research question most directly applies the lecture’s concern with language issues in multilingual societies?",
+      "explanation": "The practical concern is access to information across language groups. Investigating who understands which languages and expressions can inform communication in a multilingual institution. The alternatives concern language too, but do not directly address this access problem.",
+      "example": "A notice may need clear English and Urdu versions when a single version would leave some readers uncertain.",
+      "reference_ids": [
+        "lecture_01"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "How have the letter shapes on older campus signs changed over time?"
+        },
+        {
+          "id": "B",
+          "text": "Which recurring sound patterns occur in one student’s early speech recordings?"
+        },
+        {
+          "id": "C",
+          "text": "Which languages and wording would make the notices understandable to the student groups?"
+        },
+        {
+          "id": "D",
+          "text": "How does one dictionary arrange the different meanings of a campus-related word?"
+        }
+      ],
+      "answer_id": "C"
+    }
+  ]
+}

@@ -1,0 +1,4016 @@
+{
+  "schema_version": "1.0.0",
+  "lecture": {
+    "id": "LING-L03",
+    "number": 3,
+    "title": "Phonetics and Phonology",
+    "language": "en",
+    "source_filename": "Lec 3 Phonetics(1).ppt",
+    "source_slide_count": 22,
+    "question_count": 100,
+    "scope": "Lecture 3, including the figures on slides 7 and 8. Original scenarios and introductory explanations unpack the terms taught in the slides. Figure questions contain written descriptions and require no separate image assets.",
+    "exam_alignment": "Concept-based practice. No past paper or official examination blueprint was supplied.",
+    "answer_model": "Single best answer. answer_id refers to an option id, not its displayed position. Preserve option ids when shuffling.",
+    "display_guidance": "In learning mode, display explanation followed by example after the learner answers. Source slides and clarification notes can appear in a reference panel. Display phonetic symbols with a Unicode-capable font."
+  },
+  "references": [
+    {
+      "id": "lecture_03",
+      "type": "user_supplied_slides",
+      "title": "Lecture 3: Phonetics",
+      "filename": "Lec 3 Phonetics(1).ppt",
+      "library_file_id": "libfile_a2d367a3ea4c81919554cd579715d239"
+    },
+    {
+      "id": "eol_phonemes",
+      "type": "scholarly_clarification",
+      "title": "4.1 Phonemes and allophones",
+      "publication": "Essentials of Linguistics, 2nd edition",
+      "authors": [
+        "Catherine Anderson",
+        "Bronwyn Bjorkman",
+        "Derek Denis",
+        "Julianne Doner",
+        "Margaret Grant",
+        "Nathan Sanders",
+        "Ai Taniguchi"
+      ],
+      "url": "https://ecampusontario.pressbooks.pub/essentialsoflinguistics2/chapter/4-1-phonemes-and-allophones/",
+      "supports": "An accent-specific realization of /t/ in writer illustrates why phonemic labels should not be equated with identical physical tokens."
+    },
+    {
+      "id": "ncvs_spectrogram",
+      "type": "authoritative_clarification",
+      "organization": "National Center for Voice and Speech",
+      "title": "The Spectrograph and Spectral Analysis",
+      "url": "https://ncvs.org/tutorials/the-spectrograph-and-spectral-analysis/",
+      "supports": "Spectrograms represent frequency-component strengths through time; formant patterns and fundamental frequency are distinct, and analysis settings affect the display."
+    }
+  ],
+  "clarifications": [
+    {
+      "id": "CL01",
+      "source_slides": [
+        11,
+        12,
+        13
+      ],
+      "question_ids": [
+        "LING-L03-Q067",
+        "LING-L03-Q068",
+        "LING-L03-Q069"
+      ],
+      "note": "Phonology is not treated as merely a subset of phonetics or as only a phoneme list. The fields interact; phonology also studies combinations and contextual realization."
+    },
+    {
+      "id": "CL02",
+      "source_slides": [
+        6,
+        7
+      ],
+      "question_ids": [
+        "LING-L03-Q040",
+        "LING-L03-Q046",
+        "LING-L03-Q051"
+      ],
+      "note": "Spectrogram darkness is interpreted under a specified display convention. No rule assumes that vowels are always darkest or that every band directly identifies a phoneme.",
+      "reference_ids": [
+        "ncvs_spectrogram"
+      ]
+    },
+    {
+      "id": "CL03",
+      "source_slides": [
+        7,
+        8
+      ],
+      "question_ids": [
+        "LING-L03-Q047",
+        "LING-L03-Q048",
+        "LING-L03-Q049",
+        "LING-L03-Q050",
+        "LING-L03-Q051",
+        "LING-L03-Q052"
+      ],
+      "note": "The figures are tested through written descriptions. Exact numerical values are not inferred from their unlabelled scales; numerical scenarios supply their own values."
+    },
+    {
+      "id": "CL04",
+      "source_slides": [
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "note": "A phone is a physical sound realization; a phoneme is an abstract contrastive category. Neither the smallest perceptible unit wording nor the claim that phones are absolute is treated as an unqualified experimental fact."
+    },
+    {
+      "id": "CL05",
+      "source_slides": [
+        13,
+        18
+      ],
+      "question_ids": [
+        "LING-L03-Q083",
+        "LING-L03-Q084"
+      ],
+      "note": "The /t/ examples do not imply identical pronunciations across contexts or accents. A flap in writer is presented only as a possible accent-specific realization.",
+      "reference_ids": [
+        "eol_phonemes"
+      ]
+    },
+    {
+      "id": "CL06",
+      "source_slides": [
+        21
+      ],
+      "question_ids": [
+        "LING-L03-Q095",
+        "LING-L03-Q098"
+      ],
+      "note": "The /i/ notation in bead and bean follows the slide’s stated convention. Other descriptions may use /iː/. Brackets identify phonetic representation, not a guarantee that every acoustic detail is shown."
+    },
+    {
+      "id": "CL07",
+      "source_slides": [
+        4,
+        5
+      ],
+      "question_ids": [
+        "LING-L03-Q012",
+        "LING-L03-Q013",
+        "LING-L03-Q014",
+        "LING-L03-Q015",
+        "LING-L03-Q027",
+        "LING-L03-Q028",
+        "LING-L03-Q029"
+      ],
+      "note": "Basic explanatory definitions unpack airstream, voicing, amplitude, and fundamental frequency. No detailed inventory of places/manners of articulation or advanced acoustic calculations is added."
+    },
+    {
+      "id": "CL08",
+      "source_slides": [
+        14
+      ],
+      "question_ids": [
+        "LING-L03-Q094"
+      ],
+      "note": "The examples θ and ð are retained as sound symbols, but the slide’s shared Greek-alphabet label is not used as an etymological claim or an examination fact."
+    }
+  ],
+  "coverage": [
+    {
+      "topic_id": "overview",
+      "focus": "Phonetics: scope, evidence, and subfields",
+      "source_slides": [
+        2,
+        3,
+        4,
+        5,
+        9
+      ],
+      "question_ids": [
+        "LING-L03-Q001",
+        "LING-L03-Q002",
+        "LING-L03-Q003",
+        "LING-L03-Q004",
+        "LING-L03-Q005",
+        "LING-L03-Q006",
+        "LING-L03-Q007",
+        "LING-L03-Q008"
+      ]
+    },
+    {
+      "topic_id": "articulatory",
+      "focus": "Vocal apparatus, airstream, voicing, and articulation",
+      "source_slides": [
+        2,
+        4,
+        5,
+        9
+      ],
+      "question_ids": [
+        "LING-L03-Q009",
+        "LING-L03-Q010",
+        "LING-L03-Q011",
+        "LING-L03-Q012",
+        "LING-L03-Q013",
+        "LING-L03-Q014",
+        "LING-L03-Q015",
+        "LING-L03-Q016",
+        "LING-L03-Q017",
+        "LING-L03-Q018",
+        "LING-L03-Q019",
+        "LING-L03-Q020",
+        "LING-L03-Q021",
+        "LING-L03-Q022"
+      ]
+    },
+    {
+      "topic_id": "acoustic",
+      "focus": "Duration, amplitude, fundamental frequency, and spectra",
+      "source_slides": [
+        5,
+        9
+      ],
+      "question_ids": [
+        "LING-L03-Q023",
+        "LING-L03-Q024",
+        "LING-L03-Q025",
+        "LING-L03-Q026",
+        "LING-L03-Q027",
+        "LING-L03-Q028",
+        "LING-L03-Q029",
+        "LING-L03-Q030",
+        "LING-L03-Q031",
+        "LING-L03-Q032",
+        "LING-L03-Q033",
+        "LING-L03-Q034",
+        "LING-L03-Q035",
+        "LING-L03-Q036"
+      ]
+    },
+    {
+      "topic_id": "displays",
+      "focus": "Spectrographs, spectrograms, waveforms, and formants",
+      "source_slides": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "question_ids": [
+        "LING-L03-Q037",
+        "LING-L03-Q038",
+        "LING-L03-Q039",
+        "LING-L03-Q040",
+        "LING-L03-Q041",
+        "LING-L03-Q042",
+        "LING-L03-Q043",
+        "LING-L03-Q044",
+        "LING-L03-Q045",
+        "LING-L03-Q046",
+        "LING-L03-Q047",
+        "LING-L03-Q048",
+        "LING-L03-Q049",
+        "LING-L03-Q050",
+        "LING-L03-Q051",
+        "LING-L03-Q052"
+      ]
+    },
+    {
+      "topic_id": "auditory",
+      "focus": "Hearing, speech perception, and listening evidence",
+      "source_slides": [
+        4,
+        5,
+        9,
+        10
+      ],
+      "question_ids": [
+        "LING-L03-Q053",
+        "LING-L03-Q054",
+        "LING-L03-Q055",
+        "LING-L03-Q056",
+        "LING-L03-Q057",
+        "LING-L03-Q058",
+        "LING-L03-Q059",
+        "LING-L03-Q060"
+      ]
+    },
+    {
+      "topic_id": "phonology",
+      "focus": "Sound-system knowledge and its relationship to phonetics",
+      "source_slides": [
+        10,
+        11,
+        12,
+        13
+      ],
+      "question_ids": [
+        "LING-L03-Q061",
+        "LING-L03-Q062",
+        "LING-L03-Q063",
+        "LING-L03-Q064",
+        "LING-L03-Q065",
+        "LING-L03-Q066",
+        "LING-L03-Q067",
+        "LING-L03-Q068",
+        "LING-L03-Q069",
+        "LING-L03-Q070",
+        "LING-L03-Q071",
+        "LING-L03-Q072",
+        "LING-L03-Q073",
+        "LING-L03-Q074"
+      ]
+    },
+    {
+      "topic_id": "phone_phoneme",
+      "focus": "Segments, physical realizations, abstract categories, and contrasts",
+      "source_slides": [
+        13,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "question_ids": [
+        "LING-L03-Q075",
+        "LING-L03-Q076",
+        "LING-L03-Q077",
+        "LING-L03-Q078",
+        "LING-L03-Q079",
+        "LING-L03-Q080",
+        "LING-L03-Q081",
+        "LING-L03-Q082",
+        "LING-L03-Q083",
+        "LING-L03-Q084",
+        "LING-L03-Q085",
+        "LING-L03-Q086",
+        "LING-L03-Q087",
+        "LING-L03-Q088"
+      ]
+    },
+    {
+      "topic_id": "transcription",
+      "focus": "Symbols, notation, segment sequences, and integrated analysis",
+      "source_slides": [
+        4,
+        5,
+        9,
+        13,
+        14,
+        15,
+        16,
+        20,
+        21
+      ],
+      "question_ids": [
+        "LING-L03-Q089",
+        "LING-L03-Q090",
+        "LING-L03-Q091",
+        "LING-L03-Q092",
+        "LING-L03-Q093",
+        "LING-L03-Q094",
+        "LING-L03-Q095",
+        "LING-L03-Q096",
+        "LING-L03-Q097",
+        "LING-L03-Q098",
+        "LING-L03-Q099",
+        "LING-L03-Q100"
+      ]
+    }
+  ],
+  "excluded_slides": [
+    {
+      "slide": 1,
+      "reason": "Introduction title only."
+    },
+    {
+      "slide": 22,
+      "reason": "Closing thank-you slide."
+    }
+  ],
+  "topics": [
+    {
+      "id": "overview",
+      "title": "Phonetics: scope, evidence, and subfields",
+      "question_count": 8
+    },
+    {
+      "id": "articulatory",
+      "title": "Vocal apparatus, airstream, voicing, and articulation",
+      "question_count": 14
+    },
+    {
+      "id": "acoustic",
+      "title": "Duration, amplitude, fundamental frequency, and spectra",
+      "question_count": 14
+    },
+    {
+      "id": "displays",
+      "title": "Spectrographs, spectrograms, waveforms, and formants",
+      "question_count": 16
+    },
+    {
+      "id": "auditory",
+      "title": "Hearing, speech perception, and listening evidence",
+      "question_count": 8
+    },
+    {
+      "id": "phonology",
+      "title": "Sound-system knowledge and its relationship to phonetics",
+      "question_count": 14
+    },
+    {
+      "id": "phone_phoneme",
+      "title": "Segments, physical realizations, abstract categories, and contrasts",
+      "question_count": 14
+    },
+    {
+      "id": "transcription",
+      "title": "Symbols, notation, segment sequences, and integrated analysis",
+      "question_count": 12
+    }
+  ],
+  "statistics": {
+    "difficulty": {
+      "easy": 28,
+      "medium": 48,
+      "hard": 24
+    },
+    "cognitive_level": {
+      "remember": 16,
+      "understand": 23,
+      "apply": 27,
+      "analyze": 34
+    },
+    "answer_distribution": {
+      "A": 25,
+      "B": 25,
+      "C": 25,
+      "D": 25
+    }
+  },
+  "questions": [
+    {
+      "id": "LING-L03-Q001",
+      "lecture_id": "LING-L03",
+      "topic_id": "overview",
+      "source_slides": [
+        2,
+        3
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "Which description best defines phonetics in this lecture?",
+      "explanation": "Phonetics examines speech as a physical and perceptual phenomenon. It investigates what speakers produce, the sound signal that travels, and what listeners hear.",
+      "example": "A study may examine lip movement, a recording, or listeners’ identification of a consonant.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The study of language choice across social groups"
+        },
+        {
+          "id": "B",
+          "text": "The study of speech sounds, including their production, transmission, and perception"
+        },
+        {
+          "id": "C",
+          "text": "The study of word meanings and their relationships"
+        },
+        {
+          "id": "D",
+          "text": "The study of sentence structure, including subjects and objects"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L03-Q002",
+      "lecture_id": "LING-L03",
+      "topic_id": "overview",
+      "source_slides": [
+        2,
+        3
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "understand",
+      "question": "What does describing speech as a physical phenomenon allow a phonetician to investigate?",
+      "explanation": "Speech involves physical activity and a signal that can be recorded and measured. These observations provide evidence for describing sounds rather than relying only on spelling.",
+      "example": "A researcher can measure how long a vowel lasts in a recording.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only the historical origins of sentence patterns"
+        },
+        {
+          "id": "B",
+          "text": "Only the social prestige attached to an accent"
+        },
+        {
+          "id": "C",
+          "text": "Observable movements and measurable properties of speech signals"
+        },
+        {
+          "id": "D",
+          "text": "Only the dictionary meanings of spoken words"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L03-Q003",
+      "lecture_id": "LING-L03",
+      "topic_id": "overview",
+      "source_slides": [
+        3
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "Which set names the three subfields of phonetics listed in the slides?",
+      "explanation": "The three subfields focus on producing sounds, the physical sound signal, and perceiving sounds. They provide complementary ways to investigate speech.",
+      "example": "An experiment can combine observations of production with acoustic measurements and listening judgments.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Articulatory, acoustic, and auditory phonetics"
+        },
+        {
+          "id": "B",
+          "text": "Auditory, lexical, and historical phonetics"
+        },
+        {
+          "id": "C",
+          "text": "Acoustic, semantic, and pragmatic phonetics"
+        },
+        {
+          "id": "D",
+          "text": "Articulatory, morphological, and syntactic phonetics"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L03-Q004",
+      "lecture_id": "LING-L03",
+      "topic_id": "overview",
+      "source_slides": [
+        2,
+        3,
+        4,
+        5,
+        9
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "understand",
+      "question": "Which sequence correctly follows a spoken message from production to perception?",
+      "explanation": "The sequence links the main concerns of articulatory, acoustic, and auditory phonetics. It is a way of organizing the process, even though real communication involves further mental processing.",
+      "example": "A speaker says “hello,” sound travels through the air, and another person hears the greeting.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "A listener perceives a signal before the speaker produces it."
+        },
+        {
+          "id": "B",
+          "text": "The transmitted signal produces the speaker’s original articulatory movement."
+        },
+        {
+          "id": "C",
+          "text": "A written letter must be created before a speech signal can travel."
+        },
+        {
+          "id": "D",
+          "text": "Vocal activity produces a signal, the signal travels, and a listener perceives it."
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L03-Q005",
+      "lecture_id": "LING-L03",
+      "topic_id": "overview",
+      "source_slides": [
+        4,
+        5,
+        9
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A project records tongue movement, analyses sound frequencies, and collects listeners’ judgments. Which description best fits its methods?",
+      "explanation": "The methods address three kinds of evidence. Tongue movement concerns production, frequency analysis concerns the signal, and listener judgments concern perception.",
+      "example": "Different measurements can explain different aspects of the same spoken consonant.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "It is exclusively acoustic because a recording is involved."
+        },
+        {
+          "id": "B",
+          "text": "It combines articulatory, acoustic, and auditory perspectives."
+        },
+        {
+          "id": "C",
+          "text": "It is exclusively articulatory because a tongue is involved."
+        },
+        {
+          "id": "D",
+          "text": "It is exclusively auditory because participants give answers."
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L03-Q006",
+      "lecture_id": "LING-L03",
+      "topic_id": "overview",
+      "source_slides": [
+        4,
+        5
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "analyze",
+      "question": "Which observation is directly about articulation rather than the acoustic signal?",
+      "explanation": "Articulation concerns the actions of the speech organs. Duration, frequency, and waveform amplitude describe properties of the signal resulting from those actions.",
+      "example": "Observing lip closure is different from measuring the sound produced when the lips open.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The recorded vowel lasts 180 milliseconds."
+        },
+        {
+          "id": "B",
+          "text": "The speaker closes both lips during a consonant."
+        },
+        {
+          "id": "C",
+          "text": "The waveform’s amplitude increases during the recording."
+        },
+        {
+          "id": "D",
+          "text": "The signal contains energy concentrated in particular frequency bands."
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L03-Q007",
+      "lecture_id": "LING-L03",
+      "topic_id": "overview",
+      "source_slides": [
+        5,
+        9
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "analyze",
+      "question": "Which observation is directly auditory rather than an acoustic measurement?",
+      "explanation": "The correct observation records a perceptual judgment. The alternatives describe properties of a recorded signal or its visual display.",
+      "example": "Two listeners can hear the same recording and give different sound-identification responses.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "A spectrogram contains several dark horizontal bands."
+        },
+        {
+          "id": "B",
+          "text": "A vowel occupies 0.2 seconds of a recording."
+        },
+        {
+          "id": "C",
+          "text": "A signal has a measured fundamental frequency."
+        },
+        {
+          "id": "D",
+          "text": "A listener reports hearing /p/ rather than /b/."
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L03-Q008",
+      "lecture_id": "LING-L03",
+      "topic_id": "overview",
+      "source_slides": [
+        2,
+        4,
+        5,
+        9
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A researcher wants evidence about what listeners actually hear in a recording. Which method most directly addresses that aim?",
+      "explanation": "A listening task directly tests perception. Production and signal measurements can help explain perception, but they do not replace evidence about listeners’ responses.",
+      "example": "Participants can hear two sounds and report whether they perceive them as the same or different.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Ask listeners to identify or compare the sounds they hear."
+        },
+        {
+          "id": "B",
+          "text": "Inspect only the written spelling of the words."
+        },
+        {
+          "id": "C",
+          "text": "Measure only the recording’s duration."
+        },
+        {
+          "id": "D",
+          "text": "Measure the speaker’s tongue movement without a listening task."
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L03-Q009",
+      "lecture_id": "LING-L03",
+      "topic_id": "articulatory",
+      "source_slides": [
+        4
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "What is the main concern of articulatory phonetics?",
+      "explanation": "Articulatory phonetics examines the physical production of speech. It asks what the speech organs do, while acoustic and auditory work examine the signal and its perception.",
+      "example": "A researcher can observe the position of the tongue while a vowel is produced.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "How sound energy is represented on a spectrogram"
+        },
+        {
+          "id": "B",
+          "text": "How the human vocal apparatus produces speech sounds"
+        },
+        {
+          "id": "C",
+          "text": "How sound contrasts function within a language"
+        },
+        {
+          "id": "D",
+          "text": "How a listener classifies an ambiguous recording"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L03-Q010",
+      "lecture_id": "LING-L03",
+      "topic_id": "articulatory",
+      "source_slides": [
+        2,
+        4
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "Which set contains body parts explicitly listed in the lecture’s account of speech production?",
+      "explanation": "The lecture identifies several body parts involved in producing speech. They contribute in different ways, including supplying air and shaping its passage.",
+      "example": "The lips can shape an opening while air passes through the vocal tract.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Teeth, pharynx, retina, fingers, and elbow"
+        },
+        {
+          "id": "B",
+          "text": "Lungs, tongue, knee, ankle, and retina"
+        },
+        {
+          "id": "C",
+          "text": "Lips, tongue, retina, wrist, and lungs"
+        },
+        {
+          "id": "D",
+          "text": "Lips, tongue, teeth, pharynx, and lungs"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L03-Q011",
+      "lecture_id": "LING-L03",
+      "topic_id": "articulatory",
+      "source_slides": [
+        2,
+        4
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "An investigation tracks changes in a speaker’s tongue position during vowels. Which subfield is its most direct focus?",
+      "explanation": "Tongue position is evidence about the production mechanism. The resulting sound can also be studied acoustically, but that is a different observation.",
+      "example": "A speaker can change the shape of the vocal tract by moving the tongue.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Phonology"
+        },
+        {
+          "id": "B",
+          "text": "Auditory phonetics"
+        },
+        {
+          "id": "C",
+          "text": "Articulatory phonetics"
+        },
+        {
+          "id": "D",
+          "text": "Acoustic phonetics"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L03-Q012",
+      "lecture_id": "LING-L03",
+      "topic_id": "articulatory",
+      "source_slides": [
+        2,
+        4
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "understand",
+      "question": "What role do the lungs usually play in ordinary spoken-language production?",
+      "explanation": "Ordinary speech commonly uses air flowing outward from the lungs. Other parts of the vocal apparatus shape that airflow into speech sounds. This does not mean every possible speech sound uses the same airstream mechanism.",
+      "example": "A speaker can use one outward breath to produce a short phrase.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "They directly decide which word the listener understands."
+        },
+        {
+          "id": "B",
+          "text": "They produce the tongue’s place of contact against the mouth."
+        },
+        {
+          "id": "C",
+          "text": "They determine a phoneme’s meaning independently of language."
+        },
+        {
+          "id": "D",
+          "text": "They provide an outgoing airflow that can be used to produce speech."
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L03-Q013",
+      "lecture_id": "LING-L03",
+      "topic_id": "articulatory",
+      "source_slides": [
+        4
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "understand",
+      "question": "In the lecture’s articulatory framework, what is an airstream mechanism?",
+      "explanation": "An airstream mechanism concerns the movement of air used for speech production. It belongs to the physical production process rather than to spelling or sentence interpretation.",
+      "example": "Ordinary speech frequently uses air pushed outward from the lungs.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The way airflow is initiated and used in producing speech"
+        },
+        {
+          "id": "B",
+          "text": "The way frequency is positioned on a spectrogram"
+        },
+        {
+          "id": "C",
+          "text": "The way words are arranged in an utterance"
+        },
+        {
+          "id": "D",
+          "text": "The way a listener chooses a dictionary meaning"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L03-Q014",
+      "lecture_id": "LING-L03",
+      "topic_id": "articulatory",
+      "source_slides": [
+        4
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "understand",
+      "question": "What does voicing refer to in a basic description of speech production?",
+      "explanation": "Voicing is about vocal-fold vibration, not simply volume. A quiet sound can be voiced, and a loud sound can be voiceless.",
+      "example": "A sustained [z] normally involves vocal-fold vibration, while [s] does not.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Vibration of the tongue against the teeth during every sound"
+        },
+        {
+          "id": "B",
+          "text": "A sound being pronounced loudly enough for an audience"
+        },
+        {
+          "id": "C",
+          "text": "Vibration of the vocal folds during a sound"
+        },
+        {
+          "id": "D",
+          "text": "A listener correctly identifying the meaning of a word"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L03-Q015",
+      "lecture_id": "LING-L03",
+      "topic_id": "articulatory",
+      "source_slides": [
+        4
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "analyze",
+      "question": "Which statement correctly distinguishes voicing from loudness?",
+      "explanation": "The properties answer different questions. Whether the vocal folds vibrate is not determined simply by how strong or loud a sound is.",
+      "example": "A softly spoken vowel may be voiced even when a louder [s] is voiceless.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Voicing concerns vocal-fold vibration; loudness concerns perceived sound strength."
+        },
+        {
+          "id": "B",
+          "text": "Only sounds produced without airflow can be voiced."
+        },
+        {
+          "id": "C",
+          "text": "Voicing and loudness are two names for exactly the same property."
+        },
+        {
+          "id": "D",
+          "text": "A sound becomes voiced whenever it is made louder."
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L03-Q016",
+      "lecture_id": "LING-L03",
+      "topic_id": "articulatory",
+      "source_slides": [
+        4
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A researcher observes whether the vocal folds vibrate during a consonant. Which articulatory concern from the slides is being examined?",
+      "explanation": "The observation directly concerns vocal-fold activity. It does not by itself establish what the sound means or which phoneme it represents in a language.",
+      "example": "Comparing the production of [s] and [z] can reveal a difference in voicing.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Voicing"
+        },
+        {
+          "id": "B",
+          "text": "Sound duration"
+        },
+        {
+          "id": "C",
+          "text": "Signal amplitude"
+        },
+        {
+          "id": "D",
+          "text": "Formant frequency"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L03-Q017",
+      "lecture_id": "LING-L03",
+      "topic_id": "articulatory",
+      "source_slides": [
+        4
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A student examines the anatomy of the pharynx and its contribution to the vocal tract. Which area of interest listed on slide 4 does this match?",
+      "explanation": "The question concerns the physical structures involved in production. Knowing their anatomy helps explain how the vocal tract can shape speech.",
+      "example": "Understanding the positions of the tongue and pharynx can support an account of vocal-tract shape.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Auditory identification"
+        },
+        {
+          "id": "B",
+          "text": "Anatomy of the vocal organs"
+        },
+        {
+          "id": "C",
+          "text": "Phonemic contrast testing"
+        },
+        {
+          "id": "D",
+          "text": "Frequency-spectrum measurement"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L03-Q018",
+      "lecture_id": "LING-L03",
+      "topic_id": "articulatory",
+      "source_slides": [
+        4
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "understand",
+      "question": "Does articulatory phonetics study only consonants?",
+      "explanation": "The slide explicitly includes vowels and consonants. Both involve the vocal apparatus, even though their production can involve different configurations.",
+      "example": "Tongue position can be observed during a vowel just as lip closure can be observed during a consonant.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "No; it studies the production of vowels as well as consonants."
+        },
+        {
+          "id": "B",
+          "text": "No; it studies written letters instead of either sound type."
+        },
+        {
+          "id": "C",
+          "text": "Yes; vowels have no physical production mechanism."
+        },
+        {
+          "id": "D",
+          "text": "Yes; vowels can be studied only in auditory phonetics."
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L03-Q019",
+      "lecture_id": "LING-L03",
+      "topic_id": "articulatory",
+      "source_slides": [
+        2,
+        4
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A camera records the rounding of a speaker’s lips during a vowel. What kind of evidence does the image provide most directly?",
+      "explanation": "The camera records a visible part of speech production. It does not directly show how the listener hears the sound or how the language categorizes it.",
+      "example": "An image can show rounded lips without telling us the exact frequency pattern of the resulting sound.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "A direct measurement of the vowel’s meaning"
+        },
+        {
+          "id": "B",
+          "text": "Evidence about the listener’s perceptual category"
+        },
+        {
+          "id": "C",
+          "text": "A direct representation of the phoneme inventory"
+        },
+        {
+          "id": "D",
+          "text": "Evidence about an articulatory configuration"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L03-Q020",
+      "lecture_id": "LING-L03",
+      "topic_id": "articulatory",
+      "source_slides": [
+        4,
+        5
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "A change in tongue position is followed by a change in the sound’s frequency pattern. Which interpretation best connects the observations?",
+      "explanation": "Speech-organ movement and the resulting signal are different but connected parts of production. Their relationship can be investigated by combining methods.",
+      "example": "Moving the tongue changes the vocal-tract shape, which can alter the acoustic pattern of a vowel.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "An articulatory change has an acoustic consequence."
+        },
+        {
+          "id": "B",
+          "text": "An acoustic measurement is the same physical event as tongue movement."
+        },
+        {
+          "id": "C",
+          "text": "A phoneme’s abstract identity has been directly photographed."
+        },
+        {
+          "id": "D",
+          "text": "A spelling change has replaced an auditory judgment."
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L03-Q021",
+      "lecture_id": "LING-L03",
+      "topic_id": "articulatory",
+      "source_slides": [
+        4
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "analyze",
+      "question": "Which question is least directly addressed by observing a speaker’s vocal organs alone?",
+      "explanation": "Observing production provides information about the speaker’s actions. Establishing a listener’s percept requires a perceptual response or other appropriate evidence about the listener.",
+      "example": "Visible lip closure does not by itself reveal whether a particular listener heard /p/ or /b/.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Which sound a listener believes was produced"
+        },
+        {
+          "id": "B",
+          "text": "Whether the vocal folds vibrate"
+        },
+        {
+          "id": "C",
+          "text": "Whether the lips close during a sound"
+        },
+        {
+          "id": "D",
+          "text": "How the tongue changes position"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L03-Q022",
+      "lecture_id": "LING-L03",
+      "topic_id": "articulatory",
+      "source_slides": [
+        4,
+        5,
+        9
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "A study asks why a particular lip movement affects sound identification. Which combination would give the most relevant evidence?",
+      "explanation": "The proposed explanation connects production with perception. Observing the movement, the intervening signal, and the listener’s response helps address each part of that relationship.",
+      "example": "A project might compare two lip configurations and ask whether listeners identify the resulting sounds differently.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Inspect the spelling and assume that it fully determines perception."
+        },
+        {
+          "id": "B",
+          "text": "Measure only word length in letters and infer lip motion from it."
+        },
+        {
+          "id": "C",
+          "text": "Record only participants’ ages and omit the speech task."
+        },
+        {
+          "id": "D",
+          "text": "Observe the movement, analyse the signal, and test listeners’ responses."
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L03-Q023",
+      "lecture_id": "LING-L03",
+      "topic_id": "acoustic",
+      "source_slides": [
+        5
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "What is the main focus of acoustic phonetics?",
+      "explanation": "Acoustic phonetics investigates the measurable signal, including its duration, amplitude, and frequency properties. It connects speech production with the sound available to a listener.",
+      "example": "Measuring a recorded sound’s frequency pattern is an acoustic task.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The arrangement of words in a grammatical sentence"
+        },
+        {
+          "id": "B",
+          "text": "The physical properties of the speech signal"
+        },
+        {
+          "id": "C",
+          "text": "The speaker’s choice of word meanings"
+        },
+        {
+          "id": "D",
+          "text": "The listener’s beliefs about a speaker’s intention"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L03-Q024",
+      "lecture_id": "LING-L03",
+      "topic_id": "acoustic",
+      "source_slides": [
+        5
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "Which set consists of acoustic properties mentioned on slide 5?",
+      "explanation": "These properties describe aspects of the sound signal. The other sets concern articulation, meaning, or social factors rather than acoustic measurement.",
+      "example": "A recording can be examined for both how long a sound lasts and its frequency content.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Amplitude, duration, fundamental frequency, and frequency-spectrum properties"
+        },
+        {
+          "id": "B",
+          "text": "Word meaning, sentence meaning, reference, and implication"
+        },
+        {
+          "id": "C",
+          "text": "Tongue position, lip shape, tooth position, and jaw movement"
+        },
+        {
+          "id": "D",
+          "text": "Speaker age, social class, occupation, and language attitude"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L03-Q025",
+      "lecture_id": "LING-L03",
+      "topic_id": "acoustic",
+      "source_slides": [
+        5
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "understand",
+      "question": "What does the duration of a sound describe?",
+      "explanation": "Duration is a time measure. It should be distinguished from frequency, amplitude, and written length.",
+      "example": "A vowel lasting 200 milliseconds has a longer duration than one lasting 100 milliseconds.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "How long the sound lasts"
+        },
+        {
+          "id": "B",
+          "text": "How many letters spell the word containing it"
+        },
+        {
+          "id": "C",
+          "text": "How strongly a listener likes it"
+        },
+        {
+          "id": "D",
+          "text": "How high its frequency is"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L03-Q026",
+      "lecture_id": "LING-L03",
+      "topic_id": "acoustic",
+      "source_slides": [
+        5
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "Two recordings of the same word contain vowels lasting 120 and 180 milliseconds. Which statement is supported?",
+      "explanation": "The values establish a timing difference. They do not alone establish a difference in phonemic category, frequency, or amplitude.",
+      "example": "The same speaker can lengthen a vowel while emphasizing a word without automatically creating a new word.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The second vowel necessarily has a higher fundamental frequency."
+        },
+        {
+          "id": "B",
+          "text": "The second vowel necessarily belongs to a different phoneme."
+        },
+        {
+          "id": "C",
+          "text": "The second vowel must have greater amplitude."
+        },
+        {
+          "id": "D",
+          "text": "The second vowel has a longer measured duration."
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L03-Q027",
+      "lecture_id": "LING-L03",
+      "topic_id": "acoustic",
+      "source_slides": [
+        5
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "understand",
+      "question": "In an ordinary speech waveform display, what does amplitude represent?",
+      "explanation": "Amplitude describes the size of signal variations. It is an acoustic quantity, rather than a direct measurement of a linguistic category or an articulator’s location.",
+      "example": "Larger vertical excursions in a consistently scaled waveform indicate greater signal amplitude.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The tongue’s distance from the teeth"
+        },
+        {
+          "id": "B",
+          "text": "The time at which a word becomes meaningful"
+        },
+        {
+          "id": "C",
+          "text": "The magnitude of the signal’s variation from its reference level"
+        },
+        {
+          "id": "D",
+          "text": "The number of phonemes in a language"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L03-Q028",
+      "lecture_id": "LING-L03",
+      "topic_id": "acoustic",
+      "source_slides": [
+        5
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "understand",
+      "question": "Why should acoustic amplitude not simply be defined as a listener’s loudness judgment?",
+      "explanation": "A physical measurement and a perceptual response are connected but not identical. Factors affecting hearing and the signal can influence perceived loudness.",
+      "example": "Two listeners may judge the same recorded sound’s loudness differently.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Amplitude is a signal measurement, while loudness is a perceptual experience."
+        },
+        {
+          "id": "B",
+          "text": "Amplitude is a grammatical category, while loudness is a written symbol."
+        },
+        {
+          "id": "C",
+          "text": "Amplitude describes only consonants, while loudness describes only vowels."
+        },
+        {
+          "id": "D",
+          "text": "Loudness and amplitude cannot have any relationship."
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L03-Q029",
+      "lecture_id": "LING-L03",
+      "topic_id": "acoustic",
+      "source_slides": [
+        5
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "understand",
+      "question": "What is fundamental frequency in a periodic sound signal?",
+      "explanation": "Fundamental frequency describes repetition rate. It is distinct from the overall length of the recording and from resonant frequency concentrations associated with formants.",
+      "example": "A periodic signal repeating 150 times per second has a fundamental frequency of 150 Hz.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The largest spelling unit in the transcript"
+        },
+        {
+          "id": "B",
+          "text": "The rate at which its repeating cycle occurs"
+        },
+        {
+          "id": "C",
+          "text": "The total duration of the complete word"
+        },
+        {
+          "id": "D",
+          "text": "The number of formant bands visible at one instant"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L03-Q030",
+      "lecture_id": "LING-L03",
+      "topic_id": "acoustic",
+      "source_slides": [
+        5
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "Two otherwise comparable periodic speech signals repeat 100 and 200 times per second. Which has the higher fundamental frequency?",
+      "explanation": "A greater number of repetitions per second means a higher fundamental frequency. Duration measures a different property and need not decide this comparison.",
+      "example": "One second of a 200 Hz periodic signal contains more cycles than one second of a 100 Hz signal.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Both must have the same fundamental frequency if their durations match."
+        },
+        {
+          "id": "B",
+          "text": "The answer depends only on how many letters spell the word."
+        },
+        {
+          "id": "C",
+          "text": "The signal repeating 200 times per second"
+        },
+        {
+          "id": "D",
+          "text": "The signal repeating 100 times per second"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L03-Q031",
+      "lecture_id": "LING-L03",
+      "topic_id": "acoustic",
+      "source_slides": [
+        5
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "understand",
+      "question": "Which question concerns a sound’s frequency spectrum?",
+      "explanation": "A frequency spectrum describes the signal in terms of frequency components and their strengths. This differs from measuring only its total duration.",
+      "example": "Two sounds can last equally long yet distribute their energy differently across frequencies.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Which social role does its speaker hold?"
+        },
+        {
+          "id": "B",
+          "text": "What grammatical function does its word ending express?"
+        },
+        {
+          "id": "C",
+          "text": "How is its acoustic energy distributed across frequencies?"
+        },
+        {
+          "id": "D",
+          "text": "How are its letters arranged alphabetically?"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L03-Q032",
+      "lecture_id": "LING-L03",
+      "topic_id": "acoustic",
+      "source_slides": [
+        5
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A researcher measures the mean squared amplitude of a recorded sound. Which subfield does this measurement most directly belong to?",
+      "explanation": "Mean squared amplitude is a quantity calculated from the signal. It supplies acoustic evidence rather than a direct observation of speech-organ movement or a listener’s response.",
+      "example": "A researcher can calculate a signal-based measure without asking participants what they heard.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Auditory phonetics"
+        },
+        {
+          "id": "B",
+          "text": "Acoustic phonetics"
+        },
+        {
+          "id": "C",
+          "text": "Articulatory phonetics"
+        },
+        {
+          "id": "D",
+          "text": "Morphology"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L03-Q033",
+      "lecture_id": "LING-L03",
+      "topic_id": "acoustic",
+      "source_slides": [
+        5
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Two sounds have equal durations. What follows about their other acoustic properties?",
+      "explanation": "Equality on one measure does not establish equality on others. Duration, amplitude, and frequency structure describe different aspects of a signal.",
+      "example": "Two 150-millisecond vowels can differ in their frequency patterns.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "They must represent the same phoneme in every language."
+        },
+        {
+          "id": "B",
+          "text": "They may still differ in amplitude or frequency structure."
+        },
+        {
+          "id": "C",
+          "text": "They must have identical amplitude patterns."
+        },
+        {
+          "id": "D",
+          "text": "They must have identical fundamental frequencies."
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L03-Q034",
+      "lecture_id": "LING-L03",
+      "topic_id": "acoustic",
+      "source_slides": [
+        5
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "analyze",
+      "question": "A researcher asks whether a vowel’s measured frequency pattern changes with tongue position. Which relationship from slide 5 is being examined?",
+      "explanation": "Tongue position concerns articulation, while the measured signal pattern is acoustic. The investigation connects a production configuration with its sound properties.",
+      "example": "A study can record the tongue and the speech signal at the same time.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The relationship between dictionary order and word meaning"
+        },
+        {
+          "id": "B",
+          "text": "The relationship between translation and writing-system design"
+        },
+        {
+          "id": "C",
+          "text": "The relationship between acoustic and articulatory phonetics"
+        },
+        {
+          "id": "D",
+          "text": "The relationship between social class and sentence punctuation"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L03-Q035",
+      "lecture_id": "LING-L03",
+      "topic_id": "acoustic",
+      "source_slides": [
+        5,
+        9
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "An experiment changes a recording’s duration and asks listeners which sound they hear. Which two perspectives are directly connected?",
+      "explanation": "Duration is a property of the signal, and the response concerns perception. Manipulating one and observing the other investigates an acoustic–auditory relationship.",
+      "example": "Listeners can hear two versions of a sound that differ only in their timing.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Acoustic properties and auditory perception"
+        },
+        {
+          "id": "B",
+          "text": "Word meanings and sentence formation"
+        },
+        {
+          "id": "C",
+          "text": "Tongue anatomy and dictionary selection"
+        },
+        {
+          "id": "D",
+          "text": "Spelling conventions and grammatical roles"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L03-Q036",
+      "lecture_id": "LING-L03",
+      "topic_id": "acoustic",
+      "source_slides": [
+        5
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Why can acoustic analysis be applied to a whole utterance as well as to one phone?",
+      "explanation": "The slide relates acoustic properties to phones, phrases, and utterances. A researcher can choose a relevant interval without treating every linguistic unit as the same size.",
+      "example": "One analysis can measure a single vowel’s duration; another can measure the timing of an entire phrase.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Signal properties can be measured over speech intervals of different sizes."
+        },
+        {
+          "id": "B",
+          "text": "An utterance is always just one phone pronounced slowly."
+        },
+        {
+          "id": "C",
+          "text": "A phone’s acoustic properties disappear when it enters a word."
+        },
+        {
+          "id": "D",
+          "text": "Only individual written letters have measurable duration."
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L03-Q037",
+      "lecture_id": "LING-L03",
+      "topic_id": "displays",
+      "source_slides": [
+        6
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "What is the relationship between a sound spectrograph and a spectrogram?",
+      "explanation": "The instrument or analysis system and its output should be distinguished. A spectrogram represents changes in frequency-related energy over time.",
+      "example": "A researcher examines a spectrogram generated from a recorded vowel.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "A spectrograph produces a spectrogram, a visual representation of the sound signal."
+        },
+        {
+          "id": "B",
+          "text": "A spectrogram produces the speaker’s vocal organs."
+        },
+        {
+          "id": "C",
+          "text": "A spectrogram measures listener beliefs without analysing a signal."
+        },
+        {
+          "id": "D",
+          "text": "A spectrograph is a phoneme, while a spectrogram is its spelling."
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L03-Q038",
+      "lecture_id": "LING-L03",
+      "topic_id": "displays",
+      "source_slides": [
+        6
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "On the standard spectrogram described in the slides, what does the horizontal axis represent?",
+      "explanation": "Moving horizontally follows the signal through time. A longer horizontal interval therefore represents a longer duration on the same time scale.",
+      "example": "A sound extending from 0.1 to 0.3 seconds occupies 0.2 seconds of the display.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Time"
+        },
+        {
+          "id": "B",
+          "text": "Phoneme category"
+        },
+        {
+          "id": "C",
+          "text": "Frequency"
+        },
+        {
+          "id": "D",
+          "text": "Perceived loudness"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L03-Q039",
+      "lecture_id": "LING-L03",
+      "topic_id": "displays",
+      "source_slides": [
+        6
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "On the standard spectrogram described in the slides, what does the vertical axis represent?",
+      "explanation": "The vertical dimension places frequency components at different heights. It should not be confused with the vertical amplitude dimension in an ordinary waveform display.",
+      "example": "A band higher on the frequency axis represents a higher frequency than a lower band.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Spelling order"
+        },
+        {
+          "id": "B",
+          "text": "Time"
+        },
+        {
+          "id": "C",
+          "text": "Word meaning"
+        },
+        {
+          "id": "D",
+          "text": "Frequency"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L03-Q040",
+      "lecture_id": "LING-L03",
+      "topic_id": "displays",
+      "source_slides": [
+        6
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "understand",
+      "question": "In the grayscale convention described in the lecture, what does a darker spectrogram region generally indicate?",
+      "explanation": "Darkness encodes relative signal strength in this display convention. It does not replace the time or frequency axes, and interpretation depends on consistent analysis and display settings.",
+      "example": "At the same frequency and comparable settings, a darker patch indicates stronger displayed energy.",
+      "reference_ids": [
+        "lecture_03",
+        "ncvs_spectrogram"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "A higher frequency regardless of vertical position"
+        },
+        {
+          "id": "B",
+          "text": "A different phoneme regardless of the surrounding pattern"
+        },
+        {
+          "id": "C",
+          "text": "Greater signal energy at the represented time and frequency"
+        },
+        {
+          "id": "D",
+          "text": "A later point in time regardless of horizontal position"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L03-Q041",
+      "lecture_id": "LING-L03",
+      "topic_id": "displays",
+      "source_slides": [
+        6
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A sound begins at 0.20 seconds and ends at 0.35 seconds on a spectrogram. What is its duration?",
+      "explanation": "Duration is the end time minus the start time. The answer gives the length of the interval, rather than either endpoint or their sum.",
+      "example": "A sound from 0.40 to 0.60 seconds lasts 0.20 seconds.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "0.20 seconds"
+        },
+        {
+          "id": "B",
+          "text": "0.35 seconds"
+        },
+        {
+          "id": "C",
+          "text": "0.55 seconds"
+        },
+        {
+          "id": "D",
+          "text": "0.15 seconds"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L03-Q042",
+      "lecture_id": "LING-L03",
+      "topic_id": "displays",
+      "source_slides": [
+        6
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "Two bands occur at the same time on a spectrogram. One is plotted at 500 Hz and the other at 1500 Hz. Which statement is supported?",
+      "explanation": "The values specify frequency, so they determine relative vertical position. They do not independently establish duration, intensity, or temporal order.",
+      "example": "A frequency of 2000 Hz appears above 1000 Hz when the axis increases upward.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The 500 Hz band must occur earlier."
+        },
+        {
+          "id": "B",
+          "text": "The 500 Hz band must be darker."
+        },
+        {
+          "id": "C",
+          "text": "The 1500 Hz band must last longer."
+        },
+        {
+          "id": "D",
+          "text": "The 1500 Hz band is higher on the frequency axis."
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L03-Q043",
+      "lecture_id": "LING-L03",
+      "topic_id": "displays",
+      "source_slides": [
+        6
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "understand",
+      "question": "What are formants in the lecture’s description of vowel spectrograms?",
+      "explanation": "Formants are acoustic patterns related to the filtering effect of the vocal tract. In suitable spectrograms, they appear as energy bands useful for comparing vowel qualities.",
+      "example": "A vowel can show several formant bands at different frequency heights.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Concentrations of acoustic energy associated with vocal-tract resonances"
+        },
+        {
+          "id": "B",
+          "text": "The letters used to spell the vowel"
+        },
+        {
+          "id": "C",
+          "text": "The spaces separating words in a written transcript"
+        },
+        {
+          "id": "D",
+          "text": "The full set of phonemes in a language"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L03-Q044",
+      "lecture_id": "LING-L03",
+      "topic_id": "displays",
+      "source_slides": [
+        6,
+        7
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A vowel spectrogram shows several strong horizontal energy bands. Which concept from the lecture most directly explains these bands?",
+      "explanation": "The lecture links these bands with concentrations of acoustic energy. They provide information about vowel quality rather than directly displaying spelling or word parts.",
+      "example": "The positions of bands can differ when the speaker changes from one vowel to another.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Sentence boundaries"
+        },
+        {
+          "id": "B",
+          "text": "Morphemes"
+        },
+        {
+          "id": "C",
+          "text": "Formants"
+        },
+        {
+          "id": "D",
+          "text": "Letters"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L03-Q045",
+      "lecture_id": "LING-L03",
+      "topic_id": "displays",
+      "source_slides": [
+        6,
+        7
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Two vowels last equally long but show different patterns of formant bands. Which conclusion is most appropriate?",
+      "explanation": "Timing and frequency structure are separate aspects of the signal. The lecture uses changing band patterns to illustrate differences among vowel qualities.",
+      "example": "Two equally long vowel recordings can show their strongest bands at different frequency positions.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Equal duration requires both vowels to have identical frequency structure."
+        },
+        {
+          "id": "B",
+          "text": "Their acoustic vowel qualities may differ despite equal duration."
+        },
+        {
+          "id": "C",
+          "text": "The darker vowel must be the only meaningful sound."
+        },
+        {
+          "id": "D",
+          "text": "Their formant differences prove that their durations are unequal."
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L03-Q046",
+      "lecture_id": "LING-L03",
+      "topic_id": "displays",
+      "source_slides": [
+        5,
+        6
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Which distinction best separates fundamental frequency from formants?",
+      "explanation": "The terms describe different properties of a signal. Changes in the repetition of voicing and changes in vocal-tract filtering need not be the same change.",
+      "example": "A speaker can change vocal pitch without changing to a completely different vowel.",
+      "reference_ids": [
+        "lecture_03",
+        "ncvs_spectrogram"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Fundamental frequency concerns repetition rate; formants concern resonant energy concentrations."
+        },
+        {
+          "id": "B",
+          "text": "Fundamental frequency is duration; formants are word meanings."
+        },
+        {
+          "id": "C",
+          "text": "Fundamental frequency is spelling; formants are phoneme counts."
+        },
+        {
+          "id": "D",
+          "text": "Fundamental frequency and formants name the same acoustic property."
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L03-Q047",
+      "lecture_id": "LING-L03",
+      "topic_id": "displays",
+      "source_slides": [
+        7
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A figure groups spectrograms under vowels, semivowels, and plosive consonants. What kind of comparison does this primarily support?",
+      "explanation": "The figure presents signal patterns, so it is acoustic evidence. It does not directly show meanings, social evaluations, or all aspects of a sound’s linguistic status.",
+      "example": "A student can compare sustained energy bands with changes associated with a consonant interval.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Comparing speakers’ social attitudes without any listener data"
+        },
+        {
+          "id": "B",
+          "text": "Comparing the dictionary meanings of the sounds"
+        },
+        {
+          "id": "C",
+          "text": "Comparing which language has the most writing symbols"
+        },
+        {
+          "id": "D",
+          "text": "Comparing acoustic patterns associated with different sound types"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L03-Q048",
+      "lecture_id": "LING-L03",
+      "topic_id": "displays",
+      "source_slides": [
+        8
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A figure contains two line traces: the upper trace repeats a similar shape regularly, while the lower trace fluctuates irregularly. Which observation is directly supported?",
+      "explanation": "Periodicity refers to repeated cycles in the signal. Without additional labels and scales, the traces do not establish particular words or phoneme counts.",
+      "example": "A repeating waveform can show similar shapes at approximately regular time intervals.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The upper trace must represent a particular word."
+        },
+        {
+          "id": "B",
+          "text": "The upper trace must contain more phonemes."
+        },
+        {
+          "id": "C",
+          "text": "The upper trace is more periodic than the lower trace."
+        },
+        {
+          "id": "D",
+          "text": "The lower trace must have a longer total duration."
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L03-Q049",
+      "lecture_id": "LING-L03",
+      "topic_id": "displays",
+      "source_slides": [
+        5,
+        8
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "analyze",
+      "question": "An ordinary waveform plots amplitude vertically over time. How does this differ from the spectrogram described in the lecture?",
+      "explanation": "Both can represent a recording over time, but they display different signal properties. A waveform shows changes in amplitude; a spectrogram separates information by frequency.",
+      "example": "A waveform can show large signal excursions, while a spectrogram can show vowel formant bands.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The spectrogram and waveform use identical axes and show identical information."
+        },
+        {
+          "id": "B",
+          "text": "The spectrogram plots frequency vertically and uses shading for signal strength."
+        },
+        {
+          "id": "C",
+          "text": "The spectrogram plots spelling vertically and word meaning horizontally."
+        },
+        {
+          "id": "D",
+          "text": "The waveform plots frequency vertically and never shows time."
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L03-Q050",
+      "lecture_id": "LING-L03",
+      "topic_id": "displays",
+      "source_slides": [
+        6,
+        8
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "A student treats a tall peak on a waveform as if it were a high-frequency band on a spectrogram. What is the main error?",
+      "explanation": "The meaning of a vertical position depends on the display. A waveform’s vertical amplitude cannot be interpreted as if it were a spectrogram’s frequency axis.",
+      "example": "A larger waveform peak does not by itself establish a higher fundamental frequency.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The student has confused a vowel with a written word."
+        },
+        {
+          "id": "B",
+          "text": "The student has confused word order with listener perception."
+        },
+        {
+          "id": "C",
+          "text": "The student has confused a phoneme with a morpheme."
+        },
+        {
+          "id": "D",
+          "text": "The student has confused amplitude with frequency by ignoring the display axes."
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L03-Q051",
+      "lecture_id": "LING-L03",
+      "topic_id": "displays",
+      "source_slides": [
+        6,
+        7
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Why should the lecture’s statement that vowels are darkest on a spectrogram not be treated as an unconditional identification rule?",
+      "explanation": "A strong vowel may be prominent in a display, but darkness alone does not identify a sound. Comparisons need consistent settings and other acoustic evidence.",
+      "example": "A recording-level change can alter the appearance of a display without changing the word spoken.",
+      "reference_ids": [
+        "lecture_03",
+        "ncvs_spectrogram"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Displayed darkness depends on energy and settings, so sound identity requires the wider pattern."
+        },
+        {
+          "id": "B",
+          "text": "Darkness always represents the number of letters in a vowel’s spelling."
+        },
+        {
+          "id": "C",
+          "text": "All consonants are necessarily invisible on every spectrogram."
+        },
+        {
+          "id": "D",
+          "text": "Every dark band must correspond to a separate vowel phoneme."
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L03-Q052",
+      "lecture_id": "LING-L03",
+      "topic_id": "displays",
+      "source_slides": [
+        6,
+        7,
+        8
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "A sound diagram has no labelled axes or time scale. Which conclusion should a student avoid?",
+      "explanation": "Qualitative patterns can be described without numerical calibration. Exact time or frequency values require an appropriate scale, not just the shape of a picture.",
+      "example": "An unlabeled trace may look periodic, but the image alone cannot establish that it repeats at 150 Hz.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Assigning an exact duration or frequency value from the image alone"
+        },
+        {
+          "id": "B",
+          "text": "Noting that a visible pattern repeats regularly"
+        },
+        {
+          "id": "C",
+          "text": "Noting that one section contains changing bands"
+        },
+        {
+          "id": "D",
+          "text": "Noting that two displayed traces have different shapes"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L03-Q053",
+      "lecture_id": "LING-L03",
+      "topic_id": "auditory",
+      "source_slides": [
+        9
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "What does auditory phonetics primarily investigate?",
+      "explanation": "Auditory phonetics focuses on listeners and their perception of speech. It complements research on how sounds are produced and how their signals can be measured.",
+      "example": "A listening experiment can ask whether participants distinguish two speech sounds.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The grammatical order of sentence elements"
+        },
+        {
+          "id": "B",
+          "text": "The historical origins of word meanings"
+        },
+        {
+          "id": "C",
+          "text": "The physical shapes of printed letters"
+        },
+        {
+          "id": "D",
+          "text": "Hearing and perception of speech sounds"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L03-Q054",
+      "lecture_id": "LING-L03",
+      "topic_id": "auditory",
+      "source_slides": [
+        9
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "understand",
+      "question": "In the lecture, what is speech perception?",
+      "explanation": "Speech perception involves making sense of the incoming speech signal. It is more than a description of the movements that originally produced the sound.",
+      "example": "A listener can interpret a short sound sequence as a familiar spoken word.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The process of arranging dictionary entries alphabetically"
+        },
+        {
+          "id": "B",
+          "text": "The process of counting written letters in a sentence"
+        },
+        {
+          "id": "C",
+          "text": "The processes through which people interpret and understand speech sounds"
+        },
+        {
+          "id": "D",
+          "text": "The process of moving only the lips during speech"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L03-Q055",
+      "lecture_id": "LING-L03",
+      "topic_id": "auditory",
+      "source_slides": [
+        9
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "Listeners hear two recorded consonants and judge whether they are the same or different. What is the main kind of evidence collected?",
+      "explanation": "The responses reveal what listeners discriminate in the task. They do not directly photograph production or establish a whole phonological system.",
+      "example": "Some participants may hear a difference that others do not reliably notice.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "A complete list of phonemes established without linguistic analysis"
+        },
+        {
+          "id": "B",
+          "text": "Direct images of vocal-fold movement"
+        },
+        {
+          "id": "C",
+          "text": "Direct measurements of tongue contact"
+        },
+        {
+          "id": "D",
+          "text": "Perceptual responses to speech sounds"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L03-Q056",
+      "lecture_id": "LING-L03",
+      "topic_id": "auditory",
+      "source_slides": [
+        5,
+        9
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "A listener reports hearing the same sound category in two recordings whose durations differ slightly. Which conclusion is justified?",
+      "explanation": "Physical differences and perceptual categories are related but not equivalent. A listener can group different signals together, although a larger or different change might affect the response.",
+      "example": "Two slightly different recordings may both be identified as /p/.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The recordings must therefore have identical signals."
+        },
+        {
+          "id": "B",
+          "text": "An acoustic difference need not produce a different category response in that task."
+        },
+        {
+          "id": "C",
+          "text": "The listener must be using spelling rather than hearing."
+        },
+        {
+          "id": "D",
+          "text": "The listener’s response proves that duration can never affect perception."
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L03-Q057",
+      "lecture_id": "LING-L03",
+      "topic_id": "auditory",
+      "source_slides": [
+        9
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "Which field outside linguistics is explicitly linked to speech perception in the lecture?",
+      "explanation": "The slide connects speech perception with cognitive psychology and the study of perception. These links reflect an interest in how people process sensory information.",
+      "example": "A study can investigate the mental processes involved when listeners identify an ambiguous sound.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Literary publishing"
+        },
+        {
+          "id": "B",
+          "text": "Economic geography"
+        },
+        {
+          "id": "C",
+          "text": "Cognitive psychology"
+        },
+        {
+          "id": "D",
+          "text": "Political history"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L03-Q058",
+      "lecture_id": "LING-L03",
+      "topic_id": "auditory",
+      "source_slides": [
+        9,
+        10
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "understand",
+      "question": "Why can speech-perception research be relevant to phonology as well as phonetics?",
+      "explanation": "Perception involves a signal, but the way listeners organize it can relate to language-specific categories. This connection helps explain why the fields interact.",
+      "example": "An investigation can ask whether listeners distinguish sounds that contrast in a language they know.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Phonological categories can be studied without any evidence from language use."
+        },
+        {
+          "id": "B",
+          "text": "Listeners interpret physical signals using distinctions that matter in linguistic sound systems."
+        },
+        {
+          "id": "C",
+          "text": "Perception concerns only the written alphabet."
+        },
+        {
+          "id": "D",
+          "text": "Every audible difference must be a separate phoneme in every language."
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L03-Q059",
+      "lecture_id": "LING-L03",
+      "topic_id": "auditory",
+      "source_slides": [
+        9
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A researcher asks participants to choose which of two spoken words they heard. Which observation comes most directly from the task?",
+      "explanation": "The task collects listener decisions about a signal. Those decisions can be analysed for accuracy or patterns, but do not directly supply articulatory or acoustic measurements.",
+      "example": "After hearing a recording, a participant may choose “kid” rather than “kit.”",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The number of letters in the speaker’s intended spelling"
+        },
+        {
+          "id": "B",
+          "text": "The precise location of the speaker’s tongue throughout the recording"
+        },
+        {
+          "id": "C",
+          "text": "The complete frequency spectrum calculated without signal analysis"
+        },
+        {
+          "id": "D",
+          "text": "Their identification of the recorded speech"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L03-Q060",
+      "lecture_id": "LING-L03",
+      "topic_id": "auditory",
+      "source_slides": [
+        4,
+        5,
+        9
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Which combination correctly separates production, signal, and perception evidence?",
+      "explanation": "The first sequence assigns a suitable source of evidence to each stage. A written form cannot substitute for direct evidence about what a speaker produced or a listener perceived.",
+      "example": "A single project can investigate how an articulatory difference changes a signal and influences listeners.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Acoustic recording analysis, word meaning, and sentence punctuation"
+        },
+        {
+          "id": "B",
+          "text": "Dictionary spelling, vocal-fold observation, and acoustic frequency"
+        },
+        {
+          "id": "C",
+          "text": "Listener identification, dictionary spelling, and tongue anatomy"
+        },
+        {
+          "id": "D",
+          "text": "Vocal-fold observation, acoustic recording analysis, and listener identification"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L03-Q061",
+      "lecture_id": "LING-L03",
+      "topic_id": "phonology",
+      "source_slides": [
+        10,
+        13
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "understand",
+      "question": "What does phonology primarily investigate in the lecture?",
+      "explanation": "Phonology examines how sounds function and pattern within a linguistic system. Its questions include sound categories, allowed combinations, and context-sensitive realization.",
+      "example": "A researcher can ask which sound differences distinguish words in English.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The loudness of a recording without regard to sound organization"
+        },
+        {
+          "id": "B",
+          "text": "The categories and patterns of a language’s sound system"
+        },
+        {
+          "id": "C",
+          "text": "The printing style of phonetic symbols"
+        },
+        {
+          "id": "D",
+          "text": "The dictionary definition of every spoken word"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L03-Q062",
+      "lecture_id": "LING-L03",
+      "topic_id": "phonology",
+      "source_slides": [
+        10
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "understand",
+      "question": "What does it mean to say that phonology concerns mental representations of sounds?",
+      "explanation": "A mental representation is not the same thing as one physical recording. It captures linguistic organization that can be reflected in many individual productions.",
+      "example": "Different productions can be treated as instances of the same phoneme.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Every speaker must produce an acoustically identical signal for a category."
+        },
+        {
+          "id": "B",
+          "text": "Every phoneme is a written picture stored in a dictionary."
+        },
+        {
+          "id": "C",
+          "text": "Speakers organize sound information into abstract linguistic categories and patterns."
+        },
+        {
+          "id": "D",
+          "text": "Speakers must consciously recite phonology rules before speaking."
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L03-Q063",
+      "lecture_id": "LING-L03",
+      "topic_id": "phonology",
+      "source_slides": [
+        13
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A researcher asks which sound sequences can occur at the beginnings of words in a language. Which area is most directly involved?",
+      "explanation": "The question concerns restrictions and possibilities in a sound system. It asks about patterned combinations rather than one signal’s physical magnitude.",
+      "example": "A sequence permitted at the start of words in one language may not be permitted in another.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Dictionary page design"
+        },
+        {
+          "id": "B",
+          "text": "Articulatory imaging alone"
+        },
+        {
+          "id": "C",
+          "text": "Acoustic measurement of amplitude alone"
+        },
+        {
+          "id": "D",
+          "text": "Phonology"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L03-Q064",
+      "lecture_id": "LING-L03",
+      "topic_id": "phonology",
+      "source_slides": [
+        13
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A study asks how the realization of a sound changes depending on neighboring sounds. What makes its central question phonological?",
+      "explanation": "The slide identifies contextual realization as a phonological concern. Acoustic or articulatory methods can provide evidence for the pattern.",
+      "example": "A speaker may produce a sound somewhat differently beside different neighboring sounds.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "It assumes that sounds have no relation to their environment."
+        },
+        {
+          "id": "B",
+          "text": "It investigates a patterned relationship between sound realization and linguistic context."
+        },
+        {
+          "id": "C",
+          "text": "It treats every measurable difference as a new written letter."
+        },
+        {
+          "id": "D",
+          "text": "It determines the word’s meaning from volume alone."
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L03-Q065",
+      "lecture_id": "LING-L03",
+      "topic_id": "phonology",
+      "source_slides": [
+        10,
+        11
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A speaker hears an unfamiliar word and notices that its sound sequence does not fit familiar patterns of English. Which knowledge is most directly involved?",
+      "explanation": "Phonological knowledge includes expectations about possible sound patterns. A speaker need not know a word’s meaning or spelling to notice that its form is unusual.",
+      "example": "A listener can judge a sound sequence as unfamiliar without knowing which language it comes from.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Knowledge of the word’s dictionary definition"
+        },
+        {
+          "id": "B",
+          "text": "Knowledge of English sound-system patterns"
+        },
+        {
+          "id": "C",
+          "text": "Knowledge of the recording’s exact amplitude"
+        },
+        {
+          "id": "D",
+          "text": "Knowledge of the spelling of every English word"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L03-Q066",
+      "lecture_id": "LING-L03",
+      "topic_id": "phonology",
+      "source_slides": [
+        10,
+        13
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "understand",
+      "question": "Which question about a sound is most specifically phonological?",
+      "explanation": "The correct question asks about the sound’s role in a linguistic system. The alternatives ask about directly observable physical properties of an occurrence.",
+      "example": "Comparing English “kid” and “kit” helps investigate a word-distinguishing sound contrast.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Does it contrast with another sound to distinguish words in this language?"
+        },
+        {
+          "id": "B",
+          "text": "How many milliseconds does this recording last?"
+        },
+        {
+          "id": "C",
+          "text": "How large is the waveform’s highest amplitude excursion?"
+        },
+        {
+          "id": "D",
+          "text": "How far does the speaker’s tongue move during this token?"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L03-Q067",
+      "lecture_id": "LING-L03",
+      "topic_id": "phonology",
+      "source_slides": [
+        11,
+        12,
+        13
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "How should the table’s statement “phonology is a subset of phonetics” be corrected?",
+      "explanation": "Phonetics foregrounds speech’s physical and perceptual properties; phonology foregrounds categories and patterns. Their interaction does not make one merely a list of facts contained inside the other.",
+      "example": "A recording can provide acoustic evidence for a question about a language’s sound pattern.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Phonetics is simply another name for the written alphabet."
+        },
+        {
+          "id": "B",
+          "text": "Phonology examines spelling while phonetics examines word meaning."
+        },
+        {
+          "id": "C",
+          "text": "The two fields cannot share evidence because their subjects are unrelated."
+        },
+        {
+          "id": "D",
+          "text": "The fields are closely related but have different primary questions about physical signals and linguistic organization."
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L03-Q068",
+      "lecture_id": "LING-L03",
+      "topic_id": "phonology",
+      "source_slides": [
+        11,
+        12
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "What is the most careful interpretation of the table’s labels “language independent” for phonetics and “language dependent” for phonology?",
+      "explanation": "The contrast is useful when qualified. Phonetics can study language-specific productions too, while determining a sound’s linguistic function requires information about the system in question.",
+      "example": "A consonant can be physically described before its contrastive role in a particular language is established.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Phonetic research can never investigate the speech of one language."
+        },
+        {
+          "id": "B",
+          "text": "Physical sound properties can be described across languages, while phonemic status requires analysis of a particular language."
+        },
+        {
+          "id": "C",
+          "text": "Phonetic evidence becomes irrelevant whenever a language is identified."
+        },
+        {
+          "id": "D",
+          "text": "Every language must share the same inventory of phonemes."
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L03-Q069",
+      "lecture_id": "LING-L03",
+      "topic_id": "phonology",
+      "source_slides": [
+        11,
+        13
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Why is phonology broader than a list of meaning-distinguishing sounds?",
+      "explanation": "The lecture’s later description includes organization and contextual patterns. A list of phonemes is part of an account, but does not explain how those categories behave.",
+      "example": "Knowing a language’s consonants does not by itself explain which sequences can begin its words.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "It studies only the loudest segment in each recording."
+        },
+        {
+          "id": "B",
+          "text": "It replaces all sound questions with the meanings of whole paragraphs."
+        },
+        {
+          "id": "C",
+          "text": "It includes a separate phoneme for every small physical difference."
+        },
+        {
+          "id": "D",
+          "text": "It also investigates sound combinations and patterns of realization in context."
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L03-Q070",
+      "lecture_id": "LING-L03",
+      "topic_id": "phonology",
+      "source_slides": [
+        11,
+        13
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "analyze",
+      "question": "Which pair correctly distinguishes a phonetic question from a phonological question about the same consonant?",
+      "explanation": "The first question concerns production. The second concerns linguistic organization. A full investigation can use both perspectives without confusing their objects of explanation.",
+      "example": "Measuring a consonant’s duration differs from asking whether that duration helps distinguish words.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "What does the word mean, and who translated its definition?"
+        },
+        {
+          "id": "B",
+          "text": "How is it spelled, and how much does the dictionary cost?"
+        },
+        {
+          "id": "C",
+          "text": "Who printed the text, and how many pages does it contain?"
+        },
+        {
+          "id": "D",
+          "text": "How is it physically produced, and what role does it play in the language’s sound system?"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L03-Q071",
+      "lecture_id": "LING-L03",
+      "topic_id": "phonology",
+      "source_slides": [
+        11,
+        12,
+        13
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A researcher begins with measured differences between two sound types but wants to know whether they contrast in one language. What further kind of evidence is needed?",
+      "explanation": "A physical difference does not automatically establish phonemic contrast. The researcher must examine how the sounds occur and what linguistic distinctions they support.",
+      "example": "A word pair differing only in the relevant sound can be useful evidence of contrast.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only the alphabetical order of the word list"
+        },
+        {
+          "id": "B",
+          "text": "Evidence about their distribution and function in that language"
+        },
+        {
+          "id": "C",
+          "text": "Only a larger printed version of their symbols"
+        },
+        {
+          "id": "D",
+          "text": "Only the number of speakers in the recording room"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L03-Q072",
+      "lecture_id": "LING-L03",
+      "topic_id": "phonology",
+      "source_slides": [
+        10,
+        13
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "understand",
+      "question": "How can phonological knowledge help a speaker produce meaningful utterances?",
+      "explanation": "Sound-system knowledge is one component of language ability. It helps speakers form recognizable sound patterns, but works alongside knowledge of words, meanings, and grammatical structure.",
+      "example": "A speaker combines familiar sounds into word forms that listeners can recognize.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "It requires every new utterance to be memorized in advance."
+        },
+        {
+          "id": "B",
+          "text": "It makes sentence structure unnecessary in communication."
+        },
+        {
+          "id": "C",
+          "text": "It supports the organization of sound sequences used in the language."
+        },
+        {
+          "id": "D",
+          "text": "It supplies all word meanings without any lexical knowledge."
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L03-Q073",
+      "lecture_id": "LING-L03",
+      "topic_id": "phonology",
+      "source_slides": [
+        10
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "analyze",
+      "question": "A listener notices that a speaker’s pronunciation differs from familiar language patterns. What can sound-system knowledge support here?",
+      "explanation": "The slide links sound knowledge with recognizing an accent. Noticing pronunciation differences does not justify social rankings or certain conclusions about a person’s identity.",
+      "example": "A listener may notice an unfamiliar vowel realization without knowing the speaker’s background.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Proving that the speaker’s language has no sound system"
+        },
+        {
+          "id": "B",
+          "text": "Recognizing a difference in accent without establishing the speaker’s worth or ability"
+        },
+        {
+          "id": "C",
+          "text": "Determining the speaker’s intelligence from one sound"
+        },
+        {
+          "id": "D",
+          "text": "Establishing the speaker’s exact nationality from any single difference"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L03-Q074",
+      "lecture_id": "LING-L03",
+      "topic_id": "phonology",
+      "source_slides": [
+        10,
+        13
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "A researcher identifies a possible sound sequence in English but does not know whether it names an existing word. Which conclusion is most appropriate?",
+      "explanation": "Sound-system patterns constrain possible forms but are not identical to a vocabulary list. A sequence may be pronounceable and well patterned without being an established word.",
+      "example": "A new product name can fit English sound patterns before people learn what it refers to.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Phonological patterns determine exactly which object every sequence names."
+        },
+        {
+          "id": "B",
+          "text": "Fitting the sound patterns does not alone establish a known word or its meaning."
+        },
+        {
+          "id": "C",
+          "text": "Every permitted sequence must already be a dictionary word."
+        },
+        {
+          "id": "D",
+          "text": "A sequence without a dictionary entry cannot have a phonetic form."
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L03-Q075",
+      "lecture_id": "LING-L03",
+      "topic_id": "phone_phoneme",
+      "source_slides": [
+        15
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "What is a segment in the lecture’s account of speech?",
+      "explanation": "A segment is a unit identified within flowing speech. Identifying units supports sound analysis, but the boundaries are analytical rather than printed spaces between letters.",
+      "example": "A learner can identify [s] as the first segment in the transcription [spɪn].",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The entire vocabulary of a language"
+        },
+        {
+          "id": "B",
+          "text": "The social relationship between two speakers"
+        },
+        {
+          "id": "C",
+          "text": "An identifiable small unit within the speech stream"
+        },
+        {
+          "id": "D",
+          "text": "The written definition of a sentence"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L03-Q076",
+      "lecture_id": "LING-L03",
+      "topic_id": "phone_phoneme",
+      "source_slides": [
+        15,
+        19
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "understand",
+      "question": "Which description best identifies a phone in the spoken-language focus of this lecture?",
+      "explanation": "A phone concerns a realized speech sound. It should be distinguished from a phoneme’s abstract linguistic category and from a morpheme’s meaningful or grammatical role.",
+      "example": "A particular [p] in a recorded utterance can be examined phonetically.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "A smallest meaningful word part such as a plural ending"
+        },
+        {
+          "id": "B",
+          "text": "A written letter whose pronunciation never varies"
+        },
+        {
+          "id": "C",
+          "text": "An abstract sentence pattern that organizes clauses"
+        },
+        {
+          "id": "D",
+          "text": "A speech sound described at the level of physical realization"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L03-Q077",
+      "lecture_id": "LING-L03",
+      "topic_id": "phone_phoneme",
+      "source_slides": [
+        16,
+        18
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "What property is central to the lecture’s definition of a phoneme?",
+      "explanation": "A phoneme is a contrastive sound category, not a smallest meaningful word part. Its significance depends on the language system in which it functions.",
+      "example": "English /d/ and /t/ distinguish the words “kid” and “kit.”",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Its ability to carry an independent dictionary meaning by itself"
+        },
+        {
+          "id": "B",
+          "text": "Its role in distinguishing meaning within a language’s sound system"
+        },
+        {
+          "id": "C",
+          "text": "Its identity as a printed letter in every alphabet"
+        },
+        {
+          "id": "D",
+          "text": "Its requirement to last the same time in every utterance"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L03-Q078",
+      "lecture_id": "LING-L03",
+      "topic_id": "phone_phoneme",
+      "source_slides": [
+        16,
+        18
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "understand",
+      "question": "Why is a phoneme described as an abstraction rather than a physical segment itself?",
+      "explanation": "A sound system groups and contrasts productions. The category captures that organization and is not identical to one speaker’s particular physical signal.",
+      "example": "Different tokens of a word can be treated as using the same phonemes despite physical variation.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "It can exist only as a handwritten letter."
+        },
+        {
+          "id": "B",
+          "text": "It is a linguistic category inferred from patterns across actual sound realizations."
+        },
+        {
+          "id": "C",
+          "text": "It has no connection with the sounds speakers produce."
+        },
+        {
+          "id": "D",
+          "text": "It is the same thing as one fixed waveform in a recording."
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L03-Q079",
+      "lecture_id": "LING-L03",
+      "topic_id": "phone_phoneme",
+      "source_slides": [
+        15,
+        16,
+        19
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "analyze",
+      "question": "Which comparison correctly relates phones and phonemes?",
+      "explanation": "The distinction separates physical evidence from linguistic categorization. A phonetic description can be available before the sound’s phonemic status is established.",
+      "example": "A researcher can describe a produced consonant and then investigate how it functions in the language.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Phones and phonemes must correspond to different alphabets."
+        },
+        {
+          "id": "B",
+          "text": "Phones are abstract word classes; phonemes are social roles."
+        },
+        {
+          "id": "C",
+          "text": "Phones concern physical sound realizations; phonemes concern contrastive categories in a language."
+        },
+        {
+          "id": "D",
+          "text": "Phones are written words; phonemes are sentence meanings."
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L03-Q080",
+      "lecture_id": "LING-L03",
+      "topic_id": "phone_phoneme",
+      "source_slides": [
+        19,
+        20
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "In English, “kid” and “kit” differ in their final sound and have different meanings. What does this provide evidence for?",
+      "explanation": "The final sounds occur in otherwise comparable word forms and distinguish meanings. This supports treating them as different phonemes in English.",
+      "example": "“Bat” and “bad” provide another English comparison involving final /t/ and /d/.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "A difference only in the number of sound segments"
+        },
+        {
+          "id": "B",
+          "text": "A difference in spelling with no sound contrast"
+        },
+        {
+          "id": "C",
+          "text": "A phonemic contrast between /d/ and /t/"
+        },
+        {
+          "id": "D",
+          "text": "A requirement that every final consonant is the same phoneme"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L03-Q081",
+      "lecture_id": "LING-L03",
+      "topic_id": "phone_phoneme",
+      "source_slides": [
+        19,
+        20
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A student replaces /t/ with /d/ at the end of English “kit” and obtains “kid.” What has changed?",
+      "explanation": "This replacement changes a contrastive category while leaving the other segments in the same order. The result is a different English word, not simply an alternative font or an added segment.",
+      "example": "Changing /p/ to /b/ at the start of “pin” also produces a different word, “bin.”",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only the font of the transcription has changed."
+        },
+        {
+          "id": "B",
+          "text": "A word has gained an extra sound segment."
+        },
+        {
+          "id": "C",
+          "text": "The pronunciation has changed without any possible difference in word identity."
+        },
+        {
+          "id": "D",
+          "text": "A phoneme has been replaced, producing a different word."
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L03-Q082",
+      "lecture_id": "LING-L03",
+      "topic_id": "phone_phoneme",
+      "source_slides": [
+        16,
+        19
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Why must a claim about phonemic contrast identify the language being analysed?",
+      "explanation": "Physical similarity and difference are not enough to establish linguistic function. The same broad phonetic distinction need not have the same role in every sound system.",
+      "example": "Researchers examine evidence from the relevant language before deciding whether two sound types contrast.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Phonemic status depends only on how long a researcher records the sound."
+        },
+        {
+          "id": "B",
+          "text": "A physical description is impossible until the word’s spelling is known."
+        },
+        {
+          "id": "C",
+          "text": "The contrastive role of a physical sound difference depends on the language’s system."
+        },
+        {
+          "id": "D",
+          "text": "Every language assigns exactly the same phonemic status to all sounds."
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L03-Q083",
+      "lecture_id": "LING-L03",
+      "topic_id": "phone_phoneme",
+      "source_slides": [
+        13,
+        18
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "understand",
+      "question": "The lecture groups examples such as “tip,” “stand,” “writer,” and “cat” under /t/. What is the most careful interpretation?",
+      "explanation": "The slashes refer to a category in a phonological analysis. Its realization can vary by position and accent. The shared label does not require an identical sound in every token.",
+      "example": "A speaker’s /t/ at the beginning of a word can differ phonetically from its realization elsewhere.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Each spelling of the letter t necessarily represents a new phoneme."
+        },
+        {
+          "id": "B",
+          "text": "Every speaker must produce exactly the same [t] in all four words."
+        },
+        {
+          "id": "C",
+          "text": "The examples illustrate one phonemic category without requiring identical physical pronunciations."
+        },
+        {
+          "id": "D",
+          "text": "The words must have the same meaning because they contain /t/."
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L03-Q084",
+      "lecture_id": "LING-L03",
+      "topic_id": "phone_phoneme",
+      "source_slides": [
+        13,
+        18
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "In some North American accents, /t/ in “writer” is realized as a flap [ɾ]. What does this illustrate?",
+      "explanation": "A category can be realized differently in particular environments. The example is accent-specific; it is not a pronunciation rule for every English speaker.",
+      "example": "The phonemic label /t/ can remain useful even when one occurrence is pronounced as [ɾ].",
+      "reference_ids": [
+        "lecture_03",
+        "eol_phonemes"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "A flap realization must be used in every English accent."
+        },
+        {
+          "id": "B",
+          "text": "Every change in physical realization automatically creates a new word."
+        },
+        {
+          "id": "C",
+          "text": "A phoneme can have a context-sensitive physical realization different from a plain [t]."
+        },
+        {
+          "id": "D",
+          "text": "The word has necessarily lost its phonological structure."
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L03-Q085",
+      "lecture_id": "LING-L03",
+      "topic_id": "phone_phoneme",
+      "source_slides": [
+        17
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Why is physical similarity between two phones insufficient on its own to establish that they belong to one phoneme?",
+      "explanation": "Phonemic grouping is a linguistic analysis, not a judgment of resemblance alone. Similarity can be relevant, but patterns and contrasts supply essential evidence.",
+      "example": "Two similar consonants can distinguish words, so similarity alone cannot justify merging them.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Their distribution and contrastive function in the language must also be investigated."
+        },
+        {
+          "id": "B",
+          "text": "Every pair of similar sounds must be one phoneme in every language."
+        },
+        {
+          "id": "C",
+          "text": "Only differences in spelling determine phonemic membership."
+        },
+        {
+          "id": "D",
+          "text": "Physically similar sounds can never be compared in phonology."
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L03-Q086",
+      "lecture_id": "LING-L03",
+      "topic_id": "phone_phoneme",
+      "source_slides": [
+        15,
+        16
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A recording contains several physically different repetitions of a word, but an analysis assigns the same phonemic sequence to them. Is this necessarily inconsistent?",
+      "explanation": "A phonemic representation does not specify every detail of every production. Variation among tokens can coexist with a stable analysis of their linguistic categories.",
+      "example": "A speaker may say “kit” more quickly on one repetition than another without changing the word.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Yes; each acoustic difference must create a different word."
+        },
+        {
+          "id": "B",
+          "text": "No; abstract phonemic categories can be realized in physically varying tokens."
+        },
+        {
+          "id": "C",
+          "text": "No; recordings cannot contain any measurable physical variation."
+        },
+        {
+          "id": "D",
+          "text": "Yes; one phoneme must have an identical waveform in every token."
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L03-Q087",
+      "lecture_id": "LING-L03",
+      "topic_id": "phone_phoneme",
+      "source_slides": [
+        16,
+        19,
+        20
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "What does calling /t/ a meaning-distinguishing unit imply?",
+      "explanation": "Distinguishing meaning is different from carrying an independent meaning. A phoneme participates in contrasts; a smallest meaningful unit belongs to a different level of analysis.",
+      "example": "The contrast between “kit” and “kid” matters even though /t/ alone does not mean “kit.”",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The phoneme /t/ must be a complete sentence on its own."
+        },
+        {
+          "id": "B",
+          "text": "Every occurrence of /t/ contributes the same dictionary meaning."
+        },
+        {
+          "id": "C",
+          "text": "Its contrast with another phoneme can help distinguish words, though /t/ need not have a meaning by itself."
+        },
+        {
+          "id": "D",
+          "text": "The sound /t/ must independently name a particular object."
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L03-Q088",
+      "lecture_id": "LING-L03",
+      "topic_id": "phone_phoneme",
+      "source_slides": [
+        15,
+        16,
+        19
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "What is the most careful interpretation of the slide’s statement that phones are not language-specific?",
+      "explanation": "The useful distinction concerns description and function. A phone’s physical properties can be described, while its role in a sound system requires language-specific evidence. This does not remove phonetic variation.",
+      "example": "An analyst can describe a consonant’s articulation before deciding whether it contrasts with another sound.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "All speakers produce physically identical tokens of a phone."
+        },
+        {
+          "id": "B",
+          "text": "Every language uses every possible phone."
+        },
+        {
+          "id": "C",
+          "text": "A phone cannot occur as part of a language-specific pattern."
+        },
+        {
+          "id": "D",
+          "text": "Phones can be physically described without first deciding their phonemic role in a language."
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L03-Q089",
+      "lecture_id": "LING-L03",
+      "topic_id": "transcription",
+      "source_slides": [
+        21
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "Which notation convention does the lecture use for phonemes?",
+      "explanation": "Slashes mark a phonemic representation in the convention taught here. They indicate the level of analysis rather than how loudly or carefully the sound was produced.",
+      "example": "The final phoneme of English “kit” can be represented as /t/.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Slashes, as in /t/"
+        },
+        {
+          "id": "B",
+          "text": "Square brackets, as in [t]"
+        },
+        {
+          "id": "C",
+          "text": "Quotation marks alone, as in “t”"
+        },
+        {
+          "id": "D",
+          "text": "Curly brackets alone, as in {t}"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L03-Q090",
+      "lecture_id": "LING-L03",
+      "topic_id": "transcription",
+      "source_slides": [
+        21
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "Which notation convention does the lecture use for phones?",
+      "explanation": "Square brackets mark a phonetic representation. A transcription can include more or less phonetic detail, so brackets do not guarantee that every physical detail is recorded.",
+      "example": "The lecture uses [spɪn] as a phonetic representation of “spin.”",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Slashes, as in /t/"
+        },
+        {
+          "id": "B",
+          "text": "Quotation marks alone, as in “t”"
+        },
+        {
+          "id": "C",
+          "text": "Round brackets alone, as in (t)"
+        },
+        {
+          "id": "D",
+          "text": "Square brackets, as in [t]"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L03-Q091",
+      "lecture_id": "LING-L03",
+      "topic_id": "transcription",
+      "source_slides": [
+        20
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "apply",
+      "question": "How many sound segments are represented in the lecture’s transcription [spɪn]?",
+      "explanation": "The represented sequence contains [s], [p], [ɪ], and [n]. Counting these sound segments is different from assuming that every possible transcription has one symbol per written letter.",
+      "example": "In this example, the four segments occur in the order [s] then [p] then [ɪ] then [n].",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Three"
+        },
+        {
+          "id": "B",
+          "text": "Four"
+        },
+        {
+          "id": "C",
+          "text": "Five"
+        },
+        {
+          "id": "D",
+          "text": "Two"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L03-Q092",
+      "lecture_id": "LING-L03",
+      "topic_id": "transcription",
+      "source_slides": [
+        20
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "Which sequence reproduces the segment order of [spɪn]?",
+      "explanation": "The order matters because a transcription represents a sequence of sounds. Recognizing the same individual symbols is not enough if their arrangement changes.",
+      "example": "The transcription begins with the consonants [s] and [p] before the vowel [ɪ].",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "[s], [p], [ɪ], [n]"
+        },
+        {
+          "id": "B",
+          "text": "[p], [s], [ɪ], [n]"
+        },
+        {
+          "id": "C",
+          "text": "[s], [p], [n], [ɪ]"
+        },
+        {
+          "id": "D",
+          "text": "[s], [ɪ], [p], [n]"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L03-Q093",
+      "lecture_id": "LING-L03",
+      "topic_id": "transcription",
+      "source_slides": [
+        14
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "understand",
+      "question": "Why are phonetic alphabets useful in the study of speech?",
+      "explanation": "A sound-based notation helps record and compare speech. It should be distinguished from a language’s ordinary spelling system and from direct measurements of a recording.",
+      "example": "A symbol such as [ɪ] can specify a sound more directly than relying on the spelling letter i.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "They remove the need to investigate actual speech sounds."
+        },
+        {
+          "id": "B",
+          "text": "They represent sentence meanings without reference to sounds."
+        },
+        {
+          "id": "C",
+          "text": "They guarantee that ordinary spelling has one fixed pronunciation in every language."
+        },
+        {
+          "id": "D",
+          "text": "They provide symbols for representing speech sounds in writing."
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L03-Q094",
+      "lecture_id": "LING-L03",
+      "topic_id": "transcription",
+      "source_slides": [
+        14
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "remember",
+      "question": "Which pair reproduces the additional sound-symbol examples shown beside p and b on slide 14?",
+      "explanation": "The examples show symbols beyond the basic modern English alphabet. The slide’s alphabet-origin labels should not be used to infer that these two symbols have the same historical origin. Their linguistic role requires separate analysis.",
+      "example": "A learner may encounter [θ] and [ð] in sound transcriptions even though ordinary English spelling uses th.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "p and b"
+        },
+        {
+          "id": "B",
+          "text": "t and k"
+        },
+        {
+          "id": "C",
+          "text": "θ and ð"
+        },
+        {
+          "id": "D",
+          "text": "s and n"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L03-Q095",
+      "lecture_id": "LING-L03",
+      "topic_id": "transcription",
+      "source_slides": [
+        21
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "Using the slide’s convention that the vowel category in “bead” and “bean” is /i/, which statement is correct?",
+      "explanation": "A phonemic label states a category in a specified analysis. English vowel transcription conventions vary, and a shared label does not erase token-level differences.",
+      "example": "Another English description may use /iː/ for this category while still grouping the two vowels together.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The notation identifies a shared vowel phoneme in that analysis, not an identical physical token."
+        },
+        {
+          "id": "B",
+          "text": "The notation proves that each vowel has precisely the same duration."
+        },
+        {
+          "id": "C",
+          "text": "The notation requires all English descriptions to use exactly the same vowel symbols."
+        },
+        {
+          "id": "D",
+          "text": "The notation proves that both whole words have identical meanings."
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L03-Q096",
+      "lecture_id": "LING-L03",
+      "topic_id": "transcription",
+      "source_slides": [
+        16,
+        21
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "What changes when an analyst writes /t/ rather than [t]?",
+      "explanation": "The brackets and slashes identify the representational level. Changing notation alone does not alter the recorded signal or establish a new contrast.",
+      "example": "A category /t/ can be related to particular realizations represented within square brackets.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The symbol must now name a different written letter."
+        },
+        {
+          "id": "B",
+          "text": "The sound automatically acquires an independent word meaning."
+        },
+        {
+          "id": "C",
+          "text": "The notation foregrounds a phonemic category rather than a phonetic sound description."
+        },
+        {
+          "id": "D",
+          "text": "The sound must become louder in the recording."
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L03-Q097",
+      "lecture_id": "LING-L03",
+      "topic_id": "transcription",
+      "source_slides": [
+        14,
+        20,
+        21
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "analyze",
+      "question": "A student counts the letters in a written word and assumes that the number must equal its speech segments. What is the main problem?",
+      "explanation": "Sound analysis should use pronunciation evidence and an appropriate representation. Ordinary spelling can use several letters for one sound or represent sounds inconsistently.",
+      "example": "The spelling sh in “ship” represents one initial consonant sound rather than separate [s] and [h] sounds.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Ordinary spelling and sound segmentation do not have a guaranteed one-to-one relationship."
+        },
+        {
+          "id": "B",
+          "text": "Every pair of written letters must represent two different phonemes."
+        },
+        {
+          "id": "C",
+          "text": "A word can never contain more than one speech segment."
+        },
+        {
+          "id": "D",
+          "text": "Square brackets count written syllables rather than sounds."
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L03-Q098",
+      "lecture_id": "LING-L03",
+      "topic_id": "transcription",
+      "source_slides": [
+        15,
+        20,
+        21
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "What does the simple transcription [spɪn] allow a learner to identify without claiming a complete acoustic record?",
+      "explanation": "A transcription is an analytical representation, not a full recording. Its symbols indicate selected sound information, while timing and other details may require separate notation or measurements.",
+      "example": "The sequence [spɪn] identifies four represented segments without giving the duration of each one.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The listener’s precise emotional reaction"
+        },
+        {
+          "id": "B",
+          "text": "The fundamental frequency of every cycle"
+        },
+        {
+          "id": "C",
+          "text": "The represented sound sequence at the chosen level of phonetic detail"
+        },
+        {
+          "id": "D",
+          "text": "The exact waveform amplitude at every instant"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L03-Q099",
+      "lecture_id": "LING-L03",
+      "topic_id": "transcription",
+      "source_slides": [
+        5,
+        16,
+        20,
+        21
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "A student measures the final sounds of “kid” and “kit” and also argues that /d/ and /t/ contrast in English. Which description keeps the two analyses distinct?",
+      "explanation": "Physical measurements concern realized signals. Establishing a contrast concerns the organization of categories in a language and requires linguistic evidence, not spelling alone.",
+      "example": "A timing difference can be measured acoustically while the word pair supports a claim about phonemic contrast.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The measurements and contrast claim are both purely articulatory observations."
+        },
+        {
+          "id": "B",
+          "text": "The measurements are phonetic evidence; the contrast claim is a phonological analysis."
+        },
+        {
+          "id": "C",
+          "text": "The contrast claim is valid solely because the words use different letters."
+        },
+        {
+          "id": "D",
+          "text": "The measurements are dictionary meanings; the contrast claim is a spelling rule."
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L03-Q100",
+      "lecture_id": "LING-L03",
+      "topic_id": "transcription",
+      "source_slides": [
+        4,
+        5,
+        9,
+        13,
+        16
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "A project records tongue movement, measures the signal, tests listeners, and investigates whether two sounds distinguish words. Which account best describes the project?",
+      "explanation": "The methods and goals address different parts of sound production, perception, and linguistic organization. A coherent project can connect them while preserving the distinctions.",
+      "example": "Physical differences, listener judgments, and word contrasts can contribute complementary evidence about a sound system.",
+      "reference_ids": [
+        "lecture_03"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "It is only phonology because physical evidence cannot be linguistic evidence."
+        },
+        {
+          "id": "B",
+          "text": "It is only acoustic phonetics because every other observation is identical to a recording."
+        },
+        {
+          "id": "C",
+          "text": "It combines articulatory, acoustic, auditory, and phonological questions."
+        },
+        {
+          "id": "D",
+          "text": "It is only auditory phonetics because listeners are included."
+        }
+      ],
+      "answer_id": "C"
+    }
+  ]
+}

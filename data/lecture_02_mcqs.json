@@ -1,0 +1,3704 @@
+{
+  "schema_version": "1.0.0",
+  "lecture": {
+    "id": "LING-L02",
+    "number": 2,
+    "title": "Branches of Linguistics",
+    "language": "en",
+    "source_filename": "Lec 2-branches of linguistics(1).ppt",
+    "source_slide_count": 20,
+    "question_count": 90,
+    "scope": "Lecture 2; original examples apply the definitions and distinctions taught in the supplied slides. One brief externally referenced definition explains the anthropological branch named on slide 4.",
+    "exam_alignment": "Concept-based practice. No past paper or official examination blueprint was supplied.",
+    "answer_model": "Single best answer. answer_id refers to an option id, not its displayed position. Preserve option ids when shuffling.",
+    "display_guidance": "In learning mode, display explanation followed by example after the learner answers. Source slides and clarification notes can appear in a reference panel."
+  },
+  "references": [
+    {
+      "id": "lecture_02",
+      "type": "user_supplied_slides",
+      "title": "Lecture 2: Branches of Linguistics",
+      "filename": "Lec 2-branches of linguistics(1).ppt",
+      "library_file_id": "libfile_3f6e56e927d8819190bb25fe22b8968c"
+    },
+    {
+      "id": "utoronto_anthropology",
+      "type": "authoritative_clarification",
+      "organization": "Department of Anthropology, University of Toronto",
+      "title": "Subfields",
+      "url": "https://www.anthropology.utoronto.ca/node/9",
+      "supports": "Introductory identification of the language-and-culture focus of linguistic anthropology, a field named but not defined on slide 4."
+    }
+  ],
+  "clarifications": [
+    {
+      "id": "CL01",
+      "source_slides": [
+        4,
+        5
+      ],
+      "question_ids": [
+        "LING-L02-Q002",
+        "LING-L02-Q003",
+        "LING-L02-Q005",
+        "LING-L02-Q006"
+      ],
+      "note": "Micro/macro categories follow the slides when explicitly tested. They are not treated as universally fixed boundaries, and overlapping fields are distinguished by the stated research focus."
+    },
+    {
+      "id": "CL02",
+      "source_slides": [
+        8
+      ],
+      "question_ids": [
+        "LING-L02-Q027",
+        "LING-L02-Q028",
+        "LING-L02-Q029",
+        "LING-L02-Q030"
+      ],
+      "note": "Although presented on a micro-labelled slide, lexicography is explicitly described there as dictionary compilation and a possible branch of applied linguistics."
+    },
+    {
+      "id": "CL03",
+      "source_slides": [
+        8
+      ],
+      "question_ids": [
+        "LING-L02-Q023"
+      ],
+      "note": "The suffix -ly is adjective-forming in friendly. Questions do not generalize its function to every word ending in -ly."
+    },
+    {
+      "id": "CL04",
+      "source_slides": [
+        15
+      ],
+      "question_ids": [
+        "LING-L02-Q072"
+      ],
+      "note": "Language acquisition is treated as a major psycholinguistic area. The slide’s unqualified ranking of it as the best-developed branch is not turned into an examination fact."
+    },
+    {
+      "id": "CL05",
+      "source_slides": [
+        17
+      ],
+      "question_ids": [
+        "LING-L02-Q080",
+        "LING-L02-Q083",
+        "LING-L02-Q084"
+      ],
+      "note": "Computational linguistics studies natural language with computational tools and models. Programming languages may be tools. Merely using a computer does not make a project computational linguistics."
+    },
+    {
+      "id": "CL06",
+      "source_slides": [
+        18
+      ],
+      "question_ids": [
+        "LING-L02-Q085",
+        "LING-L02-Q086",
+        "LING-L02-Q087"
+      ],
+      "note": "Brain damage is one source of neurolinguistic evidence, not a definition of the field’s entire scope. Behavioral difficulties are not treated as sufficient to locate a single brain region."
+    },
+    {
+      "id": "CL07",
+      "source_slides": [
+        4
+      ],
+      "question_ids": [
+        "LING-L02-Q090"
+      ],
+      "note": "The overview’s label Anthropological is interpreted as the language-and-culture branch. Its brief introductory definition is externally referenced and clearly identified as clarification.",
+      "reference_ids": [
+        "utoronto_anthropology"
+      ]
+    },
+    {
+      "id": "CL08",
+      "source_slides": [
+        13,
+        14
+      ],
+      "question_ids": [
+        "LING-L02-Q069"
+      ],
+      "note": "The slide’s wording about retrievable interpretations is explained as identifiable textual evidence and reasoning that readers can examine; it does not imply one mandatory response to a literary text."
+    }
+  ],
+  "coverage": [
+    {
+      "topic_id": "overview",
+      "focus": "Overview and branch classification",
+      "source_slides": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11
+      ],
+      "question_ids": [
+        "LING-L02-Q001",
+        "LING-L02-Q002",
+        "LING-L02-Q003",
+        "LING-L02-Q004",
+        "LING-L02-Q005",
+        "LING-L02-Q006"
+      ]
+    },
+    {
+      "topic_id": "phonetics",
+      "focus": "Phonetics and its three subfields",
+      "source_slides": [
+        7
+      ],
+      "question_ids": [
+        "LING-L02-Q007",
+        "LING-L02-Q008",
+        "LING-L02-Q009",
+        "LING-L02-Q010",
+        "LING-L02-Q011",
+        "LING-L02-Q012",
+        "LING-L02-Q013",
+        "LING-L02-Q014"
+      ]
+    },
+    {
+      "topic_id": "phonology",
+      "focus": "Phonology and its relationship to phonetics",
+      "source_slides": [
+        6,
+        7
+      ],
+      "question_ids": [
+        "LING-L02-Q015",
+        "LING-L02-Q016",
+        "LING-L02-Q017",
+        "LING-L02-Q018",
+        "LING-L02-Q019",
+        "LING-L02-Q020"
+      ]
+    },
+    {
+      "topic_id": "morphology",
+      "focus": "Morphology and word structure",
+      "source_slides": [
+        7,
+        8,
+        9
+      ],
+      "question_ids": [
+        "LING-L02-Q021",
+        "LING-L02-Q022",
+        "LING-L02-Q023",
+        "LING-L02-Q024",
+        "LING-L02-Q025",
+        "LING-L02-Q026"
+      ]
+    },
+    {
+      "topic_id": "lexicography",
+      "focus": "Lexicography and dictionary compilation",
+      "source_slides": [
+        8,
+        9,
+        16
+      ],
+      "question_ids": [
+        "LING-L02-Q027",
+        "LING-L02-Q028",
+        "LING-L02-Q029",
+        "LING-L02-Q030"
+      ]
+    },
+    {
+      "topic_id": "syntax",
+      "focus": "Syntax and sentence structure",
+      "source_slides": [
+        8,
+        9
+      ],
+      "question_ids": [
+        "LING-L02-Q031",
+        "LING-L02-Q032",
+        "LING-L02-Q033",
+        "LING-L02-Q034",
+        "LING-L02-Q035",
+        "LING-L02-Q036"
+      ]
+    },
+    {
+      "topic_id": "semantics",
+      "focus": "Semantics and linguistic meaning",
+      "source_slides": [
+        9,
+        10
+      ],
+      "question_ids": [
+        "LING-L02-Q037",
+        "LING-L02-Q038",
+        "LING-L02-Q039",
+        "LING-L02-Q040",
+        "LING-L02-Q041",
+        "LING-L02-Q042"
+      ]
+    },
+    {
+      "topic_id": "pragmatics",
+      "focus": "Pragmatics and contextual interpretation",
+      "source_slides": [
+        9,
+        10,
+        11
+      ],
+      "question_ids": [
+        "LING-L02-Q043",
+        "LING-L02-Q044",
+        "LING-L02-Q045",
+        "LING-L02-Q046",
+        "LING-L02-Q047",
+        "LING-L02-Q048",
+        "LING-L02-Q049",
+        "LING-L02-Q050"
+      ]
+    },
+    {
+      "topic_id": "sociolinguistics",
+      "focus": "Sociolinguistics and social factors",
+      "source_slides": [
+        11,
+        16
+      ],
+      "question_ids": [
+        "LING-L02-Q051",
+        "LING-L02-Q052",
+        "LING-L02-Q053",
+        "LING-L02-Q054",
+        "LING-L02-Q055",
+        "LING-L02-Q056",
+        "LING-L02-Q057"
+      ]
+    },
+    {
+      "topic_id": "discourse",
+      "focus": "Discourse analysis and connected language",
+      "source_slides": [
+        9,
+        12
+      ],
+      "question_ids": [
+        "LING-L02-Q058",
+        "LING-L02-Q059",
+        "LING-L02-Q060",
+        "LING-L02-Q061",
+        "LING-L02-Q062"
+      ]
+    },
+    {
+      "topic_id": "stylistics",
+      "focus": "Stylistics and linguistic choices",
+      "source_slides": [
+        11,
+        13
+      ],
+      "question_ids": [
+        "LING-L02-Q063",
+        "LING-L02-Q064",
+        "LING-L02-Q065",
+        "LING-L02-Q066"
+      ]
+    },
+    {
+      "topic_id": "literary_stylistics",
+      "focus": "Literary stylistics and textual evidence",
+      "source_slides": [
+        14
+      ],
+      "question_ids": [
+        "LING-L02-Q067",
+        "LING-L02-Q068",
+        "LING-L02-Q069"
+      ]
+    },
+    {
+      "topic_id": "psycholinguistics",
+      "focus": "Psycholinguistics and mental processing",
+      "source_slides": [
+        15,
+        18
+      ],
+      "question_ids": [
+        "LING-L02-Q070",
+        "LING-L02-Q071",
+        "LING-L02-Q072",
+        "LING-L02-Q073",
+        "LING-L02-Q074"
+      ]
+    },
+    {
+      "topic_id": "applied",
+      "focus": "Applied and forensic linguistics",
+      "source_slides": [
+        16
+      ],
+      "question_ids": [
+        "LING-L02-Q075",
+        "LING-L02-Q076",
+        "LING-L02-Q077",
+        "LING-L02-Q078",
+        "LING-L02-Q079"
+      ]
+    },
+    {
+      "topic_id": "computational",
+      "focus": "Computational linguistics and its aims",
+      "source_slides": [
+        15,
+        17
+      ],
+      "question_ids": [
+        "LING-L02-Q080",
+        "LING-L02-Q081",
+        "LING-L02-Q082",
+        "LING-L02-Q083",
+        "LING-L02-Q084"
+      ]
+    },
+    {
+      "topic_id": "neurolinguistics",
+      "focus": "Neurolinguistics and the brain basis of language",
+      "source_slides": [
+        18
+      ],
+      "question_ids": [
+        "LING-L02-Q085",
+        "LING-L02-Q086",
+        "LING-L02-Q087"
+      ]
+    },
+    {
+      "topic_id": "cognitive",
+      "focus": "Cognitive linguistics and information organization",
+      "source_slides": [
+        19
+      ],
+      "question_ids": [
+        "LING-L02-Q088",
+        "LING-L02-Q089"
+      ]
+    },
+    {
+      "topic_id": "anthropological",
+      "focus": "Anthropological branch: introductory identification",
+      "source_slides": [
+        4
+      ],
+      "question_ids": [
+        "LING-L02-Q090"
+      ]
+    }
+  ],
+  "excluded_slides": [
+    {
+      "slide": 1,
+      "reason": "Opening slide with no substantive teaching text."
+    },
+    {
+      "slide": 2,
+      "reason": "Section title only."
+    },
+    {
+      "slide": 20,
+      "reason": "Closing thank-you slide."
+    }
+  ],
+  "topics": [
+    {
+      "id": "overview",
+      "title": "Overview and branch classification",
+      "question_count": 6
+    },
+    {
+      "id": "phonetics",
+      "title": "Phonetics and its three subfields",
+      "question_count": 8
+    },
+    {
+      "id": "phonology",
+      "title": "Phonology and its relationship to phonetics",
+      "question_count": 6
+    },
+    {
+      "id": "morphology",
+      "title": "Morphology and word structure",
+      "question_count": 6
+    },
+    {
+      "id": "lexicography",
+      "title": "Lexicography and dictionary compilation",
+      "question_count": 4
+    },
+    {
+      "id": "syntax",
+      "title": "Syntax and sentence structure",
+      "question_count": 6
+    },
+    {
+      "id": "semantics",
+      "title": "Semantics and linguistic meaning",
+      "question_count": 6
+    },
+    {
+      "id": "pragmatics",
+      "title": "Pragmatics and contextual interpretation",
+      "question_count": 8
+    },
+    {
+      "id": "sociolinguistics",
+      "title": "Sociolinguistics and social factors",
+      "question_count": 7
+    },
+    {
+      "id": "discourse",
+      "title": "Discourse analysis and connected language",
+      "question_count": 5
+    },
+    {
+      "id": "stylistics",
+      "title": "Stylistics and linguistic choices",
+      "question_count": 4
+    },
+    {
+      "id": "literary_stylistics",
+      "title": "Literary stylistics and textual evidence",
+      "question_count": 3
+    },
+    {
+      "id": "psycholinguistics",
+      "title": "Psycholinguistics and mental processing",
+      "question_count": 5
+    },
+    {
+      "id": "applied",
+      "title": "Applied and forensic linguistics",
+      "question_count": 5
+    },
+    {
+      "id": "computational",
+      "title": "Computational linguistics and its aims",
+      "question_count": 5
+    },
+    {
+      "id": "neurolinguistics",
+      "title": "Neurolinguistics and the brain basis of language",
+      "question_count": 3
+    },
+    {
+      "id": "cognitive",
+      "title": "Cognitive linguistics and information organization",
+      "question_count": 2
+    },
+    {
+      "id": "anthropological",
+      "title": "Anthropological branch: introductory identification",
+      "question_count": 1
+    }
+  ],
+  "statistics": {
+    "difficulty": {
+      "easy": 23,
+      "medium": 48,
+      "hard": 19
+    },
+    "cognitive_level": {
+      "understand": 15,
+      "remember": 15,
+      "analyze": 25,
+      "apply": 35
+    },
+    "answer_distribution": {
+      "A": 23,
+      "B": 23,
+      "C": 22,
+      "D": 22
+    }
+  },
+  "questions": [
+    {
+      "id": "LING-L02-Q001",
+      "lecture_id": "LING-L02",
+      "topic_id": "overview",
+      "source_slides": [
+        3
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "understand",
+      "question": "What connects the different branches of linguistics introduced in this lecture?",
+      "explanation": "Linguistics studies language. Its branches ask different questions about structure, meaning, use, learning, and processing, while sharing language as their central subject.",
+      "example": "A researcher can study either sentence structure or language choice in a community as part of linguistics.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "They all investigate spelling rather than speech."
+        },
+        {
+          "id": "B",
+          "text": "They all concentrate on translating literary texts."
+        },
+        {
+          "id": "C",
+          "text": "They investigate different aspects of human language."
+        },
+        {
+          "id": "D",
+          "text": "They all prescribe a single correct accent."
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L02-Q002",
+      "lecture_id": "LING-L02",
+      "topic_id": "overview",
+      "source_slides": [
+        4,
+        5
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "Which set consists entirely of microlinguistic branches in the classification used by these slides?",
+      "explanation": "The slides place phonetics, phonology, morphology, syntax, semantics, and pragmatics under microlinguistics. This is the lecture’s organizing scheme rather than a universal boundary between disciplines.",
+      "example": "Analysing how word parts combine falls under morphology in this scheme.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Phonology, sociolinguistics, and syntax"
+        },
+        {
+          "id": "B",
+          "text": "Syntax, neurolinguistics, and discourse analysis"
+        },
+        {
+          "id": "C",
+          "text": "Phonology, morphology, and syntax"
+        },
+        {
+          "id": "D",
+          "text": "Morphology, psycholinguistics, and stylistics"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L02-Q003",
+      "lecture_id": "LING-L02",
+      "topic_id": "overview",
+      "source_slides": [
+        4,
+        5
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "Which set consists entirely of macrolinguistic fields as listed in the lecture?",
+      "explanation": "The lecture groups these three fields under macrolinguistics. Each connects the study of language with broader questions about society, mental activity, or computation.",
+      "example": "Investigating how computers process natural language belongs to computational linguistics.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Computational linguistics, semantics, and phonetics"
+        },
+        {
+          "id": "B",
+          "text": "Psycholinguistics, syntax, and phonology"
+        },
+        {
+          "id": "C",
+          "text": "Sociolinguistics, morphology, and computational linguistics"
+        },
+        {
+          "id": "D",
+          "text": "Sociolinguistics, psycholinguistics, and computational linguistics"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L02-Q004",
+      "lecture_id": "LING-L02",
+      "topic_id": "overview",
+      "source_slides": [
+        5,
+        6
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "understand",
+      "question": "Which mapping follows the core-branch diagram in the lecture?",
+      "explanation": "The diagram organizes core branches by their main focus. These labels are a useful starting point, although a real research question can involve more than one level.",
+      "example": "Word endings suggest morphology, while the arrangement of words in a sentence suggests syntax.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Sounds: morphology; words: syntax; sentences: semantics; meaning: phonetics"
+        },
+        {
+          "id": "B",
+          "text": "Sounds: phonetics/phonology; words: morphology; sentences: syntax; meaning: semantics/pragmatics"
+        },
+        {
+          "id": "C",
+          "text": "Sounds: semantics; words: phonology; sentences: pragmatics; meaning: morphology"
+        },
+        {
+          "id": "D",
+          "text": "Sounds: syntax; words: pragmatics; sentences: phonetics; meaning: phonology"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L02-Q005",
+      "lecture_id": "LING-L02",
+      "topic_id": "overview",
+      "source_slides": [
+        5,
+        7,
+        11
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "A project measures pronunciation and relates its variation to speakers’ ages. How should its relationship to linguistic branches be understood?",
+      "explanation": "Branches describe areas of focus, not sealed compartments. Physical measurements can supply evidence for a question about socially patterned pronunciation.",
+      "example": "A researcher can measure vowel pronunciations and compare patterns across age groups.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "It can combine phonetic analysis with a sociolinguistic research question."
+        },
+        {
+          "id": "B",
+          "text": "It cannot be linguistic research because it crosses branch boundaries."
+        },
+        {
+          "id": "C",
+          "text": "It must be phonetics alone because recordings exclude social questions."
+        },
+        {
+          "id": "D",
+          "text": "It must be sociolinguistics alone because sound measurements cannot contribute."
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L02-Q006",
+      "lecture_id": "LING-L02",
+      "topic_id": "overview",
+      "source_slides": [
+        5,
+        9,
+        10
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "analyze",
+      "question": "Why should questions about whether pragmatics is a micro- or macro-field specify the lecture’s classification?",
+      "explanation": "The slides place pragmatics under microlinguistics, but disciplinary groupings can vary. It is more useful to understand its subject than to treat a classification as an unchanging fact.",
+      "example": "Interpreting a speaker’s indirect request remains a pragmatic question whichever course heading contains it.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Every linguistics textbook uses exactly the same grouping."
+        },
+        {
+          "id": "B",
+          "text": "The word “pragmatics” has no identifiable area of study."
+        },
+        {
+          "id": "C",
+          "text": "Such groupings are teaching conventions, while the field’s focus remains language use in context."
+        },
+        {
+          "id": "D",
+          "text": "Pragmatics becomes phonetics when it is grouped differently."
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L02-Q007",
+      "lecture_id": "LING-L02",
+      "topic_id": "phonetics",
+      "source_slides": [
+        7
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "Which question is most directly a phonetic question?",
+      "explanation": "Phonetics investigates speech sounds as produced by speakers, transmitted as signals, and perceived by listeners. It differs from questions about words, sentence structure, or social variation.",
+      "example": "A researcher might examine how a speaker’s tongue moves while producing a sound.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "How are clauses combined into a sentence?"
+        },
+        {
+          "id": "B",
+          "text": "How are speech sounds produced, transmitted, or perceived?"
+        },
+        {
+          "id": "C",
+          "text": "How are dictionary entries selected?"
+        },
+        {
+          "id": "D",
+          "text": "How does language choice relate to social class?"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L02-Q008",
+      "lecture_id": "LING-L02",
+      "topic_id": "phonetics",
+      "source_slides": [
+        7
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "Which branch of phonetics studies the production of speech sounds in the vocal tract?",
+      "explanation": "Articulatory phonetics examines how the speech organs produce sounds. The focus is the speaker’s physical production rather than the transmitted signal or the listener’s perception.",
+      "example": "Studying how the lips close to produce /p/ is articulatory phonetics.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Articulatory phonetics"
+        },
+        {
+          "id": "B",
+          "text": "Acoustic phonetics"
+        },
+        {
+          "id": "C",
+          "text": "Phonology"
+        },
+        {
+          "id": "D",
+          "text": "Auditory phonetics"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L02-Q009",
+      "lecture_id": "LING-L02",
+      "topic_id": "phonetics",
+      "source_slides": [
+        7
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A researcher observes where the tongue touches the roof of the mouth during a consonant. Which subfield is most directly involved?",
+      "explanation": "The evidence concerns the position and movement of a speech organ. That makes the primary focus articulatory, even if recordings or other tools support the observation.",
+      "example": "Comparing tongue positions for two consonants investigates how they are produced.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Morphology"
+        },
+        {
+          "id": "B",
+          "text": "Articulatory phonetics"
+        },
+        {
+          "id": "C",
+          "text": "Acoustic phonetics"
+        },
+        {
+          "id": "D",
+          "text": "Auditory phonetics"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L02-Q010",
+      "lecture_id": "LING-L02",
+      "topic_id": "phonetics",
+      "source_slides": [
+        7
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "Which branch of phonetics studies the physical speech signal as it travels from speaker to listener?",
+      "explanation": "Acoustic phonetics concerns the physical properties of the speech signal. The vocal organs produce the signal, and the listener perceives it, but those are distinct points of focus.",
+      "example": "Comparing the duration of two recorded vowels is an acoustic investigation.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Auditory phonetics"
+        },
+        {
+          "id": "B",
+          "text": "Acoustic phonetics"
+        },
+        {
+          "id": "C",
+          "text": "Syntax"
+        },
+        {
+          "id": "D",
+          "text": "Articulatory phonetics"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L02-Q011",
+      "lecture_id": "LING-L02",
+      "topic_id": "phonetics",
+      "source_slides": [
+        7
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A researcher measures the duration and frequency patterns of recorded vowels without investigating tongue movement or listener judgments. Which subfield is the best match?",
+      "explanation": "The measurements describe properties of the sound signal. Neither the production mechanism nor the listener’s response is the direct object of the analysis.",
+      "example": "A display of a recording can help compare how long two vowel sounds last.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Auditory phonetics"
+        },
+        {
+          "id": "B",
+          "text": "Lexicography"
+        },
+        {
+          "id": "C",
+          "text": "Acoustic phonetics"
+        },
+        {
+          "id": "D",
+          "text": "Articulatory phonetics"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L02-Q012",
+      "lecture_id": "LING-L02",
+      "topic_id": "phonetics",
+      "source_slides": [
+        7
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "Which branch of phonetics focuses on listeners’ hearing and perception of speech sounds?",
+      "explanation": "Auditory phonetics examines speech from the listener’s side. Acoustic phonetics examines the signal, while articulatory phonetics examines its physical production.",
+      "example": "Asking listeners which sound they heard can provide evidence about speech perception.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Acoustic phonetics"
+        },
+        {
+          "id": "B",
+          "text": "Auditory phonetics"
+        },
+        {
+          "id": "C",
+          "text": "Articulatory phonetics"
+        },
+        {
+          "id": "D",
+          "text": "Morphology"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L02-Q013",
+      "lecture_id": "LING-L02",
+      "topic_id": "phonetics",
+      "source_slides": [
+        7
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "Participants hear a series of similar speech sounds and report whether they hear /b/ or /p/. Which phonetic subfield most directly matches the task?",
+      "explanation": "The task records listeners’ perceptual responses. The experiment may manipulate acoustic signals, but the question asks specifically about what participants hear.",
+      "example": "A listener may classify an ambiguous sound differently from another listener.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Auditory phonetics"
+        },
+        {
+          "id": "B",
+          "text": "Lexicography"
+        },
+        {
+          "id": "C",
+          "text": "Articulatory phonetics"
+        },
+        {
+          "id": "D",
+          "text": "Acoustic phonetics"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L02-Q014",
+      "lecture_id": "LING-L02",
+      "topic_id": "phonetics",
+      "source_slides": [
+        7
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Which sequence correctly matches three observations to the phonetic subfields: lip movement, properties of the recorded signal, and listeners’ sound identification?",
+      "explanation": "The sequence follows production, transmission, and perception. These are complementary perspectives on speech rather than three names for the same measurement.",
+      "example": "One project can observe lip closure, analyse the recording, and ask listeners what they heard.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Auditory, articulatory, acoustic"
+        },
+        {
+          "id": "B",
+          "text": "Acoustic, auditory, articulatory"
+        },
+        {
+          "id": "C",
+          "text": "Articulatory, auditory, acoustic"
+        },
+        {
+          "id": "D",
+          "text": "Articulatory, acoustic, auditory"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L02-Q015",
+      "lecture_id": "LING-L02",
+      "topic_id": "phonology",
+      "source_slides": [
+        7
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "understand",
+      "question": "What is the main focus of phonology in the lecture?",
+      "explanation": "Phonology asks how sounds function together in a linguistic system. It examines patterns and relationships rather than only the physical properties of individual productions.",
+      "example": "Investigating which sound combinations a language permits is a phonological question.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The compilation of pronunciation dictionaries alone"
+        },
+        {
+          "id": "B",
+          "text": "The organization of sounds within a language’s sound system"
+        },
+        {
+          "id": "C",
+          "text": "The arrangement of paragraphs in written texts"
+        },
+        {
+          "id": "D",
+          "text": "The physical movement of the tongue alone"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L02-Q016",
+      "lecture_id": "LING-L02",
+      "topic_id": "phonology",
+      "source_slides": [
+        7
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A researcher investigates why some sound sequences are permitted in one language but not another. Which branch is most directly involved?",
+      "explanation": "The question concerns language-specific sound patterns. It asks about the organization of the sound system rather than the mechanics of producing one sound.",
+      "example": "Two languages may allow different consonant sequences at the beginning of words.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Syntax"
+        },
+        {
+          "id": "B",
+          "text": "Lexicography"
+        },
+        {
+          "id": "C",
+          "text": "Articulatory phonetics"
+        },
+        {
+          "id": "D",
+          "text": "Phonology"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L02-Q017",
+      "lecture_id": "LING-L02",
+      "topic_id": "phonology",
+      "source_slides": [
+        7
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A student investigates whether exchanging two speech sounds changes word meanings in a particular language. Which branch provides the most direct perspective?",
+      "explanation": "The question concerns the functional role of sounds within a language. Meaning-distinguishing sound relationships are part of phonological organization.",
+      "example": "In English, replacing the first sound of “pin” with /b/ produces a different word, “bin.”",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Morphology"
+        },
+        {
+          "id": "B",
+          "text": "Phonology"
+        },
+        {
+          "id": "C",
+          "text": "Discourse analysis"
+        },
+        {
+          "id": "D",
+          "text": "Acoustic phonetics"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L02-Q018",
+      "lecture_id": "LING-L02",
+      "topic_id": "phonology",
+      "source_slides": [
+        7
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Which comparison best distinguishes phonetics from phonology?",
+      "explanation": "The distinction is one of primary focus. Phonetic evidence can inform phonological analysis, so the fields interact rather than exclude each other.",
+      "example": "Measuring a vowel’s duration is phonetic; explaining its role in a language’s sound patterns is phonological.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Phonetics examines social class; phonology examines dictionary design."
+        },
+        {
+          "id": "B",
+          "text": "Phonetics examines written words; phonology examines sentence order."
+        },
+        {
+          "id": "C",
+          "text": "Phonetics examines speech production, signals, and perception; phonology examines sound organization in linguistic systems."
+        },
+        {
+          "id": "D",
+          "text": "Phonetics examines word meanings; phonology examines literary interpretation."
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L02-Q019",
+      "lecture_id": "LING-L02",
+      "topic_id": "phonology",
+      "source_slides": [
+        7
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "A study both measures consonant durations and asks how the consonants pattern in a language. Which description best fits the study?",
+      "explanation": "A measurement describes the physical speech signal, while a question about patterned linguistic organization is phonological. Using both perspectives is a coherent research design.",
+      "example": "Duration measurements can help investigate how a language organizes contrasting sound categories.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "It cannot be phonology because physical measurements are included."
+        },
+        {
+          "id": "B",
+          "text": "It becomes syntax because it compares more than one sound."
+        },
+        {
+          "id": "C",
+          "text": "It becomes lexicography because all sound patterns belong in dictionaries."
+        },
+        {
+          "id": "D",
+          "text": "It uses phonetic evidence to investigate a phonological question."
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L02-Q020",
+      "lecture_id": "LING-L02",
+      "topic_id": "phonology",
+      "source_slides": [
+        6,
+        7
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "analyze",
+      "question": "Which pair of research questions keeps the analysis at the level of sound rather than word formation or sentence structure?",
+      "explanation": "The first question concerns phonetics and the second phonology. The alternatives move to morphological, syntactic, semantic, lexicographic, or discourse concerns.",
+      "example": "Tongue placement and permitted sound combinations are different questions about sounds.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "How is a consonant produced, and which consonant sequences does a language allow?"
+        },
+        {
+          "id": "B",
+          "text": "What does a word mean, and how is a paragraph organized?"
+        },
+        {
+          "id": "C",
+          "text": "How is a plural word formed, and where does the subject occur?"
+        },
+        {
+          "id": "D",
+          "text": "How are dictionary meanings ordered, and how is an interview structured?"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L02-Q021",
+      "lecture_id": "LING-L02",
+      "topic_id": "morphology",
+      "source_slides": [
+        8
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "What does morphology study?",
+      "explanation": "Morphology investigates internal word structure. Its units contribute meaning or grammatical information, so it differs from the study of speech sounds or whole conversations.",
+      "example": "Analysing “helpful” into “help” and “-ful” is morphological analysis.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "How speech signals travel through the air"
+        },
+        {
+          "id": "B",
+          "text": "How words are constructed from smaller meaningful or grammatical units"
+        },
+        {
+          "id": "C",
+          "text": "How sentences form coherent conversations"
+        },
+        {
+          "id": "D",
+          "text": "How social class influences language attitudes"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L02-Q022",
+      "lecture_id": "LING-L02",
+      "topic_id": "morphology",
+      "source_slides": [
+        8
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "apply",
+      "question": "The lecture analyses “friendly” as “friend” plus “-ly.” Which branch studies this construction?",
+      "explanation": "The analysis divides a word into meaningful parts and explains how the parts combine. It is about word structure rather than the ordering of separate words in a sentence.",
+      "example": "“Kindness” can similarly be analysed as “kind” plus “-ness.”",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Morphology"
+        },
+        {
+          "id": "B",
+          "text": "Discourse analysis"
+        },
+        {
+          "id": "C",
+          "text": "Phonology"
+        },
+        {
+          "id": "D",
+          "text": "Syntax"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L02-Q023",
+      "lecture_id": "LING-L02",
+      "topic_id": "morphology",
+      "source_slides": [
+        8
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "understand",
+      "question": "What role does “-ly” have in the lecture’s example “friendly”?",
+      "explanation": "In “friendly,” the suffix contributes to forming an adjective from a noun. Its role in this example should be identified from the actual word, rather than assuming that every “-ly” form is an adverb.",
+      "example": "In “a friendly neighbor,” “friendly” describes the neighbor.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "It places “friend” into the past tense."
+        },
+        {
+          "id": "B",
+          "text": "It changes the sentence from a statement into a question."
+        },
+        {
+          "id": "C",
+          "text": "It combines with “friend” to form an adjective."
+        },
+        {
+          "id": "D",
+          "text": "It combines with “friend” to mark a plural noun."
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L02-Q024",
+      "lecture_id": "LING-L02",
+      "topic_id": "morphology",
+      "source_slides": [
+        8,
+        9
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "analyze",
+      "question": "Which comparison correctly distinguishes morphology from syntax?",
+      "explanation": "Both fields investigate linguistic structure, but at different primary levels. Morphology focuses on the makeup of a word, while syntax focuses on combinations of words.",
+      "example": "“Unhelpful” has internal word structure; “The student was helpful” has sentence structure.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Morphology examines social identities; syntax examines brain injuries."
+        },
+        {
+          "id": "B",
+          "text": "Morphology examines paragraph links; syntax examines dictionary selection."
+        },
+        {
+          "id": "C",
+          "text": "Morphology examines structure within words; syntax examines how words form larger structures."
+        },
+        {
+          "id": "D",
+          "text": "Morphology examines listeners’ hearing; syntax examines sound transmission."
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L02-Q025",
+      "lecture_id": "LING-L02",
+      "topic_id": "morphology",
+      "source_slides": [
+        8
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A researcher asks what grammatical information the ending contributes in “books” compared with “book.” Which branch is most directly involved?",
+      "explanation": "The question concerns an ending within a word and the grammatical information it contributes. This directly matches the lecture’s description of smaller units with grammatical functions.",
+      "example": "The ending “-s” in “books” marks more than one book.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Literary stylistics"
+        },
+        {
+          "id": "B",
+          "text": "Acoustic phonetics"
+        },
+        {
+          "id": "C",
+          "text": "Morphology"
+        },
+        {
+          "id": "D",
+          "text": "Pragmatics"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L02-Q026",
+      "lecture_id": "LING-L02",
+      "topic_id": "morphology",
+      "source_slides": [
+        7,
+        8
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Which question is morphological rather than phonetic?",
+      "explanation": "The correct question asks about a meaningful part of a word. The alternatives examine the signal, articulation, or perception of sounds, which are phonetic concerns.",
+      "example": "In “unhappy,” “un-” contributes a negative meaning to the base “happy.”",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Where does the tongue move during the first vowel of “unhappy”?"
+        },
+        {
+          "id": "B",
+          "text": "How long does the vowel last in a recording of “unhappy”?"
+        },
+        {
+          "id": "C",
+          "text": "Which sound does a listener identify at the start of “unhappy”?"
+        },
+        {
+          "id": "D",
+          "text": "What meaning does the prefix contribute in “unhappy”?"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L02-Q027",
+      "lecture_id": "LING-L02",
+      "topic_id": "lexicography",
+      "source_slides": [
+        8
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "Which activity defines lexicography in the lecture?",
+      "explanation": "Lexicography concerns making dictionaries. It involves decisions about entries and the information users need about words, rather than only investigating one structural level of language.",
+      "example": "Preparing definitions and examples for a learner’s dictionary is lexicographic work.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Investigating language processing after brain damage"
+        },
+        {
+          "id": "B",
+          "text": "Compiling dictionaries"
+        },
+        {
+          "id": "C",
+          "text": "Measuring speech signals"
+        },
+        {
+          "id": "D",
+          "text": "Modelling sentence structure"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L02-Q028",
+      "lecture_id": "LING-L02",
+      "topic_id": "lexicography",
+      "source_slides": [
+        8
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "An editor decides which words to include in a learner’s dictionary and writes clear definitions with usage examples. Which field is most directly involved?",
+      "explanation": "The editor is constructing a dictionary resource. Meaning and grammar can inform the work, but the practical focus on dictionary entries makes lexicography the best answer.",
+      "example": "The editor may add a sample sentence to show how a difficult word is used.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Auditory phonetics"
+        },
+        {
+          "id": "B",
+          "text": "Syntax"
+        },
+        {
+          "id": "C",
+          "text": "Neurolinguistics"
+        },
+        {
+          "id": "D",
+          "text": "Lexicography"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L02-Q029",
+      "lecture_id": "LING-L02",
+      "topic_id": "lexicography",
+      "source_slides": [
+        8,
+        16
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "analyze",
+      "question": "How should lexicography’s position in the slides be interpreted?",
+      "explanation": "A slide’s location does not override its definition. The lecture explicitly connects lexicography with applied linguistics, so questions should preserve that qualification.",
+      "example": "A learner’s dictionary can apply research on meaning and grammar to a practical reference tool.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "It is introduced beside micro-fields, but the slide also identifies dictionary compilation as an applied activity."
+        },
+        {
+          "id": "B",
+          "text": "It is another name for the study of sound patterns."
+        },
+        {
+          "id": "C",
+          "text": "It must study sounds only because it appears near morphology."
+        },
+        {
+          "id": "D",
+          "text": "It cannot use linguistic analysis because dictionaries are practical resources."
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L02-Q030",
+      "lecture_id": "LING-L02",
+      "topic_id": "lexicography",
+      "source_slides": [
+        8,
+        9
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Which distinction best separates a lexicographic task from a primarily semantic research question?",
+      "explanation": "The fields can overlap because dictionary makers need knowledge of meaning. The difference here is the goal: producing a dictionary entry versus investigating meaning itself.",
+      "example": "Research on the meanings of “bank” can inform separate senses in a dictionary entry.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Choosing dictionary entries is syntactic; arranging words into clauses is lexicographic."
+        },
+        {
+          "id": "B",
+          "text": "Designing a dictionary entry is lexicographic; investigating a word’s meaning relationships is semantic."
+        },
+        {
+          "id": "C",
+          "text": "Studying meaning is unrelated to preparing useful dictionary entries."
+        },
+        {
+          "id": "D",
+          "text": "Writing a definition is phonetic; measuring word meaning is articulatory."
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L02-Q031",
+      "lecture_id": "LING-L02",
+      "topic_id": "syntax",
+      "source_slides": [
+        9
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "Which branch investigates the rules governing how words combine into sentences?",
+      "explanation": "Syntax studies sentence structure and the organization of words into larger units. It is concerned with how a sentence is formed, rather than just with the parts inside a word.",
+      "example": "The ordering of subject and verb is a syntactic concern.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Lexicography"
+        },
+        {
+          "id": "B",
+          "text": "Syntax"
+        },
+        {
+          "id": "C",
+          "text": "Acoustic phonetics"
+        },
+        {
+          "id": "D",
+          "text": "Morphology"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L02-Q032",
+      "lecture_id": "LING-L02",
+      "topic_id": "syntax",
+      "source_slides": [
+        9
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A student investigates why “The child has arrived” is a well-formed ordinary English statement but “Child the arrived has” is not. Which branch is most directly involved?",
+      "explanation": "The words are arranged differently, so the central issue is their structural combination. The contrast does not require a change in vocabulary or pronunciation.",
+      "example": "Knowing word meanings alone does not tell a learner how to arrange “has,” “she,” and “left.”",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Sociolinguistics"
+        },
+        {
+          "id": "B",
+          "text": "Lexicography"
+        },
+        {
+          "id": "C",
+          "text": "Phonetics"
+        },
+        {
+          "id": "D",
+          "text": "Syntax"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L02-Q033",
+      "lecture_id": "LING-L02",
+      "topic_id": "syntax",
+      "source_slides": [
+        9
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A researcher compares how English and Urdu arrange subjects, objects, and verbs. Which branch most directly addresses this question?",
+      "explanation": "The comparison concerns word arrangement and grammatical relationships within sentences. It therefore belongs primarily to syntax, even though other aspects of the languages may also differ.",
+      "example": "Comparing where the verb appears in equivalent sentences is a syntactic comparison.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Syntax"
+        },
+        {
+          "id": "B",
+          "text": "Morphology"
+        },
+        {
+          "id": "C",
+          "text": "Lexicography"
+        },
+        {
+          "id": "D",
+          "text": "Acoustic phonetics"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L02-Q034",
+      "lecture_id": "LING-L02",
+      "topic_id": "syntax",
+      "source_slides": [
+        8,
+        9
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "analyze",
+      "question": "Which task is syntactic rather than morphological?",
+      "explanation": "The syntactic task concerns how separate words combine into a larger unit. The alternatives concern parts within individual words, which are morphological questions.",
+      "example": "Analysing the structure of “those two books” investigates a phrase rather than a suffix.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Explaining how “help” and “-ful” form “helpful”"
+        },
+        {
+          "id": "B",
+          "text": "Explaining the plural ending in “students”"
+        },
+        {
+          "id": "C",
+          "text": "Explaining how the words in “the very helpful student” form a phrase"
+        },
+        {
+          "id": "D",
+          "text": "Explaining the negative prefix in “unhelpful”"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L02-Q035",
+      "lecture_id": "LING-L02",
+      "topic_id": "syntax",
+      "source_slides": [
+        9
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Why does a study of sentence structure need to examine more than the meanings of individual words?",
+      "explanation": "The same words can participate in different relationships when their arrangement changes. Syntax helps explain that organization, while semantics examines the meanings involved.",
+      "example": "“The dog chased the cat” and “The cat chased the dog” use the same main words but assign different roles.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Grammatical relationships depend partly on how words are organized together."
+        },
+        {
+          "id": "B",
+          "text": "Sentence structure is determined solely by how loudly words are spoken."
+        },
+        {
+          "id": "C",
+          "text": "Dictionary order determines the grammatical role of every word."
+        },
+        {
+          "id": "D",
+          "text": "Every word loses its meaning as soon as it enters a sentence."
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L02-Q036",
+      "lecture_id": "LING-L02",
+      "topic_id": "syntax",
+      "source_slides": [
+        9
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "Which research question is primarily about syntax rather than semantics?",
+      "explanation": "The correct question asks about the placement of a grammatical element in sentence structure. The alternatives focus on meaning relationships and reference.",
+      "example": "Comparing “She is ready” with “Is she ready?” draws attention to structural organization.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Where can an auxiliary occur when an English question is formed?"
+        },
+        {
+          "id": "B",
+          "text": "Which objects can the word “vehicle” refer to?"
+        },
+        {
+          "id": "C",
+          "text": "How are the meanings of “large” and “big” related?"
+        },
+        {
+          "id": "D",
+          "text": "What meanings distinguish two senses of “bank”?"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L02-Q037",
+      "lecture_id": "LING-L02",
+      "topic_id": "semantics",
+      "source_slides": [
+        9
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "What does semantics study according to the lecture?",
+      "explanation": "Semantics investigates linguistic meaning. It can examine words and whole sentences, including their relation to objects and situations that are real or imagined.",
+      "example": "Asking what “vehicle” means is a semantic question.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The selection of fonts for dictionary entries"
+        },
+        {
+          "id": "B",
+          "text": "The physical transmission of speech sounds alone"
+        },
+        {
+          "id": "C",
+          "text": "The social distribution of pronunciation alone"
+        },
+        {
+          "id": "D",
+          "text": "Meaning, including how words and sentences relate to what they refer to or describe"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L02-Q038",
+      "lecture_id": "LING-L02",
+      "topic_id": "semantics",
+      "source_slides": [
+        9
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A researcher investigates how the meanings of “large” and “big” are related. Which branch is most directly involved?",
+      "explanation": "The question concerns a relationship between word meanings. It is not primarily about how the words sound or where they occur in a sentence.",
+      "example": "Comparing the meanings of “small” and “little” is another semantic investigation.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Phonetics"
+        },
+        {
+          "id": "B",
+          "text": "Syntax"
+        },
+        {
+          "id": "C",
+          "text": "Semantics"
+        },
+        {
+          "id": "D",
+          "text": "Neurolinguistics"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L02-Q039",
+      "lecture_id": "LING-L02",
+      "topic_id": "semantics",
+      "source_slides": [
+        9
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "understand",
+      "question": "Why can the meaning of a sentence about a dragon still be studied in semantics?",
+      "explanation": "The lecture explicitly includes real or imaginary referents. A sentence can be meaningful and interpretable without describing something that exists in the actual world.",
+      "example": "“The dragon guarded the tower” describes an understandable fictional situation.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Every sentence about fiction belongs exclusively to phonetics."
+        },
+        {
+          "id": "B",
+          "text": "An imaginary subject removes all possible linguistic meaning."
+        },
+        {
+          "id": "C",
+          "text": "Semantic analysis can examine reference to imaginary entities as well as real ones."
+        },
+        {
+          "id": "D",
+          "text": "Semantics studies only sentences whose subjects are visible."
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L02-Q040",
+      "lecture_id": "LING-L02",
+      "topic_id": "semantics",
+      "source_slides": [
+        9
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A student asks how “The child opened the door” differs in meaning from “The child closed the door.” Which branch most directly addresses the difference?",
+      "explanation": "Both sentences have a similar grammatical pattern, but they describe different events. The immediate comparison is about what the sentences mean.",
+      "example": "“The lamp is on” and “The lamp is off” also differ in the situations they describe.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Semantics"
+        },
+        {
+          "id": "B",
+          "text": "Acoustic phonetics"
+        },
+        {
+          "id": "C",
+          "text": "Discourse analysis"
+        },
+        {
+          "id": "D",
+          "text": "Lexicography"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L02-Q041",
+      "lecture_id": "LING-L02",
+      "topic_id": "semantics",
+      "source_slides": [
+        9,
+        10
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Which question focuses on conventional linguistic meaning rather than a particular speaker’s contextual intention?",
+      "explanation": "The first question centres on the meaning encoded by an expression. The alternatives ask how a speaker uses that expression for a purpose in a specific interaction, which foregrounds pragmatics.",
+      "example": "Understanding “closed” differs from inferring why someone chose to announce that a shop is closed.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Why did the speaker mention the closed shop to discourage a journey?"
+        },
+        {
+          "id": "B",
+          "text": "Was the speaker indirectly asking the listener to leave?"
+        },
+        {
+          "id": "C",
+          "text": "What does “closed” mean in the sentence “The shop is closed”?"
+        },
+        {
+          "id": "D",
+          "text": "Did the listener interpret the remark as a complaint about opening hours?"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L02-Q042",
+      "lecture_id": "LING-L02",
+      "topic_id": "semantics",
+      "source_slides": [
+        9
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Which comparison separates a syntactic question from a semantic question?",
+      "explanation": "Sentence organization and sentence meaning are related but distinguishable concerns. A complete analysis may investigate both without treating them as identical.",
+      "example": "For “The girl opened the window,” one can analyse the subject–verb–object arrangement and the event described.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Syntax asks how loud speech is; semantics asks where the tongue moves."
+        },
+        {
+          "id": "B",
+          "text": "Syntax asks about social class; semantics asks about the age of a speaker."
+        },
+        {
+          "id": "C",
+          "text": "Syntax asks how a sentence is structured; semantics asks what situation it describes."
+        },
+        {
+          "id": "D",
+          "text": "Syntax asks who wrote a dictionary; semantics asks how its pages are numbered."
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L02-Q043",
+      "lecture_id": "LING-L02",
+      "topic_id": "pragmatics",
+      "source_slides": [
+        10
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "Which branch most directly investigates how context affects the interpretation of an utterance?",
+      "explanation": "Pragmatics studies language use in communication. Time, place, participant relationships, and shared assumptions can influence what a speaker communicates.",
+      "example": "A remark about a cold room can function as a request when the window is open.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Morphology"
+        },
+        {
+          "id": "B",
+          "text": "Lexicography"
+        },
+        {
+          "id": "C",
+          "text": "Acoustic phonetics"
+        },
+        {
+          "id": "D",
+          "text": "Pragmatics"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L02-Q044",
+      "lecture_id": "LING-L02",
+      "topic_id": "pragmatics",
+      "source_slides": [
+        10
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "Beside an open window, a student says “It is cold in here” to get a classmate to close it. Which branch most directly studies this intended request?",
+      "explanation": "The utterance literally describes temperature, but the context supports an additional intention. Pragmatics examines how the listener infers that intended use.",
+      "example": "At a crowded table, “There is no space here” may similarly imply a request to move something.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Semantics"
+        },
+        {
+          "id": "B",
+          "text": "Morphology"
+        },
+        {
+          "id": "C",
+          "text": "Phonology"
+        },
+        {
+          "id": "D",
+          "text": "Pragmatics"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L02-Q045",
+      "lecture_id": "LING-L02",
+      "topic_id": "pragmatics",
+      "source_slides": [
+        10
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A researcher asks why a student uses a more formal request with a lecturer than with a close friend. The focus is how the relationship shapes the intended request. Which branch is most directly involved?",
+      "explanation": "The lecturer–student or friendship relationship contributes to the interpretation and formulation of the request. This fits the lecture’s inclusion of social relationships within pragmatic context.",
+      "example": "“Could you please help me?” may suit a situation in which a speaker wants to show respect.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Lexicography"
+        },
+        {
+          "id": "B",
+          "text": "Acoustic phonetics"
+        },
+        {
+          "id": "C",
+          "text": "Pragmatics"
+        },
+        {
+          "id": "D",
+          "text": "Morphology"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L02-Q046",
+      "lecture_id": "LING-L02",
+      "topic_id": "pragmatics",
+      "source_slides": [
+        10
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "Different speakers say “I will meet you here tomorrow” in different places and on different days. Which branch studies how these circumstances determine the intended references?",
+      "explanation": "Identifying the intended people, place, and day requires information about the utterance situation. The words alone do not name the same participants and location in every use.",
+      "example": "“Here” can refer to a classroom in one conversation and a station in another.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Pragmatics"
+        },
+        {
+          "id": "B",
+          "text": "Articulatory phonetics"
+        },
+        {
+          "id": "C",
+          "text": "Morphology"
+        },
+        {
+          "id": "D",
+          "text": "Lexicography"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L02-Q047",
+      "lecture_id": "LING-L02",
+      "topic_id": "pragmatics",
+      "source_slides": [
+        10
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A speaker says “The usual place?” expecting a friend to identify a familiar café. Which aspect of context is most important?",
+      "explanation": "The speaker relies on common experience rather than naming the café. Pragmatics examines how assumptions about what the listener knows support communication.",
+      "example": "Friends may understand “our teacher” without a name when they know which class is being discussed.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The speaker’s assumption that the listener shares relevant knowledge"
+        },
+        {
+          "id": "B",
+          "text": "The alphabetical position of “usual” in a dictionary"
+        },
+        {
+          "id": "C",
+          "text": "The internal word structure of “place”"
+        },
+        {
+          "id": "D",
+          "text": "The physical duration of each vowel in the question"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L02-Q048",
+      "lecture_id": "LING-L02",
+      "topic_id": "pragmatics",
+      "source_slides": [
+        9,
+        10
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Which pair correctly separates a semantic focus from a pragmatic focus?",
+      "explanation": "Meaning encoded in an expression and the communicative purpose of using it are different analytical concerns. They can both matter to understanding the same utterance.",
+      "example": "A learner can know what “late” means yet miss that a teacher’s remark expresses dissatisfaction.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The conventional meaning of “late” is syntactic; a complaint is phonological."
+        },
+        {
+          "id": "B",
+          "text": "The conventional meaning of “late” is semantic; why a speaker calls someone “late” as a complaint is pragmatic."
+        },
+        {
+          "id": "C",
+          "text": "The conventional meaning of “late” is acoustic; a complaint is morphological."
+        },
+        {
+          "id": "D",
+          "text": "The position of “late” in a dictionary is pragmatic; the duration of its vowel is semantic."
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L02-Q049",
+      "lecture_id": "LING-L02",
+      "topic_id": "pragmatics",
+      "source_slides": [
+        10
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Why is the same sentence not guaranteed to communicate the same intended message in every situation?",
+      "explanation": "The linguistic form contributes meaning, but its use can depend on circumstances. A listener may infer a warning, request, criticism, or neutral report from the same wording.",
+      "example": "“There is a car coming” can report traffic or warn someone about to step into the road.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Sentence structure prevents speakers from implying anything beyond a literal description."
+        },
+        {
+          "id": "B",
+          "text": "Dictionary definitions make interpretation independent of participants."
+        },
+        {
+          "id": "C",
+          "text": "Its sound units automatically change meaning whenever the speaker moves."
+        },
+        {
+          "id": "D",
+          "text": "Context and assumptions about participants can change what the speaker is doing with it."
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L02-Q050",
+      "lecture_id": "LING-L02",
+      "topic_id": "pragmatics",
+      "source_slides": [
+        10,
+        11
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Which project foregrounds pragmatics rather than sociolinguistic patterns across groups?",
+      "explanation": "The first project focuses on interpreting a communicative act in context. The alternatives foreground the social distribution of language forms, choices, or attitudes. The fields may still overlap.",
+      "example": "Understanding “Can you reach the salt?” as a request foregrounds pragmatic interpretation.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Measuring which languages different occupational groups use most often"
+        },
+        {
+          "id": "B",
+          "text": "Investigating attitudes toward regional varieties across a city"
+        },
+        {
+          "id": "C",
+          "text": "Explaining how a listener infers an indirect request from one utterance in its immediate situation"
+        },
+        {
+          "id": "D",
+          "text": "Comparing pronunciation patterns across age groups"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L02-Q051",
+      "lecture_id": "LING-L02",
+      "topic_id": "sociolinguistics",
+      "source_slides": [
+        11
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "What is the central concern of sociolinguistics in the lecture?",
+      "explanation": "Sociolinguistics studies how language relates to social life. The lecture includes social class, education, age, sex, ethnic origin, language choice, planning, and attitudes.",
+      "example": "A study might ask whether different age groups favor different expressions.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The physical production of individual sounds alone"
+        },
+        {
+          "id": "B",
+          "text": "Relationships between language and social factors"
+        },
+        {
+          "id": "C",
+          "text": "The placement of words in isolated sentences alone"
+        },
+        {
+          "id": "D",
+          "text": "The design of word entries in dictionaries alone"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L02-Q052",
+      "lecture_id": "LING-L02",
+      "topic_id": "sociolinguistics",
+      "source_slides": [
+        11
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A researcher compares vocabulary choices among younger and older speakers in Lahore. Which branch is most directly involved?",
+      "explanation": "The question relates language use to age as a social factor. The location provides a setting, but the central comparison is between groups of speakers.",
+      "example": "Researchers might compare the use of a recent slang term across age groups without assuming that age determines every individual’s choice.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Lexicography"
+        },
+        {
+          "id": "B",
+          "text": "Neurolinguistics"
+        },
+        {
+          "id": "C",
+          "text": "Sociolinguistics"
+        },
+        {
+          "id": "D",
+          "text": "Syntax"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L02-Q053",
+      "lecture_id": "LING-L02",
+      "topic_id": "sociolinguistics",
+      "source_slides": [
+        11
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "Bilingual speakers report when they choose Punjabi, Urdu, or English in different community settings. Which field most directly studies this pattern?",
+      "explanation": "Language choice in multilingual communities is explicitly included in the lecture’s account of sociolinguistics. The issue concerns who uses which language and in what social circumstances.",
+      "example": "A speaker might use one language at home and another in a formal meeting.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Lexicography"
+        },
+        {
+          "id": "B",
+          "text": "Articulatory phonetics"
+        },
+        {
+          "id": "C",
+          "text": "Morphology"
+        },
+        {
+          "id": "D",
+          "text": "Sociolinguistics"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L02-Q054",
+      "lecture_id": "LING-L02",
+      "topic_id": "sociolinguistics",
+      "source_slides": [
+        11
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "Participants rate some accents as more prestigious than others. A researcher investigates these judgments as social attitudes. Which branch is most directly involved?",
+      "explanation": "The research concerns beliefs and evaluations attached to language varieties. It studies the social attitudes themselves rather than assuming that an accent is inherently superior.",
+      "example": "A community may associate a variety with education, even though that association is a social judgment.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Syntax"
+        },
+        {
+          "id": "B",
+          "text": "Acoustic phonetics"
+        },
+        {
+          "id": "C",
+          "text": "Morphology"
+        },
+        {
+          "id": "D",
+          "text": "Sociolinguistics"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L02-Q055",
+      "lecture_id": "LING-L02",
+      "topic_id": "sociolinguistics",
+      "source_slides": [
+        11,
+        16
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A team investigates which languages a multilingual community uses before advising on public-service language provision. Which pairing best describes the work?",
+      "explanation": "The investigation concerns community language use, while the advice addresses a practical policy problem. Sociolinguistics and applied linguistics can therefore contribute to the same project.",
+      "example": "Survey findings could inform which language versions of a public notice are needed.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Acoustic investigation contributing to automatic speech recognition"
+        },
+        {
+          "id": "B",
+          "text": "Psycholinguistic investigation contributing to a language-learning programme"
+        },
+        {
+          "id": "C",
+          "text": "Sociolinguistic investigation contributing to an applied language-planning task"
+        },
+        {
+          "id": "D",
+          "text": "Morphological investigation contributing to a learner’s dictionary"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L02-Q056",
+      "lecture_id": "LING-L02",
+      "topic_id": "sociolinguistics",
+      "source_slides": [
+        11
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "A researcher finds an association between education level and a pronunciation pattern. Which interpretation is most careful?",
+      "explanation": "Sociolinguistic findings describe relationships that need evidence and context. An association does not justify an absolute prediction about every person or a ranking of groups as linguistically inferior.",
+      "example": "Two speakers with the same education level may still use different pronunciations.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Education alone necessarily determines every individual’s pronunciation."
+        },
+        {
+          "id": "B",
+          "text": "The pattern proves that one group’s language has no grammar."
+        },
+        {
+          "id": "C",
+          "text": "A social association makes any further analysis of language unnecessary."
+        },
+        {
+          "id": "D",
+          "text": "The result describes a pattern in the sampled speakers and requires interpretation in its social context."
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L02-Q057",
+      "lecture_id": "LING-L02",
+      "topic_id": "sociolinguistics",
+      "source_slides": [
+        11
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "understand",
+      "question": "Which set contains social factors explicitly included in the lecture’s description of sociolinguistics?",
+      "explanation": "The listed factors describe dimensions of social grouping in the slide. They can be investigated in relation to language without assuming that all members of a group speak alike.",
+      "example": "A study can compare patterns across age groups while also recording participants’ educational backgrounds.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Prefixes, suffixes, roots, word endings, and word classes"
+        },
+        {
+          "id": "B",
+          "text": "Vowel duration, signal frequency, sound intensity, tongue position, and lip closure"
+        },
+        {
+          "id": "C",
+          "text": "Dictionary entries, headwords, page numbers, definitions, and cross-references"
+        },
+        {
+          "id": "D",
+          "text": "Social class, educational level, age, sex, and ethnic origin"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L02-Q058",
+      "lecture_id": "LING-L02",
+      "topic_id": "discourse",
+      "source_slides": [
+        12
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "What is the main focus of discourse analysis as introduced in the lecture?",
+      "explanation": "Discourse analysis examines connected language. Its focus goes beyond isolated words or sentences to how stretches of spoken or written language work together.",
+      "example": "An interview contains linked questions and answers that can be studied as a larger interaction.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "How the tongue produces a single consonant"
+        },
+        {
+          "id": "B",
+          "text": "How dictionary headwords are alphabetized"
+        },
+        {
+          "id": "C",
+          "text": "How a suffix changes an individual word"
+        },
+        {
+          "id": "D",
+          "text": "How language forms larger meaningful units such as paragraphs, conversations, and interviews"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L02-Q059",
+      "lecture_id": "LING-L02",
+      "topic_id": "discourse",
+      "source_slides": [
+        12
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A student investigates how several sentences develop one argument across a paragraph. Which branch is most directly involved?",
+      "explanation": "The student asks how sentences contribute to a larger meaningful whole. Analysing the paragraph as connected language makes discourse analysis the best answer.",
+      "example": "One sentence may introduce a claim while the following sentences explain and support it.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Articulatory phonetics"
+        },
+        {
+          "id": "B",
+          "text": "Discourse analysis"
+        },
+        {
+          "id": "C",
+          "text": "Morphology"
+        },
+        {
+          "id": "D",
+          "text": "Lexicography"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L02-Q060",
+      "lecture_id": "LING-L02",
+      "topic_id": "discourse",
+      "source_slides": [
+        12
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A researcher studies how interview questions shape the sequence of answers and follow-up questions. Which field most directly fits this focus?",
+      "explanation": "The object of analysis is the organization of a stretch of interaction. The researcher examines how contributions relate across the interview rather than analysing words in isolation.",
+      "example": "A short answer can lead an interviewer to ask for clarification in the next turn.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Discourse analysis"
+        },
+        {
+          "id": "B",
+          "text": "Lexicography"
+        },
+        {
+          "id": "C",
+          "text": "Phonology"
+        },
+        {
+          "id": "D",
+          "text": "Morphology"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L02-Q061",
+      "lecture_id": "LING-L02",
+      "topic_id": "discourse",
+      "source_slides": [
+        9,
+        12
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Which distinction best separates the lecture’s introductory accounts of syntax and discourse analysis?",
+      "explanation": "The fields differ in their main unit and question, although they can interact. Discourse analysis can investigate both spoken and written material.",
+      "example": "A clause’s word order is a syntactic concern; how that clause responds to an earlier question is a discourse concern.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Syntax studies word definitions; discourse analysis studies sound transmission."
+        },
+        {
+          "id": "B",
+          "text": "Syntax foregrounds sentence structure; discourse analysis foregrounds connected stretches of language."
+        },
+        {
+          "id": "C",
+          "text": "Syntax studies all social groups; discourse analysis studies the vocal organs."
+        },
+        {
+          "id": "D",
+          "text": "Syntax studies speech only; discourse analysis studies writing only."
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L02-Q062",
+      "lecture_id": "LING-L02",
+      "topic_id": "discourse",
+      "source_slides": [
+        12
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "understand",
+      "question": "Which set could all serve as data for discourse analysis under the lecture’s definition?",
+      "explanation": "Each item contains connected language whose parts can contribute to a larger meaning or interaction. Discourse analysis is not restricted to formal written paragraphs.",
+      "example": "A recorded conversation and a written interview can both be examined for how their parts connect.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "A prefix list, a suffix list, and a list of roots"
+        },
+        {
+          "id": "B",
+          "text": "A paragraph, a conversation, and an interview"
+        },
+        {
+          "id": "C",
+          "text": "A tongue-position diagram, a vowel waveform, and a lip-motion image"
+        },
+        {
+          "id": "D",
+          "text": "A dictionary’s page size, binding type, and printing cost"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L02-Q063",
+      "lecture_id": "LING-L02",
+      "topic_id": "stylistics",
+      "source_slides": [
+        13
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "understand",
+      "question": "What does stylistics investigate in the lecture?",
+      "explanation": "Stylistics asks how choices in language contribute to a particular style or effect. It can examine choices made by individuals or social groups in specific situations.",
+      "example": "A public notice and a friendly message may use different wording to suit different purposes.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Linguistic choices and variation in relation to situation and intended effects"
+        },
+        {
+          "id": "B",
+          "text": "The identification of all words with the same ending"
+        },
+        {
+          "id": "C",
+          "text": "The physical hearing of sounds without considering language choices"
+        },
+        {
+          "id": "D",
+          "text": "The location of language functions in brain tissue"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L02-Q064",
+      "lecture_id": "LING-L02",
+      "topic_id": "stylistics",
+      "source_slides": [
+        13
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A researcher compares an advertisement’s short sentences and vivid vocabulary with a formal report to explain their different effects on readers. Which branch is foregrounded?",
+      "explanation": "The analysis connects identifiable language choices with style and communicative effect. It does more than label one text as interesting or another as formal.",
+      "example": "An advertisement may repeat a short phrase to make its message memorable.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Auditory phonetics"
+        },
+        {
+          "id": "B",
+          "text": "Neurolinguistics"
+        },
+        {
+          "id": "C",
+          "text": "Stylistics"
+        },
+        {
+          "id": "D",
+          "text": "Lexicography"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L02-Q065",
+      "lecture_id": "LING-L02",
+      "topic_id": "stylistics",
+      "source_slides": [
+        13
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A speaker chooses brief, repeated phrases to make a public address sound urgent. Which research question is most directly stylistic?",
+      "explanation": "A stylistic question links features of the wording to the effect the speaker seeks. Physical measurement, perception, and automatic transcription ask different primary questions.",
+      "example": "Repeating “Act now” may create urgency, which the analyst should support with evidence from the speech.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Which software converts the recording into a written transcript?"
+        },
+        {
+          "id": "B",
+          "text": "Which participants have difficulty hearing the speech?"
+        },
+        {
+          "id": "C",
+          "text": "How do the chosen phrases and repetition contribute to the sense of urgency?"
+        },
+        {
+          "id": "D",
+          "text": "How long does each vowel last in milliseconds?"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L02-Q066",
+      "lecture_id": "LING-L02",
+      "topic_id": "stylistics",
+      "source_slides": [
+        11,
+        13
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Which focus most clearly foregrounds stylistics rather than a sociolinguistic survey of group differences?",
+      "explanation": "The first focus connects textual choices with style and effect. The other questions foreground social distribution or attitudes. These interests can overlap in broader research.",
+      "example": "Examining how a notice achieves an impersonal tone is a stylistic analysis.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Comparing which regional accents listeners rate most favorably"
+        },
+        {
+          "id": "B",
+          "text": "Explaining how a writer’s sentence and vocabulary choices create a formal tone in a particular text"
+        },
+        {
+          "id": "C",
+          "text": "Investigating language choice across occupational groups"
+        },
+        {
+          "id": "D",
+          "text": "Comparing age groups’ reported use of a local variety"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L02-Q067",
+      "lecture_id": "LING-L02",
+      "topic_id": "literary_stylistics",
+      "source_slides": [
+        14
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "understand",
+      "question": "What makes literary stylistics distinct within the lecture’s account of stylistics?",
+      "explanation": "Literary stylistics uses evidence from linguistic form to support interpretations of literature. The lecture includes fiction, drama, and poetry among the genres that can be compared.",
+      "example": "An analyst can examine repeated sentence patterns in a poem to support an interpretation.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "It applies linguistic methods to the interpretation and comparison of literary texts."
+        },
+        {
+          "id": "B",
+          "text": "It replaces all textual evidence with a reader’s personal preference."
+        },
+        {
+          "id": "C",
+          "text": "It deals only with the physical printing of novels."
+        },
+        {
+          "id": "D",
+          "text": "It evaluates literature without examining its language."
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L02-Q068",
+      "lecture_id": "LING-L02",
+      "topic_id": "literary_stylistics",
+      "source_slides": [
+        14
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A researcher analyses sound repetition, word choices, and sentence patterns in a poem to explain its effect. Which field is the most direct match?",
+      "explanation": "The object is a literary text, and the method connects linguistic evidence to interpretation. Several linguistic levels may contribute to one literary stylistic analysis.",
+      "example": "Repeated sounds may reinforce a pattern that also appears in the poem’s vocabulary.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Language planning"
+        },
+        {
+          "id": "B",
+          "text": "Lexicography"
+        },
+        {
+          "id": "C",
+          "text": "Neurolinguistics"
+        },
+        {
+          "id": "D",
+          "text": "Literary stylistics"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L02-Q069",
+      "lecture_id": "LING-L02",
+      "topic_id": "literary_stylistics",
+      "source_slides": [
+        14
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Which approach best supports the lecture’s aim of making literary interpretations retrievable and comparable?",
+      "explanation": "An interpretation is easier to assess when readers can locate the evidence and follow the reasoning. Linguistic analysis can make that reasoning explicit without requiring identical responses from all readers.",
+      "example": "An analyst can point to repeated questions in a dramatic speech and explain their contribution to uncertainty.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "State that a poem feels powerful without identifying any textual features."
+        },
+        {
+          "id": "B",
+          "text": "Assume that every reader must respond identically to each sentence."
+        },
+        {
+          "id": "C",
+          "text": "Identify specific linguistic patterns and show how they support the proposed interpretation."
+        },
+        {
+          "id": "D",
+          "text": "Rank texts only by the personal reputation of their authors."
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L02-Q070",
+      "lecture_id": "LING-L02",
+      "topic_id": "psycholinguistics",
+      "source_slides": [
+        15
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "Which field studies mental processes involved in planning, producing, perceiving, and understanding language?",
+      "explanation": "Psycholinguistics investigates language as a mental activity. It asks how users learn, produce, and understand language, rather than limiting itself to the outward forms of sentences.",
+      "example": "A researcher may investigate how a listener retrieves the meaning of a familiar word.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Literary stylistics"
+        },
+        {
+          "id": "B",
+          "text": "Lexicography"
+        },
+        {
+          "id": "C",
+          "text": "Sociolinguistics"
+        },
+        {
+          "id": "D",
+          "text": "Psycholinguistics"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L02-Q071",
+      "lecture_id": "LING-L02",
+      "topic_id": "psycholinguistics",
+      "source_slides": [
+        15
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "An experiment investigates how memory demands affect a listener’s understanding of long sentences. Which field is most directly involved?",
+      "explanation": "The question connects comprehension with a mental resource: memory. The lecture explicitly gives memory limitations as an example of a psycholinguistic concern.",
+      "example": "A listener may struggle to retain the beginning of a sentence while processing a long continuation.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Psycholinguistics"
+        },
+        {
+          "id": "B",
+          "text": "Sociolinguistics"
+        },
+        {
+          "id": "C",
+          "text": "Lexicography"
+        },
+        {
+          "id": "D",
+          "text": "Articulatory phonetics"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L02-Q072",
+      "lecture_id": "LING-L02",
+      "topic_id": "psycholinguistics",
+      "source_slides": [
+        15
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A researcher tracks how children learn to produce and understand their first language. Which field named in the lecture directly includes this area?",
+      "explanation": "Language acquisition is a major area discussed under psycholinguistics in the lecture. The study concerns the development of linguistic knowledge and processing abilities.",
+      "example": "A researcher may record changes in a child’s word combinations over several months.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Literary stylistics"
+        },
+        {
+          "id": "B",
+          "text": "Acoustic phonetics"
+        },
+        {
+          "id": "C",
+          "text": "Lexicography"
+        },
+        {
+          "id": "D",
+          "text": "Psycholinguistics"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L02-Q073",
+      "lecture_id": "LING-L02",
+      "topic_id": "psycholinguistics",
+      "source_slides": [
+        15
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A study investigates how speakers select words and plan an utterance before saying it. Which field is most directly involved?",
+      "explanation": "The primary question concerns mental processes of language production. A conversation could provide data, but the focus is planning an utterance rather than organizing the exchange as a whole.",
+      "example": "A speaker may pause while retrieving a word needed to complete a message.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Psycholinguistics"
+        },
+        {
+          "id": "B",
+          "text": "Sociolinguistics"
+        },
+        {
+          "id": "C",
+          "text": "Lexicography"
+        },
+        {
+          "id": "D",
+          "text": "Discourse analysis"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L02-Q074",
+      "lecture_id": "LING-L02",
+      "topic_id": "psycholinguistics",
+      "source_slides": [
+        15,
+        18
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Which distinction best separates psycholinguistics from neurolinguistics at the introductory level?",
+      "explanation": "The fields overlap because mental processing is supported by the brain. The distinction is the primary explanatory focus, not an absolute separation between unrelated subjects.",
+      "example": "A memory-load task foregrounds processing; relating language performance to brain damage foregrounds the neural basis.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Psycholinguistics excludes comprehension; neurolinguistics excludes production."
+        },
+        {
+          "id": "B",
+          "text": "Psycholinguistics studies writing only; neurolinguistics studies speech only."
+        },
+        {
+          "id": "C",
+          "text": "Psycholinguistics foregrounds mental language processes; neurolinguistics foregrounds their brain basis."
+        },
+        {
+          "id": "D",
+          "text": "Psycholinguistics studies social class; neurolinguistics studies dictionary entries."
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L02-Q075",
+      "lecture_id": "LING-L02",
+      "topic_id": "applied",
+      "source_slides": [
+        16
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "understand",
+      "question": "What is the main concern of applied linguistics in the lecture?",
+      "explanation": "Applied linguistics connects knowledge about language with real needs. The lecture includes teaching, policy, translation, advertising, classrooms, and legal contexts.",
+      "example": "Research on learners’ difficulties can inform improvements to language lessons.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Using linguistic methods and findings to address practical language-related problems"
+        },
+        {
+          "id": "B",
+          "text": "Compiling every possible sentence into a single dictionary"
+        },
+        {
+          "id": "C",
+          "text": "Restricting language research to the mechanics of sound transmission"
+        },
+        {
+          "id": "D",
+          "text": "Avoiding practical settings in favor of isolated examples only"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L02-Q076",
+      "lecture_id": "LING-L02",
+      "topic_id": "applied",
+      "source_slides": [
+        16
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A team uses evidence about learners’ difficulties to revise an English teaching programme. Which field is most directly reflected in this practical goal?",
+      "explanation": "The programme revision applies linguistic research to teaching. Other branches may provide evidence, but the goal of improving instruction makes the project applied.",
+      "example": "Lessons may be redesigned after evidence shows that students misinterpret common instructions.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Literary stylistics"
+        },
+        {
+          "id": "B",
+          "text": "Historical sound analysis"
+        },
+        {
+          "id": "C",
+          "text": "Applied linguistics"
+        },
+        {
+          "id": "D",
+          "text": "Acoustic phonetics"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L02-Q077",
+      "lecture_id": "LING-L02",
+      "topic_id": "applied",
+      "source_slides": [
+        16
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A linguist examines the wording of a disputed confession in a legal case. Which application named in the lecture is the most direct match?",
+      "explanation": "Forensic linguistics concerns language in legal settings. The scenario involves analysing language as evidence in a case, rather than deciding the legal outcome itself.",
+      "example": "An analysis may examine whether the wording of a statement is clear or open to more than one interpretation.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Articulatory phonetics"
+        },
+        {
+          "id": "B",
+          "text": "Dictionary compilation"
+        },
+        {
+          "id": "C",
+          "text": "Literary stylistics"
+        },
+        {
+          "id": "D",
+          "text": "Forensic linguistics"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L02-Q078",
+      "lecture_id": "LING-L02",
+      "topic_id": "applied",
+      "source_slides": [
+        16
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A researcher uses linguistic evidence to help translators make public-health messages understandable in another language. Which field best captures this practical purpose?",
+      "explanation": "The purpose is to improve communication through translation. Meaning, vocabulary, and context can all contribute evidence to this applied task.",
+      "example": "A translator may replace an unfamiliar technical expression with a clear equivalent suited to the intended readers.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Applied linguistics"
+        },
+        {
+          "id": "B",
+          "text": "Literary stylistics"
+        },
+        {
+          "id": "C",
+          "text": "Acoustic phonetics"
+        },
+        {
+          "id": "D",
+          "text": "Phonological pattern description"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L02-Q079",
+      "lecture_id": "LING-L02",
+      "topic_id": "applied",
+      "source_slides": [
+        16
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Which project best demonstrates the broad scope of applied linguistics presented in the lecture?",
+      "explanation": "The distinguishing emphasis is the practical language-related purpose. Applied linguistics can draw on several branches and is not restricted to classroom teaching.",
+      "example": "Improving the clarity of official forms and improving language lessons are different applied tasks.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Using linguistic analysis to improve teaching, policy communication, translation, or courtroom language practices"
+        },
+        {
+          "id": "B",
+          "text": "Studying a poem’s structure solely to propose an interpretation of that poem"
+        },
+        {
+          "id": "C",
+          "text": "Listing grammatical patterns without considering any use for the findings"
+        },
+        {
+          "id": "D",
+          "text": "Measuring vowel frequency while deliberately excluding any practical language question"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L02-Q080",
+      "lecture_id": "LING-L02",
+      "topic_id": "computational",
+      "source_slides": [
+        17
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "understand",
+      "question": "What is the primary object of study in computational linguistics as described in the lecture?",
+      "explanation": "Computational linguistics investigates human languages with computational methods. A programming language may be used as a tool, but natural language remains the object being analysed or modelled.",
+      "example": "A researcher can use a program to analyse English sentences without treating the program’s language as the research target.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Computer programming syntax without any human-language question"
+        },
+        {
+          "id": "B",
+          "text": "Natural language investigated through computational methods and models"
+        },
+        {
+          "id": "C",
+          "text": "Computer hardware without any language-processing task"
+        },
+        {
+          "id": "D",
+          "text": "Handwritten letter shapes without any computational analysis"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L02-Q081",
+      "lecture_id": "LING-L02",
+      "topic_id": "computational",
+      "source_slides": [
+        17
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A system automatically translates an Urdu sentence into English. Which field most directly addresses the computational processing involved?",
+      "explanation": "Automatic translation requires computational handling of natural language. Translation can also be an applied concern, but the question specifically foregrounds the automated processing.",
+      "example": "A translation program must produce an output that represents the source message in another language.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Language-attitude research"
+        },
+        {
+          "id": "B",
+          "text": "Literary stylistics"
+        },
+        {
+          "id": "C",
+          "text": "Articulatory phonetics"
+        },
+        {
+          "id": "D",
+          "text": "Computational linguistics"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L02-Q082",
+      "lecture_id": "LING-L02",
+      "topic_id": "computational",
+      "source_slides": [
+        17
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "analyze",
+      "question": "Which pairing correctly distinguishes automatic speech recognition from artificial speech production?",
+      "explanation": "The lecture lists both recognizing human speech and producing artificial speech as computational areas. One deals with input, while the other creates an output signal.",
+      "example": "Voice typing recognizes speech; a device reading a written message aloud produces artificial speech.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Recognition studies word endings; speech production studies only paragraph links."
+        },
+        {
+          "id": "B",
+          "text": "Recognition interprets spoken input; speech production generates a spoken output."
+        },
+        {
+          "id": "C",
+          "text": "Recognition generates a voice; speech production records a listener’s opinion."
+        },
+        {
+          "id": "D",
+          "text": "Recognition compiles dictionary meanings; speech production ranks regional accents."
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L02-Q083",
+      "lecture_id": "LING-L02",
+      "topic_id": "computational",
+      "source_slides": [
+        17
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "understand",
+      "question": "Which project best matches the technological aim of computational linguistics in the lecture?",
+      "explanation": "The technological aim concerns making computers useful for natural-language analysis and processing. The defining feature is the computational language task rather than the mere presence of a computer.",
+      "example": "A tool that converts spoken requests into usable instructions pursues a technological language-processing goal.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Developing a computer tool that analyses and processes natural-language input"
+        },
+        {
+          "id": "B",
+          "text": "Surveying language attitudes without a computational processing goal"
+        },
+        {
+          "id": "C",
+          "text": "Explaining a poem’s imagery without a computational method"
+        },
+        {
+          "id": "D",
+          "text": "Comparing tongue positions without using a language-processing model"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L02-Q084",
+      "lecture_id": "LING-L02",
+      "topic_id": "computational",
+      "source_slides": [
+        15,
+        17
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Which project best matches the lecture’s psychological aim of computational linguistics?",
+      "explanation": "A computational model can be used to explore how people process language. The psychological aim is understanding human processing, rather than producing a tool merely because it uses a computer.",
+      "example": "Researchers might ask whether a model’s difficulty with particular sentences resembles the difficulty observed in people.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Testing a computational model against patterns of human language processing"
+        },
+        {
+          "id": "B",
+          "text": "Generating clearer synthetic announcements solely for a station’s public-address system"
+        },
+        {
+          "id": "C",
+          "text": "Improving an automatic translator solely to increase its translation accuracy"
+        },
+        {
+          "id": "D",
+          "text": "Increasing a voice-typing tool’s transcription accuracy solely for its users"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L02-Q085",
+      "lecture_id": "LING-L02",
+      "topic_id": "neurolinguistics",
+      "source_slides": [
+        18
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "What is the central focus of neurolinguistics in the lecture?",
+      "explanation": "Neurolinguistics investigates the neural basis of language. The lecture includes disturbances of comprehension and production associated with brain damage as one important line of evidence.",
+      "example": "A researcher may relate a change in language abilities to evidence about an affected brain region.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The ordering of entries in dictionaries"
+        },
+        {
+          "id": "B",
+          "text": "Language processing and representation in the brain"
+        },
+        {
+          "id": "C",
+          "text": "The social prestige of different accents"
+        },
+        {
+          "id": "D",
+          "text": "The effect of sentence repetition in literary texts"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L02-Q086",
+      "lecture_id": "LING-L02",
+      "topic_id": "neurolinguistics",
+      "source_slides": [
+        18
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A researcher relates changes in a patient’s language comprehension to evidence of brain injury. Which field is most directly involved?",
+      "explanation": "The study connects language performance with the brain. It therefore foregrounds a neural explanation rather than a social pattern or a dictionary task.",
+      "example": "A project can compare which language tasks are difficult after an injury without assuming that every patient has the same difficulties.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Sociolinguistics"
+        },
+        {
+          "id": "B",
+          "text": "Neurolinguistics"
+        },
+        {
+          "id": "C",
+          "text": "Lexicography"
+        },
+        {
+          "id": "D",
+          "text": "Literary stylistics"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L02-Q087",
+      "lecture_id": "LING-L02",
+      "topic_id": "neurolinguistics",
+      "source_slides": [
+        18
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "understand",
+      "question": "Why does the lecture discuss disturbances of both language production and comprehension under neurolinguistics?",
+      "explanation": "Producing and understanding language both depend on neural processes. Studying difficulties in either can inform research, but a behavioral observation alone does not establish a precise neural explanation.",
+      "example": "Difficulty understanding spoken instructions and difficulty producing a sentence can motivate different language assessments.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Production belongs to the brain, but comprehension is unrelated to it."
+        },
+        {
+          "id": "B",
+          "text": "Comprehension belongs to the brain, but production is only a social convention."
+        },
+        {
+          "id": "C",
+          "text": "A change in language automatically identifies one exact brain location without further evidence."
+        },
+        {
+          "id": "D",
+          "text": "Changes in either ability can provide evidence about the brain basis of language."
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L02-Q088",
+      "lecture_id": "LING-L02",
+      "topic_id": "cognitive",
+      "source_slides": [
+        19
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "understand",
+      "question": "How does the lecture characterize the focus of cognitive linguistics?",
+      "explanation": "The slide presents a perspective connecting language with cognition. It draws attention to how linguistic expressions help users organize and communicate information.",
+      "example": "A researcher can investigate how speakers use linguistic categories to organize what they describe.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Language as a means of organizing, processing, and conveying information"
+        },
+        {
+          "id": "B",
+          "text": "Language as a set of dictionary entries unrelated to thought"
+        },
+        {
+          "id": "C",
+          "text": "Language as a legal procedure for establishing institutional authority"
+        },
+        {
+          "id": "D",
+          "text": "Language as a speech signal studied without interpretation"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L02-Q089",
+      "lecture_id": "LING-L02",
+      "topic_id": "cognitive",
+      "source_slides": [
+        19
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A researcher asks how linguistic categories help speakers organize information about their experience. Which approach is the closest match to the lecture’s description?",
+      "explanation": "The question concerns language as a resource for organizing information. This is a cognitive focus, although related work can overlap with research on meaning or mental processing.",
+      "example": "Researchers might examine how a general category such as “vehicle” organizes descriptions of cars and buses.",
+      "reference_ids": [
+        "lecture_02"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Forensic linguistics"
+        },
+        {
+          "id": "B",
+          "text": "Cognitive linguistics"
+        },
+        {
+          "id": "C",
+          "text": "Acoustic phonetics"
+        },
+        {
+          "id": "D",
+          "text": "Lexicography"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L02-Q090",
+      "lecture_id": "LING-L02",
+      "topic_id": "anthropological",
+      "source_slides": [
+        4
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "understand",
+      "question": "The overview names an anthropological branch without developing its definition. Which introductory description best identifies this field?",
+      "explanation": "Linguistic anthropology examines language within social and cultural practices. This brief definition supplies context for a field named in the overview, rather than adding a new detailed topic to the lecture.",
+      "example": "A researcher might study how ceremonial ways of speaking help transmit community traditions.",
+      "reference_ids": [
+        "lecture_02",
+        "utoronto_anthropology"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The measurement of speech signals without examining their cultural use"
+        },
+        {
+          "id": "B",
+          "text": "The study of language in relation to cultural practices and social life"
+        },
+        {
+          "id": "C",
+          "text": "The compilation of software commands without a question about human communication"
+        },
+        {
+          "id": "D",
+          "text": "The analysis of word endings without examining community practices"
+        }
+      ],
+      "answer_id": "B"
+    }
+  ]
+}
