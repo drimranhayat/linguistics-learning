@@ -1,0 +1,3340 @@
+{
+  "schema_version": "1.0.0",
+  "lecture": {
+    "id": "LING-L05",
+    "number": 5,
+    "title": "Grammar and Linguistic Analysis",
+    "language": "en",
+    "source_filename": "Lec 5 Grammer and Linguistic analysis(1).pptx",
+    "source_slide_count": 15,
+    "question_count": 80,
+    "scope": "Lecture 5, including the diagram linking syntactic structure with semantic and PF representations. Original questions apply the slide concepts and qualify overgeneralizations without treating theoretical proposals as proven facts.",
+    "exam_alignment": "Concept-based practice. No past paper or official examination blueprint was supplied.",
+    "answer_model": "Single best answer. answer_id refers to an option id, not its displayed position. Preserve option ids when shuffling.",
+    "display_guidance": "In learning mode, display explanation followed by example after the learner answers. Source slides and clarification notes can appear in a reference panel. Diagram questions are self-contained and do not require a separate image."
+  },
+  "references": [
+    {
+      "id": "lecture_05",
+      "type": "user_supplied_slides",
+      "title": "Lecture 5: Grammar and Linguistic Analysis",
+      "filename": "Lec 5 Grammer and Linguistic analysis(1).pptx",
+      "library_file_id": "libfile_d551d538d288819182b93e1c24b7c8a6"
+    },
+    {
+      "id": "mental_grammar",
+      "type": "scholarly_clarification",
+      "title": "1.2 Mental Grammar",
+      "publication": "Essentials of Linguistics",
+      "author": "Catherine Anderson",
+      "url": "https://ecampusontario.pressbooks.pub/essentialsoflinguistics/chapter/1-3-mental-grammar/",
+      "supports": "Mental grammar is a linguistic system rather than a memorized textbook or syntax alone."
+    },
+    {
+      "id": "ug_theory",
+      "type": "scholarly_clarification",
+      "title": "Universal Grammar",
+      "publication": "Foundations of Language: Brain, Meaning, Grammar, Evolution",
+      "author": "Ray Jackendoff",
+      "publisher": "Oxford University Press",
+      "url": "https://academic.oup.com/book/32834/chapter-abstract/275269828",
+      "supports": "UG is a theoretical hypothesis concerning specialized resources for language learning, with evidence, arguments, and challenges; it is not an established anatomical map."
+    },
+    {
+      "id": "corpus_methods",
+      "type": "authoritative_clarification",
+      "organization": "Lancaster University, EMI Corpus Project",
+      "title": "What is corpus linguistics?",
+      "url": "https://wp.lancs.ac.uk/emi-corpus-project/what-is-corpus-linguistics/",
+      "supports": "Corpus linguistics systematically analyses organized collections of language samples rather than merely collecting unspecified data."
+    },
+    {
+      "id": "language_society",
+      "type": "scholarly_clarification",
+      "title": "Introduction",
+      "publication": "Sociolinguistic Perspectives On Register",
+      "publisher": "Oxford University Press",
+      "url": "https://academic.oup.com/book/53733/chapter-abstract/422174931",
+      "supports": "Some authors distinguish sociology-of-language and sociolinguistic emphases; the wider relationship between language and society crosses these labels."
+    }
+  ],
+  "clarifications": [
+    {
+      "id": "CL01",
+      "source_slides": [
+        2,
+        3,
+        5,
+        6
+      ],
+      "question_ids": [
+        "LING-L05-Q009",
+        "LING-L05-Q010",
+        "LING-L05-Q011",
+        "LING-L05-Q012",
+        "LING-L05-Q013",
+        "LING-L05-Q014",
+        "LING-L05-Q025",
+        "LING-L05-Q026",
+        "LING-L05-Q028",
+        "LING-L05-Q030"
+      ],
+      "note": "Grammaticality is distinguished from truth, offensiveness, and institutional norms. Judgments require attention to variety and context. Descriptive does not guarantee that a model is infallible."
+    },
+    {
+      "id": "CL02",
+      "source_slides": [
+        4
+      ],
+      "question_ids": [
+        "LING-L05-Q015",
+        "LING-L05-Q016",
+        "LING-L05-Q018",
+        "LING-L05-Q019",
+        "LING-L05-Q020",
+        "LING-L05-Q044"
+      ],
+      "note": "The diagram is read schematically: lexicon/syntax to structure, then semantic and PF paths. Mental grammar is not reduced to syntax, and faculty of language is not treated as the name of one anatomically identified brain box.",
+      "reference_ids": [
+        "mental_grammar",
+        "ug_theory"
+      ]
+    },
+    {
+      "id": "CL03",
+      "source_slides": [
+        7
+      ],
+      "question_ids": [
+        "LING-L05-Q031",
+        "LING-L05-Q032",
+        "LING-L05-Q033",
+        "LING-L05-Q034"
+      ],
+      "note": "Comparison with an existing language is one teaching method, not a necessary condition for every teaching grammar."
+    },
+    {
+      "id": "CL04",
+      "source_slides": [
+        8,
+        9
+      ],
+      "question_ids": [
+        "LING-L05-Q035",
+        "LING-L05-Q036",
+        "LING-L05-Q037",
+        "LING-L05-Q038",
+        "LING-L05-Q039",
+        "LING-L05-Q040",
+        "LING-L05-Q041",
+        "LING-L05-Q042",
+        "LING-L05-Q043",
+        "LING-L05-Q044"
+      ],
+      "note": "UG is presented as a proposal within a theoretical account. The conditional wording on slide 9 is preserved. An innate contribution does not mean inborn vocabulary or identical surface grammars.",
+      "reference_ids": [
+        "ug_theory"
+      ]
+    },
+    {
+      "id": "CL05",
+      "source_slides": [
+        9
+      ],
+      "question_ids": [
+        "LING-L05-Q040",
+        "LING-L05-Q041",
+        "LING-L05-Q042"
+      ],
+      "note": "Absence of formal instruction is distinguished from absence of linguistic experience. Broad acquisition similarities are not converted into an identical timetable for every learner."
+    },
+    {
+      "id": "CL06",
+      "source_slides": [
+        11,
+        12
+      ],
+      "question_ids": [
+        "LING-L05-Q059"
+      ],
+      "note": "Six rows group phonetics and phonology together; the separately defined fields are not incorrectly counted as identical."
+    },
+    {
+      "id": "CL07",
+      "source_slides": [
+        13
+      ],
+      "question_ids": [
+        "LING-L05-Q065",
+        "LING-L05-Q066",
+        "LING-L05-Q078",
+        "LING-L05-Q079"
+      ],
+      "note": "Psycholinguistics is broader than acquisition and disorders. Neurolinguistics investigates language and the brain; it is not defined as proving a genetic hypothesis."
+    },
+    {
+      "id": "CL08",
+      "source_slides": [
+        14
+      ],
+      "question_ids": [
+        "LING-L05-Q072",
+        "LING-L05-Q077"
+      ],
+      "note": "The abbreviated corpus definition is expanded to systematic investigation of language samples, not data collection alone.",
+      "reference_ids": [
+        "corpus_methods"
+      ]
+    },
+    {
+      "id": "CL09",
+      "source_slides": [
+        13,
+        14
+      ],
+      "question_ids": [
+        "LING-L05-Q075",
+        "LING-L05-Q076",
+        "LING-L05-Q080"
+      ],
+      "note": "Typology is distinguished from historical ancestry and lexicology from dictionary compilation. The slide’s sociology-of-language distinction is explained as a difference in emphasis with overlap, not a rigid division.",
+      "reference_ids": [
+        "language_society"
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "topic_id": "grammar_competence",
+      "focus": "Grammar as linguistic knowledge and explanatory theory",
+      "source_slides": [
+        2
+      ],
+      "question_ids": [
+        "LING-L05-Q001",
+        "LING-L05-Q002",
+        "LING-L05-Q003",
+        "LING-L05-Q004",
+        "LING-L05-Q005",
+        "LING-L05-Q006",
+        "LING-L05-Q007",
+        "LING-L05-Q008"
+      ]
+    },
+    {
+      "topic_id": "grammaticality",
+      "focus": "Grammaticality, language varieties, and judgment evidence",
+      "source_slides": [
+        2,
+        3
+      ],
+      "question_ids": [
+        "LING-L05-Q009",
+        "LING-L05-Q010",
+        "LING-L05-Q011",
+        "LING-L05-Q012",
+        "LING-L05-Q013",
+        "LING-L05-Q014"
+      ]
+    },
+    {
+      "topic_id": "mental_grammar",
+      "focus": "Mental grammar, lexicon, PF, and the slide 4 diagram",
+      "source_slides": [
+        4
+      ],
+      "question_ids": [
+        "LING-L05-Q015",
+        "LING-L05-Q016",
+        "LING-L05-Q017",
+        "LING-L05-Q018",
+        "LING-L05-Q019",
+        "LING-L05-Q020"
+      ]
+    },
+    {
+      "topic_id": "descriptive_prescriptive",
+      "focus": "Descriptive and prescriptive approaches",
+      "source_slides": [
+        3,
+        5,
+        6
+      ],
+      "question_ids": [
+        "LING-L05-Q021",
+        "LING-L05-Q022",
+        "LING-L05-Q023",
+        "LING-L05-Q024",
+        "LING-L05-Q025",
+        "LING-L05-Q026",
+        "LING-L05-Q027",
+        "LING-L05-Q028",
+        "LING-L05-Q029",
+        "LING-L05-Q030"
+      ]
+    },
+    {
+      "topic_id": "teaching",
+      "focus": "Teaching grammar and learner needs",
+      "source_slides": [
+        7
+      ],
+      "question_ids": [
+        "LING-L05-Q031",
+        "LING-L05-Q032",
+        "LING-L05-Q033",
+        "LING-L05-Q034"
+      ]
+    },
+    {
+      "topic_id": "ug_acquisition",
+      "focus": "Universal Grammar, acquisition, input, and theoretical status",
+      "source_slides": [
+        8,
+        9
+      ],
+      "question_ids": [
+        "LING-L05-Q035",
+        "LING-L05-Q036",
+        "LING-L05-Q037",
+        "LING-L05-Q038",
+        "LING-L05-Q039",
+        "LING-L05-Q040",
+        "LING-L05-Q041",
+        "LING-L05-Q042",
+        "LING-L05-Q043",
+        "LING-L05-Q044"
+      ]
+    },
+    {
+      "topic_id": "levels",
+      "focus": "Levels of linguistic analysis and their relationships",
+      "source_slides": [
+        11,
+        12
+      ],
+      "question_ids": [
+        "LING-L05-Q045",
+        "LING-L05-Q046",
+        "LING-L05-Q047",
+        "LING-L05-Q048",
+        "LING-L05-Q049",
+        "LING-L05-Q050",
+        "LING-L05-Q051",
+        "LING-L05-Q052",
+        "LING-L05-Q053",
+        "LING-L05-Q054",
+        "LING-L05-Q055",
+        "LING-L05-Q056",
+        "LING-L05-Q057",
+        "LING-L05-Q058",
+        "LING-L05-Q059",
+        "LING-L05-Q060"
+      ]
+    },
+    {
+      "topic_id": "subfields_13",
+      "focus": "Typology, sociolinguistics, dialectology, anthropology, mind, and brain",
+      "source_slides": [
+        13
+      ],
+      "question_ids": [
+        "LING-L05-Q061",
+        "LING-L05-Q062",
+        "LING-L05-Q063",
+        "LING-L05-Q064",
+        "LING-L05-Q065",
+        "LING-L05-Q066"
+      ]
+    },
+    {
+      "topic_id": "subfields_14",
+      "focus": "Cognition, history, philosophy, SLA, vocabulary, corpora, computation, and law",
+      "source_slides": [
+        14
+      ],
+      "question_ids": [
+        "LING-L05-Q067",
+        "LING-L05-Q068",
+        "LING-L05-Q069",
+        "LING-L05-Q070",
+        "LING-L05-Q071",
+        "LING-L05-Q072",
+        "LING-L05-Q073",
+        "LING-L05-Q074"
+      ]
+    },
+    {
+      "topic_id": "subfield_comparisons",
+      "focus": "Subfield distinctions, qualifications, and disciplinary overlap",
+      "source_slides": [
+        13,
+        14
+      ],
+      "question_ids": [
+        "LING-L05-Q075",
+        "LING-L05-Q076",
+        "LING-L05-Q077",
+        "LING-L05-Q078",
+        "LING-L05-Q079",
+        "LING-L05-Q080"
+      ]
+    }
+  ],
+  "excluded_slides": [
+    {
+      "slide": 1,
+      "reason": "Title only."
+    },
+    {
+      "slide": 10,
+      "reason": "Section heading only."
+    },
+    {
+      "slide": 15,
+      "reason": "Closing thank-you slide."
+    }
+  ],
+  "topics": [
+    {
+      "id": "grammar_competence",
+      "title": "Grammar as linguistic knowledge and explanatory theory",
+      "question_count": 8
+    },
+    {
+      "id": "grammaticality",
+      "title": "Grammaticality, language varieties, and judgment evidence",
+      "question_count": 6
+    },
+    {
+      "id": "mental_grammar",
+      "title": "Mental grammar, lexicon, PF, and the slide 4 diagram",
+      "question_count": 6
+    },
+    {
+      "id": "descriptive_prescriptive",
+      "title": "Descriptive and prescriptive approaches",
+      "question_count": 10
+    },
+    {
+      "id": "teaching",
+      "title": "Teaching grammar and learner needs",
+      "question_count": 4
+    },
+    {
+      "id": "ug_acquisition",
+      "title": "Universal Grammar, acquisition, input, and theoretical status",
+      "question_count": 10
+    },
+    {
+      "id": "levels",
+      "title": "Levels of linguistic analysis and their relationships",
+      "question_count": 16
+    },
+    {
+      "id": "subfields_13",
+      "title": "Typology, sociolinguistics, dialectology, anthropology, mind, and brain",
+      "question_count": 6
+    },
+    {
+      "id": "subfields_14",
+      "title": "Cognition, history, philosophy, SLA, vocabulary, corpora, computation, and law",
+      "question_count": 8
+    },
+    {
+      "id": "subfield_comparisons",
+      "title": "Subfield distinctions, qualifications, and disciplinary overlap",
+      "question_count": 6
+    }
+  ],
+  "statistics": {
+    "difficulty": {
+      "easy": 22,
+      "medium": 39,
+      "hard": 19
+    },
+    "cognitive_level": {
+      "remember": 14,
+      "understand": 12,
+      "apply": 28,
+      "analyze": 26
+    },
+    "answer_distribution": {
+      "A": 20,
+      "B": 20,
+      "C": 20,
+      "D": 20
+    }
+  },
+  "questions": [
+    {
+      "id": "LING-L05-Q001",
+      "lecture_id": "LING-L05",
+      "topic_id": "grammar_competence",
+      "source_slides": [
+        2
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "Which two senses of grammar are distinguished on slide 2?",
+      "explanation": "Grammar can refer to an internal system or to an explicit account of that system. The knowledge and the theory that models it are related but distinct.",
+      "example": "A speaker knows how to form a question; a linguist proposes rules to explain that ability.",
+      "reference_ids": [
+        "lecture_05"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Speech volume and the speed of handwriting"
+        },
+        {
+          "id": "B",
+          "text": "A dictionary’s page order and its printing style"
+        },
+        {
+          "id": "C",
+          "text": "Speakers’ linguistic knowledge and a theory describing that knowledge"
+        },
+        {
+          "id": "D",
+          "text": "Literary taste and the history of book publishing"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L05-Q002",
+      "lecture_id": "LING-L05",
+      "topic_id": "grammar_competence",
+      "source_slides": [
+        2
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "understand",
+      "question": "What does grammatical competence refer to in this lecture?",
+      "explanation": "Competence concerns linguistic knowledge. It need not involve conscious explanations, flawless performance, or knowledge of other languages.",
+      "example": "A speaker can recognize an unusual sentence pattern without knowing its grammatical name.",
+      "reference_ids": [
+        "lecture_05"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The ability to translate every language fluently"
+        },
+        {
+          "id": "B",
+          "text": "The ability to write without ever making a typing error"
+        },
+        {
+          "id": "C",
+          "text": "The ability to explain every rule using technical terms"
+        },
+        {
+          "id": "D",
+          "text": "Knowledge of a language’s units and rules"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L05-Q003",
+      "lecture_id": "LING-L05",
+      "topic_id": "grammar_competence",
+      "source_slides": [
+        2
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A child forms questions accurately but cannot explain auxiliary placement. What does this most directly illustrate?",
+      "explanation": "Using a pattern and explaining it explicitly are different abilities. Mental knowledge can guide language use without a classroom description.",
+      "example": "A child may say “Is she coming?” without knowing the term auxiliary.",
+      "reference_ids": [
+        "lecture_05"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "A speaker without terminology cannot recognize sentence patterns."
+        },
+        {
+          "id": "B",
+          "text": "The child has only spelling knowledge and no grammatical knowledge."
+        },
+        {
+          "id": "C",
+          "text": "Linguistic knowledge can exist without explicit grammatical terminology."
+        },
+        {
+          "id": "D",
+          "text": "Knowing grammar requires memorizing the names of sentence parts."
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L05-Q004",
+      "lecture_id": "LING-L05",
+      "topic_id": "grammar_competence",
+      "source_slides": [
+        2
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "analyze",
+      "question": "Why is an explicit grammatical theory not identical to a speaker’s competence?",
+      "explanation": "A model aims to explain an underlying ability. It can be revised when evidence shows that its predictions or descriptions are inadequate.",
+      "example": "Two grammatical models may offer different explanations of the same question pattern.",
+      "reference_ids": [
+        "lecture_05"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "A theory cannot be evaluated using evidence about language."
+        },
+        {
+          "id": "B",
+          "text": "The theory must be a list of social rules unrelated to language."
+        },
+        {
+          "id": "C",
+          "text": "Competence consists only of the printed theory a speaker has read."
+        },
+        {
+          "id": "D",
+          "text": "The theory is a proposed description or explanation of the knowledge."
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L05-Q005",
+      "lecture_id": "LING-L05",
+      "topic_id": "grammar_competence",
+      "source_slides": [
+        2
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "Which set reflects the broad range of rules mentioned on slide 2?",
+      "explanation": "The slide treats grammar broadly rather than restricting it to sentence correction. Different levels contribute to linguistic organization.",
+      "example": "A plural ending concerns word formation; word order concerns sentence construction.",
+      "reference_ids": [
+        "lecture_05"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only punctuation, spelling, page layout, and handwriting"
+        },
+        {
+          "id": "B",
+          "text": "Only speech volume, microphone distance, and recording length"
+        },
+        {
+          "id": "C",
+          "text": "Sound combinations, word formation, sentence construction, and meaning"
+        },
+        {
+          "id": "D",
+          "text": "Only literary genre, author biography, and publication date"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L05-Q006",
+      "lecture_id": "LING-L05",
+      "topic_id": "grammar_competence",
+      "source_slides": [
+        2
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A learner knows individual words but repeatedly arranges them in ways not licensed by the target grammar. What does this show?",
+      "explanation": "A lexicon supplies words, while grammar includes how linguistic material combines. Recognizing these contributions helps explain the learner’s difficulty.",
+      "example": "Knowing she, has, and arrived differs from knowing the arrangement “She has arrived.”",
+      "reference_ids": [
+        "lecture_05"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Sentence formation depends entirely on how words are alphabetized."
+        },
+        {
+          "id": "B",
+          "text": "Each word must be memorized as a complete independent sentence."
+        },
+        {
+          "id": "C",
+          "text": "Knowing any words automatically gives complete sentence knowledge."
+        },
+        {
+          "id": "D",
+          "text": "Vocabulary knowledge alone does not supply all grammatical knowledge."
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L05-Q007",
+      "lecture_id": "LING-L05",
+      "topic_id": "grammar_competence",
+      "source_slides": [
+        2
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "analyze",
+      "question": "Which task most directly investigates grammatical competence rather than knowledge of grammar terminology?",
+      "explanation": "A pattern judgment probes knowledge of language. Terminology and textbook ownership concern explicit education and are not equivalent to competence.",
+      "example": "A participant can choose a natural sentence without explaining a formal rule.",
+      "reference_ids": [
+        "lecture_05"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Ask whether the speaker can name every type of participle."
+        },
+        {
+          "id": "B",
+          "text": "Ask the speaker to define the term subordinate conjunction."
+        },
+        {
+          "id": "C",
+          "text": "Ask how many grammar textbooks the speaker owns."
+        },
+        {
+          "id": "D",
+          "text": "Ask which word arrangements fit the speaker’s language variety."
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L05-Q008",
+      "lecture_id": "LING-L05",
+      "topic_id": "grammar_competence",
+      "source_slides": [
+        2
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Why should a linguistic grammar not be reduced to rules for formal writing alone?",
+      "explanation": "The lecture’s account concerns the knowledge supporting language, not merely a selected standard for edited writing. Informal language can be systematic too.",
+      "example": "A conversation has patterned question formation even when no written text is involved.",
+      "reference_ids": [
+        "lecture_05"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The linguistic system also supports spoken interaction and other language use."
+        },
+        {
+          "id": "B",
+          "text": "Informal conversation lacks patterns that can be investigated."
+        },
+        {
+          "id": "C",
+          "text": "All grammatical knowledge is acquired by reading style manuals."
+        },
+        {
+          "id": "D",
+          "text": "Only formal writing has any structure."
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L05-Q009",
+      "lecture_id": "LING-L05",
+      "topic_id": "grammaticality",
+      "source_slides": [
+        2,
+        3
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "What does grammatical mean in the linguistic sense used in the lecture?",
+      "explanation": "Grammaticality concerns linguistic structure. It is distinct from truth, social approval, and agreement with the message.",
+      "example": "A structurally well-formed sentence can describe an imaginary event.",
+      "reference_ids": [
+        "lecture_05"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Being a sentence that is factually true"
+        },
+        {
+          "id": "B",
+          "text": "Being morally admirable in its message"
+        },
+        {
+          "id": "C",
+          "text": "Being approved by every published style guide"
+        },
+        {
+          "id": "D",
+          "text": "Conforming to the patterns of the relevant mental grammar"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L05-Q010",
+      "lecture_id": "LING-L05",
+      "topic_id": "grammaticality",
+      "source_slides": [
+        2,
+        3
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "understand",
+      "question": "What does ungrammatical mean in the lecture’s linguistic account?",
+      "explanation": "The judgment concerns structural possibilities in a specified system. Unfamiliarity or informality alone does not establish a violation.",
+      "example": "An ordinary English declarative such as “Has arrived she” does not follow the target pattern.",
+      "reference_ids": [
+        "lecture_05"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Being a claim that a reader disagrees with"
+        },
+        {
+          "id": "B",
+          "text": "Being an informal expression used among friends"
+        },
+        {
+          "id": "C",
+          "text": "Being unfamiliar to one particular reader"
+        },
+        {
+          "id": "D",
+          "text": "Not being licensed by the relevant language system in the intended analysis"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L05-Q011",
+      "lecture_id": "LING-L05",
+      "topic_id": "grammaticality",
+      "source_slides": [
+        2,
+        3
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "analyze",
+      "question": "Why can a grammatical sentence be false?",
+      "explanation": "A sentence can follow linguistic patterns while making an inaccurate claim. Truth requires evaluating the content against the relevant situation.",
+      "example": "“The library is open” can be well formed even when the library is closed.",
+      "reference_ids": [
+        "lecture_05"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "A false statement cannot contain a subject and a verb."
+        },
+        {
+          "id": "B",
+          "text": "Structural well-formedness and factual truth are different properties."
+        },
+        {
+          "id": "C",
+          "text": "A true statement automatically follows every language’s rules."
+        },
+        {
+          "id": "D",
+          "text": "Grammar evaluates only whether speakers are honest."
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L05-Q012",
+      "lecture_id": "LING-L05",
+      "topic_id": "grammaticality",
+      "source_slides": [
+        2,
+        3
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A sentence is regular in one dialect but not part of an editor’s preferred standard. What must a linguist establish before calling it ungrammatical?",
+      "explanation": "Structural judgments should be grounded in the variety under study. A standard-language preference alone does not describe every dialect’s grammar.",
+      "example": "An analyst can study a community’s regular pattern even when an editor requests a different form.",
+      "reference_ids": [
+        "lecture_05"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Whether the speaker likes the editor"
+        },
+        {
+          "id": "B",
+          "text": "Which language variety and pattern are being analysed"
+        },
+        {
+          "id": "C",
+          "text": "Whether the sentence uses a long word"
+        },
+        {
+          "id": "D",
+          "text": "Whether the statement appears in a printed book"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L05-Q013",
+      "lecture_id": "LING-L05",
+      "topic_id": "grammaticality",
+      "source_slides": [
+        2,
+        3
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "How should the slide’s claim that any native speaker can always distinguish grammatical from ungrammatical sentences be qualified?",
+      "explanation": "Speakers provide valuable evidence, but judgments are not infallible measurements. Researchers interpret them alongside the task, context, and other linguistic evidence.",
+      "example": "A long, complex sentence may be hard to judge even when its structure is licensed.",
+      "reference_ids": [
+        "lecture_05"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Judgments can vary with dialect, context, processing demands, and the particular example."
+        },
+        {
+          "id": "B",
+          "text": "Only people trained in linguistics can have grammatical knowledge."
+        },
+        {
+          "id": "C",
+          "text": "A single hesitation proves that a speaker has no mental grammar."
+        },
+        {
+          "id": "D",
+          "text": "Every speaker must give the same judgment in every task."
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L05-Q014",
+      "lecture_id": "LING-L05",
+      "topic_id": "grammaticality",
+      "source_slides": [
+        2,
+        3
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "apply",
+      "question": "A participant rejects a sentence because its message is offensive, although its structure follows familiar rules. What should the researcher distinguish?",
+      "explanation": "A response can reflect more than structural knowledge. The researcher needs a clear task and interpretation rather than treating every rejection as proof of ungrammaticality.",
+      "example": "A listener may dislike an insult without finding its word order unusual.",
+      "reference_ids": [
+        "lecture_05"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "A dictionary entry from a phonetic symbol"
+        },
+        {
+          "id": "B",
+          "text": "A written page from a speech signal"
+        },
+        {
+          "id": "C",
+          "text": "A plural morpheme from an infix"
+        },
+        {
+          "id": "D",
+          "text": "A reaction to content from a judgment about grammatical structure"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L05-Q015",
+      "lecture_id": "LING-L05",
+      "topic_id": "mental_grammar",
+      "source_slides": [
+        4
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "understand",
+      "question": "What does mental grammar designate in the lecture?",
+      "explanation": "Mental grammar concerns the system users have internalized. It is not identical to their explicit knowledge of labels or a textbook they have read.",
+      "example": "A speaker can interpret familiar sentence patterns automatically.",
+      "reference_ids": [
+        "lecture_05",
+        "mental_grammar"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "A set of instructions stored in a classroom timetable"
+        },
+        {
+          "id": "B",
+          "text": "An internalized system underlying linguistic knowledge and use"
+        },
+        {
+          "id": "C",
+          "text": "A list containing only consciously approved spellings"
+        },
+        {
+          "id": "D",
+          "text": "A grammar book memorized word for word"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L05-Q016",
+      "lecture_id": "LING-L05",
+      "topic_id": "mental_grammar",
+      "source_slides": [
+        4
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "analyze",
+      "question": "Why should mental grammar not be equated with syntax alone?",
+      "explanation": "The diagram foregrounds syntax, but the earlier definition is broader. A teaching diagram should not erase other components of linguistic knowledge.",
+      "example": "Knowing a plural form and recognizing a sound pattern go beyond word order alone.",
+      "reference_ids": [
+        "lecture_05",
+        "mental_grammar"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The lecture’s broader account includes sound, word, sentence, and meaning-related organization."
+        },
+        {
+          "id": "B",
+          "text": "Mental grammar consists entirely of written punctuation rules."
+        },
+        {
+          "id": "C",
+          "text": "Syntax is unrelated to any mental linguistic knowledge."
+        },
+        {
+          "id": "D",
+          "text": "Only dictionary definitions can be part of a mental system."
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L05-Q017",
+      "lecture_id": "LING-L05",
+      "topic_id": "mental_grammar",
+      "source_slides": [
+        4
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "What does lexicon refer to in the diagram’s introductory account?",
+      "explanation": "The lexicon supplies word-related information. In the schematic model, lexical material participates in the construction of syntactic structure.",
+      "example": "Information associated with book and read belongs to lexical knowledge.",
+      "reference_ids": [
+        "lecture_05"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The speaker’s vocabulary or store of lexical information"
+        },
+        {
+          "id": "B",
+          "text": "The spelling rules of a computer programming language"
+        },
+        {
+          "id": "C",
+          "text": "A fixed list of all possible complete sentences"
+        },
+        {
+          "id": "D",
+          "text": "The set of vocal organs used for articulation"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L05-Q018",
+      "lecture_id": "LING-L05",
+      "topic_id": "mental_grammar",
+      "source_slides": [
+        4
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "understand",
+      "question": "Which interpretation of the diagram’s two branches is most accurate?",
+      "explanation": "The figure links structure with meaning and sound-related representations. It is a model of relationships, not a literal sequence of observed brain locations.",
+      "example": "A sentence has an interpretation and a spoken form that can both be related to its structure.",
+      "reference_ids": [
+        "lecture_05"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Syntactic structure is related schematically to semantic and phonetic-form representations."
+        },
+        {
+          "id": "B",
+          "text": "A dictionary meaning is automatically converted into a brain-location map."
+        },
+        {
+          "id": "C",
+          "text": "The semantic branch removes all connection between structure and speech."
+        },
+        {
+          "id": "D",
+          "text": "Every spoken sentence must first be written as an essay."
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L05-Q019",
+      "lecture_id": "LING-L05",
+      "topic_id": "mental_grammar",
+      "source_slides": [
+        4
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "What does PF stand for in the lecture’s diagram?",
+      "explanation": "PF labels the sound-related side of the schematic representation. It is distinct from a spelling transcript or a label for social prestige.",
+      "example": "The diagram connects a PF component with a PF representation and speech systems.",
+      "reference_ids": [
+        "lecture_05"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Prescriptive Function"
+        },
+        {
+          "id": "B",
+          "text": "Phrase Frequency"
+        },
+        {
+          "id": "C",
+          "text": "Phonetic Form"
+        },
+        {
+          "id": "D",
+          "text": "Phoneme Family"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L05-Q020",
+      "lecture_id": "LING-L05",
+      "topic_id": "mental_grammar",
+      "source_slides": [
+        4
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "understand",
+      "question": "Which branch of the diagram is associated with semantic representation and thought systems?",
+      "explanation": "The figure places semantic representation on the meaning-related path. PF appears on the speech-related path. These are schematic interfaces, not proof of anatomically separate boxes.",
+      "example": "The same sentence can be considered in terms of what it means and how it is spoken.",
+      "reference_ids": [
+        "lecture_05"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The semantic-component branch"
+        },
+        {
+          "id": "B",
+          "text": "The dictionary alphabetization branch"
+        },
+        {
+          "id": "C",
+          "text": "The PF-component branch"
+        },
+        {
+          "id": "D",
+          "text": "The language-policy branch"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L05-Q021",
+      "lecture_id": "LING-L05",
+      "topic_id": "descriptive_prescriptive",
+      "source_slides": [
+        3,
+        5,
+        6
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "What is the central aim of descriptive grammar?",
+      "explanation": "A descriptive account seeks an evidence-based model of linguistic patterns. It does not define its task as enforcing a preferred social standard.",
+      "example": "A researcher can document how speakers in a community form questions.",
+      "reference_ids": [
+        "lecture_05"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "To rank languages by their speakers’ political influence"
+        },
+        {
+          "id": "B",
+          "text": "To require every community to adopt one official variety"
+        },
+        {
+          "id": "C",
+          "text": "To replace all observed usage with a writer’s preferences"
+        },
+        {
+          "id": "D",
+          "text": "To investigate and describe the patterns users actually follow"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L05-Q022",
+      "lecture_id": "LING-L05",
+      "topic_id": "descriptive_prescriptive",
+      "source_slides": [
+        3,
+        5,
+        6
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "What is the central aim of prescriptive grammar as presented in the lecture?",
+      "explanation": "A prescriptive account recommends or requires particular forms. The distinction is about its normative aim, not whether the recommendation is written politely.",
+      "example": "A style manual may instruct writers to choose one expression in formal reports.",
+      "reference_ids": [
+        "lecture_05"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "To specify forms people should use according to a preferred standard"
+        },
+        {
+          "id": "B",
+          "text": "To measure only the acoustic properties of vowels"
+        },
+        {
+          "id": "C",
+          "text": "To discover word meanings through a brain scan"
+        },
+        {
+          "id": "D",
+          "text": "To record all varieties without recommending a standard"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L05-Q023",
+      "lecture_id": "LING-L05",
+      "topic_id": "descriptive_prescriptive",
+      "source_slides": [
+        3,
+        5,
+        6
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A researcher records conversations and describes a community’s recurring grammatical patterns without correcting speakers. Which approach is dominant?",
+      "explanation": "The project explains observed regularities in actual usage. It does not start by instructing speakers to conform to a selected model.",
+      "example": "The researcher might describe a local question pattern in its own context.",
+      "reference_ids": [
+        "lecture_05"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Descriptive"
+        },
+        {
+          "id": "B",
+          "text": "Prescriptive"
+        },
+        {
+          "id": "C",
+          "text": "Lexicographic"
+        },
+        {
+          "id": "D",
+          "text": "Acoustic"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L05-Q024",
+      "lecture_id": "LING-L05",
+      "topic_id": "descriptive_prescriptive",
+      "source_slides": [
+        3,
+        5,
+        6
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "An editor says, “Use this standard form in all official submissions,” and changes alternatives to match it. Which approach is dominant?",
+      "explanation": "The editor imposes a preferred form for a particular purpose. That is a prescriptive decision, whether or not other forms are systematic in other varieties.",
+      "example": "An institution may require a particular written convention in examination papers.",
+      "reference_ids": [
+        "lecture_05"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Prescriptive"
+        },
+        {
+          "id": "B",
+          "text": "Auditory"
+        },
+        {
+          "id": "C",
+          "text": "Historical"
+        },
+        {
+          "id": "D",
+          "text": "Descriptive"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L05-Q025",
+      "lecture_id": "LING-L05",
+      "topic_id": "descriptive_prescriptive",
+      "source_slides": [
+        3,
+        5,
+        6
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "analyze",
+      "question": "What does descriptive recognition of dialect equality mean most appropriately?",
+      "explanation": "Equality does not mean sameness or identical social treatment. The point is that a nonstandard variety is not automatically deficient as a linguistic system.",
+      "example": "Two dialects can use different regular patterns without one lacking grammar.",
+      "reference_ids": [
+        "lecture_05"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Every variety is equally expected in every institutional setting."
+        },
+        {
+          "id": "B",
+          "text": "Varieties can have systematic grammars without being linguistically inferior to a socially preferred standard."
+        },
+        {
+          "id": "C",
+          "text": "A researcher must deny that any variation exists."
+        },
+        {
+          "id": "D",
+          "text": "All dialects have identical forms in every sentence."
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L05-Q026",
+      "lecture_id": "LING-L05",
+      "topic_id": "descriptive_prescriptive",
+      "source_slides": [
+        3,
+        5,
+        6
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Which claim wrongly turns social prestige into a linguistic conclusion?",
+      "explanation": "Prestige is a social evaluation. It does not establish that other varieties lack systematic structure or that their users lack linguistic knowledge.",
+      "example": "A less prestigious local variety can still have consistent patterns of its own.",
+      "reference_ids": [
+        "lecture_05"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Different varieties can show different grammatical patterns."
+        },
+        {
+          "id": "B",
+          "text": "A formal institution may prefer a particular standard."
+        },
+        {
+          "id": "C",
+          "text": "A prestigious variety must have a more complete mental grammar."
+        },
+        {
+          "id": "D",
+          "text": "A researcher can investigate how prestige affects judgments."
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L05-Q027",
+      "lecture_id": "LING-L05",
+      "topic_id": "descriptive_prescriptive",
+      "source_slides": [
+        3,
+        5,
+        6
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A teacher first describes students’ home variety and then teaches a standard expected in formal assessment. Which account best describes the two activities?",
+      "explanation": "Understanding a variety and teaching a target convention are different tasks. They can coexist without treating the learners’ existing system as absence of grammar.",
+      "example": "A lesson can explain a formal-writing expectation while acknowledging everyday usage.",
+      "reference_ids": [
+        "lecture_05"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Two ways of compiling an alphabetized dictionary"
+        },
+        {
+          "id": "B",
+          "text": "Two activities proving the home variety contains no grammar"
+        },
+        {
+          "id": "C",
+          "text": "Two purely acoustic measurements"
+        },
+        {
+          "id": "D",
+          "text": "Descriptive analysis followed by prescriptive or pedagogical guidance for a specified context"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L05-Q028",
+      "lecture_id": "LING-L05",
+      "topic_id": "descriptive_prescriptive",
+      "source_slides": [
+        3,
+        5,
+        6
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Why is a descriptive grammar better called an evidence-based model than automatically a “true model”?",
+      "explanation": "Description is a scientific aim, not a guarantee of infallibility. An account should fit the evidence and remain open to correction.",
+      "example": "Additional speakers’ data may require revising a proposed rule.",
+      "reference_ids": [
+        "lecture_05"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Calling a model descriptive guarantees that every claim is correct."
+        },
+        {
+          "id": "B",
+          "text": "A grammatical theory cannot make predictions."
+        },
+        {
+          "id": "C",
+          "text": "Descriptive models never use observations."
+        },
+        {
+          "id": "D",
+          "text": "Its adequacy must be tested, and its account can be revised."
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L05-Q029",
+      "lecture_id": "LING-L05",
+      "topic_id": "descriptive_prescriptive",
+      "source_slides": [
+        3,
+        5,
+        6
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "analyze",
+      "question": "Which pair correctly contrasts description with prescription?",
+      "explanation": "A report about what people do and a recommendation about what they should do have different goals. Neither sentence alone tells us all the evidence behind it.",
+      "example": "An observed informal form may differ from a form recommended in a style guide.",
+      "reference_ids": [
+        "lecture_05"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Both statements necessarily identify the same research aim."
+        },
+        {
+          "id": "B",
+          "text": "“Speakers often use X” reports usage; “Writers should use Y here” recommends a norm."
+        },
+        {
+          "id": "C",
+          "text": "“Speakers often use X” measures vocal-fold vibration; “Writers should use Y here” defines a phoneme."
+        },
+        {
+          "id": "D",
+          "text": "Both statements prohibit the study of dialect variation."
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L05-Q030",
+      "lecture_id": "LING-L05",
+      "topic_id": "descriptive_prescriptive",
+      "source_slides": [
+        3,
+        5,
+        6
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "apply",
+      "question": "A learner says, “If a form is not allowed in our formal essay, it cannot belong to anyone’s mental grammar.” What is the best response?",
+      "explanation": "The scope of a norm must be separated from the scope of a linguistic description. An institution’s target standard does not erase other systematic varieties.",
+      "example": "A teacher can explain a target form without claiming that all alternatives are structurally impossible everywhere.",
+      "reference_ids": [
+        "lecture_05"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Mental grammar consists only of rules printed in examination rubrics."
+        },
+        {
+          "id": "B",
+          "text": "All formal-writing guidance is a phonetic measurement."
+        },
+        {
+          "id": "C",
+          "text": "Any form used once must be accepted in every dialect."
+        },
+        {
+          "id": "D",
+          "text": "A formal-writing rule does not by itself establish the grammatical possibilities of every variety."
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L05-Q031",
+      "lecture_id": "LING-L05",
+      "topic_id": "teaching",
+      "source_slides": [
+        7
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "understand",
+      "question": "What is a teaching grammar primarily designed to do?",
+      "explanation": "A teaching grammar organizes explanations and examples for learning. It may draw on descriptive findings while choosing what is useful for a particular audience.",
+      "example": "A beginner’s book can explain question formation through short examples and practice.",
+      "reference_ids": [
+        "lecture_05"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Measure a speaker’s sound intensity"
+        },
+        {
+          "id": "B",
+          "text": "Make selected language patterns explicit for learners"
+        },
+        {
+          "id": "C",
+          "text": "Reconstruct the ancestry of every language"
+        },
+        {
+          "id": "D",
+          "text": "Identify brain injury from a vocabulary list"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L05-Q032",
+      "lecture_id": "LING-L05",
+      "topic_id": "teaching",
+      "source_slides": [
+        7
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A textbook contrasts English and Urdu word order to help Urdu-speaking learners. Which feature of teaching grammar from the lecture does this illustrate?",
+      "explanation": "Comparison can help learners notice a relevant difference. The learner’s existing knowledge becomes a resource for understanding a target pattern.",
+      "example": "A lesson may compare the position of the verb in equivalent sentences.",
+      "reference_ids": [
+        "lecture_05"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Treating vocabulary as unrelated to learning"
+        },
+        {
+          "id": "B",
+          "text": "Assuming every learner knows no language at all"
+        },
+        {
+          "id": "C",
+          "text": "Using knowledge of an existing language to explain a target language"
+        },
+        {
+          "id": "D",
+          "text": "Replacing grammatical explanations with acoustic measurements"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L05-Q033",
+      "lecture_id": "LING-L05",
+      "topic_id": "teaching",
+      "source_slides": [
+        7
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "How should the claim that teaching grammars always compare two languages be qualified?",
+      "explanation": "The lecture describes a common strategy rather than an essential requirement for every teaching resource. Learner needs and instructional design affect the approach.",
+      "example": "An English lesson may teach a pattern through pictures and examples without translating each sentence.",
+      "reference_ids": [
+        "lecture_05"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "No teaching grammar can mention another language."
+        },
+        {
+          "id": "B",
+          "text": "Only a learner’s first language has any grammatical patterns."
+        },
+        {
+          "id": "C",
+          "text": "Comparison is one useful method, but teaching grammar can also use direct explanation and examples."
+        },
+        {
+          "id": "D",
+          "text": "Every language lesson must teach historical reconstruction first."
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L05-Q034",
+      "lecture_id": "LING-L05",
+      "topic_id": "teaching",
+      "source_slides": [
+        7
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "analyze",
+      "question": "Which comparison best distinguishes a teaching grammar’s purpose from a research grammar’s purpose?",
+      "explanation": "The difference concerns audience and aim. A teaching account can select and simplify accurate material without reproducing every detail of a research analysis.",
+      "example": "A beginner lesson may focus on one common question pattern before introducing exceptions.",
+      "reference_ids": [
+        "lecture_05"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "A teaching grammar studies sound alone, while a research grammar studies spelling alone."
+        },
+        {
+          "id": "B",
+          "text": "A teaching grammar must ignore all evidence, while a research grammar must avoid examples."
+        },
+        {
+          "id": "C",
+          "text": "A teaching grammar prioritizes learning needs; a research grammar prioritizes describing or explaining the system."
+        },
+        {
+          "id": "D",
+          "text": "A teaching grammar can contain rules, while a research grammar cannot."
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L05-Q035",
+      "lecture_id": "LING-L05",
+      "topic_id": "ug_acquisition",
+      "source_slides": [
+        8,
+        9
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "What does UG stand for in this lecture?",
+      "explanation": "The abbreviation names the theoretical proposal discussed in the slides. Understanding the proposal requires more than recognizing its initials.",
+      "example": "The lecture relates UG to a proposed human capacity for acquiring language.",
+      "reference_ids": [
+        "lecture_05"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Usage Glossary"
+        },
+        {
+          "id": "B",
+          "text": "Underlying Geography"
+        },
+        {
+          "id": "C",
+          "text": "Utterance Grouping"
+        },
+        {
+          "id": "D",
+          "text": "Universal Grammar"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L05-Q036",
+      "lecture_id": "LING-L05",
+      "topic_id": "ug_acquisition",
+      "source_slides": [
+        8,
+        9
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "understand",
+      "question": "Within the generative account presented in the lecture, what does Universal Grammar concern?",
+      "explanation": "UG is proposed as part of the human language faculty. It does not mean that children are born knowing all words or that all languages have identical surface patterns.",
+      "example": "A child still needs experience with the particular language used around them.",
+      "reference_ids": [
+        "lecture_05",
+        "ug_theory"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "An innate contribution constraining or supporting the acquisition of human language"
+        },
+        {
+          "id": "B",
+          "text": "One official grammar that governments require everyone to use"
+        },
+        {
+          "id": "C",
+          "text": "A rule that every language must have English word order"
+        },
+        {
+          "id": "D",
+          "text": "A complete dictionary of every language present at birth"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L05-Q037",
+      "lecture_id": "LING-L05",
+      "topic_id": "ug_acquisition",
+      "source_slides": [
+        8,
+        9
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "analyze",
+      "question": "Why should the slide’s account of UG be presented as a theoretical proposal?",
+      "explanation": "The slides introduce one account of acquisition. A careful question distinguishes what that account proposes from what has been independently demonstrated.",
+      "example": "A researcher can investigate whether a proposed constraint helps explain acquisition data.",
+      "reference_ids": [
+        "lecture_05",
+        "ug_theory"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The word universal means it is a government-approved standard."
+        },
+        {
+          "id": "B",
+          "text": "A classroom definition automatically proves a biological mechanism."
+        },
+        {
+          "id": "C",
+          "text": "Its nature and explanatory role are subjects of research and debate."
+        },
+        {
+          "id": "D",
+          "text": "All competing accounts have been logically ruled out by the slide alone."
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L05-Q038",
+      "lecture_id": "LING-L05",
+      "topic_id": "ug_acquisition",
+      "source_slides": [
+        8,
+        9
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "Under the UG account described in the slides, why does a child still need language experience?",
+      "explanation": "An innate contribution, if accepted, is not a substitute for experience. The slide itself distinguishes proposed shared properties from language-specific learning.",
+      "example": "A child exposed to Urdu must acquire Urdu-specific forms rather than an English vocabulary.",
+      "reference_ids": [
+        "lecture_05",
+        "ug_theory"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The child must learn that language contains no systematic patterns."
+        },
+        {
+          "id": "B",
+          "text": "The child must replace a complete inborn English vocabulary."
+        },
+        {
+          "id": "C",
+          "text": "The child must memorize a printed grammar before speaking."
+        },
+        {
+          "id": "D",
+          "text": "The child must acquire properties of the particular language or languages encountered."
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L05-Q039",
+      "lecture_id": "LING-L05",
+      "topic_id": "ug_acquisition",
+      "source_slides": [
+        8,
+        9
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Does a proposed universal contribution require all languages to use the same words and word order?",
+      "explanation": "Universality in a theory need not mean identical surface forms. The account must explain both commonalities and differences rather than erase either.",
+      "example": "English and Urdu can differ in patterns while both are human languages.",
+      "reference_ids": [
+        "lecture_05",
+        "ug_theory"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "No; because the proposal excludes all comparisons between languages."
+        },
+        {
+          "id": "B",
+          "text": "Yes; every child must begin by speaking the same complete sentences."
+        },
+        {
+          "id": "C",
+          "text": "No; shared constraints can coexist with language-specific differences."
+        },
+        {
+          "id": "D",
+          "text": "Yes; otherwise no shared capacity could be proposed."
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L05-Q040",
+      "lecture_id": "LING-L05",
+      "topic_id": "ug_acquisition",
+      "source_slides": [
+        8,
+        9
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "understand",
+      "question": "What observation about acquisition motivates the discussion on slide 9?",
+      "explanation": "The lecture highlights learning through ordinary exposure and interaction. Absence of formal instruction is different from absence of experience.",
+      "example": "A young child may use a plural pattern before being taught the term plural.",
+      "reference_ids": [
+        "lecture_05"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Children often develop substantial language knowledge without formal grammar lessons."
+        },
+        {
+          "id": "B",
+          "text": "Children can acquire language without encountering any linguistic input."
+        },
+        {
+          "id": "C",
+          "text": "Every child masters adult language immediately after birth."
+        },
+        {
+          "id": "D",
+          "text": "Only children who can read acquire sentence patterns."
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L05-Q041",
+      "lecture_id": "LING-L05",
+      "topic_id": "ug_acquisition",
+      "source_slides": [
+        8,
+        9
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "analyze",
+      "question": "Why is “children acquire language without instruction” not equivalent to “children need no input”?",
+      "explanation": "Children encounter linguistic information in interaction even when nobody explains a rule. The distinction concerns how experience is provided, not whether it matters.",
+      "example": "Caregivers talking with a child provide experience without naming grammatical categories.",
+      "reference_ids": [
+        "lecture_05"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Learning through interaction can occur without explicit classroom teaching."
+        },
+        {
+          "id": "B",
+          "text": "Grammar can be acquired only by consciously memorizing rules."
+        },
+        {
+          "id": "C",
+          "text": "Input means only a written grammar textbook."
+        },
+        {
+          "id": "D",
+          "text": "Any conversation automatically counts as a formal lesson."
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L05-Q042",
+      "lecture_id": "LING-L05",
+      "topic_id": "ug_acquisition",
+      "source_slides": [
+        8,
+        9
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "How should the slide’s claim that children everywhere follow exactly the same acquisition stages be qualified?",
+      "explanation": "An introductory generalization should not become a rigid timetable. Development can show recurring tendencies without being identical in every child or language.",
+      "example": "Children may begin using a particular grammatical construction at different times.",
+      "reference_ids": [
+        "lecture_05"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Any difference proves that the child cannot learn language."
+        },
+        {
+          "id": "B",
+          "text": "No comparison across acquisition pathways can ever be informative."
+        },
+        {
+          "id": "C",
+          "text": "There can be broad commonalities alongside variation across individuals, languages, and environments."
+        },
+        {
+          "id": "D",
+          "text": "All children must acquire every form at the same age."
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L05-Q043",
+      "lecture_id": "LING-L05",
+      "topic_id": "ug_acquisition",
+      "source_slides": [
+        8,
+        9
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "What logical form does the slide’s statement “If children are born with UG...” have?",
+      "explanation": "The statement considers an explanation under an assumption. Its wording should not be transformed into a claim that the assumption has been proven merely by stating it.",
+      "example": "A theory can predict a pattern that researchers then compare with evidence.",
+      "reference_ids": [
+        "lecture_05",
+        "ug_theory"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "A definition of corpus sampling"
+        },
+        {
+          "id": "B",
+          "text": "Direct proof that children know every vocabulary item at birth"
+        },
+        {
+          "id": "C",
+          "text": "A prescription for formal written English"
+        },
+        {
+          "id": "D",
+          "text": "A conditional explanation within a proposed account"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L05-Q044",
+      "lecture_id": "LING-L05",
+      "topic_id": "ug_acquisition",
+      "source_slides": [
+        8,
+        9
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Why is the language faculty not best understood as the name of one simple, directly identified brain box?",
+      "explanation": "The lecture uses a conceptual model of language knowledge. A diagram or label alone does not establish an anatomical map or settle how language is implemented in the brain.",
+      "example": "Researchers need separate neural evidence to investigate brain mechanisms supporting language.",
+      "reference_ids": [
+        "lecture_05",
+        "ug_theory"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The label means the printed list of language rules in a textbook."
+        },
+        {
+          "id": "B",
+          "text": "It is a theoretical construct concerning language capacity, not a precise anatomical location supplied by the slides."
+        },
+        {
+          "id": "C",
+          "text": "Every mental ability must occupy a single isolated spot."
+        },
+        {
+          "id": "D",
+          "text": "It is another name for the tongue and lips alone."
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L05-Q045",
+      "lecture_id": "LING-L05",
+      "topic_id": "levels",
+      "source_slides": [
+        11,
+        12
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "Which level examines physical articulation and sound properties?",
+      "explanation": "Phonetics concerns speech production and physical or perceptual sound properties. It differs from analysing word formation, sentence structure, or contextual intention.",
+      "example": "Observing lip closure during a consonant is a phonetic investigation.",
+      "reference_ids": [
+        "lecture_05"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Phonetics"
+        },
+        {
+          "id": "B",
+          "text": "Syntax"
+        },
+        {
+          "id": "C",
+          "text": "Pragmatics"
+        },
+        {
+          "id": "D",
+          "text": "Morphology"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L05-Q046",
+      "lecture_id": "LING-L05",
+      "topic_id": "levels",
+      "source_slides": [
+        11,
+        12
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "Which level examines a language’s sound patterns?",
+      "explanation": "Phonology investigates how sounds are organized within a linguistic system. The lecture distinguishes this from the physical examination of speech.",
+      "example": "A researcher may ask which sound sequences are permitted in a language.",
+      "reference_ids": [
+        "lecture_05"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Semantics"
+        },
+        {
+          "id": "B",
+          "text": "Pragmatics"
+        },
+        {
+          "id": "C",
+          "text": "Phonology"
+        },
+        {
+          "id": "D",
+          "text": "Lexicon"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L05-Q047",
+      "lecture_id": "LING-L05",
+      "topic_id": "levels",
+      "source_slides": [
+        11,
+        12
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A researcher measures the duration of a vowel in a recording. Which level is most directly involved?",
+      "explanation": "Duration is a physical property of the signal. The measurement alone does not establish the sound’s linguistic role.",
+      "example": "Two recordings can differ in vowel length while representing the same word.",
+      "reference_ids": [
+        "lecture_05"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Phonetics"
+        },
+        {
+          "id": "B",
+          "text": "Semantics"
+        },
+        {
+          "id": "C",
+          "text": "Lexicon"
+        },
+        {
+          "id": "D",
+          "text": "Syntax"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L05-Q048",
+      "lecture_id": "LING-L05",
+      "topic_id": "levels",
+      "source_slides": [
+        11,
+        12
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A researcher asks whether two sounds contrast to distinguish words in a language. Which level is most directly involved?",
+      "explanation": "The question concerns the sound system’s functional categories rather than a measurement of one token alone.",
+      "example": "English kid and kit illustrate a contrast in their final sounds.",
+      "reference_ids": [
+        "lecture_05"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Phonology"
+        },
+        {
+          "id": "B",
+          "text": "Lexicology"
+        },
+        {
+          "id": "C",
+          "text": "Discourse pragmatics"
+        },
+        {
+          "id": "D",
+          "text": "Sentence syntax"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L05-Q049",
+      "lecture_id": "LING-L05",
+      "topic_id": "levels",
+      "source_slides": [
+        11,
+        12
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "Which level examines how stems and endings combine into words?",
+      "explanation": "Morphology studies word structure. Its units contribute lexical meaning or grammatical information within a word.",
+      "example": "Books can be analysed as book plus plural -s.",
+      "reference_ids": [
+        "lecture_05"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Pragmatics"
+        },
+        {
+          "id": "B",
+          "text": "Morphology"
+        },
+        {
+          "id": "C",
+          "text": "Phonetics"
+        },
+        {
+          "id": "D",
+          "text": "Historical linguistics"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L05-Q050",
+      "lecture_id": "LING-L05",
+      "topic_id": "levels",
+      "source_slides": [
+        11,
+        12
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A student analyses “unhelpful” into un-, help, and -ful. Which level is the focus?",
+      "explanation": "The analysis concerns meaningful parts of one word. It does not primarily investigate how separate words form a sentence.",
+      "example": "Careless can be analysed through the base care and suffix -less.",
+      "reference_ids": [
+        "lecture_05"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Syntax"
+        },
+        {
+          "id": "B",
+          "text": "Pragmatics"
+        },
+        {
+          "id": "C",
+          "text": "Morphology"
+        },
+        {
+          "id": "D",
+          "text": "Phonology"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L05-Q051",
+      "lecture_id": "LING-L05",
+      "topic_id": "levels",
+      "source_slides": [
+        11,
+        12
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "understand",
+      "question": "What does lexicon identify in the levels-of-analysis table?",
+      "explanation": "The lexicon concerns words and associated lexical information. The table separates this focus from word-building processes and larger syntactic structures.",
+      "example": "A language’s inventory of words is part of its lexicon.",
+      "reference_ids": [
+        "lecture_05"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The rules for arranging clauses alone"
+        },
+        {
+          "id": "B",
+          "text": "The vocabulary of a language"
+        },
+        {
+          "id": "C",
+          "text": "The social purpose of a particular request"
+        },
+        {
+          "id": "D",
+          "text": "The physical sound signal"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L05-Q052",
+      "lecture_id": "LING-L05",
+      "topic_id": "levels",
+      "source_slides": [
+        11,
+        12
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "analyze",
+      "question": "Which contrast best distinguishes lexicon from morphology in the table?",
+      "explanation": "The two are connected because vocabulary can include complex words, but they name different primary concerns.",
+      "example": "Knowing a word differs from explaining the parts used to form it.",
+      "reference_ids": [
+        "lecture_05"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Lexicon concerns clause order; morphology concerns speaker intention."
+        },
+        {
+          "id": "B",
+          "text": "Lexicon concerns vocabulary; morphology concerns internal word formation."
+        },
+        {
+          "id": "C",
+          "text": "Lexicon concerns sound waves; morphology concerns social identity."
+        },
+        {
+          "id": "D",
+          "text": "The labels are interchangeable whenever a word is written."
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L05-Q053",
+      "lecture_id": "LING-L05",
+      "topic_id": "levels",
+      "source_slides": [
+        11,
+        12
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "Which level studies how words combine into sentence structures?",
+      "explanation": "Syntax investigates structural combinations and grammatical relationships. Meaning and context may matter to a broader account, but they are not identical to structure.",
+      "example": "The arrangement of words in an English question is a syntactic issue.",
+      "reference_ids": [
+        "lecture_05"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Phonetics"
+        },
+        {
+          "id": "B",
+          "text": "Semantics"
+        },
+        {
+          "id": "C",
+          "text": "Syntax"
+        },
+        {
+          "id": "D",
+          "text": "Lexicon"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L05-Q054",
+      "lecture_id": "LING-L05",
+      "topic_id": "levels",
+      "source_slides": [
+        11,
+        12
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A researcher compares “She has arrived” with “Has she arrived?” to examine the position of has. Which level is foregrounded?",
+      "explanation": "The comparison focuses on the structural placement of a grammatical element. It is not primarily a question about the sound’s duration or a word’s dictionary meaning.",
+      "example": "Changing statement order into question order is a syntactic topic.",
+      "reference_ids": [
+        "lecture_05"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Lexicology"
+        },
+        {
+          "id": "B",
+          "text": "Acoustic phonetics"
+        },
+        {
+          "id": "C",
+          "text": "Syntax"
+        },
+        {
+          "id": "D",
+          "text": "Semantics"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L05-Q055",
+      "lecture_id": "LING-L05",
+      "topic_id": "levels",
+      "source_slides": [
+        11,
+        12
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "Which level is explicitly associated with meaning in the table?",
+      "explanation": "Semantics investigates linguistic meaning, including words and sentences. A lexical resource may record meanings, but semantics is the level named for meaning in this mapping.",
+      "example": "Comparing the meanings of large and big is a semantic task.",
+      "reference_ids": [
+        "lecture_05"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Phonetics"
+        },
+        {
+          "id": "B",
+          "text": "Semantics"
+        },
+        {
+          "id": "C",
+          "text": "Morphology"
+        },
+        {
+          "id": "D",
+          "text": "Lexicon"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L05-Q056",
+      "lecture_id": "LING-L05",
+      "topic_id": "levels",
+      "source_slides": [
+        11,
+        12
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A student investigates how “The door is open” differs in meaning from “The door is closed.” Which level is most directly involved?",
+      "explanation": "The sentences describe different states of affairs. Their similar structures do not make their meanings identical.",
+      "example": "The lamp is on and the lamp is off provide another meaning contrast.",
+      "reference_ids": [
+        "lecture_05"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Articulatory phonetics"
+        },
+        {
+          "id": "B",
+          "text": "Semantics"
+        },
+        {
+          "id": "C",
+          "text": "Dialectology"
+        },
+        {
+          "id": "D",
+          "text": "Morphology"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L05-Q057",
+      "lecture_id": "LING-L05",
+      "topic_id": "levels",
+      "source_slides": [
+        11,
+        12
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "Which level is linked to language use in context and discourse?",
+      "explanation": "Pragmatics examines utterances in their communicative circumstances. Interpretation can depend on participants, shared knowledge, and purposes.",
+      "example": "A statement about a cold room can be used as an indirect request to close a window.",
+      "reference_ids": [
+        "lecture_05"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Lexicon"
+        },
+        {
+          "id": "B",
+          "text": "Pragmatics"
+        },
+        {
+          "id": "C",
+          "text": "Articulatory phonetics"
+        },
+        {
+          "id": "D",
+          "text": "Morphology"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L05-Q058",
+      "lecture_id": "LING-L05",
+      "topic_id": "levels",
+      "source_slides": [
+        11,
+        12
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "Beside an open window, a speaker says “It is cold here” to ask someone to close it. Which level explains the intended request most directly?",
+      "explanation": "The request is inferred from the utterance in context rather than expressed as a direct command. This makes the intended use a pragmatic concern.",
+      "example": "There is no room here can indirectly ask someone to move a bag.",
+      "reference_ids": [
+        "lecture_05"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Phonetic duration"
+        },
+        {
+          "id": "B",
+          "text": "Morphology"
+        },
+        {
+          "id": "C",
+          "text": "Pragmatics"
+        },
+        {
+          "id": "D",
+          "text": "Lexical inventory"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L05-Q059",
+      "lecture_id": "LING-L05",
+      "topic_id": "levels",
+      "source_slides": [
+        11,
+        12
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Why does the slide’s table contain six rows even though phonetics and phonology are separately defined afterward?",
+      "explanation": "A table’s grouping is an organizational choice. Separate fields can be combined in a broad row without becoming identical.",
+      "example": "A sound-level heading can contain both physical sound analysis and sound-system analysis.",
+      "reference_ids": [
+        "lecture_05"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Phonology is not a linguistic field because it shares a row."
+        },
+        {
+          "id": "B",
+          "text": "The table proves that only six distinctions can ever be made in linguistics."
+        },
+        {
+          "id": "C",
+          "text": "Phonetics becomes syntax when it is listed beside phonology."
+        },
+        {
+          "id": "D",
+          "text": "The table groups both sound-related fields in one row."
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L05-Q060",
+      "lecture_id": "LING-L05",
+      "topic_id": "levels",
+      "source_slides": [
+        11,
+        12
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "apply",
+      "question": "A project analyses a plural suffix, the word order of a sentence, and the speaker’s implied request. Which mapping is correct?",
+      "explanation": "The three questions concern internal word structure, sentence organization, and contextual use respectively. One utterance can be analysed at several levels.",
+      "example": "A word ending, its sentence position, and the purpose of the utterance are distinct concerns.",
+      "reference_ids": [
+        "lecture_05"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Phonetics, lexicon, and morphology"
+        },
+        {
+          "id": "B",
+          "text": "Morphology, syntax, and pragmatics"
+        },
+        {
+          "id": "C",
+          "text": "Semantics, phonetics, and lexicon"
+        },
+        {
+          "id": "D",
+          "text": "Syntax, morphology, and phonology"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L05-Q061",
+      "lecture_id": "LING-L05",
+      "topic_id": "subfields_13",
+      "source_slides": [
+        13
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "understand",
+      "question": "What is the focus of typology in the lecture?",
+      "explanation": "Typology compares properties of languages. It should not be confused with a ranking of social value or with a classification based solely on ancestry.",
+      "example": "Languages can be compared according to their usual ordering of subject, object, and verb.",
+      "reference_ids": [
+        "lecture_05"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Ranking languages by the social status of their speakers"
+        },
+        {
+          "id": "B",
+          "text": "Measuring only the physical loudness of speech"
+        },
+        {
+          "id": "C",
+          "text": "Grouping languages only by the size of their dictionaries"
+        },
+        {
+          "id": "D",
+          "text": "Classifying and comparing languages through structural and functional features"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L05-Q062",
+      "lecture_id": "LING-L05",
+      "topic_id": "subfields_13",
+      "source_slides": [
+        13
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A researcher relates language choices to social class, gender, or minority status. Which subfield is the closest match?",
+      "explanation": "The variables concern social life and its relationship with language. The task differs from measuring one sound or analysing isolated word order.",
+      "example": "A study may examine which languages different community groups use in public settings.",
+      "reference_ids": [
+        "lecture_05"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Lexicography"
+        },
+        {
+          "id": "B",
+          "text": "Sociolinguistics"
+        },
+        {
+          "id": "C",
+          "text": "Syntax"
+        },
+        {
+          "id": "D",
+          "text": "Acoustic phonetics"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L05-Q063",
+      "lecture_id": "LING-L05",
+      "topic_id": "subfields_13",
+      "source_slides": [
+        13
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A researcher maps geographical differences in pronunciation across districts. Which subfield named on slide 13 is most directly involved?",
+      "explanation": "Dialectology investigates linguistic variation with geographical distribution as a major focus. It can overlap with wider sociolinguistic research.",
+      "example": "A project can map alternative local word forms across regions.",
+      "reference_ids": [
+        "lecture_05"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Dialectology"
+        },
+        {
+          "id": "B",
+          "text": "Philosophy of language"
+        },
+        {
+          "id": "C",
+          "text": "Neurolinguistics"
+        },
+        {
+          "id": "D",
+          "text": "Lexicology"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L05-Q064",
+      "lecture_id": "LING-L05",
+      "topic_id": "subfields_13",
+      "source_slides": [
+        13
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A researcher studies how a community’s speaking practices express cultural identity. Which field is the closest match to the slide’s definition?",
+      "explanation": "The question connects language with cultural practices, context, and identity. These concerns match the lecture’s account of linguistic anthropology.",
+      "example": "A study may examine forms of address used in a community ceremony.",
+      "reference_ids": [
+        "lecture_05"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Formal sentence syntax"
+        },
+        {
+          "id": "B",
+          "text": "Acoustic phonetics"
+        },
+        {
+          "id": "C",
+          "text": "Linguistic anthropology"
+        },
+        {
+          "id": "D",
+          "text": "Dictionary compilation"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L05-Q065",
+      "lecture_id": "LING-L05",
+      "topic_id": "subfields_13",
+      "source_slides": [
+        13
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A researcher studies how learners acquire language and how processing difficulties affect understanding. Which subfield is most directly involved?",
+      "explanation": "Psycholinguistics concerns mental processes supporting language. Acquisition and disorders are examples in the slide, not its complete scope.",
+      "example": "A comprehension task can investigate how memory demands affect understanding.",
+      "reference_ids": [
+        "lecture_05"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Psycholinguistics"
+        },
+        {
+          "id": "B",
+          "text": "Lexicography"
+        },
+        {
+          "id": "C",
+          "text": "Dialectology"
+        },
+        {
+          "id": "D",
+          "text": "Historical linguistics"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L05-Q066",
+      "lecture_id": "LING-L05",
+      "topic_id": "subfields_13",
+      "source_slides": [
+        13
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A researcher connects a language-processing task with evidence about brain activity. Which subfield is most directly involved?",
+      "explanation": "The primary question concerns the neural basis of language processing. A neural study need not be an attempt to prove one particular genetic theory.",
+      "example": "Researchers can investigate brain evidence alongside performance on a language task.",
+      "reference_ids": [
+        "lecture_05"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Dialectology"
+        },
+        {
+          "id": "B",
+          "text": "Lexicology"
+        },
+        {
+          "id": "C",
+          "text": "Historical linguistics"
+        },
+        {
+          "id": "D",
+          "text": "Neurolinguistics"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L05-Q067",
+      "lecture_id": "LING-L05",
+      "topic_id": "subfields_14",
+      "source_slides": [
+        14
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A project investigates how language interacts with categorization and other cognitive functions. Which approach named in the lecture is the closest match?",
+      "explanation": "The project connects linguistic organization with cognition. This can overlap with meaning and processing research, but the stated focus is the language–cognition relationship.",
+      "example": "A researcher may ask how a category such as vehicle organizes descriptions of experience.",
+      "reference_ids": [
+        "lecture_05"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Cognitive linguistics"
+        },
+        {
+          "id": "B",
+          "text": "Forensic linguistics"
+        },
+        {
+          "id": "C",
+          "text": "Dialectology"
+        },
+        {
+          "id": "D",
+          "text": "Acoustic phonetics"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L05-Q068",
+      "lecture_id": "LING-L05",
+      "topic_id": "subfields_14",
+      "source_slides": [
+        14
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A researcher investigates changes across earlier and later language forms and relationships among language families. Which field is most directly involved?",
+      "explanation": "Historical linguistics examines language change and historical relationships. It differs from classifying present-day structures without a historical question.",
+      "example": "Earlier and later word forms can provide evidence about change.",
+      "reference_ids": [
+        "lecture_05"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Lexicography"
+        },
+        {
+          "id": "B",
+          "text": "Forensic linguistics"
+        },
+        {
+          "id": "C",
+          "text": "Historical linguistics"
+        },
+        {
+          "id": "D",
+          "text": "Pragmatics"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L05-Q069",
+      "lecture_id": "LING-L05",
+      "topic_id": "subfields_14",
+      "source_slides": [
+        14
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "understand",
+      "question": "Which question best fits the lecture’s introduction to philosophy of language?",
+      "explanation": "Philosophy of language asks conceptual questions about meaning, reference, and language’s relation to the world. It is not simply a different label for all structural analysis.",
+      "example": "A discussion can ask what it means for a word to refer to something.",
+      "reference_ids": [
+        "lecture_05"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Which region favors this local pronunciation?"
+        },
+        {
+          "id": "B",
+          "text": "How does linguistic meaning relate to reference and our understanding of the world?"
+        },
+        {
+          "id": "C",
+          "text": "Which tongue movement produces this consonant?"
+        },
+        {
+          "id": "D",
+          "text": "Which suffix marks this noun’s plural?"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L05-Q070",
+      "lecture_id": "LING-L05",
+      "topic_id": "subfields_14",
+      "source_slides": [
+        14
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A study tracks how Urdu-speaking adults learn English after already acquiring a first language. Which field is the closest match?",
+      "explanation": "Second language acquisition investigates learning an additional language. The label does not require that a person encounter the language as their only foreign language or learn it only in a classroom.",
+      "example": "A project can study changes in English question formation over a course.",
+      "reference_ids": [
+        "lecture_05"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Articulatory phonetics"
+        },
+        {
+          "id": "B",
+          "text": "Historical linguistics"
+        },
+        {
+          "id": "C",
+          "text": "Dialectology"
+        },
+        {
+          "id": "D",
+          "text": "Second language acquisition"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L05-Q071",
+      "lecture_id": "LING-L05",
+      "topic_id": "subfields_14",
+      "source_slides": [
+        14
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "understand",
+      "question": "What does lexicology examine in the lecture?",
+      "explanation": "Lexicology studies vocabulary and word-related organization. It differs from lexicography’s practical emphasis on compiling dictionaries, though the two can inform each other.",
+      "example": "A lexical study can investigate relationships among words in a particular vocabulary domain.",
+      "reference_ids": [
+        "lecture_05"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The lexicon or vocabulary of a language"
+        },
+        {
+          "id": "B",
+          "text": "The physical anatomy of the speech organs"
+        },
+        {
+          "id": "C",
+          "text": "The judicial procedures governing a trial"
+        },
+        {
+          "id": "D",
+          "text": "The timing of vocal-fold vibration alone"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L05-Q072",
+      "lecture_id": "LING-L05",
+      "topic_id": "subfields_14",
+      "source_slides": [
+        14
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A researcher systematically searches a large organized collection of real texts to compare a phrase across registers. Which approach is most directly involved?",
+      "explanation": "Corpus linguistics analyses language using structured collections of samples. Collection is part of the work, but systematic investigation of those data is central.",
+      "example": "A corpus search can compare a phrase’s frequency in conversation and academic writing.",
+      "reference_ids": [
+        "lecture_05",
+        "corpus_methods"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Articulatory phonetics"
+        },
+        {
+          "id": "B",
+          "text": "Corpus linguistics"
+        },
+        {
+          "id": "C",
+          "text": "Dialectology alone"
+        },
+        {
+          "id": "D",
+          "text": "Neurolinguistics"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L05-Q073",
+      "lecture_id": "LING-L05",
+      "topic_id": "subfields_14",
+      "source_slides": [
+        14
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A team designs a computational system to analyse written sentences or spoken requests. Which field is the closest match?",
+      "explanation": "The project uses computation to process natural language. Programming is a tool, while human-language processing is the research or practical target.",
+      "example": "A system can convert spoken input into a text representation for further analysis.",
+      "reference_ids": [
+        "lecture_05"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Historical linguistics"
+        },
+        {
+          "id": "B",
+          "text": "Literary stylistics alone"
+        },
+        {
+          "id": "C",
+          "text": "Dialectology"
+        },
+        {
+          "id": "D",
+          "text": "Computational linguistics"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L05-Q074",
+      "lecture_id": "LING-L05",
+      "topic_id": "subfields_14",
+      "source_slides": [
+        14
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A linguist examines language in a disputed confession or courtroom exchange. Which field is most directly involved?",
+      "explanation": "Forensic linguistics concerns language in legal and investigative settings. Analysing language evidence does not make the linguist the judge of the whole case.",
+      "example": "A researcher may examine ambiguity in the wording of a legal statement.",
+      "reference_ids": [
+        "lecture_05"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Dialectology"
+        },
+        {
+          "id": "B",
+          "text": "Forensic linguistics"
+        },
+        {
+          "id": "C",
+          "text": "Historical linguistics"
+        },
+        {
+          "id": "D",
+          "text": "Lexicology"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L05-Q075",
+      "lecture_id": "LING-L05",
+      "topic_id": "subfield_comparisons",
+      "source_slides": [
+        13,
+        14
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Which comparison best distinguishes typology from historical linguistics?",
+      "explanation": "The central questions differ even when the same languages are studied. Similar structure alone does not establish a shared historical origin.",
+      "example": "Two unrelated languages may share a word-order pattern relevant to typology.",
+      "reference_ids": [
+        "lecture_05"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Both fields classify languages solely by the same ancestry criterion."
+        },
+        {
+          "id": "B",
+          "text": "Typology compiles dictionaries; historical linguistics examines only speaker intention."
+        },
+        {
+          "id": "C",
+          "text": "Typology compares language properties; historical linguistics investigates change and historical relationships."
+        },
+        {
+          "id": "D",
+          "text": "Typology studies court evidence; historical linguistics measures vowel amplitude."
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L05-Q076",
+      "lecture_id": "LING-L05",
+      "topic_id": "subfield_comparisons",
+      "source_slides": [
+        13,
+        14
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Which distinction best separates lexicology from lexicography?",
+      "explanation": "Vocabulary research can inform dictionary making, but investigation of lexical organization and production of a dictionary are distinguishable goals.",
+      "example": "Research on a word’s uses can later inform the design of its dictionary entry.",
+      "reference_ids": [
+        "lecture_05"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Lexicology studies only clauses; lexicography studies only social groups."
+        },
+        {
+          "id": "B",
+          "text": "Lexicology investigates vocabulary; lexicography prepares dictionary resources."
+        },
+        {
+          "id": "C",
+          "text": "The labels refer to identical activities with no difference in purpose."
+        },
+        {
+          "id": "D",
+          "text": "Lexicology measures sound waves; lexicography studies brain injuries."
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L05-Q077",
+      "lecture_id": "LING-L05",
+      "topic_id": "subfield_comparisons",
+      "source_slides": [
+        13,
+        14
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "What is the best correction to defining corpus linguistics simply as collection of data?",
+      "explanation": "A corpus provides organized language evidence. Research requires a question and an appropriate analysis, with attention to what the sampled material can support.",
+      "example": "An analyst can search a corpus to compare a phrase across text types.",
+      "reference_ids": [
+        "lecture_05",
+        "corpus_methods"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "It includes systematic analysis of language samples in corpora, not collection alone."
+        },
+        {
+          "id": "B",
+          "text": "Corpus research excludes questions about patterns of usage."
+        },
+        {
+          "id": "C",
+          "text": "Any list of unrelated numbers automatically constitutes linguistic corpus research."
+        },
+        {
+          "id": "D",
+          "text": "Collecting one person’s age is sufficient for every corpus analysis."
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L05-Q078",
+      "lecture_id": "LING-L05",
+      "topic_id": "subfield_comparisons",
+      "source_slides": [
+        13,
+        14
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Why is the slide’s description of psycholinguistics as mostly acquisition and disorders incomplete?",
+      "explanation": "Acquisition and disorders are important examples, but they do not exhaust the field. A definition should preserve the wider concern with language in the mind.",
+      "example": "An experiment on word retrieval can be psycholinguistic without studying a disorder.",
+      "reference_ids": [
+        "lecture_05"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Mental processing concerns vocabulary but cannot concern sentences."
+        },
+        {
+          "id": "B",
+          "text": "Only medical diagnosis belongs to psycholinguistics."
+        },
+        {
+          "id": "C",
+          "text": "Psycholinguistics excludes every question about language learning."
+        },
+        {
+          "id": "D",
+          "text": "The field also investigates production, perception, and comprehension processes."
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L05-Q079",
+      "lecture_id": "LING-L05",
+      "topic_id": "subfield_comparisons",
+      "source_slides": [
+        13,
+        14
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Why should neurolinguistics not be defined as the task of proving a genetic basis for language?",
+      "explanation": "The slide mentions one explanatory interest, not the field’s entire definition. Neural evidence and genetic claims should not be treated as interchangeable.",
+      "example": "A study of brain responses during comprehension need not test a genetic hypothesis.",
+      "reference_ids": [
+        "lecture_05"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The language faculty diagram already proves all neural and genetic claims."
+        },
+        {
+          "id": "B",
+          "text": "Its wider goal is investigating the brain basis of language, and genetic explanations need their own evidence."
+        },
+        {
+          "id": "C",
+          "text": "Every brain measurement directly identifies a language-specific gene."
+        },
+        {
+          "id": "D",
+          "text": "Neurolinguistics never studies language processing."
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L05-Q080",
+      "lecture_id": "LING-L05",
+      "topic_id": "subfield_comparisons",
+      "source_slides": [
+        13,
+        14
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "The slide distinguishes sociolinguistics from sociology of language. Which interpretation is most careful?",
+      "explanation": "A common distinction foregrounds linguistic patterns in sociolinguistics and social organization in sociology of language. It is an emphasis rather than a universally rigid division.",
+      "example": "A study of multilingual community life can connect language-use patterns with questions about social organization.",
+      "reference_ids": [
+        "lecture_05",
+        "language_society"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Sociolinguistics studies only spoken language, while sociology of language studies only writing."
+        },
+        {
+          "id": "B",
+          "text": "The two labels imply that language and society have no relationship."
+        },
+        {
+          "id": "C",
+          "text": "The labels can signal different emphases on language and society, but their research interests overlap."
+        },
+        {
+          "id": "D",
+          "text": "Sociolinguistics considers social effects on language, while sociology of language must exclude all such effects."
+        }
+      ],
+      "answer_id": "C"
+    }
+  ]
+}

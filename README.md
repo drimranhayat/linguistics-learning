@@ -1,10 +1,13 @@
 # Linguistics Lab
 
-A responsive, dependency-free learning website using all 270 supplied MCQs:
+A responsive, dependency-free learning website using all 610 supplied MCQs:
 
 - Lecture 1: Language and Linguistics — 80 questions
 - Lecture 2: Branches of Linguistics — 90 questions
 - Lecture 3: Phonetics and Phonology — 100 questions
+- Lecture 4: Morphology and Grammatical Units — 140 questions
+- Lecture 5: Grammar and Linguistic Analysis — 80 questions
+- Lecture 6: Introduction to Syntax — 120 questions
 
 ## Features
 
@@ -26,7 +29,7 @@ Alternative: choose **Deploy from a branch**, `main`, `/ (root)` in Pages settin
 
 ## Content maintenance
 
-The three original JSON files are preserved in `data/`. `data.js` is a generated browser bundle. After modifying a JSON file, run `python scripts/bundle.py` and commit the JSON and bundle together. Run `python scripts/validate.py` to validate the bank and bundle. `node --check app.js` checks JavaScript syntax.
+The six original JSON files are preserved in `data/`. `data.js` is a generated browser bundle. After modifying a JSON file, run `python scripts/bundle.py` and commit the JSON and bundle together. Run `python scripts/validate.py` to validate the bank and bundle. `node --check app.js` checks JavaScript syntax.
 
 The content follows the uploaded question banks, including their source references and lecture-specific clarifications. It has not been independently revalidated against the original slides or external references. Practice is concept-based; no official exam blueprint is claimed. Original slide decks are not included. The question bank contains answer keys and is intended for self-study, not secure examination delivery.
 
@@ -37,3 +40,9 @@ Progress, latest correctness per question, bookmarks, and theme stay in browser 
 ## Responsive design and verification
 
 Fluid sizing and dedicated breakpoints cover compact phones (including 320px), larger phones, tablets, iPad portrait/landscape, desktops and wide screens. Touch controls target at least 44px, form text stays at 16px, long answers wrap, and lecture cards stack on narrow screens. Reduced-motion preferences and print styles are supported. Data validation and JavaScript syntax checks passed. A desktop browser smoke test verified setup, question loading, shuffled-option grading, and explanation display. Physical iPad/iPhone/Android hardware and all browser combinations have not been tested; inspect those before a large public rollout.
+
+## Updated study experience
+
+Six distinct lecture palettes, a purple/teal/amber homepage, clear green and rose answer states, and coordinated dark-mode colors. Quick 10 opens mixed learning practice, Review mistakes revisits the latest incorrect answers, and Challenge 20 starts a mixed exam. Learning sessions show live correct and attempted counts. Existing bookmark and practice-progress storage keys are preserved.
+
+Update verification: All six source JSON files match the supplied uploads byte-for-byte. The 610-question bundle passes schema, count, unique-ID, option-key, topic, reference, and bundle-parity checks. Updated JavaScript passes syntax validation. Browser preview verification of this revision was unavailable in this session.

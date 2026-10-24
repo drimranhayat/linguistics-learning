@@ -1,0 +1,5783 @@
+{
+  "schema_version": "1.0.0",
+  "lecture": {
+    "id": "LING-L04",
+    "number": 4,
+    "title": "Morphology and Grammatical Units",
+    "language": "en",
+    "source_filename": "Lec 4-Morphology (2)(1).pptx",
+    "source_slide_count": 21,
+    "question_count": 140,
+    "scope": "Lecture 4, including its morpheme and phrase diagrams. Original examples unpack the taught concepts. Misleading segmentations and phrase examples are corrected rather than used as answer keys.",
+    "exam_alignment": "Concept-based practice. No past paper or official examination blueprint was supplied.",
+    "answer_model": "Single best answer. answer_id refers to an option id, not its displayed position. Preserve option ids when shuffling.",
+    "display_guidance": "In learning mode, display explanation followed by example after the learner answers. Source slides and clarification notes can appear in a reference panel. Use a Unicode-capable font.",
+    "terminology": "Traditional gerund, infinitive, and participle phrase labels follow the lecture where explicitly used. Structural phrase categories are distinguished from adjectival/adverbial functions. Verb group questions state the lecture’s narrower auxiliary-plus-main-verb convention."
+  },
+  "references": [
+    {
+      "id": "lecture_04",
+      "type": "user_supplied_slides",
+      "title": "Lecture 4: Grammatical Units and Scales of Language",
+      "filename": "Lec 4-Morphology (2)(1).pptx",
+      "library_file_id": "libfile_c8077907ccd08191b3ac6ba136b70b01"
+    },
+    {
+      "id": "allomorphy",
+      "type": "scholarly_clarification",
+      "title": "5.4 Allomorphy",
+      "publication": "Essentials of Linguistics, 2nd edition",
+      "url": "https://openlibrary-repo.ecampusontario.ca/jspui/bitstream/123456789/1489/3/Essentials-of-Linguistics-2nd-edition.pdf",
+      "supports": "Alternative forms can express one morpheme; the English plural examples clarify the slide’s singular/plural lists."
+    },
+    {
+      "id": "derivation",
+      "type": "scholarly_clarification",
+      "title": "5.6 Derivational morphology",
+      "publication": "Essentials of Linguistics, 2nd edition",
+      "url": "https://ecampusontario.pressbooks.pub/essentialsoflinguistics2/chapter/5-5-derivational-morphology/",
+      "supports": "Derivation can preserve category, as in unhappy and redo; category change is not obligatory."
+    },
+    {
+      "id": "internal_change",
+      "type": "scholarly_clarification",
+      "title": "5.3 Morphology beyond affixes",
+      "publication": "Essentials of Linguistics, 2nd edition",
+      "url": "https://ecampusontario.pressbooks.pub/essentialsoflinguistics2/chapter/5-4-morphology-beyond-affixes/",
+      "supports": "Internal morphological alternation is not the same process as inserting an infix."
+    },
+    {
+      "id": "phrase_heads",
+      "type": "authoritative_clarification",
+      "organization": "Cambridge University Press & Assessment",
+      "title": "Heads",
+      "publication": "English Grammar Today",
+      "url": "https://dictionary.cambridge.org/grammar/british-grammar/heads",
+      "supports": "Phrase categories follow heads; a descriptive function does not alone determine structural phrase class."
+    },
+    {
+      "id": "finite_nonfinite",
+      "type": "authoritative_clarification",
+      "organization": "Cambridge University Press & Assessment",
+      "title": "Clauses: finite and non-finite",
+      "publication": "English Grammar Today",
+      "url": "https://dictionary.cambridge.org/grammar/british-grammar/clauses-finite-and-non-finite",
+      "supports": "Non-finite clauses exist; a definition restricted to overt subject plus finite verb is not universal."
+    },
+    {
+      "id": "purdue_participles",
+      "type": "authoritative_clarification",
+      "organization": "Purdue University Online Writing Lab",
+      "title": "Participles",
+      "url": "https://owl.purdue.edu/owl/general_writing/mechanics/gerunds_participles_and_infinitives/participles.html",
+      "supports": "Participial-modifier punctuation depends on position and essential versus supplementary status."
+    },
+    {
+      "id": "purdue_appositives",
+      "type": "authoritative_clarification",
+      "organization": "Purdue University Online Writing Lab",
+      "title": "Appositives",
+      "url": "https://owl.purdue.edu/owl/general_writing/grammar/appositives.html",
+      "supports": "An appositive identifies or explains a neighboring noun expression; this label appears without explanation in slide 19."
+    }
+  ],
+  "clarifications": [
+    {
+      "id": "CL01",
+      "source_slides": [
+        3,
+        4
+      ],
+      "question_ids": [
+        "LING-L04-Q003",
+        "LING-L04-Q004"
+      ],
+      "note": "The slide 4 SmartArt repeats the rank labels from slide 3. Syntax is a field, not a grammatical rank parallel to clause and phrase. Sentence is used in the corrected introductory rank list."
+    },
+    {
+      "id": "CL02",
+      "source_slides": [
+        6,
+        9,
+        10
+      ],
+      "question_ids": [
+        "LING-L04-Q022",
+        "LING-L04-Q023",
+        "LING-L04-Q024",
+        "LING-L04-Q025",
+        "LING-L04-Q046",
+        "LING-L04-Q056"
+      ],
+      "note": "Underlying meaningful units are distinguished from surface letter fragments. Undesirability is counted only under an explicitly supplied transparent analysis; abi is not taught as an independent morpheme. Duster and quickly are not treated as single morphemes."
+    },
+    {
+      "id": "CL03",
+      "source_slides": [
+        7,
+        8
+      ],
+      "question_ids": [
+        "LING-L04-Q027",
+        "LING-L04-Q028",
+        "LING-L04-Q029",
+        "LING-L04-Q030",
+        "LING-L04-Q031",
+        "LING-L04-Q032",
+        "LING-L04-Q033",
+        "LING-L04-Q034",
+        "LING-L04-Q035",
+        "LING-L04-Q036"
+      ],
+      "note": "Morph and allomorph are not a binary division of morphemes. Plural endings are compared by realization and shared function, not by treating whole singular/plural words as suffixes.",
+      "reference_ids": [
+        "allomorphy"
+      ]
+    },
+    {
+      "id": "CL04",
+      "source_slides": [
+        11,
+        12,
+        14
+      ],
+      "question_ids": [
+        "LING-L04-Q042",
+        "LING-L04-Q048",
+        "LING-L04-Q063",
+        "LING-L04-Q064",
+        "LING-L04-Q065",
+        "LING-L04-Q073",
+        "LING-L04-Q075"
+      ],
+      "note": "Derivation need not change word class. Inflection contributes grammatical meaning. Diagram examples such as replay are whole complex words, not single bound morphemes. Re-cover meaning cover again is distinguished from opaque uses of recover.",
+      "reference_ids": [
+        "derivation"
+      ]
+    },
+    {
+      "id": "CL05",
+      "source_slides": [
+        13,
+        14
+      ],
+      "question_ids": [
+        "LING-L04-Q083",
+        "LING-L04-Q084",
+        "LING-L04-Q087",
+        "LING-L04-Q088"
+      ],
+      "note": "Men/women illustrate internal vowel change, not clear infix insertion. Passersby does not establish a simple root-internal infix. Hypothetical insertion data are explicitly identified rather than attributed to an actual language.",
+      "reference_ids": [
+        "internal_change"
+      ]
+    },
+    {
+      "id": "CL06",
+      "source_slides": [
+        15,
+        16,
+        19
+      ],
+      "question_ids": [
+        "LING-L04-Q089",
+        "LING-L04-Q090",
+        "LING-L04-Q096",
+        "LING-L04-Q097",
+        "LING-L04-Q098",
+        "LING-L04-Q101",
+        "LING-L04-Q102",
+        "LING-L04-Q108",
+        "LING-L04-Q110",
+        "LING-L04-Q134"
+      ],
+      "note": "Phrases may be single-word units. Structural category is kept separate from function: a PP can function adjectivally or adverbially, and nice blue shirt is noun-headed.",
+      "reference_ids": [
+        "phrase_heads"
+      ]
+    },
+    {
+      "id": "CL07",
+      "source_slides": [
+        17,
+        20
+      ],
+      "question_ids": [
+        "LING-L04-Q111",
+        "LING-L04-Q113",
+        "LING-L04-Q118",
+        "LING-L04-Q121",
+        "LING-L04-Q122",
+        "LING-L04-Q139"
+      ],
+      "note": "Traditional verbal-phrase labels are stated explicitly. They do not deny modern non-finite-clause analyses. The finite auxiliary is distinguished from a participial main verb, and prepositional to is distinguished from infinitival to.",
+      "reference_ids": [
+        "finite_nonfinite"
+      ]
+    },
+    {
+      "id": "CL08",
+      "source_slides": [
+        18
+      ],
+      "question_ids": [
+        "LING-L04-Q125",
+        "LING-L04-Q126",
+        "LING-L04-Q127",
+        "LING-L04-Q128",
+        "LING-L04-Q129",
+        "LING-L04-Q130"
+      ],
+      "note": "Participial modifiers do not invariably take commas. The finite his shirt was dirty is not an absolute construction; the corrected verbless form is his shirt dirty. Absolutes may be non-finite or verbless.",
+      "reference_ids": [
+        "purdue_participles"
+      ]
+    },
+    {
+      "id": "CL09",
+      "source_slides": [
+        19
+      ],
+      "question_ids": [
+        "LING-L04-Q131",
+        "LING-L04-Q132",
+        "LING-L04-Q133",
+        "LING-L04-Q134"
+      ],
+      "note": "The diagram’s appositive label receives a short referenced definition. Its Infinite Phrase wording is interpreted as infinitive phrase, not as an infinitely long construction.",
+      "reference_ids": [
+        "purdue_appositives"
+      ]
+    },
+    {
+      "id": "CL10",
+      "source_slides": [
+        20
+      ],
+      "question_ids": [
+        "LING-L04-Q135",
+        "LING-L04-Q136",
+        "LING-L04-Q137",
+        "LING-L04-Q138",
+        "LING-L04-Q139",
+        "LING-L04-Q140"
+      ],
+      "note": "Independent and dependent finite examples are tested with context. Dependent clauses are meaningful; their inability to stand alone in the given construction does not mean absence of propositional content."
+    }
+  ],
+  "coverage": [
+    {
+      "topic_id": "units",
+      "focus": "Grammar, grammatical ranks, and levels of analysis",
+      "source_slides": [
+        2,
+        3,
+        4
+      ],
+      "question_ids": [
+        "LING-L04-Q001",
+        "LING-L04-Q002",
+        "LING-L04-Q003",
+        "LING-L04-Q004",
+        "LING-L04-Q005",
+        "LING-L04-Q006",
+        "LING-L04-Q007",
+        "LING-L04-Q008",
+        "LING-L04-Q009",
+        "LING-L04-Q010"
+      ]
+    },
+    {
+      "topic_id": "morphemes",
+      "focus": "Morpheme criteria, segmentation, and counting",
+      "source_slides": [
+        5,
+        6,
+        9
+      ],
+      "question_ids": [
+        "LING-L04-Q011",
+        "LING-L04-Q012",
+        "LING-L04-Q013",
+        "LING-L04-Q014",
+        "LING-L04-Q015",
+        "LING-L04-Q016",
+        "LING-L04-Q017",
+        "LING-L04-Q018",
+        "LING-L04-Q019",
+        "LING-L04-Q020",
+        "LING-L04-Q021",
+        "LING-L04-Q022",
+        "LING-L04-Q023",
+        "LING-L04-Q024",
+        "LING-L04-Q025",
+        "LING-L04-Q026"
+      ]
+    },
+    {
+      "topic_id": "morph_allomorph",
+      "focus": "Morphs, allomorphs, and variant realizations",
+      "source_slides": [
+        7,
+        8
+      ],
+      "question_ids": [
+        "LING-L04-Q027",
+        "LING-L04-Q028",
+        "LING-L04-Q029",
+        "LING-L04-Q030",
+        "LING-L04-Q031",
+        "LING-L04-Q032",
+        "LING-L04-Q033",
+        "LING-L04-Q034",
+        "LING-L04-Q035",
+        "LING-L04-Q036"
+      ]
+    },
+    {
+      "topic_id": "free_bound",
+      "focus": "Free and bound morphemes",
+      "source_slides": [
+        8,
+        9,
+        11,
+        14
+      ],
+      "question_ids": [
+        "LING-L04-Q037",
+        "LING-L04-Q038",
+        "LING-L04-Q039",
+        "LING-L04-Q040",
+        "LING-L04-Q041",
+        "LING-L04-Q042",
+        "LING-L04-Q043",
+        "LING-L04-Q044",
+        "LING-L04-Q045",
+        "LING-L04-Q046",
+        "LING-L04-Q047",
+        "LING-L04-Q048"
+      ]
+    },
+    {
+      "topic_id": "lexical_functional",
+      "focus": "Lexical and functional morphemes",
+      "source_slides": [
+        9,
+        10
+      ],
+      "question_ids": [
+        "LING-L04-Q049",
+        "LING-L04-Q050",
+        "LING-L04-Q051",
+        "LING-L04-Q052",
+        "LING-L04-Q053",
+        "LING-L04-Q054",
+        "LING-L04-Q055",
+        "LING-L04-Q056",
+        "LING-L04-Q057",
+        "LING-L04-Q058"
+      ]
+    },
+    {
+      "topic_id": "derivation_inflection",
+      "focus": "Derivation, inflection, and contextual analysis",
+      "source_slides": [
+        11,
+        12,
+        14
+      ],
+      "question_ids": [
+        "LING-L04-Q059",
+        "LING-L04-Q060",
+        "LING-L04-Q061",
+        "LING-L04-Q062",
+        "LING-L04-Q063",
+        "LING-L04-Q064",
+        "LING-L04-Q065",
+        "LING-L04-Q066",
+        "LING-L04-Q067",
+        "LING-L04-Q068",
+        "LING-L04-Q069",
+        "LING-L04-Q070",
+        "LING-L04-Q071",
+        "LING-L04-Q072",
+        "LING-L04-Q073",
+        "LING-L04-Q074",
+        "LING-L04-Q075",
+        "LING-L04-Q076"
+      ]
+    },
+    {
+      "topic_id": "affixes",
+      "focus": "Prefixes, suffixes, infixes, and corrected examples",
+      "source_slides": [
+        12,
+        13,
+        14
+      ],
+      "question_ids": [
+        "LING-L04-Q077",
+        "LING-L04-Q078",
+        "LING-L04-Q079",
+        "LING-L04-Q080",
+        "LING-L04-Q081",
+        "LING-L04-Q082",
+        "LING-L04-Q083",
+        "LING-L04-Q084",
+        "LING-L04-Q085",
+        "LING-L04-Q086",
+        "LING-L04-Q087",
+        "LING-L04-Q088"
+      ]
+    },
+    {
+      "topic_id": "phrase_noun",
+      "focus": "Phrases, heads, and noun-phrase functions",
+      "source_slides": [
+        15,
+        19
+      ],
+      "question_ids": [
+        "LING-L04-Q089",
+        "LING-L04-Q090",
+        "LING-L04-Q091",
+        "LING-L04-Q092",
+        "LING-L04-Q093",
+        "LING-L04-Q094",
+        "LING-L04-Q095",
+        "LING-L04-Q096",
+        "LING-L04-Q097",
+        "LING-L04-Q098"
+      ]
+    },
+    {
+      "topic_id": "pp_adj_adv",
+      "focus": "Prepositional, adjective, and adverb phrases: form and function",
+      "source_slides": [
+        16,
+        19
+      ],
+      "question_ids": [
+        "LING-L04-Q099",
+        "LING-L04-Q100",
+        "LING-L04-Q101",
+        "LING-L04-Q102",
+        "LING-L04-Q103",
+        "LING-L04-Q104",
+        "LING-L04-Q105",
+        "LING-L04-Q106",
+        "LING-L04-Q107",
+        "LING-L04-Q108",
+        "LING-L04-Q109",
+        "LING-L04-Q110"
+      ]
+    },
+    {
+      "topic_id": "verb_infinitive_gerund",
+      "focus": "Verb groups, infinitives, and gerunds",
+      "source_slides": [
+        17,
+        19
+      ],
+      "question_ids": [
+        "LING-L04-Q111",
+        "LING-L04-Q112",
+        "LING-L04-Q113",
+        "LING-L04-Q114",
+        "LING-L04-Q115",
+        "LING-L04-Q116",
+        "LING-L04-Q117",
+        "LING-L04-Q118",
+        "LING-L04-Q119",
+        "LING-L04-Q120",
+        "LING-L04-Q121",
+        "LING-L04-Q122"
+      ]
+    },
+    {
+      "topic_id": "participle_absolute",
+      "focus": "Participial and absolute constructions",
+      "source_slides": [
+        18
+      ],
+      "question_ids": [
+        "LING-L04-Q123",
+        "LING-L04-Q124",
+        "LING-L04-Q125",
+        "LING-L04-Q126",
+        "LING-L04-Q127",
+        "LING-L04-Q128",
+        "LING-L04-Q129",
+        "LING-L04-Q130"
+      ]
+    },
+    {
+      "topic_id": "appositive",
+      "focus": "Appositive phrases named in the diagram",
+      "source_slides": [
+        19
+      ],
+      "question_ids": [
+        "LING-L04-Q131",
+        "LING-L04-Q132",
+        "LING-L04-Q133",
+        "LING-L04-Q134"
+      ]
+    },
+    {
+      "topic_id": "clauses",
+      "focus": "Independent and dependent clauses; finite/non-finite qualification",
+      "source_slides": [
+        20
+      ],
+      "question_ids": [
+        "LING-L04-Q135",
+        "LING-L04-Q136",
+        "LING-L04-Q137",
+        "LING-L04-Q138",
+        "LING-L04-Q139",
+        "LING-L04-Q140"
+      ]
+    }
+  ],
+  "excluded_slides": [
+    {
+      "slide": 1,
+      "reason": "Title only."
+    },
+    {
+      "slide": 21,
+      "reason": "Closing thank-you slide."
+    }
+  ],
+  "topics": [
+    {
+      "id": "units",
+      "title": "Grammar, grammatical ranks, and levels of analysis",
+      "question_count": 10
+    },
+    {
+      "id": "morphemes",
+      "title": "Morpheme criteria, segmentation, and counting",
+      "question_count": 16
+    },
+    {
+      "id": "morph_allomorph",
+      "title": "Morphs, allomorphs, and variant realizations",
+      "question_count": 10
+    },
+    {
+      "id": "free_bound",
+      "title": "Free and bound morphemes",
+      "question_count": 12
+    },
+    {
+      "id": "lexical_functional",
+      "title": "Lexical and functional morphemes",
+      "question_count": 10
+    },
+    {
+      "id": "derivation_inflection",
+      "title": "Derivation, inflection, and contextual analysis",
+      "question_count": 18
+    },
+    {
+      "id": "affixes",
+      "title": "Prefixes, suffixes, infixes, and corrected examples",
+      "question_count": 12
+    },
+    {
+      "id": "phrase_noun",
+      "title": "Phrases, heads, and noun-phrase functions",
+      "question_count": 10
+    },
+    {
+      "id": "pp_adj_adv",
+      "title": "Prepositional, adjective, and adverb phrases: form and function",
+      "question_count": 12
+    },
+    {
+      "id": "verb_infinitive_gerund",
+      "title": "Verb groups, infinitives, and gerunds",
+      "question_count": 12
+    },
+    {
+      "id": "participle_absolute",
+      "title": "Participial and absolute constructions",
+      "question_count": 8
+    },
+    {
+      "id": "appositive",
+      "title": "Appositive phrases named in the diagram",
+      "question_count": 4
+    },
+    {
+      "id": "clauses",
+      "title": "Independent and dependent clauses; finite/non-finite qualification",
+      "question_count": 6
+    }
+  ],
+  "statistics": {
+    "difficulty": {
+      "easy": 35,
+      "medium": 77,
+      "hard": 28
+    },
+    "cognitive_level": {
+      "remember": 18,
+      "understand": 14,
+      "analyze": 44,
+      "apply": 64
+    },
+    "answer_distribution": {
+      "A": 35,
+      "B": 35,
+      "C": 35,
+      "D": 35
+    }
+  },
+  "questions": [
+    {
+      "id": "LING-L04-Q001",
+      "lecture_id": "LING-L04",
+      "topic_id": "units",
+      "source_slides": [
+        2,
+        3,
+        4
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "What does grammar primarily concern in the lecture?",
+      "explanation": "Grammar concerns patterns of linguistic organization. The term can also refer to the study of those patterns, rather than just a list of classroom corrections.",
+      "example": "Rules help explain both word formation and the arrangement of a clause.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only the alphabetical order of vocabulary"
+        },
+        {
+          "id": "B",
+          "text": "Structural rules governing how linguistic units are formed and combined"
+        },
+        {
+          "id": "C",
+          "text": "Only the physical loudness of speech"
+        },
+        {
+          "id": "D",
+          "text": "Only the personal opinions expressed in a text"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L04-Q002",
+      "lecture_id": "LING-L04",
+      "topic_id": "units",
+      "source_slides": [
+        2,
+        3,
+        4
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "Which set contains the three areas explicitly included within grammar on slide 2?",
+      "explanation": "The slide uses a broad account of grammar that includes sound organization, word structure, and sentence structure. Different descriptions may organize these areas differently.",
+      "example": "Morphology examines word parts, while syntax examines combinations of words.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Phonology, morphology, and syntax"
+        },
+        {
+          "id": "B",
+          "text": "Lexicography, translation, and typography"
+        },
+        {
+          "id": "C",
+          "text": "Acoustics, printing, and handwriting"
+        },
+        {
+          "id": "D",
+          "text": "Sociology, geography, and literary history"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L04-Q003",
+      "lecture_id": "LING-L04",
+      "topic_id": "units",
+      "source_slides": [
+        2,
+        3,
+        4
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "understand",
+      "question": "Which sequence gives the corrected introductory rank order from larger to smaller units?",
+      "explanation": "The sequence moves from larger grammatical structures toward the smallest meaningful or grammatical units. It is an introductory scale, not a claim that every structure must contain several units of each lower rank.",
+      "example": "A clause can contain a noun phrase, which contains a word with a plural morpheme.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Morpheme, word, sentence, clause, phrase"
+        },
+        {
+          "id": "B",
+          "text": "Clause, sentence, word, phrase, morpheme"
+        },
+        {
+          "id": "C",
+          "text": "Sentence, clause, phrase, word, morpheme"
+        },
+        {
+          "id": "D",
+          "text": "Sentence, phrase, clause, morpheme, word"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L04-Q004",
+      "lecture_id": "LING-L04",
+      "topic_id": "units",
+      "source_slides": [
+        2,
+        3,
+        4
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "analyze",
+      "question": "Why should “syntax” not replace “sentence” as a unit in a grammatical rank list?",
+      "explanation": "The slide mixes a field with grammatical units. Syntax studies how units combine; a sentence is one of the structures that can be studied.",
+      "example": "A researcher studies the syntax of the sentence “The children laughed.”",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Syntax names only the sound of a word."
+        },
+        {
+          "id": "B",
+          "text": "Syntax is a type of bound suffix."
+        },
+        {
+          "id": "C",
+          "text": "Syntax is always smaller than one morpheme."
+        },
+        {
+          "id": "D",
+          "text": "Syntax names an area of study rather than a unit at that rank."
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L04-Q005",
+      "lecture_id": "LING-L04",
+      "topic_id": "units",
+      "source_slides": [
+        2,
+        3,
+        4
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "understand",
+      "question": "How are words and phrases related in a basic grammatical analysis?",
+      "explanation": "A phrase is organized around a head and may contain other words or phrases. Analysing its words helps explain its internal structure.",
+      "example": "The words “the,” “small,” and “bird” occur within “the small bird.”",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Words are unrelated to the structure of phrases."
+        },
+        {
+          "id": "B",
+          "text": "Words can function as constituents of phrases."
+        },
+        {
+          "id": "C",
+          "text": "Every word must contain a complete independent clause."
+        },
+        {
+          "id": "D",
+          "text": "Every phrase must be a single morpheme."
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L04-Q006",
+      "lecture_id": "LING-L04",
+      "topic_id": "units",
+      "source_slides": [
+        2,
+        3,
+        4
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "Which unit is represented by the plural ending in “books”?",
+      "explanation": "The plural ending contributes grammatical information within the word. It is therefore a morpheme rather than a larger syntactic structure.",
+      "example": "In “cats,” the plural ending similarly contributes the meaning of more than one.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "An independent clause"
+        },
+        {
+          "id": "B",
+          "text": "A complete sentence"
+        },
+        {
+          "id": "C",
+          "text": "A morpheme"
+        },
+        {
+          "id": "D",
+          "text": "A noun phrase containing several words"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L04-Q007",
+      "lecture_id": "LING-L04",
+      "topic_id": "units",
+      "source_slides": [
+        2,
+        3,
+        4
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "Which analysis best connects different grammatical ranks in “The boys laughed”?",
+      "explanation": "The example connects sentence structure, phrase structure, words, and word-internal units. These are different levels of description.",
+      "example": "The noun phrase “the boys” includes the word “boys,” analysed as boy plus plural -s.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "“The boys” is one indivisible morpheme."
+        },
+        {
+          "id": "B",
+          "text": "Every letter of “laughed” is a separate word."
+        },
+        {
+          "id": "C",
+          "text": "The plural ending is a complete independent clause."
+        },
+        {
+          "id": "D",
+          "text": "The sentence contains a noun phrase, and “boys” contains a plural morpheme."
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L04-Q008",
+      "lecture_id": "LING-L04",
+      "topic_id": "units",
+      "source_slides": [
+        2,
+        3,
+        4
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "analyze",
+      "question": "Which question is morphological rather than syntactic?",
+      "explanation": "Morphology investigates structure within words. The alternatives concern how words and clauses are organized into larger structures.",
+      "example": "The -ed in “walked” contributes grammatical information within the word.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Where does the subject occur in this clause?"
+        },
+        {
+          "id": "B",
+          "text": "Which words form the subject phrase?"
+        },
+        {
+          "id": "C",
+          "text": "What does the ending contribute in “walked”?"
+        },
+        {
+          "id": "D",
+          "text": "How is a dependent clause linked to a main clause?"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L04-Q009",
+      "lecture_id": "LING-L04",
+      "topic_id": "units",
+      "source_slides": [
+        2,
+        3,
+        4
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "analyze",
+      "question": "Which question is syntactic rather than morphological?",
+      "explanation": "The correct question examines a combination of separate words. The alternatives concern parts within words.",
+      "example": "The arrangement of “a very helpful student” is a phrase-structure question.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "How does -less contribute to “careless”?"
+        },
+        {
+          "id": "B",
+          "text": "What does plural -s contribute in “books”?"
+        },
+        {
+          "id": "C",
+          "text": "How many morphemes occur in “replay”?"
+        },
+        {
+          "id": "D",
+          "text": "How do the words in “the little boy” combine into a phrase?"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L04-Q010",
+      "lecture_id": "LING-L04",
+      "topic_id": "units",
+      "source_slides": [
+        2,
+        3,
+        4
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Why is grammatical analysis not simply a count of written spaces or letters?",
+      "explanation": "Writing supplies clues but does not define every grammatical unit. A word can contain multiple morphemes, and a phrase can have internal structure not shown by spacing alone.",
+      "example": "“Unhelpful” is one written word with several morphemes.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Every space in writing marks a morpheme boundary."
+        },
+        {
+          "id": "B",
+          "text": "A longer spelling always represents a higher grammatical rank."
+        },
+        {
+          "id": "C",
+          "text": "Every written letter contributes an independent grammatical meaning."
+        },
+        {
+          "id": "D",
+          "text": "Grammatical units are identified through their structure and linguistic contribution."
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L04-Q011",
+      "lecture_id": "LING-L04",
+      "topic_id": "morphemes",
+      "source_slides": [
+        5,
+        6,
+        9
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "What is a morpheme in the lecture’s introductory account?",
+      "explanation": "Morphemes contribute to meaning or grammar. They differ from sounds, which can distinguish words without independently carrying such information.",
+      "example": "The word “books” contains book and a plural morpheme.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "A sentence that can stand independently"
+        },
+        {
+          "id": "B",
+          "text": "The smallest audible difference in pitch"
+        },
+        {
+          "id": "C",
+          "text": "The smallest unit carrying lexical meaning or grammatical information"
+        },
+        {
+          "id": "D",
+          "text": "Any group of letters separated by spaces"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L04-Q012",
+      "lecture_id": "LING-L04",
+      "topic_id": "morphemes",
+      "source_slides": [
+        5,
+        6,
+        9
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "understand",
+      "question": "Can a morpheme be an entire word?",
+      "explanation": "A morpheme may be a whole word or a meaningful part of a word. Being small in the grammatical analysis does not require being short in spelling.",
+      "example": "“Boy” is a whole word and one morpheme in the lecture’s analysis.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "No; every word must contain at least three morphemes."
+        },
+        {
+          "id": "B",
+          "text": "No; every morpheme must be an affix."
+        },
+        {
+          "id": "C",
+          "text": "Yes; but only when it contains one written letter."
+        },
+        {
+          "id": "D",
+          "text": "Yes; a simple word can consist of one morpheme."
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L04-Q013",
+      "lecture_id": "LING-L04",
+      "topic_id": "morphemes",
+      "source_slides": [
+        5,
+        6,
+        9
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "understand",
+      "question": "What does the criterion of minimality require when identifying a morpheme?",
+      "explanation": "Minimality concerns meaningful segmentation, not sound count or syllable count. A longer form can still be one morpheme.",
+      "example": "Dividing “boy” into b and oy does not reveal two morphemes in this word.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "It cannot be divided into smaller units with the same kind of meaningful analysis."
+        },
+        {
+          "id": "B",
+          "text": "It must contain exactly one speech sound."
+        },
+        {
+          "id": "C",
+          "text": "It must occur at the start of a sentence."
+        },
+        {
+          "id": "D",
+          "text": "It must contain exactly one syllable."
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L04-Q014",
+      "lecture_id": "LING-L04",
+      "topic_id": "morphemes",
+      "source_slides": [
+        5,
+        6,
+        9
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "analyze",
+      "question": "Why is “boy” not divided into a morpheme b and a morpheme oy in the lecture?",
+      "explanation": "A proposed division needs linguistic evidence. Merely separating letters does not establish meaningful parts.",
+      "example": "By contrast, boy plus plural -s gives an interpretable analysis of “boys.”",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Words with three letters can never have morphemes."
+        },
+        {
+          "id": "B",
+          "text": "Those pieces do not independently contribute the relevant meaning in the word."
+        },
+        {
+          "id": "C",
+          "text": "A consonant can never occur in a bound morpheme."
+        },
+        {
+          "id": "D",
+          "text": "Only verbs can be segmented morphologically."
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L04-Q015",
+      "lecture_id": "LING-L04",
+      "topic_id": "morphemes",
+      "source_slides": [
+        5,
+        6,
+        9
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "understand",
+      "question": "What does relatively stable meaning across environments contribute to morpheme identification?",
+      "explanation": "Repeated forms are useful evidence when they contribute a related meaning or function. Similar spelling alone is insufficient.",
+      "example": "Re- contributes repetition in both “rewrite” and “replay.”",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "It requires every word containing the same letters to share a morpheme."
+        },
+        {
+          "id": "B",
+          "text": "It prevents any grammatical morpheme from having variant forms."
+        },
+        {
+          "id": "C",
+          "text": "It supports recognizing a recurring form–meaning relationship."
+        },
+        {
+          "id": "D",
+          "text": "It guarantees identical pronunciation in every occurrence."
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L04-Q016",
+      "lecture_id": "LING-L04",
+      "topic_id": "morphemes",
+      "source_slides": [
+        5,
+        6,
+        9
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "apply",
+      "question": "How many morphemes occur in “boys” in a basic analysis?",
+      "explanation": "The analysis contains boy and the plural ending -s. The number of letters is irrelevant to this count.",
+      "example": "Boy contributes the lexical content, while -s marks plurality.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "One"
+        },
+        {
+          "id": "B",
+          "text": "Two"
+        },
+        {
+          "id": "C",
+          "text": "Three"
+        },
+        {
+          "id": "D",
+          "text": "Four"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L04-Q017",
+      "lecture_id": "LING-L04",
+      "topic_id": "morphemes",
+      "source_slides": [
+        5,
+        6,
+        9
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "apply",
+      "question": "Which segmentation best represents “replay” when it means play again?",
+      "explanation": "The prefix re- contributes repetition, and play supplies the base meaning. The alternatives split the spelling without identifying the relevant meaningful parts.",
+      "example": "“Replay the recording” means play the recording again.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "repl- + ay"
+        },
+        {
+          "id": "B",
+          "text": "re- + play"
+        },
+        {
+          "id": "C",
+          "text": "r- + eplay"
+        },
+        {
+          "id": "D",
+          "text": "rep- + lay"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L04-Q018",
+      "lecture_id": "LING-L04",
+      "topic_id": "morphemes",
+      "source_slides": [
+        5,
+        6,
+        9
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "How many morphemes occur in “unhelpful” under the analysis un- + help + -ful?",
+      "explanation": "The supplied analysis identifies a negative prefix, a lexical base, and an adjective-forming suffix. Each contributes to the whole word.",
+      "example": "Help becomes helpful, and un- adds a negative meaning.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Two"
+        },
+        {
+          "id": "B",
+          "text": "Three"
+        },
+        {
+          "id": "C",
+          "text": "One"
+        },
+        {
+          "id": "D",
+          "text": "Four"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L04-Q019",
+      "lecture_id": "LING-L04",
+      "topic_id": "morphemes",
+      "source_slides": [
+        5,
+        6,
+        9
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "Which pair best illustrates one simple word and one morphologically complex word?",
+      "explanation": "In the lecture’s analysis, boy is one morpheme, while boys contains boy plus plural -s. Both remain words.",
+      "example": "“Cat” is simple in the same introductory sense; “cats” is complex.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "walked and books"
+        },
+        {
+          "id": "B",
+          "text": "boys and replay"
+        },
+        {
+          "id": "C",
+          "text": "boy and boys"
+        },
+        {
+          "id": "D",
+          "text": "unhelpful and helpful"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L04-Q020",
+      "lecture_id": "LING-L04",
+      "topic_id": "morphemes",
+      "source_slides": [
+        5,
+        6,
+        9
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "Which analysis best identifies the parts of “careless”?",
+      "explanation": "The base care combines with a suffix meaning lacking or without. The other divisions do not capture the word’s relevant structure.",
+      "example": "“Careless” describes someone or something showing insufficient care.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "carel- + -ess"
+        },
+        {
+          "id": "B",
+          "text": "care + -less"
+        },
+        {
+          "id": "C",
+          "text": "ca- + -reless"
+        },
+        {
+          "id": "D",
+          "text": "car + -eless"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L04-Q021",
+      "lecture_id": "LING-L04",
+      "topic_id": "morphemes",
+      "source_slides": [
+        5,
+        6,
+        9
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "analyze",
+      "question": "Does having several syllables necessarily make a word contain several morphemes?",
+      "explanation": "A syllable is a sound-structure unit, while a morpheme is identified through meaning or grammatical function. Their boundaries need not match.",
+      "example": "The lecture treats “desire” as one morpheme despite its more than one syllable.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "No; only one-syllable words can contain morphemes."
+        },
+        {
+          "id": "B",
+          "text": "No; syllable structure and morpheme structure are different analyses."
+        },
+        {
+          "id": "C",
+          "text": "Yes; every syllable must carry a separate meaning."
+        },
+        {
+          "id": "D",
+          "text": "Yes; every vowel marks a new morpheme."
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L04-Q022",
+      "lecture_id": "LING-L04",
+      "topic_id": "morphemes",
+      "source_slides": [
+        5,
+        6,
+        9
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "Which underlying morpheme analysis best explains “desirable”?",
+      "explanation": "The word contains the base desire and a suffix contributing a property or possibility meaning. The final e is not retained in the spelling before -able.",
+      "example": "“Desirable” means worth wanting or suitable to be desired.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "de- + sir + -able, each with the same meaning as in ordinary English words"
+        },
+        {
+          "id": "B",
+          "text": "des + ir + able, with three independent roots"
+        },
+        {
+          "id": "C",
+          "text": "desire + -able, with a spelling adjustment"
+        },
+        {
+          "id": "D",
+          "text": "desirab + -le, where both parts are free words"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L04-Q023",
+      "lecture_id": "LING-L04",
+      "topic_id": "morphemes",
+      "source_slides": [
+        5,
+        6,
+        9
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "In the transparent analysis un- + desire + -able + -ity for “undesirability,” how many underlying morphemes are identified?",
+      "explanation": "The supplied analysis counts underlying meaningful units rather than treating the surface spelling as four unchanged strings. Spelling and form adjustments occur during word formation.",
+      "example": "The suffix -ity forms a noun referring to the quality or state involved.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Four"
+        },
+        {
+          "id": "B",
+          "text": "Five"
+        },
+        {
+          "id": "C",
+          "text": "Three"
+        },
+        {
+          "id": "D",
+          "text": "Six"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L04-Q024",
+      "lecture_id": "LING-L04",
+      "topic_id": "morphemes",
+      "source_slides": [
+        5,
+        6,
+        9
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Why should “abi” in a surface spelling not automatically be treated as an independent morpheme?",
+      "explanation": "Meaningful analysis cannot be replaced by arbitrary letter cutting. The -able and -ity relationship may involve a changed surface form without creating an independent abi unit.",
+      "example": "“Undesirability” is better explained through its underlying word-building parts.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "All words ending in -ity contain exactly two morphemes."
+        },
+        {
+          "id": "B",
+          "text": "A letter sequence needs evidence of a meaning or grammatical function in the analysis."
+        },
+        {
+          "id": "C",
+          "text": "Every three-letter sequence must be a free word."
+        },
+        {
+          "id": "D",
+          "text": "Morphology permits only letters that are pronounced separately."
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L04-Q025",
+      "lecture_id": "LING-L04",
+      "topic_id": "morphemes",
+      "source_slides": [
+        5,
+        6,
+        9
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "analyze",
+      "question": "Why is “duster” a poor example of a single free morpheme when it means a tool for dusting?",
+      "explanation": "The whole word can stand alone, but that does not make it morphologically simple. Its word-building structure distinguishes it from dust.",
+      "example": "“Player” similarly contains play plus -er.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "It is not a word in English."
+        },
+        {
+          "id": "B",
+          "text": "It can be analysed as dust plus the derivational suffix -er."
+        },
+        {
+          "id": "C",
+          "text": "Its two syllables necessarily prove two morphemes."
+        },
+        {
+          "id": "D",
+          "text": "Every noun ending in r must be a bound morpheme."
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L04-Q026",
+      "lecture_id": "LING-L04",
+      "topic_id": "morphemes",
+      "source_slides": [
+        5,
+        6,
+        9
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Which evidence most strongly supports a proposed morpheme boundary?",
+      "explanation": "Morphological analysis requires a systematic form–meaning relationship. Visual symmetry or accidental resemblance does not establish meaningful units.",
+      "example": "The analyses help + -ful and care + -ful support a recurring suffix.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The parts recur with relevant meanings or grammatical functions in comparable words."
+        },
+        {
+          "id": "B",
+          "text": "The split makes both pieces contain equal numbers of letters."
+        },
+        {
+          "id": "C",
+          "text": "The split follows a convenient point in the printed line."
+        },
+        {
+          "id": "D",
+          "text": "The parts happen to resemble unrelated abbreviations."
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L04-Q027",
+      "lecture_id": "LING-L04",
+      "topic_id": "morph_allomorph",
+      "source_slides": [
+        7,
+        8
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "understand",
+      "question": "What is a morph in the lecture’s introductory terminology?",
+      "explanation": "A morph is a form through which a morpheme is expressed. The morpheme concerns the meaningful or grammatical unit, while morph refers to its realization.",
+      "example": "The plural ending pronounced [s] in “cats” is a realization of plurality.",
+      "reference_ids": [
+        "lecture_04",
+        "allomorphy"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "An independent sentence used to define a word"
+        },
+        {
+          "id": "B",
+          "text": "An overt form realizing a morpheme"
+        },
+        {
+          "id": "C",
+          "text": "A written punctuation mark separating phrases"
+        },
+        {
+          "id": "D",
+          "text": "A grammatical rank larger than a clause"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L04-Q028",
+      "lecture_id": "LING-L04",
+      "topic_id": "morph_allomorph",
+      "source_slides": [
+        7,
+        8
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "What is an allomorph?",
+      "explanation": "Allomorphs differ in form while sharing the relevant morphemic identity. They are not simply any two different endings.",
+      "example": "Different pronunciations of an English plural ending can express the same plural function.",
+      "reference_ids": [
+        "lecture_04",
+        "allomorphy"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "A phrase containing more than one noun"
+        },
+        {
+          "id": "B",
+          "text": "A sound that always creates a new grammatical meaning"
+        },
+        {
+          "id": "C",
+          "text": "One of the alternative forms realizing the same morpheme"
+        },
+        {
+          "id": "D",
+          "text": "A word with the opposite lexical meaning"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L04-Q029",
+      "lecture_id": "LING-L04",
+      "topic_id": "morph_allomorph",
+      "source_slides": [
+        7,
+        8
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "Given that English plural endings in “cats” and “dogs” are pronounced [s] and [z], what relationship do those endings illustrate?",
+      "explanation": "The endings have different sound forms but express plurality. The difference in pronunciation does not itself establish a different grammatical morpheme.",
+      "example": "Cats and dogs both refer to more than one animal.",
+      "reference_ids": [
+        "lecture_04",
+        "allomorphy"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Allomorphs of the plural morpheme"
+        },
+        {
+          "id": "B",
+          "text": "An independent and a dependent clause"
+        },
+        {
+          "id": "C",
+          "text": "Two unrelated nouns with identical meanings"
+        },
+        {
+          "id": "D",
+          "text": "Two prefixes added before the root"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L04-Q030",
+      "lecture_id": "LING-L04",
+      "topic_id": "morph_allomorph",
+      "source_slides": [
+        7,
+        8
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "In a pronunciation where the plural ending in “classes” is [ɪz], how does it relate to plural [s] in “cats”?",
+      "explanation": "The forms differ, but the relevant grammatical contribution remains plural. The vowel transcription may vary slightly across accents.",
+      "example": "The endings in cats, dogs, and classes can be compared as plural variants.",
+      "reference_ids": [
+        "lecture_04",
+        "allomorphy"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "They are different realizations of the same plural morpheme."
+        },
+        {
+          "id": "B",
+          "text": "They are both free lexical nouns."
+        },
+        {
+          "id": "C",
+          "text": "They demonstrate an infix added inside class."
+        },
+        {
+          "id": "D",
+          "text": "They express opposite grammatical numbers."
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L04-Q031",
+      "lecture_id": "LING-L04",
+      "topic_id": "morph_allomorph",
+      "source_slides": [
+        7,
+        8
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "analyze",
+      "question": "Which statement keeps morpheme and allomorph distinct?",
+      "explanation": "A morpheme is identified through meaning or function, whereas allomorphy concerns variation in its form. The relationship is not one new morpheme per pronunciation.",
+      "example": "Plurality can be realized by different regular suffix pronunciations.",
+      "reference_ids": [
+        "lecture_04",
+        "allomorphy"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "A morpheme is always a printed word, while an allomorph is a complete sentence."
+        },
+        {
+          "id": "B",
+          "text": "Every allomorph must have a new unrelated meaning."
+        },
+        {
+          "id": "C",
+          "text": "Two different spellings automatically identify two unrelated morphemes."
+        },
+        {
+          "id": "D",
+          "text": "One morpheme can have several allomorphs."
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L04-Q032",
+      "lecture_id": "LING-L04",
+      "topic_id": "morph_allomorph",
+      "source_slides": [
+        7,
+        8
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "analyze",
+      "question": "Why are plural -s and past-tense -ed not allomorphs of one morpheme merely because both are endings?",
+      "explanation": "Shared position is insufficient: allomorphs must realize the same morpheme. Plural number and past tense are different functions.",
+      "example": "Books marks number, while walked marks past tense.",
+      "reference_ids": [
+        "lecture_04",
+        "allomorphy"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Allomorphs must be independent words."
+        },
+        {
+          "id": "B",
+          "text": "Every bound form belongs to one universal morpheme."
+        },
+        {
+          "id": "C",
+          "text": "They express different grammatical functions."
+        },
+        {
+          "id": "D",
+          "text": "Suffixes cannot realize morphemes."
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L04-Q033",
+      "lecture_id": "LING-L04",
+      "topic_id": "morph_allomorph",
+      "source_slides": [
+        7,
+        8
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "A teacher explains that the past ending is pronounced [t] in “walked” but [d] in “played.” What remains shared?",
+      "explanation": "The form differs while the past-tense contribution remains. This illustrates how phonetic variation can occur in the realization of a grammatical morpheme.",
+      "example": "Both “walked yesterday” and “played yesterday” place the action in the past.",
+      "reference_ids": [
+        "lecture_04",
+        "allomorphy"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Its status as a free word"
+        },
+        {
+          "id": "B",
+          "text": "Its exact pronunciation"
+        },
+        {
+          "id": "C",
+          "text": "Its lexical root"
+        },
+        {
+          "id": "D",
+          "text": "Its past-tense grammatical function"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L04-Q034",
+      "lecture_id": "LING-L04",
+      "topic_id": "morph_allomorph",
+      "source_slides": [
+        7,
+        8
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "What does the spelling -s alone fail to show about the plural endings of “cats” and “dogs”?",
+      "explanation": "The same spelling can represent different sound realizations. Allomorph analysis therefore considers pronunciation, not just letter identity.",
+      "example": "The ending is [s] in cats and [z] in dogs in the examples supplied.",
+      "reference_ids": [
+        "lecture_04",
+        "allomorphy"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Their different pronunciations in these words"
+        },
+        {
+          "id": "B",
+          "text": "Their status as endings rather than initial prefixes"
+        },
+        {
+          "id": "C",
+          "text": "Their use in the written plural words"
+        },
+        {
+          "id": "D",
+          "text": "Their position after the noun base"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L04-Q035",
+      "lecture_id": "LING-L04",
+      "topic_id": "morph_allomorph",
+      "source_slides": [
+        7,
+        8
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "understand",
+      "question": "When identifying allomorphs, what must be compared in addition to the forms themselves?",
+      "explanation": "The same-morpheme relationship depends on a shared function. Similar appearance alone is not sufficient, and different appearance does not rule out allomorphy.",
+      "example": "Two plural variants can differ in pronunciation while both marking plurality.",
+      "reference_ids": [
+        "lecture_04",
+        "allomorphy"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The alphabetical position of the examples"
+        },
+        {
+          "id": "B",
+          "text": "The number of sentences on the slide"
+        },
+        {
+          "id": "C",
+          "text": "The meaning or grammatical function they realize"
+        },
+        {
+          "id": "D",
+          "text": "The printing size of the words"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L04-Q036",
+      "lecture_id": "LING-L04",
+      "topic_id": "morph_allomorph",
+      "source_slides": [
+        7,
+        8
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Which statement best corrects the idea that morph and allomorph name two mutually exclusive kinds of morpheme?",
+      "explanation": "The terms describe realization and a relationship among variants. They should not be treated as a binary classification parallel to free versus bound.",
+      "example": "A plural [s] is a morph and can be described as an allomorph alongside other plural forms.",
+      "reference_ids": [
+        "lecture_04",
+        "allomorphy"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "A morph is a realization; calling forms allomorphs identifies their relationship as variants of one morpheme."
+        },
+        {
+          "id": "B",
+          "text": "Morphs are clauses, while allomorphs are phrases."
+        },
+        {
+          "id": "C",
+          "text": "Every morpheme is either meaningful or an allomorph with no function."
+        },
+        {
+          "id": "D",
+          "text": "Allomorphs can occur only in written language."
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L04-Q037",
+      "lecture_id": "LING-L04",
+      "topic_id": "free_bound",
+      "source_slides": [
+        8,
+        9,
+        11,
+        14
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "What makes a morpheme free in the lecture’s classification?",
+      "explanation": "Free status concerns independence as a word. It does not depend on spelling length or whether the morpheme names a concrete object.",
+      "example": "House can occur as a word without an attached affix.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "It must have no lexical meaning."
+        },
+        {
+          "id": "B",
+          "text": "It can occur as an independent word."
+        },
+        {
+          "id": "C",
+          "text": "It must occur only before a root."
+        },
+        {
+          "id": "D",
+          "text": "It must contain one letter."
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L04-Q038",
+      "lecture_id": "LING-L04",
+      "topic_id": "free_bound",
+      "source_slides": [
+        8,
+        9,
+        11,
+        14
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "What makes a morpheme bound?",
+      "explanation": "A bound morpheme contributes to a larger form rather than standing as an ordinary independent word with that contribution.",
+      "example": "Plural -s attaches to a noun such as cat.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "It must be a complete phrase."
+        },
+        {
+          "id": "B",
+          "text": "It must be the main noun of every sentence."
+        },
+        {
+          "id": "C",
+          "text": "It must occur as an independent answer."
+        },
+        {
+          "id": "D",
+          "text": "It requires attachment within a larger word form."
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L04-Q039",
+      "lecture_id": "LING-L04",
+      "topic_id": "free_bound",
+      "source_slides": [
+        8,
+        9,
+        11,
+        14
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "apply",
+      "question": "Which item is a free lexical morpheme in the examples below?",
+      "explanation": "House can stand as a word. The alternatives are bound affixes in the intended analyses.",
+      "example": "A speaker can say “house” without adding another morpheme.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "house"
+        },
+        {
+          "id": "B",
+          "text": "-less"
+        },
+        {
+          "id": "C",
+          "text": "-ed"
+        },
+        {
+          "id": "D",
+          "text": "un-"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L04-Q040",
+      "lecture_id": "LING-L04",
+      "topic_id": "free_bound",
+      "source_slides": [
+        8,
+        9,
+        11,
+        14
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "apply",
+      "question": "Which item is bound in the word “unable”?",
+      "explanation": "The prefix un- contributes negation but does not stand independently with that prefix meaning. Able can function as a separate word.",
+      "example": "Un- also attaches to happy in “unhappy.”",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "un-"
+        },
+        {
+          "id": "B",
+          "text": "house"
+        },
+        {
+          "id": "C",
+          "text": "able"
+        },
+        {
+          "id": "D",
+          "text": "the"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L04-Q041",
+      "lecture_id": "LING-L04",
+      "topic_id": "free_bound",
+      "source_slides": [
+        8,
+        9,
+        11,
+        14
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "In “replay,” which analysis correctly identifies free and bound status?",
+      "explanation": "Having meaning does not guarantee independent word status. Play can stand alone; the repetition prefix re- cannot in this use.",
+      "example": "“Play again” uses separate words, whereas replay combines a prefix with a base.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Both are bound because replay is one word."
+        },
+        {
+          "id": "B",
+          "text": "Play is free, and re- is bound."
+        },
+        {
+          "id": "C",
+          "text": "Re- is free, and play is bound."
+        },
+        {
+          "id": "D",
+          "text": "Both are free because each contributes meaning."
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L04-Q042",
+      "lecture_id": "LING-L04",
+      "topic_id": "free_bound",
+      "source_slides": [
+        8,
+        9,
+        11,
+        14
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "analyze",
+      "question": "Why is the whole word “walked” not itself a bound morpheme?",
+      "explanation": "The ending is bound, but the entire word is not one bound unit. The slide’s affix examples must distinguish the attached piece from the whole word.",
+      "example": "Walked can be analysed as walk plus past-tense -ed.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Every word ending in -ed is one indivisible morpheme."
+        },
+        {
+          "id": "B",
+          "text": "The word has no grammatical meaning."
+        },
+        {
+          "id": "C",
+          "text": "It is a word containing a free base and a bound ending."
+        },
+        {
+          "id": "D",
+          "text": "Bound morphemes can never occur inside words."
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L04-Q043",
+      "lecture_id": "LING-L04",
+      "topic_id": "free_bound",
+      "source_slides": [
+        8,
+        9,
+        11,
+        14
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "Which pair correctly identifies a free base and a bound suffix?",
+      "explanation": "Cheap can be used as a word, while -ly is attached in this derivation. The alternatives reverse the requested order or give a bound prefix first.",
+      "example": "Quickly likewise contains quick plus -ly.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "-s and book in books"
+        },
+        {
+          "id": "B",
+          "text": "un- and able in unable"
+        },
+        {
+          "id": "C",
+          "text": "cheap and -ly in cheaply"
+        },
+        {
+          "id": "D",
+          "text": "re- and play in replay"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L04-Q044",
+      "lecture_id": "LING-L04",
+      "topic_id": "free_bound",
+      "source_slides": [
+        8,
+        9,
+        11,
+        14
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "understand",
+      "question": "Does a bound morpheme lack meaning or grammatical contribution?",
+      "explanation": "The free/bound distinction concerns distribution, not presence versus absence of linguistic contribution.",
+      "example": "The bound suffix -less contributes a lacking meaning in careless.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "No; but a bound morpheme must be a complete clause."
+        },
+        {
+          "id": "B",
+          "text": "Yes; bound forms are merely punctuation."
+        },
+        {
+          "id": "C",
+          "text": "Yes; meaningful units must always stand alone."
+        },
+        {
+          "id": "D",
+          "text": "No; dependence does not prevent a morpheme from contributing meaning or grammar."
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L04-Q045",
+      "lecture_id": "LING-L04",
+      "topic_id": "free_bound",
+      "source_slides": [
+        8,
+        9,
+        11,
+        14
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "analyze",
+      "question": "Which statement correctly distinguishes a free morpheme from a complex free-standing word?",
+      "explanation": "Word independence and morphological simplicity are different properties. A complex word can contain both free and bound morphemes.",
+      "example": "Player is an independent word containing play and -er.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only nouns can be free-standing words."
+        },
+        {
+          "id": "B",
+          "text": "A word stops being independent when it has a suffix."
+        },
+        {
+          "id": "C",
+          "text": "An independent word may contain more than one morpheme."
+        },
+        {
+          "id": "D",
+          "text": "Every independent word is necessarily one free morpheme."
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L04-Q046",
+      "lecture_id": "LING-L04",
+      "topic_id": "free_bound",
+      "source_slides": [
+        8,
+        9,
+        11,
+        14
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "Which set contains only bound affixes in the intended examples?",
+      "explanation": "The three affixes require attachment in these uses. The alternatives contain ordinary free words.",
+      "example": "Re- in replay and -ed in played occur within larger forms.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "the, at, and or"
+        },
+        {
+          "id": "B",
+          "text": "re-, un-, and -ed"
+        },
+        {
+          "id": "C",
+          "text": "house, un-, and -ed"
+        },
+        {
+          "id": "D",
+          "text": "talk, play, and house"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L04-Q047",
+      "lecture_id": "LING-L04",
+      "topic_id": "free_bound",
+      "source_slides": [
+        8,
+        9,
+        11,
+        14
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "A learner calls -s a free morpheme because the name of the letter s can be spoken alone. What is the error?",
+      "explanation": "The analysis concerns the plural ending’s use, not the ability to mention its written symbol. Quoting a form does not make the affix free.",
+      "example": "Saying “the suffix -s” discusses the suffix rather than using it as an independent plural word.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Morphemes are classified only by whether their letters have names."
+        },
+        {
+          "id": "B",
+          "text": "The plural meaning is always carried by the letter’s name."
+        },
+        {
+          "id": "C",
+          "text": "Naming a letter is different from using the plural morpheme independently."
+        },
+        {
+          "id": "D",
+          "text": "Every pronounceable symbol must be a grammatical word."
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L04-Q048",
+      "lecture_id": "LING-L04",
+      "topic_id": "free_bound",
+      "source_slides": [
+        8,
+        9,
+        11,
+        14
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Which correction is needed when a diagram lists “plays” or “replay” directly as a bound morpheme?",
+      "explanation": "The examples contain bound material, but the whole words have internal structure. Keeping levels separate prevents a word from being confused with one of its parts.",
+      "example": "Re- is bound in replay, while play is its free base.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Remove the base because only endings have meaning."
+        },
+        {
+          "id": "B",
+          "text": "Identify the bound affix within the word rather than classifying the whole complex word as one bound morpheme."
+        },
+        {
+          "id": "C",
+          "text": "Treat every letter in the word as a bound morpheme."
+        },
+        {
+          "id": "D",
+          "text": "Reclassify the word as a complete dependent clause."
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L04-Q049",
+      "lecture_id": "LING-L04",
+      "topic_id": "lexical_functional",
+      "source_slides": [
+        9,
+        10
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "Which free-morpheme category primarily carries lexical content in the lecture?",
+      "explanation": "Lexical morphemes supply much of a message’s content. The slide associates them with nouns, main verbs, adjectives, and many adverbs.",
+      "example": "House, follow, and yellow contribute different kinds of lexical content.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Bound prefixes only"
+        },
+        {
+          "id": "B",
+          "text": "Lexical morphemes"
+        },
+        {
+          "id": "C",
+          "text": "Functional morphemes only"
+        },
+        {
+          "id": "D",
+          "text": "Inflectional suffixes only"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L04-Q050",
+      "lecture_id": "LING-L04",
+      "topic_id": "lexical_functional",
+      "source_slides": [
+        9,
+        10
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "Which set consists of functional words in the lecture’s classification?",
+      "explanation": "Articles, prepositions, pronouns, and conjunctions are treated as functional categories. They contribute grammatical relationships and interpretation rather than serving only as content labels.",
+      "example": "The helps identify a noun phrase, and or connects alternatives.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "sad, long, break, and girl"
+        },
+        {
+          "id": "B",
+          "text": "house, yellow, follow, and tiger"
+        },
+        {
+          "id": "C",
+          "text": "the, at, he, and or"
+        },
+        {
+          "id": "D",
+          "text": "man, sincere, go, and house"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L04-Q051",
+      "lecture_id": "LING-L04",
+      "topic_id": "lexical_functional",
+      "source_slides": [
+        9,
+        10
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "apply",
+      "question": "In “The girl smiled,” which word is a functional morpheme under the lecture’s classification?",
+      "explanation": "The is an article, which the slide places among functional words. Girl is lexical, while smiled contains more than one morpheme.",
+      "example": "A in “a house” is another functional word.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The"
+        },
+        {
+          "id": "B",
+          "text": "girl smiled"
+        },
+        {
+          "id": "C",
+          "text": "girl"
+        },
+        {
+          "id": "D",
+          "text": "smiled"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L04-Q052",
+      "lecture_id": "LING-L04",
+      "topic_id": "lexical_functional",
+      "source_slides": [
+        9,
+        10
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "apply",
+      "question": "Which item is lexical rather than functional in the lecture’s examples?",
+      "explanation": "Yellow is an adjective contributing descriptive content. The alternatives are treated as functional words in the slide.",
+      "example": "In “a yellow bag,” yellow describes the bag.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "yellow"
+        },
+        {
+          "id": "B",
+          "text": "or"
+        },
+        {
+          "id": "C",
+          "text": "he"
+        },
+        {
+          "id": "D",
+          "text": "the"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L04-Q053",
+      "lecture_id": "LING-L04",
+      "topic_id": "lexical_functional",
+      "source_slides": [
+        9,
+        10
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "understand",
+      "question": "What does closed class mean in the discussion of functional words?",
+      "explanation": "Closed class describes a tendency in the membership of a category. It should not be interpreted as a claim that language never changes.",
+      "example": "New noun labels are added more readily than new basic articles.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The class generally gains new members less readily than open lexical classes."
+        },
+        {
+          "id": "B",
+          "text": "No functional word can ever change historically."
+        },
+        {
+          "id": "C",
+          "text": "Its words can never appear in questions."
+        },
+        {
+          "id": "D",
+          "text": "Every member must attach to a lexical root."
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L04-Q054",
+      "lecture_id": "LING-L04",
+      "topic_id": "lexical_functional",
+      "source_slides": [
+        9,
+        10
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "analyze",
+      "question": "Which correction is needed to the claim that functional morphemes have no meaning?",
+      "explanation": "Functional does not mean meaningless. These words help indicate reference, relationships, and connections in a sentence.",
+      "example": "Or contributes an alternative relationship in “tea or coffee.”",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "They must all be converted into lexical nouns."
+        },
+        {
+          "id": "B",
+          "text": "They are meaningless noises excluded from sentences."
+        },
+        {
+          "id": "C",
+          "text": "They contribute grammatical or relational meaning even when they do not label content like house or tiger."
+        },
+        {
+          "id": "D",
+          "text": "They can be recognized solely by their spelling length."
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L04-Q055",
+      "lecture_id": "LING-L04",
+      "topic_id": "lexical_functional",
+      "source_slides": [
+        9,
+        10
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "In “She sat on the chair,” how are “she” and “on” classified in the lecture?",
+      "explanation": "The slide groups pronouns and prepositions with functional words. Both occur as separate words in the example.",
+      "example": "He and at belong to the same broad functional grouping in the slides.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Both are bound derivational suffixes."
+        },
+        {
+          "id": "B",
+          "text": "She is a lexical noun, and on is an inflectional ending."
+        },
+        {
+          "id": "C",
+          "text": "Both are complete clauses."
+        },
+        {
+          "id": "D",
+          "text": "Both are free functional words."
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L04-Q056",
+      "lecture_id": "LING-L04",
+      "topic_id": "lexical_functional",
+      "source_slides": [
+        9,
+        10
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "analyze",
+      "question": "Why should “quickly” not be called one free lexical morpheme simply because it is an adverb?",
+      "explanation": "Word class does not establish morpheme count. The whole word is lexical, but its internal analysis contains a base and a suffix.",
+      "example": "Badly can similarly be analysed as bad plus -ly.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "It is a lexical word that can be analysed as quick plus bound -ly."
+        },
+        {
+          "id": "B",
+          "text": "Every word ending in y is morphologically simple."
+        },
+        {
+          "id": "C",
+          "text": "Every adverb must be a functional morpheme."
+        },
+        {
+          "id": "D",
+          "text": "A word with lexical content can never contain an affix."
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L04-Q057",
+      "lecture_id": "LING-L04",
+      "topic_id": "lexical_functional",
+      "source_slides": [
+        9,
+        10
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "Which sequence correctly classifies the highlighted words in “the HOUSE” and “the house AND the garden”?",
+      "explanation": "House supplies lexical content, while and connects units as a conjunction. Both can occur as independent words.",
+      "example": "In “a girl or a boy,” girl and boy are lexical, while or is functional.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "House is functional; and is lexical."
+        },
+        {
+          "id": "B",
+          "text": "House is lexical; and is functional."
+        },
+        {
+          "id": "C",
+          "text": "Both are bound inflectional morphemes."
+        },
+        {
+          "id": "D",
+          "text": "Both are lexical adjectives."
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L04-Q058",
+      "lecture_id": "LING-L04",
+      "topic_id": "lexical_functional",
+      "source_slides": [
+        9,
+        10
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Which statement correctly relates free/bound status to lexical/functional classification?",
+      "explanation": "The categories answer different questions. Free/bound concerns independence, while lexical/functional concerns the kind of linguistic contribution.",
+      "example": "House is free and lexical; the is free and functional.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Lexical meaning automatically makes an affix free."
+        },
+        {
+          "id": "B",
+          "text": "Every functional word must be bound to another word."
+        },
+        {
+          "id": "C",
+          "text": "Free morphemes can be lexical or functional in the lecture’s scheme."
+        },
+        {
+          "id": "D",
+          "text": "Every free morpheme must name a concrete object."
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L04-Q059",
+      "lecture_id": "LING-L04",
+      "topic_id": "derivation_inflection",
+      "source_slides": [
+        11,
+        12,
+        14
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "What is the main role of derivational morphology?",
+      "explanation": "Derivation builds a new lexical item. It often changes word class, but a category change is not required in every case.",
+      "example": "Care becomes careless through derivation.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Arranging independent clauses alphabetically"
+        },
+        {
+          "id": "B",
+          "text": "Converting every word into a phoneme"
+        },
+        {
+          "id": "C",
+          "text": "Marking only punctuation boundaries"
+        },
+        {
+          "id": "D",
+          "text": "Forming new lexical words or meanings from existing material"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L04-Q060",
+      "lecture_id": "LING-L04",
+      "topic_id": "derivation_inflection",
+      "source_slides": [
+        11,
+        12,
+        14
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "What is the main role of inflection in the lecture?",
+      "explanation": "Inflection marks such information as number, tense, or comparison. It produces grammatical forms associated with a lexical word.",
+      "example": "Book and books are singular and plural forms of the noun.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Expressing grammatical information without ordinarily creating a new lexical category"
+        },
+        {
+          "id": "B",
+          "text": "Creating a new alphabet for the word"
+        },
+        {
+          "id": "C",
+          "text": "Combining clauses into a paragraph"
+        },
+        {
+          "id": "D",
+          "text": "Replacing every base with an unrelated dictionary meaning"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L04-Q061",
+      "lecture_id": "LING-L04",
+      "topic_id": "derivation_inflection",
+      "source_slides": [
+        11,
+        12,
+        14
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "Which change is derivational?",
+      "explanation": "The suffix -ic forms the adjective alcoholic from the noun alcohol in the specified use. The alternatives mark grammatical number or agreement.",
+      "example": "In an alcoholic drink, alcoholic functions as an adjective modifying drink.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "alcohol to alcoholic, with alcoholic used as an adjective"
+        },
+        {
+          "id": "B",
+          "text": "class to classes"
+        },
+        {
+          "id": "C",
+          "text": "book to books"
+        },
+        {
+          "id": "D",
+          "text": "wait to waits"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L04-Q062",
+      "lecture_id": "LING-L04",
+      "topic_id": "derivation_inflection",
+      "source_slides": [
+        11,
+        12,
+        14
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "Which change is inflectional?",
+      "explanation": "The plural ending marks grammatical number while the word remains a noun. The alternatives form derived lexical words.",
+      "example": "Class to classes similarly marks plural number.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "cheap to cheaply"
+        },
+        {
+          "id": "B",
+          "text": "play to player"
+        },
+        {
+          "id": "C",
+          "text": "care to careless"
+        },
+        {
+          "id": "D",
+          "text": "book to books"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L04-Q063",
+      "lecture_id": "LING-L04",
+      "topic_id": "derivation_inflection",
+      "source_slides": [
+        11,
+        12,
+        14
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "analyze",
+      "question": "Why is the claim “derivation always changes word class” inaccurate?",
+      "explanation": "Category-changing derivation is common, but it is not the definition of every derivational process. A new lexical meaning can be formed within the same class.",
+      "example": "Rewrite remains a verb, like write.",
+      "reference_ids": [
+        "lecture_04",
+        "derivation"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Word classes are unrelated to any word formation."
+        },
+        {
+          "id": "B",
+          "text": "All prefixes are inflectional by definition."
+        },
+        {
+          "id": "C",
+          "text": "Some derivation changes meaning while preserving the base’s word class."
+        },
+        {
+          "id": "D",
+          "text": "Derivation can never change word class."
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L04-Q064",
+      "lecture_id": "LING-L04",
+      "topic_id": "derivation_inflection",
+      "source_slides": [
+        11,
+        12,
+        14
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "When “replay” means play again, what kind of change does re- make?",
+      "explanation": "The prefix contributes repetition without requiring a word-class change. This is a straightforward counterexample to the slide’s absolute wording.",
+      "example": "Rewatch remains a verb meaning watch again.",
+      "reference_ids": [
+        "lecture_04",
+        "derivation"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "A past-tense ending"
+        },
+        {
+          "id": "B",
+          "text": "A derivational meaning change that keeps a verb as a verb"
+        },
+        {
+          "id": "C",
+          "text": "A plural noun inflection"
+        },
+        {
+          "id": "D",
+          "text": "A conversion of a clause into a noun phrase"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L04-Q065",
+      "lecture_id": "LING-L04",
+      "topic_id": "derivation_inflection",
+      "source_slides": [
+        11,
+        12,
+        14
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "What does -en do in “brighten” when it means make brighter?",
+      "explanation": "The suffix forms a verb with a meaning related to making something bright. This illustrates category-changing derivation, unlike a same-class case such as rewrite.",
+      "example": "In “The new paint will brighten the room,” brighten is a verb.",
+      "reference_ids": [
+        "lecture_04",
+        "derivation"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "It marks past tense on an adjective."
+        },
+        {
+          "id": "B",
+          "text": "It derives a verb from the adjective bright."
+        },
+        {
+          "id": "C",
+          "text": "It marks plural number on a noun."
+        },
+        {
+          "id": "D",
+          "text": "It functions as a free conjunction."
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L04-Q066",
+      "lecture_id": "LING-L04",
+      "topic_id": "derivation_inflection",
+      "source_slides": [
+        11,
+        12,
+        14
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "How does -er function in “player”?",
+      "explanation": "The suffix creates a lexical noun from the verb play. Its function must be identified from the actual word, not its spelling alone.",
+      "example": "Teach becomes teacher through a similar derivation.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "It turns a noun into a past-tense form."
+        },
+        {
+          "id": "B",
+          "text": "It marks comparative degree on a noun."
+        },
+        {
+          "id": "C",
+          "text": "It derives a noun referring to someone who plays."
+        },
+        {
+          "id": "D",
+          "text": "It marks plural number on a verb."
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L04-Q067",
+      "lecture_id": "LING-L04",
+      "topic_id": "derivation_inflection",
+      "source_slides": [
+        11,
+        12,
+        14
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "How does -er function in “older” in “an older student”?",
+      "explanation": "Old and older remain adjective forms. The ending contributes a grammatical comparison rather than naming a person.",
+      "example": "Tall and taller have the same comparative relationship.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "It introduces a negative meaning."
+        },
+        {
+          "id": "B",
+          "text": "It marks the noun’s plural number."
+        },
+        {
+          "id": "C",
+          "text": "It derives a person noun from a verb."
+        },
+        {
+          "id": "D",
+          "text": "It marks comparative degree on an adjective."
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L04-Q068",
+      "lecture_id": "LING-L04",
+      "topic_id": "derivation_inflection",
+      "source_slides": [
+        11,
+        12,
+        14
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "What does comparing -er in “player” and “older” demonstrate?",
+      "explanation": "The interpretation depends on the base and resulting word. One ending forms a noun; the other marks comparative degree.",
+      "example": "Teacher and taller should not be assigned the same function just because both end in er.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Every occurrence of -er must be a plural ending."
+        },
+        {
+          "id": "B",
+          "text": "Every occurrence of -er must be one derivational morpheme."
+        },
+        {
+          "id": "C",
+          "text": "Identical written endings can have different morphological functions."
+        },
+        {
+          "id": "D",
+          "text": "Suffix spelling makes context irrelevant."
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L04-Q069",
+      "lecture_id": "LING-L04",
+      "topic_id": "derivation_inflection",
+      "source_slides": [
+        11,
+        12,
+        14
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "In “She waits outside,” what grammatical information does -s express on “waits”?",
+      "explanation": "The ending belongs to a verb in this sentence. It is inflectional, but it is not the noun plural -s.",
+      "example": "In “He plays,” the verb ending similarly accompanies a third-person singular subject.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Past tense on the verb"
+        },
+        {
+          "id": "B",
+          "text": "Present-tense third-person singular agreement"
+        },
+        {
+          "id": "C",
+          "text": "Derivation of an adjective"
+        },
+        {
+          "id": "D",
+          "text": "Plural number on a noun"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L04-Q070",
+      "lecture_id": "LING-L04",
+      "topic_id": "derivation_inflection",
+      "source_slides": [
+        11,
+        12,
+        14
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "analyze",
+      "question": "Why must -s in “books” and -s in “waits” be analysed in context?",
+      "explanation": "The noun ending expresses plurality, whereas the verb ending marks agreement in the given present-tense use. Spelling alone does not identify morphemic function.",
+      "example": "“Two plays” and “she plays” assign different grammatical roles to similar-looking endings.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Neither contributes grammatical information."
+        },
+        {
+          "id": "B",
+          "text": "They mark different grammatical functions despite sharing a written form."
+        },
+        {
+          "id": "C",
+          "text": "Both necessarily mark plural nouns."
+        },
+        {
+          "id": "D",
+          "text": "Both necessarily form new lexical adjectives."
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L04-Q071",
+      "lecture_id": "LING-L04",
+      "topic_id": "derivation_inflection",
+      "source_slides": [
+        11,
+        12,
+        14
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "In the lecture’s classification, what kind of ending is -ed in “walked yesterday”?",
+      "explanation": "The ending marks tense on the verb. It is bound and suffixal, but those labels concern different properties of the same ending.",
+      "example": "Played yesterday also contains a past-tense inflection.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "A free functional conjunction"
+        },
+        {
+          "id": "B",
+          "text": "An infix forming a new noun"
+        },
+        {
+          "id": "C",
+          "text": "An inflectional past-tense ending"
+        },
+        {
+          "id": "D",
+          "text": "A derivational negative prefix"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L04-Q072",
+      "lecture_id": "LING-L04",
+      "topic_id": "derivation_inflection",
+      "source_slides": [
+        11,
+        12,
+        14
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "What kind of morphological change does “weak” to “weakest” illustrate in the lecture’s scheme?",
+      "explanation": "The suffix -est marks superlative degree while the base remains adjectival. The diagram places this example under inflection.",
+      "example": "Tall becomes tallest by the same type of comparison.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Infixation producing a plural noun"
+        },
+        {
+          "id": "B",
+          "text": "Derivation of a verb from a noun"
+        },
+        {
+          "id": "C",
+          "text": "Inflection for superlative comparison"
+        },
+        {
+          "id": "D",
+          "text": "Prefixation expressing repetition"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L04-Q073",
+      "lecture_id": "LING-L04",
+      "topic_id": "derivation_inflection",
+      "source_slides": [
+        11,
+        12,
+        14
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Which statement best qualifies the claim that inflection does not change meaning?",
+      "explanation": "Grammatical meanings such as number and tense matter. The intended distinction is between grammatical variation and creating a new lexical item, not meaning versus no meaning.",
+      "example": "Books differs from book in number while retaining the lexical concept.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Inflection contributes grammatical meaning without ordinarily creating a new lexical word or category."
+        },
+        {
+          "id": "B",
+          "text": "Inflection contributes no information of any kind."
+        },
+        {
+          "id": "C",
+          "text": "A plural ending has exactly the same interpretation as a singular form."
+        },
+        {
+          "id": "D",
+          "text": "Inflection always creates a new unrelated dictionary concept."
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L04-Q074",
+      "lecture_id": "LING-L04",
+      "topic_id": "derivation_inflection",
+      "source_slides": [
+        11,
+        12,
+        14
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "apply",
+      "question": "In “players,” which analysis correctly separates derivation and inflection?",
+      "explanation": "The first suffix creates a noun; the next marks its plural form. One word can therefore combine derivation with inflection.",
+      "example": "Teachers can likewise be analysed as teach plus -er plus plural -s.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Play plus two suffixes that must both mark past tense"
+        },
+        {
+          "id": "B",
+          "text": "Play plus derivational -er, followed by plural -s"
+        },
+        {
+          "id": "C",
+          "text": "Play plus plural -er, followed by negative -s"
+        },
+        {
+          "id": "D",
+          "text": "Player is one simple morpheme followed by a free word s"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L04-Q075",
+      "lecture_id": "LING-L04",
+      "topic_id": "derivation_inflection",
+      "source_slides": [
+        11,
+        12,
+        14
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "What is the best correction to calling “recover” an obvious example of re- meaning again in every use?",
+      "explanation": "Meaning matters when identifying parts. Recover meaning regain health is not a clear teaching example of the transparent cover-again construction.",
+      "example": "Re-cover the chair makes the intended word-building meaning explicit.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Treat the initial letters re as a plural suffix."
+        },
+        {
+          "id": "B",
+          "text": "Use the explicit meaning “cover again” when illustrating that transparent prefix analysis."
+        },
+        {
+          "id": "C",
+          "text": "Assume every word beginning with re contains the repetition prefix."
+        },
+        {
+          "id": "D",
+          "text": "Assume recover can only be a noun."
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L04-Q076",
+      "lecture_id": "LING-L04",
+      "topic_id": "derivation_inflection",
+      "source_slides": [
+        11,
+        12,
+        14
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "What grammatical relationship does ’s express in “the girl’s book”?",
+      "explanation": "The possessive form links the book with the girl. This addresses the slide’s mention of noun case without requiring a particular theoretical analysis of the English possessive marker.",
+      "example": "The teacher’s desk similarly associates the desk with the teacher.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Present-tense agreement on a verb"
+        },
+        {
+          "id": "B",
+          "text": "Plural number on girl"
+        },
+        {
+          "id": "C",
+          "text": "Comparative degree on an adjective"
+        },
+        {
+          "id": "D",
+          "text": "A possessive relationship between the girl and the book"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L04-Q077",
+      "lecture_id": "LING-L04",
+      "topic_id": "affixes",
+      "source_slides": [
+        12,
+        13,
+        14
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "What is an affix?",
+      "explanation": "Affix is a cover term for attached morphological material. An affix can be classified further by its position and function.",
+      "example": "Un- in unable and -ed in played are affixes.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "A punctuation mark that separates sentences"
+        },
+        {
+          "id": "B",
+          "text": "A complete independent clause"
+        },
+        {
+          "id": "C",
+          "text": "A free word used only as a conjunction"
+        },
+        {
+          "id": "D",
+          "text": "A bound form attached to a base in word formation or inflection"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L04-Q078",
+      "lecture_id": "LING-L04",
+      "topic_id": "affixes",
+      "source_slides": [
+        12,
+        13,
+        14
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "Where does a prefix occur relative to its base?",
+      "explanation": "Prefix describes position. It does not by itself identify whether the resulting word changes class.",
+      "example": "Re- precedes write in rewrite.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only between two independent clauses"
+        },
+        {
+          "id": "B",
+          "text": "Only as a separate word after a sentence"
+        },
+        {
+          "id": "C",
+          "text": "After the complete base"
+        },
+        {
+          "id": "D",
+          "text": "Before the base"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L04-Q079",
+      "lecture_id": "LING-L04",
+      "topic_id": "affixes",
+      "source_slides": [
+        12,
+        13,
+        14
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "Where does a suffix occur relative to its base?",
+      "explanation": "A suffix follows its base. Both derivational and inflectional examples can have this position.",
+      "example": "The suffix -er follows play in player.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Before the complete base"
+        },
+        {
+          "id": "B",
+          "text": "After the base"
+        },
+        {
+          "id": "C",
+          "text": "Only inside an independent word’s root"
+        },
+        {
+          "id": "D",
+          "text": "Only as an unattached word before the subject"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L04-Q080",
+      "lecture_id": "LING-L04",
+      "topic_id": "affixes",
+      "source_slides": [
+        12,
+        13,
+        14
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "What is an infix in the introductory definition?",
+      "explanation": "An infix involves inserted morphological material. A change inside a word is not automatically infixation.",
+      "example": "In a hypothetical pattern, inserting -um- inside a root would illustrate infixation.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "An affix placed before the whole base"
+        },
+        {
+          "id": "B",
+          "text": "An affix inserted within a base"
+        },
+        {
+          "id": "C",
+          "text": "An affix placed after the whole base"
+        },
+        {
+          "id": "D",
+          "text": "A conjunction placed between two clauses"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L04-Q081",
+      "lecture_id": "LING-L04",
+      "topic_id": "affixes",
+      "source_slides": [
+        12,
+        13,
+        14
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "Which word clearly illustrates prefixation in the lecture’s examples?",
+      "explanation": "Re- appears before the base write and contributes repetition in the intended use. The alternatives illustrate endings after bases.",
+      "example": "Un- precedes able in unable.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "older"
+        },
+        {
+          "id": "B",
+          "text": "played"
+        },
+        {
+          "id": "C",
+          "text": "player"
+        },
+        {
+          "id": "D",
+          "text": "rewrite"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L04-Q082",
+      "lecture_id": "LING-L04",
+      "topic_id": "affixes",
+      "source_slides": [
+        12,
+        13,
+        14
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "Which pair contains a prefixal example followed by a suffixal example?",
+      "explanation": "Unable contains initial un-, while played contains final -ed. The requested order concerns position, not whether the forms have the same grammatical function.",
+      "example": "Rewrite and player provide another prefix-then-suffix pairing.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "older and rewrite"
+        },
+        {
+          "id": "B",
+          "text": "unable and played"
+        },
+        {
+          "id": "C",
+          "text": "played and unable"
+        },
+        {
+          "id": "D",
+          "text": "player and illegal"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L04-Q083",
+      "lecture_id": "LING-L04",
+      "topic_id": "affixes",
+      "source_slides": [
+        12,
+        13,
+        14
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "analyze",
+      "question": "Why is “men” not a clear example of an inserted English infix?",
+      "explanation": "Internal change and infixation are different processes. The slide’s example should not make every internal spelling change an affix.",
+      "example": "Woman to women also involves an internal vowel change rather than a simple inserted affix.",
+      "reference_ids": [
+        "lecture_04",
+        "internal_change"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Every plural form must contain a suffix spelled s."
+        },
+        {
+          "id": "B",
+          "text": "Men contains no grammatical number distinction."
+        },
+        {
+          "id": "C",
+          "text": "Only words with three syllables can show infixation."
+        },
+        {
+          "id": "D",
+          "text": "Its relation to man involves an internal vowel change rather than insertion of a separate affix."
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L04-Q084",
+      "lecture_id": "LING-L04",
+      "topic_id": "affixes",
+      "source_slides": [
+        12,
+        13,
+        14
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Why is “passersby” not a reliable example of an infix inserted inside a simple root?",
+      "explanation": "A suffix can occur within a larger multi-part word without becoming an infix inside its base. Structural position must be analysed relative to the relevant base.",
+      "example": "The plural marker follows passer even though by appears afterward.",
+      "reference_ids": [
+        "lecture_04",
+        "internal_change"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The word must contain no morphological structure."
+        },
+        {
+          "id": "B",
+          "text": "The ending s is a free functional word."
+        },
+        {
+          "id": "C",
+          "text": "By is always a plural infix."
+        },
+        {
+          "id": "D",
+          "text": "Its plural -s attaches to passer within a larger compound-like expression."
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L04-Q085",
+      "lecture_id": "LING-L04",
+      "topic_id": "affixes",
+      "source_slides": [
+        12,
+        13,
+        14
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "In “cheaper,” how is -er classified by position?",
+      "explanation": "The ending follows cheap. Positional classification is separate from the ending’s function as a comparative marker.",
+      "example": "Older also has a comparative suffix after its adjective base.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Prefix"
+        },
+        {
+          "id": "B",
+          "text": "Independent word"
+        },
+        {
+          "id": "C",
+          "text": "Suffix"
+        },
+        {
+          "id": "D",
+          "text": "Infix"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L04-Q086",
+      "lecture_id": "LING-L04",
+      "topic_id": "affixes",
+      "source_slides": [
+        12,
+        13,
+        14
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "analyze",
+      "question": "Do the labels prefix and suffix by themselves decide whether an affix is derivational or inflectional?",
+      "explanation": "An affix’s location does not establish its function. A suffix may derive a word or express grammatical information.",
+      "example": "Player has derivational -er, while played has inflectional -ed.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "No; position and morphological function are different classifications."
+        },
+        {
+          "id": "B",
+          "text": "No; because affixes never contribute grammatical information."
+        },
+        {
+          "id": "C",
+          "text": "Yes; every prefix changes a noun into a verb."
+        },
+        {
+          "id": "D",
+          "text": "Yes; every suffix is inflectional."
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L04-Q087",
+      "lecture_id": "LING-L04",
+      "topic_id": "affixes",
+      "source_slides": [
+        12,
+        13,
+        14
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "In a hypothetical teaching pattern, “tak” becomes “tumak” by insertion of material after the first consonant. Which part is the infix?",
+      "explanation": "The inserted material occurs inside the base, after its first consonant. This supplied pattern illustrates the definition without making a claim about a particular real language.",
+      "example": "The original t-a-k sequence surrounds the inserted u-m material.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "-um-"
+        },
+        {
+          "id": "B",
+          "text": "the final -k"
+        },
+        {
+          "id": "C",
+          "text": "the initial t-"
+        },
+        {
+          "id": "D",
+          "text": "the whole form tumak"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L04-Q088",
+      "lecture_id": "LING-L04",
+      "topic_id": "affixes",
+      "source_slides": [
+        12,
+        13,
+        14
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Which corrected summary best replaces the misleading infix examples in the slide?",
+      "explanation": "The core positional definitions are useful, but examples must actually instantiate them. Internal vowel alternation and suffixes inside complex words should not be relabelled infixes.",
+      "example": "Man to men is internal change, while play to played adds a suffix.",
+      "reference_ids": [
+        "lecture_04",
+        "internal_change"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Every English irregular plural is produced by an infix."
+        },
+        {
+          "id": "B",
+          "text": "Any letter inside a word must be an infix."
+        },
+        {
+          "id": "C",
+          "text": "Prefixes precede bases, suffixes follow bases, and infixes insert material within bases; irregular plurals need separate analysis."
+        },
+        {
+          "id": "D",
+          "text": "Only affixes at the end of complete sentences count as suffixes."
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L04-Q089",
+      "lecture_id": "LING-L04",
+      "topic_id": "phrase_noun",
+      "source_slides": [
+        15,
+        19
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "understand",
+      "question": "Which statement gives the most careful introductory account of a phrase?",
+      "explanation": "Phrases have internal grammatical organization. They may contain one word or several, so the slide’s two-or-more requirement is too restrictive as a universal definition.",
+      "example": "Bird can function as a noun phrase, as can the little bird.",
+      "reference_ids": [
+        "lecture_04",
+        "phrase_heads"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "A word group that must contain an independent finite clause"
+        },
+        {
+          "id": "B",
+          "text": "Any sequence containing exactly two words"
+        },
+        {
+          "id": "C",
+          "text": "Any written line ending with a full stop"
+        },
+        {
+          "id": "D",
+          "text": "A unit organized around a head that may include dependent material"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L04-Q090",
+      "lecture_id": "LING-L04",
+      "topic_id": "phrase_noun",
+      "source_slides": [
+        15,
+        19
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "analyze",
+      "question": "Why is “a phrase always contains at least two words” too restrictive?",
+      "explanation": "Phrase status depends on structure and function rather than a minimum written word count.",
+      "example": "In “Birds sing,” birds can function as a noun phrase.",
+      "reference_ids": [
+        "lecture_04",
+        "phrase_heads"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Every letter must count as a separate phrase."
+        },
+        {
+          "id": "B",
+          "text": "All two-word expressions are independent clauses."
+        },
+        {
+          "id": "C",
+          "text": "A single word can serve as a phrase when it fills the relevant structural role."
+        },
+        {
+          "id": "D",
+          "text": "Only a verb can occur as a single word."
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L04-Q091",
+      "lecture_id": "LING-L04",
+      "topic_id": "phrase_noun",
+      "source_slides": [
+        15,
+        19
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "Which word heads the noun phrase “the little boy”?",
+      "explanation": "The head supplies the main lexical category around which the phrase is organized. The other words help specify or describe that head.",
+      "example": "In “a small house,” house is the head noun.",
+      "reference_ids": [
+        "lecture_04",
+        "phrase_heads"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "the little"
+        },
+        {
+          "id": "B",
+          "text": "little"
+        },
+        {
+          "id": "C",
+          "text": "the"
+        },
+        {
+          "id": "D",
+          "text": "boy"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L04-Q092",
+      "lecture_id": "LING-L04",
+      "topic_id": "phrase_noun",
+      "source_slides": [
+        15,
+        19
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "apply",
+      "question": "Which expression is a noun phrase?",
+      "explanation": "A bird is organized around the noun bird. The alternatives are headed by a preposition, adjective, and adverb respectively.",
+      "example": "The little boy is another noun phrase in the lecture.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "very pleased"
+        },
+        {
+          "id": "B",
+          "text": "on the road"
+        },
+        {
+          "id": "C",
+          "text": "a bird"
+        },
+        {
+          "id": "D",
+          "text": "quite slowly"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L04-Q093",
+      "lecture_id": "LING-L04",
+      "topic_id": "phrase_noun",
+      "source_slides": [
+        15,
+        19
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "What is the function of “the little boy” in “The little boy smiled”?",
+      "explanation": "The whole noun phrase identifies the participant whose action is predicated by smiled. Its internal words work together in that subject position.",
+      "example": "A bird functions as subject in “A bird sang.”",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Subject"
+        },
+        {
+          "id": "B",
+          "text": "Direct object"
+        },
+        {
+          "id": "C",
+          "text": "Infinitive marker"
+        },
+        {
+          "id": "D",
+          "text": "Prepositional complement"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L04-Q094",
+      "lecture_id": "LING-L04",
+      "topic_id": "phrase_noun",
+      "source_slides": [
+        15,
+        19
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "What is the function of “a bird” in “The child saw a bird”?",
+      "explanation": "The noun phrase completes the transitive verb saw as its object. The child is the subject, not a bird.",
+      "example": "A book is the object in “She bought a book.”",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Main verb"
+        },
+        {
+          "id": "B",
+          "text": "Direct object"
+        },
+        {
+          "id": "C",
+          "text": "Clause-linking conjunction"
+        },
+        {
+          "id": "D",
+          "text": "Subject"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L04-Q095",
+      "lecture_id": "LING-L04",
+      "topic_id": "phrase_noun",
+      "source_slides": [
+        15,
+        19
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "What is the function of “a teacher” in “Sara is a teacher”?",
+      "explanation": "The noun phrase supplies a description or identification of Sara after is. The lecture notes that noun phrases can function as complements as well as subjects or objects.",
+      "example": "A doctor is a subject complement in “Ali is a doctor.”",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Subject complement"
+        },
+        {
+          "id": "B",
+          "text": "Prepositional head"
+        },
+        {
+          "id": "C",
+          "text": "Direct object of an action verb"
+        },
+        {
+          "id": "D",
+          "text": "Independent finite clause"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L04-Q096",
+      "lecture_id": "LING-L04",
+      "topic_id": "phrase_noun",
+      "source_slides": [
+        15,
+        19
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "analyze",
+      "question": "Why is “nice blue shirt,” taken as the whole expression, not best classified as an adjective phrase?",
+      "explanation": "A phrase may contain adjectives without being headed by one. The category of the whole expression must be distinguished from the categories of its modifiers.",
+      "example": "A very old house is a noun phrase containing adjectival material.",
+      "reference_ids": [
+        "lecture_04",
+        "phrase_heads"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Shirt is an infinitive because it names an object."
+        },
+        {
+          "id": "B",
+          "text": "Blue must be a preposition because it precedes shirt."
+        },
+        {
+          "id": "C",
+          "text": "Its head is the noun shirt, so the whole expression is a noun phrase."
+        },
+        {
+          "id": "D",
+          "text": "The presence of any adjective makes the whole expression an adjective phrase."
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L04-Q097",
+      "lecture_id": "LING-L04",
+      "topic_id": "phrase_noun",
+      "source_slides": [
+        15,
+        19
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "understand",
+      "question": "Which distinction is most useful when analysing a phrase?",
+      "explanation": "Category asks what kind of unit it is; function asks what it does in a larger structure. Confusing them produces several errors in the slides.",
+      "example": "A noun phrase can function as either subject or object.",
+      "reference_ids": [
+        "lecture_04",
+        "phrase_heads"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "A phrase’s function can be read from its font alone."
+        },
+        {
+          "id": "B",
+          "text": "A phrase is a noun phrase whenever it describes anything."
+        },
+        {
+          "id": "C",
+          "text": "A phrase’s category is always the same as the number of its words."
+        },
+        {
+          "id": "D",
+          "text": "Its structural category and its grammatical function are related but different questions."
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L04-Q098",
+      "lecture_id": "LING-L04",
+      "topic_id": "phrase_noun",
+      "source_slides": [
+        15,
+        19
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "apply",
+      "question": "In “The student from Lahore arrived,” what is the category of the entire expression “the student from Lahore”?",
+      "explanation": "Student heads the whole phrase, while from Lahore is embedded as a modifier. An embedded phrase does not automatically determine the category of the larger unit.",
+      "example": "The book on the desk is also a noun phrase containing a prepositional phrase.",
+      "reference_ids": [
+        "lecture_04",
+        "phrase_heads"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Independent clause"
+        },
+        {
+          "id": "B",
+          "text": "Adjective phrase"
+        },
+        {
+          "id": "C",
+          "text": "Noun phrase"
+        },
+        {
+          "id": "D",
+          "text": "Prepositional phrase"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L04-Q099",
+      "lecture_id": "LING-L04",
+      "topic_id": "pp_adj_adv",
+      "source_slides": [
+        16,
+        19
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "Which expression is a prepositional phrase in the lecture?",
+      "explanation": "On heads the phrase and is followed by a noun phrase. The entire expression is classified by that prepositional structure.",
+      "example": "In a good manner is another prepositional phrase.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "on the road"
+        },
+        {
+          "id": "B",
+          "text": "has completed"
+        },
+        {
+          "id": "C",
+          "text": "the little boy"
+        },
+        {
+          "id": "D",
+          "text": "very happy"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L04-Q100",
+      "lecture_id": "LING-L04",
+      "topic_id": "pp_adj_adv",
+      "source_slides": [
+        16,
+        19
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "In “on the narrow road,” which element is the complement of the preposition on?",
+      "explanation": "The noun phrase follows and completes the preposition. Narrow modifies road inside that noun phrase.",
+      "example": "In the phrase in a small room, a small room complements in.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "the narrow road"
+        },
+        {
+          "id": "B",
+          "text": "narrow alone"
+        },
+        {
+          "id": "C",
+          "text": "on the narrow"
+        },
+        {
+          "id": "D",
+          "text": "on alone"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L04-Q101",
+      "lecture_id": "LING-L04",
+      "topic_id": "pp_adj_adv",
+      "source_slides": [
+        16,
+        19
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "What is the structural category of “from China” in “The boy from China won”?",
+      "explanation": "From is the prepositional head. The phrase modifies boy, but that adjectival use does not turn it into an adjective-headed phrase.",
+      "example": "From Lahore can similarly modify student while remaining a prepositional phrase.",
+      "reference_ids": [
+        "lecture_04",
+        "phrase_heads"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Prepositional phrase"
+        },
+        {
+          "id": "B",
+          "text": "Adjective phrase headed by China"
+        },
+        {
+          "id": "C",
+          "text": "Noun phrase headed by from"
+        },
+        {
+          "id": "D",
+          "text": "Independent clause"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L04-Q102",
+      "lecture_id": "LING-L04",
+      "topic_id": "pp_adj_adv",
+      "source_slides": [
+        16,
+        19
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Which statement correctly analyses “in a loud voice” in “They shouted in a loud voice”?",
+      "explanation": "The expression’s form is prepositional, while its function is to describe how they shouted. Form and function must be distinguished.",
+      "example": "In a good manner can also be prepositional in form and adverbial in function.",
+      "reference_ids": [
+        "lecture_04",
+        "phrase_heads"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "It is a noun phrase headed by in."
+        },
+        {
+          "id": "B",
+          "text": "It is an independent clause with an omitted conjunction."
+        },
+        {
+          "id": "C",
+          "text": "It is an adverb-headed phrase because voice is an adverb."
+        },
+        {
+          "id": "D",
+          "text": "It is a prepositional phrase functioning adverbially."
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L04-Q103",
+      "lecture_id": "LING-L04",
+      "topic_id": "pp_adj_adv",
+      "source_slides": [
+        16,
+        19
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "apply",
+      "question": "Which expression is an adjective phrase headed by an adjective?",
+      "explanation": "Happy is the head, and very modifies its degree. A happy child is a larger noun phrase, not the same category as very happy.",
+      "example": "Extremely tired is another adjective phrase.",
+      "reference_ids": [
+        "lecture_04",
+        "phrase_heads"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "very happy"
+        },
+        {
+          "id": "B",
+          "text": "in the room"
+        },
+        {
+          "id": "C",
+          "text": "quite slowly"
+        },
+        {
+          "id": "D",
+          "text": "a happy child"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L04-Q104",
+      "lecture_id": "LING-L04",
+      "topic_id": "pp_adj_adv",
+      "source_slides": [
+        16,
+        19
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "What heads the adjective phrase “proud of her work”?",
+      "explanation": "Proud determines the phrase’s adjective category, and of her work supplies related complement information. The presence of a preposition does not make the whole expression a prepositional phrase.",
+      "example": "Pleased with the result is also headed by an adjective.",
+      "reference_ids": [
+        "lecture_04",
+        "phrase_heads"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "of"
+        },
+        {
+          "id": "B",
+          "text": "work"
+        },
+        {
+          "id": "C",
+          "text": "proud"
+        },
+        {
+          "id": "D",
+          "text": "her"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L04-Q105",
+      "lecture_id": "LING-L04",
+      "topic_id": "pp_adj_adv",
+      "source_slides": [
+        16,
+        19
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "In “The students were very tired,” what is the category of “very tired”?",
+      "explanation": "Tired is adjectival in this use, and very modifies it. The phrase describes the subject after were.",
+      "example": "Quite happy can occur in the same grammatical position.",
+      "reference_ids": [
+        "lecture_04",
+        "phrase_heads"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Finite verb phrase"
+        },
+        {
+          "id": "B",
+          "text": "Adjective phrase"
+        },
+        {
+          "id": "C",
+          "text": "Noun phrase"
+        },
+        {
+          "id": "D",
+          "text": "Prepositional phrase"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L04-Q106",
+      "lecture_id": "LING-L04",
+      "topic_id": "pp_adj_adv",
+      "source_slides": [
+        16,
+        19
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "apply",
+      "question": "Which expression is an adverb phrase headed by an adverb?",
+      "explanation": "Slowly heads the expression and is modified by quite. The alternatives differ in structural category even if some can serve related functions.",
+      "example": "Very carefully is another adverb phrase.",
+      "reference_ids": [
+        "lecture_04",
+        "phrase_heads"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "in a loud voice"
+        },
+        {
+          "id": "B",
+          "text": "a slow reply"
+        },
+        {
+          "id": "C",
+          "text": "very pleased"
+        },
+        {
+          "id": "D",
+          "text": "quite slowly"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L04-Q107",
+      "lecture_id": "LING-L04",
+      "topic_id": "pp_adj_adv",
+      "source_slides": [
+        16,
+        19
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "What is the head in the adverb phrase “very carefully”?",
+      "explanation": "Carefully supplies the central adverbial word, while very modifies degree. The phrase and the internal morphology of carefully are separate analytical levels.",
+      "example": "Quite slowly is headed by slowly.",
+      "reference_ids": [
+        "lecture_04",
+        "phrase_heads"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "very"
+        },
+        {
+          "id": "B",
+          "text": "care"
+        },
+        {
+          "id": "C",
+          "text": "very carefully as one morpheme"
+        },
+        {
+          "id": "D",
+          "text": "carefully"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L04-Q108",
+      "lecture_id": "LING-L04",
+      "topic_id": "pp_adj_adv",
+      "source_slides": [
+        16,
+        19
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Why should “in a good manner” not be labelled an adverb phrase solely because it answers how?",
+      "explanation": "Questions such as how concern function. A structural category depends on the head, so this expression remains a prepositional phrase.",
+      "example": "Carefully is an adverb; in a careful manner is a prepositional expression with a similar function.",
+      "reference_ids": [
+        "lecture_04",
+        "phrase_heads"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Every manner expression must be a noun phrase."
+        },
+        {
+          "id": "B",
+          "text": "Only time expressions can be prepositional phrases."
+        },
+        {
+          "id": "C",
+          "text": "The word manner must be an adjective."
+        },
+        {
+          "id": "D",
+          "text": "An adverbial function does not make its prepositional head an adverb."
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L04-Q109",
+      "lecture_id": "LING-L04",
+      "topic_id": "pp_adj_adv",
+      "source_slides": [
+        16,
+        19
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "Which pair supplies an adjective phrase in “She is ...” and an adverb phrase in “She replied ...,” in that order?",
+      "explanation": "Kind is the adjective head in the first context, while kindly is the adverb head in the second. The alternatives do not give both requested structural categories.",
+      "example": "She is extremely clear and she speaks extremely clearly show the same adjective–adverb distinction.",
+      "reference_ids": [
+        "lecture_04",
+        "phrase_heads"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "a kind person and in a kind way"
+        },
+        {
+          "id": "B",
+          "text": "on the road and a road"
+        },
+        {
+          "id": "C",
+          "text": "very kind and very kindly"
+        },
+        {
+          "id": "D",
+          "text": "has helped and to help"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L04-Q110",
+      "lecture_id": "LING-L04",
+      "topic_id": "pp_adj_adv",
+      "source_slides": [
+        16,
+        19
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "In “the child with a red bag,” which analysis keeps the whole unit and the embedded modifier separate?",
+      "explanation": "A larger phrase may contain a smaller phrase of another category. Identifying the head and boundaries prevents confusion.",
+      "example": "The boy from China contains an embedded prepositional phrase within a noun phrase.",
+      "reference_ids": [
+        "lecture_04",
+        "phrase_heads"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The whole is a prepositional phrase because it contains with."
+        },
+        {
+          "id": "B",
+          "text": "The whole is a finite clause because child names a person."
+        },
+        {
+          "id": "C",
+          "text": "The whole is an adjective phrase because the bag is red."
+        },
+        {
+          "id": "D",
+          "text": "The whole is a noun phrase; with a red bag is a prepositional modifier."
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L04-Q111",
+      "lecture_id": "LING-L04",
+      "topic_id": "verb_infinitive_gerund",
+      "source_slides": [
+        17,
+        19
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "apply",
+      "question": "Using the lecture’s traditional verb-group convention, which words form the verb group in “He is eating an apple”?",
+      "explanation": "The lecture uses verb phrase for the auxiliary plus main verb. The object is outside that narrower teaching label, although some syntactic frameworks use VP more broadly.",
+      "example": "Has completed is the corresponding verb group in “She has completed her task.”",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "is eating"
+        },
+        {
+          "id": "B",
+          "text": "eating an"
+        },
+        {
+          "id": "C",
+          "text": "an apple"
+        },
+        {
+          "id": "D",
+          "text": "He is"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L04-Q112",
+      "lecture_id": "LING-L04",
+      "topic_id": "verb_infinitive_gerund",
+      "source_slides": [
+        17,
+        19
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "Which word is the main verb in the group “has completed”?",
+      "explanation": "Has functions as an auxiliary, while completed supplies the main lexical verb in the group. Main-verb identity is different from which form is finite.",
+      "example": "In is eating, eating is the main verb.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "completed"
+        },
+        {
+          "id": "B",
+          "text": "both words as one morpheme"
+        },
+        {
+          "id": "C",
+          "text": "the unstated subject"
+        },
+        {
+          "id": "D",
+          "text": "has"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L04-Q113",
+      "lecture_id": "LING-L04",
+      "topic_id": "verb_infinitive_gerund",
+      "source_slides": [
+        17,
+        19
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "analyze",
+      "question": "In “She has completed her task,” which part of the verbal group is finite?",
+      "explanation": "Has carries the finite present-tense form in this group. Completed is the participial main-verb form, so main and finite are not interchangeable labels.",
+      "example": "In is eating, is is finite while eating is non-finite.",
+      "reference_ids": [
+        "lecture_04",
+        "finite_nonfinite"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "has"
+        },
+        {
+          "id": "B",
+          "text": "her task"
+        },
+        {
+          "id": "C",
+          "text": "completed"
+        },
+        {
+          "id": "D",
+          "text": "task"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L04-Q114",
+      "lecture_id": "LING-L04",
+      "topic_id": "verb_infinitive_gerund",
+      "source_slides": [
+        17,
+        19
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "Which expression is an infinitive phrase under the lecture’s traditional labels?",
+      "explanation": "The expression begins with infinitival to plus a base verb and includes the verb’s object. The question uses the lecture’s traditional phrase terminology.",
+      "example": "To earn money is another example from the lecture.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "she reads novels"
+        },
+        {
+          "id": "B",
+          "text": "reading novels"
+        },
+        {
+          "id": "C",
+          "text": "the novels"
+        },
+        {
+          "id": "D",
+          "text": "to read novels"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L04-Q115",
+      "lecture_id": "LING-L04",
+      "topic_id": "verb_infinitive_gerund",
+      "source_slides": [
+        17,
+        19
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "In “To read widely is useful,” what role does “to read widely” have?",
+      "explanation": "The infinitival expression occupies the subject position before is. It is not itself a complete independent finite sentence.",
+      "example": "To learn regularly can similarly serve as subject.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Main finite verb"
+        },
+        {
+          "id": "B",
+          "text": "Subject"
+        },
+        {
+          "id": "C",
+          "text": "Independent sentence"
+        },
+        {
+          "id": "D",
+          "text": "Prepositional object headed by read"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L04-Q116",
+      "lecture_id": "LING-L04",
+      "topic_id": "verb_infinitive_gerund",
+      "source_slides": [
+        17,
+        19
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "In “She studies to improve her English,” what does the infinitive expression primarily express?",
+      "explanation": "To improve her English explains why she studies. In the lecture’s traditional account, infinitive expressions can serve adverbial purposes.",
+      "example": "He saved money to buy a book expresses the purpose of saving.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Comparative degree"
+        },
+        {
+          "id": "B",
+          "text": "Plural number"
+        },
+        {
+          "id": "C",
+          "text": "Possession"
+        },
+        {
+          "id": "D",
+          "text": "Purpose"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L04-Q117",
+      "lecture_id": "LING-L04",
+      "topic_id": "verb_infinitive_gerund",
+      "source_slides": [
+        17,
+        19
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "In “She needs a book to read,” what does “to read” most directly modify?",
+      "explanation": "The infinitival expression helps specify the book needed. This illustrates the modifying function mentioned in the lecture’s account.",
+      "example": "A task to complete uses an infinitival expression to modify task.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "book"
+        },
+        {
+          "id": "B",
+          "text": "needs as a past-tense ending"
+        },
+        {
+          "id": "C",
+          "text": "She"
+        },
+        {
+          "id": "D",
+          "text": "a as an article definition"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L04-Q118",
+      "lecture_id": "LING-L04",
+      "topic_id": "verb_infinitive_gerund",
+      "source_slides": [
+        17,
+        19
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "remember",
+      "question": "What identifies a gerund phrase in the lecture’s traditional framework?",
+      "explanation": "The form matters, but so does its role. An -ing expression is not automatically a gerund simply because of its ending.",
+      "example": "Reading good books can serve as the subject of a sentence.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "A finite clause containing a past-tense verb"
+        },
+        {
+          "id": "B",
+          "text": "Any word ending in ing regardless of its role"
+        },
+        {
+          "id": "C",
+          "text": "An infinitive introduced by to"
+        },
+        {
+          "id": "D",
+          "text": "An -ing expression used in a noun-like grammatical role"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L04-Q119",
+      "lecture_id": "LING-L04",
+      "topic_id": "verb_infinitive_gerund",
+      "source_slides": [
+        17,
+        19
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "In “Writing clear essays takes practice,” what is the role of “writing clear essays”?",
+      "explanation": "The entire -ing expression occupies the subject position. In the traditional terminology used here, it is a gerund phrase.",
+      "example": "Swimming regularly can also function as a subject.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Past-tense marker"
+        },
+        {
+          "id": "B",
+          "text": "Subject"
+        },
+        {
+          "id": "C",
+          "text": "Prepositional head"
+        },
+        {
+          "id": "D",
+          "text": "Finite predicate verb"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L04-Q120",
+      "lecture_id": "LING-L04",
+      "topic_id": "verb_infinitive_gerund",
+      "source_slides": [
+        17,
+        19
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "In “I enjoy reading short stories,” which expression is traditionally classified as a gerund phrase?",
+      "explanation": "Reading short stories is the noun-like -ing complement of enjoy in the teaching framework. Short stories is its internal object.",
+      "example": "I enjoy writing essays has the same broad pattern.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "reading short stories"
+        },
+        {
+          "id": "B",
+          "text": "short stories alone"
+        },
+        {
+          "id": "C",
+          "text": "I enjoy"
+        },
+        {
+          "id": "D",
+          "text": "enjoy reading as one finite word"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L04-Q121",
+      "lecture_id": "LING-L04",
+      "topic_id": "verb_infinitive_gerund",
+      "source_slides": [
+        17,
+        19
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "What distinguishes “reading quietly” in “Reading quietly helps me” from “reading quietly” in “The child reading quietly is my son”?",
+      "explanation": "The same -ing form can occur in different grammatical roles. Traditional labels distinguish a gerund use from a participial modifier through that role.",
+      "example": "Swimming daily as a subject differs from the boy swimming daily as a noun modifier.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The first is past tense; the second is plural."
+        },
+        {
+          "id": "B",
+          "text": "The first contains no verb form; the second contains no modifiers."
+        },
+        {
+          "id": "C",
+          "text": "The first has a noun-like role; the second modifies child."
+        },
+        {
+          "id": "D",
+          "text": "Both must be independent clauses because they contain reading."
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L04-Q122",
+      "lecture_id": "LING-L04",
+      "topic_id": "verb_infinitive_gerund",
+      "source_slides": [
+        17,
+        19
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Why is “to the library” not an infinitive phrase?",
+      "explanation": "The word to can be a preposition or an infinitival marker. Its grammatical use must be identified from the structure that follows.",
+      "example": "To read is infinitival; to the station is prepositional.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only expressions containing an object can be infinitives."
+        },
+        {
+          "id": "B",
+          "text": "The word library must be a finite verb."
+        },
+        {
+          "id": "C",
+          "text": "Every phrase starting with to is an infinitive."
+        },
+        {
+          "id": "D",
+          "text": "To is followed by a noun phrase rather than a base verb."
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L04-Q123",
+      "lecture_id": "LING-L04",
+      "topic_id": "participle_absolute",
+      "source_slides": [
+        18
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "apply",
+      "question": "In “The children, making a noise, needed food,” what does “making a noise” modify in the traditional analysis?",
+      "explanation": "The participial expression describes the children. Its -ing form is not functioning as the sentence’s subject or finite verb.",
+      "example": "The girl, carrying a bag, waved uses carrying a bag to describe the girl.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "food"
+        },
+        {
+          "id": "B",
+          "text": "needed as a tense ending"
+        },
+        {
+          "id": "C",
+          "text": "the word a"
+        },
+        {
+          "id": "D",
+          "text": "The children"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L04-Q124",
+      "lecture_id": "LING-L04",
+      "topic_id": "participle_absolute",
+      "source_slides": [
+        18
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "Which expression illustrates a past-participial modifier?",
+      "explanation": "The participial expression describes the travelers’ state. Its past-participle form differs from an infinitive or a noun-like gerund use.",
+      "example": "The letter, written in Urdu, was clear contains another past-participial modifier.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "resting in “Resting helps”"
+        },
+        {
+          "id": "B",
+          "text": "after they rested in “We left after they rested”"
+        },
+        {
+          "id": "C",
+          "text": "exhausted by the journey in “The travelers, exhausted by the journey, rested”"
+        },
+        {
+          "id": "D",
+          "text": "to rest in “They wanted to rest”"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L04-Q125",
+      "lecture_id": "LING-L04",
+      "topic_id": "participle_absolute",
+      "source_slides": [
+        18
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Why is “participial phrases are always separated by commas” inaccurate?",
+      "explanation": "The slide’s absolute wording needs qualification. A supplementary modifier may be set off, while an essential identifying modifier may not be.",
+      "example": "The student carrying the red bag is my cousin needs no commas around the identifying modifier.",
+      "reference_ids": [
+        "lecture_04",
+        "purdue_participles"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Every participle must be a complete independent clause."
+        },
+        {
+          "id": "B",
+          "text": "Participial phrases can never take commas."
+        },
+        {
+          "id": "C",
+          "text": "Comma use depends on the modifier’s position and whether the information is essential."
+        },
+        {
+          "id": "D",
+          "text": "A comma changes every participle into a gerund."
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L04-Q126",
+      "lecture_id": "LING-L04",
+      "topic_id": "participle_absolute",
+      "source_slides": [
+        18
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "understand",
+      "question": "What distinguishes an absolute construction in the lecture’s examples?",
+      "explanation": "The construction supplies accompanying circumstances and has its own subject-like noun phrase. It differs from an ordinary participial modifier sharing the main subject.",
+      "example": "Her face expressing worry, Sara waited illustrates an absolute construction.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "It has its own noun or pronoun plus a non-finite or verbless predication."
+        },
+        {
+          "id": "B",
+          "text": "It always renames the same noun as an appositive."
+        },
+        {
+          "id": "C",
+          "text": "It must be a finite independent clause after a comma."
+        },
+        {
+          "id": "D",
+          "text": "It must consist only of a preposition."
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L04-Q127",
+      "lecture_id": "LING-L04",
+      "topic_id": "participle_absolute",
+      "source_slides": [
+        18
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "In “Sara waited, her eyes on the clock,” which expression is the absolute construction?",
+      "explanation": "Her eyes supplies a separate subject-like noun phrase, with on the clock describing its state. The construction is verbless but fits the lecture’s absolute example.",
+      "example": "He stood still, his hands in his pockets contains a similar construction.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "on the clock alone"
+        },
+        {
+          "id": "B",
+          "text": "her eyes on the clock"
+        },
+        {
+          "id": "C",
+          "text": "Sara"
+        },
+        {
+          "id": "D",
+          "text": "Sara waited"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L04-Q128",
+      "lecture_id": "LING-L04",
+      "topic_id": "participle_absolute",
+      "source_slides": [
+        18
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "What is wrong with treating “his shirt was dirty with paint” as an absolute phrase in “John painted a wall, his shirt was dirty with paint”?",
+      "explanation": "The second part contains a subject and finite predicate and can stand independently. It needs suitable coordination or punctuation, or conversion to a genuine absolute construction.",
+      "example": "John painted a wall, his shirt dirty with paint uses a verbless absolute instead.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Dirty is a plural suffix."
+        },
+        {
+          "id": "B",
+          "text": "The word shirt must function as an adjective."
+        },
+        {
+          "id": "C",
+          "text": "It is a finite clause with was, so the comma alone joins two independent clauses."
+        },
+        {
+          "id": "D",
+          "text": "The possessive his makes it an infinitive phrase."
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L04-Q129",
+      "lecture_id": "LING-L04",
+      "topic_id": "participle_absolute",
+      "source_slides": [
+        18
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "Which revision turns the second part into an absolute construction?",
+      "explanation": "Removing the finite was creates the intended verbless construction with its own noun phrase. The alternatives can form grammatical sentences, but retain finite clauses.",
+      "example": "She waited, her face pale uses the same kind of verbless pattern.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "John painted a wall; his shirt was dirty with paint."
+        },
+        {
+          "id": "B",
+          "text": "John painted a wall, his shirt dirty with paint."
+        },
+        {
+          "id": "C",
+          "text": "John painted a wall, and his shirt was dirty with paint."
+        },
+        {
+          "id": "D",
+          "text": "John painted a wall because his shirt was dirty with paint."
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L04-Q130",
+      "lecture_id": "LING-L04",
+      "topic_id": "participle_absolute",
+      "source_slides": [
+        18
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Which contrast best distinguishes an appositive from an absolute construction?",
+      "explanation": "Commas alone do not determine a construction’s identity. The relationship expressed and its internal structure must be considered.",
+      "example": "Ali, a teacher, arrived contains an appositive; Ali arrived, his coat soaked contains an absolute.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The two labels are interchangeable whenever commas occur."
+        },
+        {
+          "id": "B",
+          "text": "An absolute always renames the main subject, while an appositive expresses tense."
+        },
+        {
+          "id": "C",
+          "text": "An appositive must be a finite clause; an absolute must be a prefix."
+        },
+        {
+          "id": "D",
+          "text": "An appositive renames or identifies a noun; an absolute supplies a circumstance with its own subject-like element."
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L04-Q131",
+      "lecture_id": "LING-L04",
+      "topic_id": "appositive",
+      "source_slides": [
+        19
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "understand",
+      "question": "The phrase diagram names an appositive phrase. What is its central role?",
+      "explanation": "An appositive places another noun expression beside one it explains or identifies. This supplies a brief definition for the label present in the diagram.",
+      "example": "Ayesha, my classmate, called contains the appositive my classmate.",
+      "reference_ids": [
+        "lecture_04",
+        "purdue_appositives"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "To join independent clauses with a coordinating conjunction"
+        },
+        {
+          "id": "B",
+          "text": "To identify or rename a noun through a neighboring noun expression"
+        },
+        {
+          "id": "C",
+          "text": "To add a tense ending inside a verb"
+        },
+        {
+          "id": "D",
+          "text": "To introduce an infinitive with to"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L04-Q132",
+      "lecture_id": "LING-L04",
+      "topic_id": "appositive",
+      "source_slides": [
+        19
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "In “Lahore, a historic city, attracts visitors,” which expression is appositive?",
+      "explanation": "The noun phrase a historic city identifies or describes the same referent as Lahore. It is not a second event or an independent finite clause.",
+      "example": "Karachi, a major port, uses a major port in apposition.",
+      "reference_ids": [
+        "lecture_04",
+        "purdue_appositives"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "a historic city"
+        },
+        {
+          "id": "B",
+          "text": "Lahore attracts"
+        },
+        {
+          "id": "C",
+          "text": "historic alone"
+        },
+        {
+          "id": "D",
+          "text": "attracts visitors"
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L04-Q133",
+      "lecture_id": "LING-L04",
+      "topic_id": "appositive",
+      "source_slides": [
+        19
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "In “My friend, an experienced teacher, explained the rule,” what does the appositive identify?",
+      "explanation": "The neighboring noun expression refers to the same person as my friend. The relationship is one of identification, not a separate predication with a finite verb.",
+      "example": "My sister, a doctor, visited uses a doctor to identify the sister.",
+      "reference_ids": [
+        "lecture_04",
+        "purdue_appositives"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "explained"
+        },
+        {
+          "id": "B",
+          "text": "the unstated listener"
+        },
+        {
+          "id": "C",
+          "text": "the rule"
+        },
+        {
+          "id": "D",
+          "text": "My friend"
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L04-Q134",
+      "lecture_id": "LING-L04",
+      "topic_id": "appositive",
+      "source_slides": [
+        19
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Why is “a historic city” not an adjective phrase in the appositive example “Lahore, a historic city, attracts visitors”?",
+      "explanation": "A descriptive function does not erase noun-phrase structure. The appositive is a noun phrase used in an identifying relationship.",
+      "example": "A skilled lecturer remains noun-headed when it identifies a person in apposition.",
+      "reference_ids": [
+        "lecture_04",
+        "purdue_appositives",
+        "phrase_heads"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "It is headed by the noun city even though it describes Lahore."
+        },
+        {
+          "id": "B",
+          "text": "Commas make city change its word class."
+        },
+        {
+          "id": "C",
+          "text": "Every expression describing a noun must be adjective-headed."
+        },
+        {
+          "id": "D",
+          "text": "An appositive must be a preposition followed by a noun."
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L04-Q135",
+      "lecture_id": "LING-L04",
+      "topic_id": "clauses",
+      "source_slides": [
+        20
+      ],
+      "difficulty": "easy",
+      "cognitive_level": "understand",
+      "question": "What distinguishes an independent finite clause in the lecture’s introductory account?",
+      "explanation": "An independent clause has the grammatical structure needed to stand as a sentence in the relevant use. Dependence is not simply a matter of length.",
+      "example": "Tara ate a cheese roll can stand independently.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "It must contain exactly one morpheme."
+        },
+        {
+          "id": "B",
+          "text": "It must begin with a subordinating word."
+        },
+        {
+          "id": "C",
+          "text": "It cannot have a subject."
+        },
+        {
+          "id": "D",
+          "text": "It can function as a standalone sentence."
+        }
+      ],
+      "answer_id": "D"
+    },
+    {
+      "id": "LING-L04-Q136",
+      "lecture_id": "LING-L04",
+      "topic_id": "clauses",
+      "source_slides": [
+        20
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "In “Tara ate a cheese roll after she watched the news,” which part is the dependent finite clause?",
+      "explanation": "After introduces a subordinate clause containing subject she and finite verb watched. In this use it depends on the main clause.",
+      "example": "After the class ended is similarly subordinate in We left after the class ended.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "a cheese roll"
+        },
+        {
+          "id": "B",
+          "text": "after she watched the news"
+        },
+        {
+          "id": "C",
+          "text": "Tara ate a cheese roll"
+        },
+        {
+          "id": "D",
+          "text": "the news"
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L04-Q137",
+      "lecture_id": "LING-L04",
+      "topic_id": "clauses",
+      "source_slides": [
+        20
+      ],
+      "difficulty": "medium",
+      "cognitive_level": "apply",
+      "question": "Which expression is a finite clause rather than a prepositional phrase?",
+      "explanation": "The correct expression contains a subject and a finite predicate. The alternatives are prepositional phrases in these examples.",
+      "example": "Because the bus arrived contains a subject and finite verb but is still subordinate.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "from China"
+        },
+        {
+          "id": "B",
+          "text": "in the afternoon"
+        },
+        {
+          "id": "C",
+          "text": "after she watched the news"
+        },
+        {
+          "id": "D",
+          "text": "on the road"
+        }
+      ],
+      "answer_id": "C"
+    },
+    {
+      "id": "LING-L04-Q138",
+      "lecture_id": "LING-L04",
+      "topic_id": "clauses",
+      "source_slides": [
+        20
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Why does the presence of a subject and finite verb not automatically make a clause independent?",
+      "explanation": "Independence concerns how the clause is grammatically licensed as a sentence. A clause can contain its own subject and finite predicate while functioning subordinately.",
+      "example": "She watched the news can stand alone; after she watched the news normally requires a main clause.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Every clause with a subject must be a noun phrase."
+        },
+        {
+          "id": "B",
+          "text": "A subordinator can make that clause dependent in the construction."
+        },
+        {
+          "id": "C",
+          "text": "Clause status is determined only by the number of words."
+        },
+        {
+          "id": "D",
+          "text": "A finite verb cannot occur after any conjunction."
+        }
+      ],
+      "answer_id": "B"
+    },
+    {
+      "id": "LING-L04-Q139",
+      "lecture_id": "LING-L04",
+      "topic_id": "clauses",
+      "source_slides": [
+        20
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "analyze",
+      "question": "Which statement best qualifies the slide’s absolute contrast between phrases and clauses?",
+      "explanation": "Modern grammatical accounts recognize non-finite clauses. The lecture’s traditional infinitive, gerund, and participle phrase labels are retained for those exercises without denying this broader analysis.",
+      "example": "To read novels may be called an infinitive phrase traditionally and a non-finite clause in another framework.",
+      "reference_ids": [
+        "lecture_04",
+        "finite_nonfinite"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The finite examples are useful, but non-finite clauses also exist and may lack an expressed subject."
+        },
+        {
+          "id": "B",
+          "text": "Every phrase must contain a subject and a finite verb."
+        },
+        {
+          "id": "C",
+          "text": "Every sequence containing a verb must be an independent sentence."
+        },
+        {
+          "id": "D",
+          "text": "No clause can occur inside a phrase or another clause."
+        }
+      ],
+      "answer_id": "A"
+    },
+    {
+      "id": "LING-L04-Q140",
+      "lecture_id": "LING-L04",
+      "topic_id": "clauses",
+      "source_slides": [
+        20
+      ],
+      "difficulty": "hard",
+      "cognitive_level": "apply",
+      "question": "Which analysis correctly separates the main clause from the subordinate clause in “The boy smiled because he understood the lesson”?",
+      "explanation": "The main clause can stand independently, while because introduces the dependent clause explaining the reason. Both contain verbal structure, but they have different status.",
+      "example": "We stayed because it rained has the same main-plus-reason-clause pattern.",
+      "reference_ids": [
+        "lecture_04"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The boy smiled is the main clause; because he understood the lesson is subordinate."
+        },
+        {
+          "id": "B",
+          "text": "Because he understood the lesson is independent because it contains he."
+        },
+        {
+          "id": "C",
+          "text": "The whole sentence contains no clause because there are two verbs."
+        },
+        {
+          "id": "D",
+          "text": "The lesson is the main clause; smiled is subordinate."
+        }
+      ],
+      "answer_id": "A"
+    }
+  ]
+}
